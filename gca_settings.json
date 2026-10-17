@@ -1,0 +1,21 @@
+{
+  "representation": "tfidf",
+  "window": 3,
+  "include_teacher": false,
+  "min_words": 1,
+  "strip_brackets": true,
+  "text_language": "original; no translation",
+  "contribution_unit": "one retained transcript row",
+  "grouping": "separate calculations within each observation",
+  "segment_boundary": "comparisons cannot cross segment runs",
+  "lag_definition": "distance in retained contributions",
+  "missing_speaker_lag_cells": 0.0,
+  "participation_group_size": "speakers with retained contributions",
+  "newness_method": "orthogonal projection in the selected vector space",
+  "newness_history": "all earlier retained contributions within the same segment",
+  "newness_first_valid_contribution": 1.0,
+  "newness_zero_vectors": "undefined; excluded from means",
+  "raw_observations": 445,
+  "scored_observations": 444,
+  "retained_contributions": 122180
+}
