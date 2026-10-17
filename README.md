@@ -9,7 +9,7 @@ After setup, the repository should look like this:
 ```
 equitable-participation/
   README.md
-  A4 - Methods.ipynb
+  A3 - Methods.ipynb
   Data/
     Track A/
       Deidentified segment transcripts/
