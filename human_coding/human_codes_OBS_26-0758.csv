@@ -1,0 +1,142 @@
+row,speaker,whose,builds_on,move,level,correct,episode,source,notes,webb_explanation,webb_engagement
+a1,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+a2,Estela,Self,,explain (concept),,correct,E1 division concepts,original; level removed,Conceptual statement: detail level left blank by our rule,N/A,N/A
+a3,Lana,Other,Estela a2,agree,Low,,E1 division concepts,original,,N/A,Low
+a4,Clark,Self,,explain (concept),,unclear,E1 division concepts,corrected,Conceptual statement; 'short number' is unclear,N/A,N/A
+a5,Lana,Other,Clark a4,acknowledge,Low,,E1 division concepts,corrected,Was agree,N/A,Low
+a6,Pablo,Other,Clark a4,acknowledge,Low,,E1 division concepts,corrected,Was agree,N/A,Low
+a7,Lana,Other,Estela a2,repeat/revoice,Medium,,E1 division concepts,original,,N/A,Medium
+a8,Pablo,Self,,explain,No detail,,E1 division concepts,original,,No detail,N/A
+a9,Pablo,Self,,explain,No detail,,E1 division concepts,original,Continues a8,No detail,N/A
+a10,Estela,Other,Lana a7,disagree,Medium,,E1 division concepts,corrected,"Was Pablo, low; she disagrees with Lana's 'opposite'",N/A,Medium
+a11,Pablo,Other + Self,Estela a10,repeat/revoice + explain,Medium + Wrong detail,incorrect,E1 division concepts,corrected,Revoices Estela; '30 times 6 is 5' is wrong,Wrong detail,Medium
+a12,Lana,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+a13,Estela,Other,Pablo a11,agree,Low,,E1 division concepts,original,,N/A,Low
+a14,Lana,Other,Pablo a11,agree,Low,,E1 division concepts,original,Rule: one repeated key word = low agree,N/A,Low
+a15,Pablo,Other,"Lana a14, Estela a13",agree,Low,,E1 division concepts,original,,N/A,Low
+a16,Lana,Participation,,steering / making space,,,E1 division concepts,original,,N/A,N/A
+a17,Estela,Self,,explain (concept),,correct,E1 division concepts,original; level removed,Conceptual statement,N/A,N/A
+a18,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+b1,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+b2,Lana,Participation,,steering / making space,,,,original,,N/A,N/A
+b3,Pablo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+b4,Pablo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+b5,Estela,Participation,,steering,,,,original,,N/A,N/A
+b6,Estela,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+b7,Pablo,Participation,,steering (initiating),,,E2 task to division,corrected,"Was everyone, low, question; refers to no idea",N/A,N/A
+b8,Lana,Self,Pablo b7 (answers his question),explain (approach),,,E2 task to division,corrected,"Was Pablo, medium, extend; possibly the Co-Craft Questions routine",N/A,N/A
+b9,Lana,Self,Pablo b7,explain (approach),,,E2 task to division,corrected,Continues b8,N/A,N/A
+b10,Pablo,Other,Lana b9,extend,High,,E2 task to division,corrected,Was low-medium; fragment; same rule as b26,N/A,High
+b11,Lana,Other,Pablo b10,correct,Medium,correct,E2 task to division,original,,N/A,Medium
+b12,Pablo,Other,Lana b11,acknowledge,Low,,E2 task to division,corrected,Was agree,N/A,Low
+b13,Pablo,Other,Lana b11,agree,Low,,E2 task to division,added,,N/A,Low
+b14,Estela,Other,"Lana b11, Pablo b10",extend,High,,E2 task to division; E3 building an expression,corrected,Was low-medium explain; applies Lana's correction to Pablo's numbers; fragment,N/A,High
+b15,Lana,Participation,,steering / making space,,,E3 building an expression,original,,N/A,N/A
+b16,Estela,,,,,,,not coded,,,
+b17,Lana,,,,,,,not coded,,,
+b18,Lana,Other,Estela b14,repeat/revoice,Medium,,E3 building an expression,corrected,"Was self, low, explain",N/A,Medium
+b19,Clark,Other,Lana b18,alternative,Medium,unclear,E3 building an expression,corrected,Was low,N/A,Medium
+b20,Lana,Other,Clark b19,question,Medium,,E3 building an expression,corrected,Was low; refers to a specific detail,N/A,Medium
+b21,Pablo,Participation,,steering / making space,,,E3 building an expression,original,,N/A,N/A
+b22,Lana,Participation,Pablo b21,acknowledge,,,E3 building an expression,corrected,"Acknowledges steering, not an idea",N/A,N/A
+b23,Clark,Self,,explain,Some detail,,E3 building an expression,original,,Some detail,N/A
+b24,Pablo,Other,Clark b23,extend,High,incorrect,E3 building an expression,corrected,"Was some, incorrect; Webb counts incorrect additions as high (Section 3.2.2.3)",N/A,High
+b25,Lana,Participation,,steering / making space,,,E3 building an expression,original,,N/A,N/A
+b26,Estela,Other,Lana b9,extend,High,,E3 building an expression,corrected,Was medium-high; 17 turns after b9,N/A,High
+b27,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+b28,Lana,Other,Estela b26,affirm,Low,,,corrected,Was agree/affirm,N/A,Low
+d1,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A
+d2,Pablo,Self,,explain,Fully detailed,correct,E4 two strategies,original,,Fully detailed,N/A
+d3,Estela,Self,Pablo d2 (same answer),explain,Fully detailed,correct,E4 two strategies,corrected,"Was Pablo, full, alternative; alternative is implicit until d68-d75",Fully detailed,N/A
+d4,Estela,Self,,explain,Fully detailed,correct,E4 two strategies,original,Continues d3,Fully detailed,N/A
+d5,Estela,Participation,,steering / making space,,,E4 two strategies,original,,N/A,N/A
+d6,Lana,Other,Estela d3-d4,affirm,Low,,E4 two strategies,original,,N/A,Low
+d7,Pablo,Other,Estela d3-d4,question,Medium,,E4 two strategies,corrected,"Was everyone, some; names the specific answer",N/A,Medium
+d8,Estela,Other,Pablo d7,agree,Low,,E4 two strategies,corrected,Was agree/affirm; confirms a claim,N/A,Low
+d9,Lana,Other,Pablo d7,agree,Low,,E4 two strategies,original,,N/A,Low
+d10,Pablo,,,,,,,not coded,,,
+d11,Pablo,Self,,explain,No detail,,E4 two strategies,corrected,Was some detail; answer only,No detail,N/A
+d12,Lana,Other,Pablo d11,agree,Low,,E4 two strategies,original,,N/A,Low
+d13,Estela,Other,Clark,question,Low,,,original,,N/A,Low
+d14,Lana,Other,Clark,question,Low,,,original,,N/A,Low
+d15,Estela,,,,,,,not coded,,,
+d16,Estela,,,,,,,not coded,,,
+d17,Clark,Off-task,,,,,,original,,N/A,N/A
+d18,Pablo,Off-task,,,,,,original,,N/A,N/A
+d19,Lana,Off-task,Pablo d18,extend,,,,original; level removed,"Off-task: move kept, not counted as co-construction",N/A,N/A
+d20,Estela,Off-task,Lana d19,correct,,,,original; level removed,Off-task,N/A,N/A
+d21,Lana,Off-task,,revise,,,,original; level removed,Off-task,N/A,N/A
+d22,Pablo,Off-task,Lana d21,agree,,,,original; level removed,Off-task,N/A,N/A
+d23,Estela,Off-task,Pablo d22,agree,,,,original; level removed,Off-task,N/A,N/A
+d24,Clark,Off-task,,,,,,original,,N/A,N/A
+d25,Lana,Off-task,,,,,,original,,N/A,N/A
+d26,Clark,Off-task,,,,,,original,,N/A,N/A
+d27,Estela,Off-task,,,,,,original,,N/A,N/A
+d28,Lana,Off-task,,,,,,original,,N/A,N/A
+d29,Clark,Off-task,,,,,,original,,N/A,N/A
+d30,Lana,Off-task,,,,,,original,,N/A,N/A
+d31,Pablo,Off-task,,,,,,original,,N/A,N/A
+d32,Estela,Off-task,,,,,,original,,N/A,N/A
+d33,Pablo,Off-task,,,,,,original,,N/A,N/A
+d34,Lana,Off-task,,,,,,original,,N/A,N/A
+d35,Clark,Off-task,,,,,,original,,N/A,N/A
+d36,Estela,Off-task,,,,,,original,,N/A,N/A
+d37,Lana,Off-task,,,,,,original,,N/A,N/A
+d38,Estela,Off-task,,,,,,original,,N/A,N/A
+d39,Lana,Off-task,,,,,,original,,N/A,N/A
+d40,Estela,Off-task,,,,,,original,,N/A,N/A
+d41,Lana,Participation,,steering (back on task),,,,original,,N/A,N/A
+d42,Estela,,,,,,,not coded,,,
+d43,Estela,Other,Lana d41,question,Low,,,original,,N/A,Low
+d44,Lana,,,,,,,not coded,,,
+d45,Pablo,Participation,,positioning (negative),,,,corrected,"Was Estela, low, extend",N/A,N/A
+d46,Estela,,,,,,,not coded,,,
+d47,Estela,Other + Participation,,question + press for reasoning,Low,,,corrected,Was medium; general question,N/A,Low
+d48,Lana,Participation,,positioning (negative),,,,corrected,"Was Pablo, low, ?",N/A,N/A
+d49,Clark,Self,,explain,No detail,,,original,,No detail,N/A
+d50,Lana,Other + Participation,Clark d49,question + press for reasoning,Low,,,corrected,Was medium; general question,N/A,Low
+d51,Clark,Participation,,withholding / shut down,,,,corrected,"Was Lana, low, shut down",N/A,N/A
+d52,Lana,Participation,,steering / making space,,,,original,Making space for Clark to solve,N/A,N/A
+d53,Lana,Participation,,steering / making space,,,,original,,N/A,N/A
+d54,Clark,Self,,explain,No detail,incorrect,E5 challenge and correction,original,,No detail,N/A
+d55,Pablo,Other + Participation,Clark d54,question + press for reasoning,Low,,E5 challenge and correction,original,,N/A,Low
+d56,Clark,Self,,revise,No detail,,E5 challenge and correction,original,,No detail,N/A
+d57,Estela,Other,Clark d54,disagree,Medium,,E5 challenge and correction,original,Also a decision norm: 'Majority votes rules',N/A,Medium
+d58,Pablo,Other,Clark d54,correct,High,correct,E5 challenge and correction,corrected,Was medium; 55 x 4 = 220,N/A,High
+d59,Pablo,Other,Clark d54,correct,High,correct,E5 challenge and correction,corrected,Was medium,N/A,High
+d60,Pablo,Other,Clark d54,alternative,High,correct,E5 challenge and correction,added,Proposes the fix (54),N/A,High
+d61,Lana,Participation,,steering,,,,original,,N/A,N/A
+d62,Pablo,,,,,,,not coded,,,
+d63,Estela,,,,,,,not coded,,,
+d64,Lana,,,,,,,not coded,,,
+d65,Estela,,,,,,,not coded,,,
+d66,Lana,,,,,,,not coded,,,
+d67,Estela,,,,,,,not coded,,,
+d68,Lana,Other,Pablo d2,affirm,Low,,E6 comparing strategies,added,,N/A,Low
+d69,Estela,Participation,,bid for uptake,,,E6 comparing strategies,added,Asks for her own strategy to be evaluated,N/A,N/A
+d70,Lana,,,,,,,not coded,,,
+d71,Lana,Other,Estela d3-d4,evaluate,Medium,,E6 comparing strategies,added,Names a specific feature (number of steps),N/A,Medium
+d72,Pablo,,,,,,,not coded,,,
+d73,Lana,Other,Estela d3-d4,evaluate,Medium,,E6 comparing strategies,original,,N/A,Medium
+d74,Estela,Other,Pablo d2,disagree,Medium,,E6 comparing strategies,corrected,"Was Lana, medium; critiques Pablo's step",N/A,Medium
+d75,Estela,,,,,,,not coded,,,
+d76,Estela,Participation,,positioning (status),,,E6 comparing strategies,corrected,"Was Estela, disagree",N/A,N/A
+d77,Lana,Participation,,positioning (status),,,,added,,N/A,N/A
+d78,Estela,Off-task,,,,,,original,,N/A,N/A
+d79,Estela,Off-task,,,,,,original,,N/A,N/A
+d80,Lana,Off-task,,,,,,original,,N/A,N/A
+d81,Lana,Off-task,,,,,,original,,N/A,N/A
+d82,Estela,Off-task,,,,,,original,,N/A,N/A
+d83,Pablo,Off-task,,,,,,original,,N/A,N/A
+d84,Pablo,Off-task,,,,,,original,,N/A,N/A
+d85,Estela,Off-task,,,,,,original,,N/A,N/A
+d86,Lana,Off-task,,,,,,original,,N/A,N/A
+d87,Estela,Off-task,,,,,,original,,N/A,N/A
+d88,Clark,Off-task,,,,,,original,,N/A,N/A
+d89,Lana,Off-task,,,,,,original,,N/A,N/A
+d90,Estela,Off-task,,,,,,original,,N/A,N/A
+d91,Lana,Off-task,,,,,,original,,N/A,N/A
+d92,Estela,Off-task,,,,,,original,,N/A,N/A
+d93,Lana,Off-task,,,,,,original,,N/A,N/A
+d94,Estela,Off-task,,,,,,original,,N/A,N/A
+d95,Lana,Off-task,,,,,,original,,N/A,N/A

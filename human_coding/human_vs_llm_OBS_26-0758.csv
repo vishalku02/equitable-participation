@@ -1,0 +1,142 @@
+row,speaker,whose,builds_on,move,level,correct,episode,source,notes,webb_explanation,webb_engagement,explanation,peer_engagement,reason
+a1,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Teacher prompt to start.
+a2,Estela,Self,,explain (concept),,correct,E1 division concepts,original; level removed,Conceptual statement: detail level left blank by our rule,N/A,N/A,Some detail,Low,States that division is backwards multiplication but gives no example; offered as her own idea.
+a3,Lana,Other,Estela a2,agree,Low,,E1 division concepts,original,,N/A,Low,N/A,Low,Says she was going to say the same thing; no new idea added.
+a4,Clark,Self,,explain (concept),,unclear,E1 division concepts,corrected,Conceptual statement; 'short number' is unclear,N/A,N/A,Wrong detail,Low,Vague and incorrect claim about thirty divided by six; does not connect to peers' ideas.
+a5,Lana,Other,Clark a4,acknowledge,Low,,E1 division concepts,corrected,Was agree,N/A,Low,N/A,Low,Acknowledgment only.
+a6,Pablo,Other,Clark a4,acknowledge,Low,,E1 division concepts,corrected,Was agree,N/A,Low,N/A,Low,Acknowledgment only.
+a7,Lana,Other,Estela a2,repeat/revoice,Medium,,E1 division concepts,original,,N/A,Medium,Some detail,Medium,"Explicitly builds on Estela's idea (""like you said"") and restates it as opposite of multiplication."
+a8,Pablo,Self,,explain,No detail,,E1 division concepts,original,,No detail,N/A,N/A,Low,Starts a statement without finishing it.
+a9,Pablo,Self,,explain,No detail,,E1 division concepts,original,Continues a8,No detail,N/A,N/A,Low,Fragment with no content.
+a10,Estela,Other,Lana a7,disagree,Medium,,E1 division concepts,corrected,"Was Pablo, low; she disagrees with Lana's 'opposite'",N/A,Medium,No detail,Medium,"Challenges Lana's wording of ""opposite"" to refine the idea but gives no reason."
+a11,Pablo,Other + Self,Estela a10,repeat/revoice + explain,Medium + Wrong detail,incorrect,E1 division concepts,corrected,Revoices Estela; '30 times 6 is 5' is wrong,Wrong detail,Medium,Wrong detail,Medium,Takes up Estela's correction and tries an example but states thirty times six is five which is wrong.
+a12,Lana,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,Unclear,Low,Cut-off utterance.
+a13,Estela,Other,Pablo a11,agree,Low,,E1 division concepts,original,,N/A,Low,No detail,Medium,"Repeats ""backwards"" to hold her wording in the discussion."
+a14,Lana,Other,Pablo a11,agree,Low,,E1 division concepts,original,Rule: one repeated key word = low agree,N/A,Low,N/A,Medium,Accepts Estela's wording and revises her own.
+a15,Pablo,Other,"Lana a14, Estela a13",agree,Low,,E1 division concepts,original,,N/A,Low,N/A,Medium,Agrees with the revised wording.
+a16,Lana,Participation,,steering / making space,,,E1 division concepts,original,,N/A,N/A,N/A,Low,Turn management giving the floor to Estela.
+a17,Estela,Self,,explain (concept),,correct,E1 division concepts,original; level removed,Conceptual statement,N/A,N/A,Some detail,Low,Adds a new idea (splitting into groups) without elaboration; not building on others.
+a18,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Teacher acknowledgment.
+b1,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Teacher prompt to start.
+b2,Lana,Participation,,steering / making space,,,,original,,N/A,N/A,N/A,N/A,Task logistics and mostly unintelligible.
+b3,Pablo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Task logistics.
+b4,Pablo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Filler.
+b5,Estela,Participation,,steering,,,,original,,N/A,N/A,N/A,N/A,Task logistics.
+b6,Estela,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Task logistics.
+b7,Pablo,Participation,,steering (initiating),,,E2 task to division,corrected,"Was everyone, low, question; refers to no idea",N/A,N/A,N/A,N/A,Asks what the task is; logistics.
+b8,Lana,Self,Pablo b7 (answers his question),explain (approach),,,E2 task to division,corrected,"Was Pablo, medium, extend; possibly the Co-Craft Questions routine",N/A,N/A,N/A,Low,Explains the task directions to Pablo; no math ideas.
+b9,Lana,Self,Pablo b7,explain (approach),,,E2 task to division,corrected,Continues b8,N/A,N/A,N/A,Low,Task directions only.
+b10,Pablo,Other,Lana b9,extend,High,,E2 task to division,corrected,Was low-medium; fragment; same rule as b26,N/A,High,Unclear,Low,Starts a multiplication problem that is not finished.
+b11,Lana,Other,Pablo b10,correct,Medium,correct,E2 task to division,original,,N/A,Medium,N/A,Medium,Corrects Pablo's direction by noting the task is division.
+b12,Pablo,Other,Lana b11,acknowledge,Low,,E2 task to division,corrected,Was agree,N/A,Low,N/A,Low,Acknowledgment.
+b13,Pablo,Other,Lana b11,agree,Low,,E2 task to division,added,,N/A,Low,N/A,Low,Acknowledgment.
+b14,Estela,Other,"Lana b11, Pablo b10",extend,High,,E2 task to division; E3 building an expression,corrected,Was low-medium explain; applies Lana's correction to Pablo's numbers; fragment,N/A,High,No detail,Low,Starts a division question with no content.
+b15,Lana,Participation,,steering / making space,,,E3 building an expression,original,,N/A,N/A,N/A,N/A,Turn taking.
+b16,Estela,,,,,,,not coded,,,,N/A,N/A,Filler.
+b17,Lana,,,,,,,not coded,,,,N/A,N/A,Filler.
+b18,Lana,Other,Estela b14,repeat/revoice,Medium,,E3 building an expression,corrected,"Was self, low, explain",N/A,Medium,No detail,Low,Starts a division question with no content.
+b19,Clark,Other,Lana b18,alternative,Medium,unclear,E3 building an expression,corrected,Was low,N/A,Medium,No detail,Low,Starts a division question.
+b20,Lana,Other,Clark b19,question,Medium,,E3 building an expression,corrected,Was low; refers to a specific detail,N/A,Medium,N/A,Low,Questions Clark's number without engaging the idea.
+b21,Pablo,Participation,,steering / making space,,,E3 building an expression,original,,N/A,N/A,N/A,Medium,Protects Clark's turn so his idea can be heard.
+b22,Lana,Participation,Pablo b21,acknowledge,,,E3 building an expression,corrected,"Acknowledges steering, not an idea",N/A,N/A,N/A,Low,Acknowledgment.
+b23,Clark,Self,,explain,Some detail,,E3 building an expression,original,,Some detail,N/A,No detail,Low,Completes his own question.
+b24,Pablo,Other,Clark b23,extend,High,incorrect,E3 building an expression,corrected,"Was some, incorrect; Webb counts incorrect additions as high (Section 3.2.2.3)",N/A,High,Wrong detail,Medium,Responds to Clark's question with fifty which treats division as multiplication.
+b25,Lana,Participation,,steering / making space,,,E3 building an expression,original,,N/A,N/A,N/A,N/A,Turn taking.
+b26,Estela,Other,Lana b9,extend,High,,E3 building an expression,corrected,Was medium-high; 17 turns after b9,N/A,High,No detail,Low,Offers a question to ask but with no mathematical detail.
+b27,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Teacher timing.
+b28,Lana,Other,Estela b26,affirm,Low,,,corrected,Was agree/affirm,N/A,Low,N/A,Low,Praise only.
+d1,Mr. Robledo,N/A,,,,,,original,Teacher turn or dash,N/A,N/A,N/A,N/A,Teacher prompt to start.
+d2,Pablo,Self,,explain,Fully detailed,correct,E4 two strategies,original,,Fully detailed,N/A,Fully detailed,Low,Gives a complete strategy (halve twice and check by multiplying) but presents it as his own.
+d3,Estela,Self,Pablo d2 (same answer),explain,Fully detailed,correct,E4 two strategies,corrected,"Was Pablo, full, alternative; alternative is implicit until d68-d75",Fully detailed,N/A,Fully detailed,Low,Walks through a full decomposition (200 plus 16) with steps and reasons; own method.
+d4,Estela,Self,,explain,Fully detailed,correct,E4 two strategies,original,Continues d3,Fully detailed,N/A,Fully detailed,Low,Continues her explanation to reach fifty four.
+d5,Estela,Participation,,steering / making space,,,E4 two strategies,original,,N/A,N/A,N/A,Low,Passes the turn.
+d6,Lana,Other,Estela d3-d4,affirm,Low,,E4 two strategies,original,,N/A,Low,N/A,Low,Praise only; does not engage the strategy.
+d7,Pablo,Other,Estela d3-d4,question,Medium,,E4 two strategies,corrected,"Was everyone, some; names the specific answer",N/A,Medium,N/A,Medium,Checks whether the group agrees on fifty four after hearing Estela.
+d8,Estela,Other,Pablo d7,agree,Low,,E4 two strategies,corrected,Was agree/affirm; confirms a claim,N/A,Low,N/A,Medium,Confirms the answer in response to Pablo.
+d9,Lana,Other,Pablo d7,agree,Low,,E4 two strategies,original,,N/A,Low,N/A,Low,Agreement.
+d10,Pablo,,,,,,,not coded,,,,N/A,Low,Reaction.
+d11,Pablo,Self,,explain,No detail,,E4 two strategies,corrected,Was some detail; answer only,No detail,N/A,No detail,Low,Reports matching answer without method.
+d12,Lana,Other,Pablo d11,agree,Low,,E4 two strategies,original,,N/A,Low,No detail,Low,Says she got the same answer with no method.
+d13,Estela,Other,Clark,question,Low,,,original,,N/A,Low,N/A,Medium,Asks Clark for his answer to include him.
+d14,Lana,Other,Clark,question,Low,,,original,,N/A,Low,N/A,Medium,Echoes the request to Clark.
+d15,Estela,,,,,,,not coded,,,,N/A,Low,Off task.
+d16,Estela,,,,,,,not coded,,,,N/A,Low,Directed at Clark; no content.
+d17,Clark,Off-task,,,,,,original,,N/A,N/A,Unclear,Low,Unintelligible.
+d18,Pablo,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task talk about sharpening a pencil.
+d19,Lana,Off-task,Pablo d18,extend,,,,original; level removed,"Off-task: move kept, not counted as co-construction",N/A,N/A,N/A,N/A,Off task.
+d20,Estela,Off-task,Lana d19,correct,,,,original; level removed,Off-task,N/A,N/A,N/A,N/A,Off task.
+d21,Lana,Off-task,,revise,,,,original; level removed,Off-task,N/A,N/A,N/A,N/A,Off task.
+d22,Pablo,Off-task,Lana d21,agree,,,,original; level removed,Off-task,N/A,N/A,N/A,N/A,Off task.
+d23,Estela,Off-task,Pablo d22,agree,,,,original; level removed,Off-task,N/A,N/A,N/A,N/A,Off task.
+d24,Clark,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d25,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d26,Clark,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d27,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d28,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d29,Clark,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d30,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d31,Pablo,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d32,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d33,Pablo,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d34,Lana,Off-task,,,,,,original,,N/A,N/A,No detail,Low,Says she did the same as Estela without explaining.
+d35,Clark,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d36,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,Low,Brief reaction to Lana.
+d37,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,Low,Confirmation.
+d38,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,Low,Reaction.
+d39,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,Low,Reaction.
+d40,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,Low,Social comment about matching minds.
+d41,Lana,Participation,,steering (back on task),,,,original,,N/A,N/A,No detail,Low,Vague claim that she did the same thing; no steps.
+d42,Estela,,,,,,,not coded,,,,N/A,Medium,Asks to see Lana's work to check her method.
+d43,Estela,Other,Lana d41,question,Low,,,original,,N/A,Low,N/A,Medium,Repeats the request to see Lana's work.
+d44,Lana,,,,,,,not coded,,,,N/A,Low,Refuses to share work.
+d45,Pablo,Participation,,positioning (negative),,,,corrected,"Was Estela, low, extend",N/A,N/A,N/A,Low,Accuses Lana of copying; does not engage math.
+d46,Estela,,,,,,,not coded,,,,N/A,Low,Gives up.
+d47,Estela,Other + Participation,,question + press for reasoning,Low,,,corrected,Was medium; general question,N/A,Low,N/A,Medium,Asks for Lana's strategy.
+d48,Lana,Participation,,positioning (negative),,,,corrected,"Was Pablo, low, ?",N/A,N/A,N/A,Low,Deflects and criticizes; no strategy shared.
+d49,Clark,Self,,explain,No detail,,,original,,No detail,N/A,No detail,Low,Claims a strategy without describing it.
+d50,Lana,Other + Participation,Clark d49,question + press for reasoning,Low,,,corrected,Was medium; general question,N/A,Low,N/A,Medium,Asks Clark for his answer.
+d51,Clark,Participation,,withholding / shut down,,,,corrected,"Was Lana, low, shut down",N/A,N/A,N/A,Low,Refuses to share.
+d52,Lana,Participation,,steering / making space,,,,original,Making space for Clark to solve,N/A,N/A,N/A,Low,Side comment.
+d53,Lana,Participation,,steering / making space,,,,original,,N/A,N/A,N/A,Medium,Asks Clark for his answer again.
+d54,Clark,Self,,explain,No detail,incorrect,E5 challenge and correction,original,,No detail,N/A,No detail,Low,Gives a wrong answer without any method.
+d55,Pablo,Other + Participation,Clark d54,question + press for reasoning,Low,,E5 challenge and correction,original,,N/A,Low,N/A,Medium,Asks how Clark got fifty five.
+d56,Clark,Self,,revise,No detail,,E5 challenge and correction,original,,No detail,N/A,Unclear,Low,Retracts without explanation.
+d57,Estela,Other,Clark d54,disagree,Medium,,E5 challenge and correction,original,Also a decision norm: 'Majority votes rules',N/A,Medium,N/A,Medium,Questions Clark's answer and proposes a vote.
+d58,Pablo,Other,Clark d54,correct,High,correct,E5 challenge and correction,corrected,Was medium; 55 x 4 = 220,N/A,High,Some detail,High,Tests Clark's answer and shows it gives about two hundred twenty.
+d59,Pablo,Other,Clark d54,correct,High,correct,E5 challenge and correction,corrected,Was medium,N/A,High,Some detail,High,Explains why fifty five does not give two hundred sixteen.
+d60,Pablo,Other,Clark d54,alternative,High,correct,E5 challenge and correction,added,Proposes the fix (54),N/A,High,Some detail,High,Suggests how Clark's answer could be corrected by taking one away.
+d61,Lana,Participation,,steering,,,,original,,N/A,N/A,N/A,Low,Turn management.
+d62,Pablo,,,,,,,not coded,,,,N/A,Low,Turn management.
+d63,Estela,,,,,,,not coded,,,,N/A,Low,Turn management.
+d64,Lana,,,,,,,not coded,,,,N/A,Low,Turn management.
+d65,Estela,,,,,,,not coded,,,,N/A,N/A,Off task.
+d66,Lana,,,,,,,not coded,,,,N/A,Low,Asks for a turn to speak.
+d67,Estela,,,,,,,not coded,,,,N/A,Low,Invites Lana to speak.
+d68,Lana,Other,Pablo d2,affirm,Low,,E6 comparing strategies,added,,N/A,Low,No detail,Medium,Evaluates Pablo's way as good but gives no reason.
+d69,Estela,Participation,,bid for uptake,,,E6 comparing strategies,added,Asks for her own strategy to be evaluated,N/A,N/A,N/A,Medium,Asks about the status of her own method.
+d70,Lana,,,,,,,not coded,,,,Unclear,Low,Unclear response that dismisses an explanation.
+d71,Lana,Other,Estela d3-d4,evaluate,Medium,,E6 comparing strategies,added,Names a specific feature (number of steps),N/A,Medium,Some detail,Medium,Evaluates Estela's method as good but too many steps.
+d72,Pablo,,,,,,,not coded,,,,N/A,Medium,Agrees with Lana's evaluation.
+d73,Lana,Other,Estela d3-d4,evaluate,Medium,,E6 comparing strategies,original,,N/A,Medium,Some detail,Medium,Repeats her comparison of the methods.
+d74,Estela,Other,Pablo d2,disagree,Medium,,E6 comparing strategies,corrected,"Was Lana, medium; critiques Pablo's step",N/A,Medium,Some detail,Medium,Reflects that halving two hundred sixteen is hard; compares methods.
+d75,Estela,,,,,,,not coded,,,,Some detail,Medium,Accepts that the other method has fewer steps.
+d76,Estela,Participation,,positioning (status),,,E6 comparing strategies,corrected,"Was Estela, disagree",N/A,N/A,N/A,Low,Social comment about being advanced.
+d77,Lana,Participation,,positioning (status),,,,added,,N/A,N/A,N/A,N/A,Off task.
+d78,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d79,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d80,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d81,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task about ELA grades.
+d82,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d83,Pablo,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d84,Pablo,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d85,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d86,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d87,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d88,Clark,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d89,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d90,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d91,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d92,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d93,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d94,Estela,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
+d95,Lana,Off-task,,,,,,original,,N/A,N/A,N/A,N/A,Off task.
