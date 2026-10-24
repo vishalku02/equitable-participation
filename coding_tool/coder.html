@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transcript Coder</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+:root {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --text: #1d1d1b;
+  --muted: #6b6b66;
+  --border: #deddd8;
+  --teacher: #f1f0ec;
+  --accent: #2f5fa7;
+  --self: #e8f0fb;
+  --other: #e9f5ec;
+  --participation: #fbf1e2;
+  --offtask: #f3f3f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1b1a;
+    --surface: #242423;
+    --text: #ecebe6;
+    --muted: #a3a29c;
+    --border: #3a3a38;
+    --teacher: #2c2c2a;
+    --accent: #8cb4f0;
+    --self: #1f2c3f;
+    --other: #1f3326;
+    --participation: #3a2f1f;
+    --offtask: #2e2e2e;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+}
+header h1 { font-size: 16px; margin: 0 8px 0 0; }
+header label { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+header select, header input[type="text"] {
+  font: inherit;
+  padding: 4px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+}
+button {
+  font: inherit;
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  cursor: pointer;
+}
+button.secondary { background: transparent; color: var(--accent); }
+#status { color: var(--muted); font-size: 13px; margin-left: auto; }
+main { padding: 16px; }
+#empty { color: var(--muted); max-width: 640px; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; background: var(--surface); }
+th, td { border-bottom: 1px solid var(--border); padding: 6px 6px; vertical-align: top; text-align: left; }
+th { font-size: 12px; color: var(--muted); font-weight: 600; position: sticky; top: var(--header-height, 58px); background: var(--surface); z-index: 1; }
+td.number, td.cue, td.language { color: var(--muted); font-size: 12px; }
+td.speaker { font-weight: 600; }
+td.dialogue .translation { display: block; margin-top: 3px; color: var(--muted); font-style: italic; font-size: 13px; }
+tr.segment td { background: var(--bg); color: var(--muted); font-style: italic; font-size: 12px; }
+tr.teacher td { background: var(--teacher); }
+tr.coded-self td { background: var(--self); }
+tr.coded-other td { background: var(--other); }
+tr.coded-participation td { background: var(--participation); }
+tr.coded-offtask td { background: var(--offtask); }
+td select, td input {
+  width: 100%;
+  font: inherit;
+  font-size: 13px;
+  padding: 3px 4px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--text);
+}
+td select:disabled { opacity: 0.4; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Transcript Coder</h1>
+  <label>Open files <input type="file" id="files" accept=".csv" multiple></label>
+  <label>Teacher <select id="teacher"><option value="">All</option></select></label>
+  <label>Observation <select id="observation"></select></label>
+  <label>Segment <select id="segment"><option value="">All</option></select></label>
+  <label>Coder <input type="text" id="coder" placeholder="Your name" size="10"></label>
+  <button id="save">Save codes (CSV)</button>
+  <span id="status"></span>
+</header>
+<main>
+  <p id="empty">Open <code>all_observations_combined.csv</code> from <code>Data/Track A</code> to begin. You can also select <code>observation_metadata.csv</code> at the same time to filter by teacher, a translations CSV from <code>Data/Track A/translations</code> to show English translations under Spanish turns, and a codes CSV saved earlier to keep working on it. Your codes are kept in this browser as you work, but use <strong>Save codes (CSV)</strong> to keep a permanent copy.</p>
+  <table id="transcript" hidden>
+    <colgroup>
+      <col style="width:3%"><col style="width:6%"><col style="width:5%"><col style="width:7%">
+      <col style="width:29%"><col style="width:8%"><col style="width:7%"><col style="width:10%">
+      <col style="width:9%"><col style="width:6%"><col style="width:10%">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>#</th><th>In cue</th><th>Language</th><th>Speaker</th><th>Dialogue</th>
+        <th>Whose</th><th>Builds on</th><th>Move</th><th>Level</th><th>Correct?</th><th>Episode / notes</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</main>
+
+<script>
+const WHOSE_OPTIONS = ["", "Self", "Other", "Participation", "Off-task", "N/A", "Unclear"];
+const OTHER_MOVES = ["agree", "disagree", "repeat/revoice", "extend", "correct", "alternative", "question", "evaluate", "acknowledge", "affirm"];
+const MOVE_OPTIONS = {
+  "Self": ["explain", "explain (concept)", "explain (approach)", "revise"],
+  "Other": OTHER_MOVES,
+  "Participation": ["steering / making space", "press for reasoning", "acknowledge", "affirm", "positioning (negative)", "positioning (status)", "bid for uptake", "withholding / shut down", "decision norm"],
+  "Off-task": OTHER_MOVES
+};
+const LEVEL_OPTIONS = {
+  "Self": ["Fully detailed", "Some detail", "Wrong detail", "No detail"],
+  "Other": ["High", "Medium", "Low"]
+};
+const CORRECT_OPTIONS = ["", "correct", "incorrect", "unclear"];
+const CODE_FIELDS = ["whose", "builds_on", "move", "level", "correct", "episode", "notes"];
+const TEACHER_PATTERN = /^(Mr|Ms|Mrs|Dr|Teacher)\b/i;
+
+const transcriptsByObservation = new Map();
+const teacherByObservation = new Map();
+const translationsByObservation = new Map();
+let codes = {};
+let currentObservation = "";
+let unsavedChanges = false;
+
+const elements = {
+  files: document.getElementById("files"),
+  teacher: document.getElementById("teacher"),
+  observation: document.getElementById("observation"),
+  segment: document.getElementById("segment"),
+  coder: document.getElementById("coder"),
+  save: document.getElementById("save"),
+  status: document.getElementById("status"),
+  empty: document.getElementById("empty"),
+  table: document.getElementById("transcript"),
+  body: document.querySelector("#transcript tbody")
+};
+
+function readStorage(key, fallback) {
+  try {
+    const value = localStorage.getItem(key);
+    return value === null ? fallback : JSON.parse(value);
+  } catch {
+    return fallback;
+  }
+}
+
+function writeStorage(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+codes = readStorage("mol-coder:codes", {});
+elements.coder.value = readStorage("mol-coder:coder", "");
+
+function setStatus(message) {
+  elements.status.textContent = message;
+}
+
+function parseFile(file) {
+  return new Promise((resolve, reject) => {
+    Papa.parse(file, {
+      header: true,
+      skipEmptyLines: true,
+      worker: false,
+      complete: result => resolve(result),
+      error: reject
+    });
+  });
+}
+
+function rowIdentifier(record) {
+  return `${record.segment}${record["#"]}`;
+}
+
+function loadTranscripts(records) {
+  transcriptsByObservation.clear();
+  for (const record of records) {
+    if (!record.observation) continue;
+    if (!transcriptsByObservation.has(record.observation)) {
+      transcriptsByObservation.set(record.observation, []);
+    }
+    transcriptsByObservation.get(record.observation).push(record);
+  }
+  for (const rows of transcriptsByObservation.values()) {
+    rows.sort((first, second) => Number(first.line_order) - Number(second.line_order));
+  }
+}
+
+function loadMetadata(records) {
+  teacherByObservation.clear();
+  for (const record of records) {
+    const observation = (record.obs_index || "").trim().replace(/^OBS-/, "OBS_");
+    teacherByObservation.set(observation, (record.teacher_pseudonym || "").trim());
+  }
+}
+
+function loadTranslations(records, fileName) {
+  const observationInName = (fileName.match(/OBS_\d+-\d+/) || [""])[0];
+  let loaded = 0;
+  for (const record of records) {
+    const observation = record.observation || observationInName;
+    if (!observation || !record.row || !record.translation) continue;
+    if (!translationsByObservation.has(observation)) translationsByObservation.set(observation, new Map());
+    translationsByObservation.get(observation).set(record.row, record.translation);
+    loaded += 1;
+  }
+  return loaded;
+}
+
+function loadCodes(records, fileName) {
+  const observationInName = (fileName.match(/OBS_\d+-\d+/) || [""])[0];
+  let loaded = 0;
+  for (const record of records) {
+    const observation = record.observation || observationInName || currentObservation;
+    if (!observation || !record.row) continue;
+    codes[observation] = codes[observation] || {};
+    const entry = {};
+    for (const field of CODE_FIELDS) entry[field] = record[field] || "";
+    codes[observation][record.row] = entry;
+    loaded += 1;
+  }
+  persistCodes();
+  return loaded;
+}
+
+function persistCodes() {
+  const saved = writeStorage("mol-coder:codes", codes);
+  const time = new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  setStatus(saved ? `Kept in this browser at ${time}` : "Could not keep codes in this browser. Save the CSV often.");
+}
+
+function fillSelect(select, values, selected, labels = {}) {
+  select.innerHTML = "";
+  for (const value of values) {
+    const option = document.createElement("option");
+    option.value = value;
+    option.textContent = labels[value] || value;
+    select.appendChild(option);
+  }
+  select.value = values.includes(selected) ? selected : values[0] || "";
+}
+
+function populateTeachers() {
+  const teachers = [...new Set(teacherByObservation.values())].filter(Boolean).sort();
+  fillSelect(elements.teacher, ["", ...teachers], elements.teacher.value, { "": "All" });
+}
+
+function populateObservations() {
+  const teacher = elements.teacher.value;
+  const observations = [...transcriptsByObservation.keys()]
+    .filter(observation => !teacher || teacherByObservation.get(observation) === teacher)
+    .sort();
+  const labels = {};
+  for (const observation of observations) {
+    const codedCount = Object.values(codes[observation] || {}).filter(entry => entry.whose).length;
+    labels[observation] = codedCount ? `${observation} (${codedCount} coded)` : observation;
+  }
+  fillSelect(elements.observation, observations, currentObservation, labels);
+  selectObservation(elements.observation.value);
+}
+
+function selectObservation(observation) {
+  currentObservation = observation;
+  const rows = transcriptsByObservation.get(observation) || [];
+  const segments = [...new Set(rows.map(row => row.segment))];
+  fillSelect(elements.segment, ["", ...segments], "", { "": "All" });
+  renderTable();
+}
+
+function isTeacher(record) {
+  const teacher = teacherByObservation.get(currentObservation);
+  return record.speaker === teacher || TEACHER_PATTERN.test(record.speaker || "");
+}
+
+function optionsWithCurrent(values, current) {
+  return current && !values.includes(current) ? [...values, current] : values;
+}
+
+function rowClass(record, entry) {
+  const whose = (entry && entry.whose) || "";
+  if (whose === "Self") return "coded-self";
+  if (whose === "Other") return "coded-other";
+  if (whose === "Participation") return "coded-participation";
+  if (whose === "Off-task") return "coded-offtask";
+  return isTeacher(record) ? "teacher" : "";
+}
+
+function makeCell(className, text) {
+  const cell = document.createElement("td");
+  if (className) cell.className = className;
+  cell.textContent = text;
+  return cell;
+}
+
+function updateDependentSelects(entry, moveSelect, levelSelect) {
+  const moves = MOVE_OPTIONS[entry.whose] || [];
+  const levels = LEVEL_OPTIONS[entry.whose] || [];
+  fillSelect(moveSelect, optionsWithCurrent(["", ...moves], entry.move), entry.move);
+  fillSelect(levelSelect, optionsWithCurrent(["", ...levels], entry.level), entry.level);
+  moveSelect.disabled = moves.length === 0 && !entry.move;
+  levelSelect.disabled = levels.length === 0 && !entry.level;
+}
+
+function buildRow(record, rowId) {
+  const observationCodes = codes[currentObservation] || {};
+  const entry = Object.assign(
+    Object.fromEntries(CODE_FIELDS.map(field => [field, ""])),
+    observationCodes[rowId] || {}
+  );
+  const row = document.createElement("tr");
+  row.className = rowClass(record, entry);
+
+  const dialogueCell = makeCell("dialogue", record.dialogue);
+  const translation = (translationsByObservation.get(currentObservation) || new Map()).get(rowId);
+  if (translation) {
+    const translationLine = document.createElement("span");
+    translationLine.className = "translation";
+    translationLine.textContent = translation;
+    dialogueCell.appendChild(translationLine);
+  }
+
+  row.append(
+    makeCell("number", record["#"]),
+    makeCell("cue", record.in_cue),
+    makeCell("language", record.named_language),
+    makeCell("speaker", record.speaker),
+    dialogueCell
+  );
+
+  const whoseSelect = document.createElement("select");
+  fillSelect(whoseSelect, optionsWithCurrent(WHOSE_OPTIONS, entry.whose), entry.whose);
+
+  const buildsOnInput = document.createElement("input");
+  buildsOnInput.setAttribute("list", "earlier-rows");
+  buildsOnInput.placeholder = "e.g. b9";
+  buildsOnInput.value = entry.builds_on;
+
+  const moveSelect = document.createElement("select");
+  const levelSelect = document.createElement("select");
+  updateDependentSelects(entry, moveSelect, levelSelect);
+
+  const correctSelect = document.createElement("select");
+  fillSelect(correctSelect, optionsWithCurrent(CORRECT_OPTIONS, entry.correct), entry.correct);
+
+  const episodeInput = document.createElement("input");
+  episodeInput.placeholder = "Episode";
+  episodeInput.value = entry.episode;
+  const notesInput = document.createElement("input");
+  notesInput.placeholder = "Notes";
+  notesInput.value = entry.notes;
+
+  const inputsByField = {
+    whose: whoseSelect,
+    builds_on: buildsOnInput,
+    move: moveSelect,
+    level: levelSelect,
+    correct: correctSelect,
+    episode: episodeInput,
+    notes: notesInput
+  };
+
+  function saveEntry() {
+    for (const [field, input] of Object.entries(inputsByField)) entry[field] = input.value;
+    codes[currentObservation] = codes[currentObservation] || {};
+    if (CODE_FIELDS.some(field => entry[field])) {
+      codes[currentObservation][rowId] = { ...entry };
+    } else {
+      delete codes[currentObservation][rowId];
+    }
+    row.className = rowClass(record, entry);
+    unsavedChanges = true;
+    persistCodes();
+  }
+
+  whoseSelect.addEventListener("change", () => {
+    entry.whose = whoseSelect.value;
+    entry.move = "";
+    entry.level = "";
+    updateDependentSelects(entry, moveSelect, levelSelect);
+    saveEntry();
+  });
+  for (const input of [buildsOnInput, moveSelect, levelSelect, correctSelect, episodeInput, notesInput]) {
+    input.addEventListener("change", saveEntry);
+  }
+
+  const lastCell = document.createElement("td");
+  lastCell.append(episodeInput, notesInput);
+  for (const input of [whoseSelect, buildsOnInput, moveSelect, levelSelect, correctSelect]) {
+    const cell = document.createElement("td");
+    cell.appendChild(input);
+    row.appendChild(cell);
+  }
+  row.appendChild(lastCell);
+  return row;
+}
+
+function renderEarlierRowsList(rows) {
+  let list = document.getElementById("earlier-rows");
+  if (!list) {
+    list = document.createElement("datalist");
+    list.id = "earlier-rows";
+    document.body.appendChild(list);
+  }
+  list.innerHTML = "";
+  for (const record of rows) {
+    const option = document.createElement("option");
+    option.value = rowIdentifier(record);
+    option.label = `${record.speaker}: ${(record.dialogue || "").slice(0, 50)}`;
+    list.appendChild(option);
+  }
+}
+
+function renderTable() {
+  const rows = transcriptsByObservation.get(currentObservation) || [];
+  const segment = elements.segment.value;
+  const visibleRows = rows.filter(record => !segment || record.segment === segment);
+  elements.body.innerHTML = "";
+  renderEarlierRowsList(rows);
+
+  let previousSegment = null;
+  for (const record of visibleRows) {
+    if (record.segment !== previousSegment) {
+      const segmentRow = document.createElement("tr");
+      segmentRow.className = "segment";
+      const cell = makeCell("", `Segment ${record.segment}`);
+      cell.colSpan = 11;
+      segmentRow.appendChild(cell);
+      elements.body.appendChild(segmentRow);
+      previousSegment = record.segment;
+    }
+    elements.body.appendChild(buildRow(record, rowIdentifier(record)));
+  }
+
+  elements.table.hidden = rows.length === 0;
+  elements.empty.hidden = rows.length > 0;
+  document.documentElement.style.setProperty(
+    "--header-height",
+    `${document.querySelector("header").offsetHeight}px`
+  );
+}
+
+function saveCodesCsv() {
+  const rows = transcriptsByObservation.get(currentObservation) || [];
+  if (!rows.length) return;
+  const observationCodes = codes[currentObservation] || {};
+  const output = rows.map(record => {
+    const rowId = rowIdentifier(record);
+    const entry = observationCodes[rowId] || {};
+    return {
+      observation: currentObservation,
+      row: rowId,
+      speaker: record.speaker,
+      ...Object.fromEntries(CODE_FIELDS.map(field => [field, entry[field] || ""])),
+      coder: elements.coder.value
+    };
+  });
+  const csv = Papa.unparse(output);
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+  const coderSuffix = elements.coder.value ? `_${elements.coder.value.replace(/\W+/g, "")}` : "";
+  link.download = `codes_${currentObservation}${coderSuffix}.csv`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+  unsavedChanges = false;
+}
+
+elements.files.addEventListener("change", async () => {
+  const files = [...elements.files.files];
+  setStatus("Loading files...");
+  const results = await Promise.all(files.map(parseFile));
+  const codeFiles = [];
+  let translationsLoaded = 0;
+  results.forEach((result, index) => {
+    const fields = result.meta.fields || [];
+    if (fields.includes("dialogue") && fields.includes("line_order")) loadTranscripts(result.data);
+    else if (fields.includes("obs_index")) loadMetadata(result.data);
+    else if (fields.includes("translation") && fields.includes("row")) {
+      translationsLoaded += loadTranslations(result.data, files[index].name);
+    } else if (fields.includes("whose") && fields.includes("row")) {
+      codeFiles.push({ records: result.data, name: files[index].name });
+    }
+  });
+  populateTeachers();
+  populateObservations();
+  if (codeFiles.length) {
+    const loaded = codeFiles.reduce((total, file) => total + loadCodes(file.records, file.name), 0);
+    const firstCodedObservation = (codeFiles[0].records[0] || {}).observation
+      || (codeFiles[0].name.match(/OBS_\d+-\d+/) || [""])[0];
+    if (transcriptsByObservation.has(firstCodedObservation)) currentObservation = firstCodedObservation;
+    populateObservations();
+    setStatus(`Loaded ${loaded} saved codes`);
+  } else if (translationsLoaded) {
+    renderTable();
+    setStatus(`Loaded ${translationsLoaded} translations`);
+  } else if (transcriptsByObservation.size) {
+    setStatus(`Loaded ${transcriptsByObservation.size} observations`);
+  }
+  elements.files.value = "";
+});
+
+elements.teacher.addEventListener("change", populateObservations);
+elements.observation.addEventListener("change", () => selectObservation(elements.observation.value));
+elements.segment.addEventListener("change", renderTable);
+elements.coder.addEventListener("change", () => writeStorage("mol-coder:coder", elements.coder.value));
+elements.save.addEventListener("click", saveCodesCsv);
+window.addEventListener("beforeunload", event => {
+  if (unsavedChanges) event.preventDefault();
+});
+</script>
+</body>
+</html>
