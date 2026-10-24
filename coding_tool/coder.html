@@ -74,8 +74,33 @@ button {
 }
 button.secondary { background: transparent; color: var(--accent); }
 #status { color: var(--muted); font-size: 13px; margin-left: auto; }
-main { padding: 16px; }
+main { padding: 16px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; align-items: start; }
 #empty { color: var(--muted); max-width: 640px; }
+#builder {
+  position: sticky;
+  top: calc(var(--header-height, 58px) + 16px);
+  max-height: calc(100vh - var(--header-height, 58px) - 32px);
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+#builder.drag-over { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+#builder-header { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+#builder-header h2 { font-size: 14px; margin: 0; }
+#builder-header button { padding: 3px 10px; font-size: 13px; }
+#builder-rows { padding: 6px 12px; color: var(--muted); font-size: 12px; border-bottom: 1px solid var(--border); user-select: all; }
+#builder-items { overflow-y: auto; padding: 8px 12px; flex: 1; }
+#builder-hint { color: var(--muted); font-size: 13px; }
+.builder-item { position: relative; padding: 6px 22px 6px 0; border-bottom: 1px solid var(--border); }
+.builder-item:last-child { border-bottom: none; }
+.builder-item .meta { color: var(--muted); font-size: 12px; }
+.builder-item .speaker { font-weight: 600; color: var(--text); }
+.builder-item .translation { display: block; color: var(--muted); font-style: italic; font-size: 13px; }
+.builder-item .remove { position: absolute; top: 4px; right: 0; padding: 0 6px; background: transparent; border: none; color: var(--muted); font-size: 16px; }
+td.number .add { display: block; margin-top: 4px; padding: 0 5px; font-size: 13px; line-height: 18px; background: transparent; color: var(--accent); }
+td.dialogue[draggable="true"], td.number[draggable="true"] { cursor: grab; }
 table { width: 100%; border-collapse: collapse; table-layout: fixed; background: var(--surface); }
 th, td { border-bottom: 1px solid var(--border); padding: 6px 6px; vertical-align: top; text-align: left; }
 th { font-size: 12px; color: var(--muted); font-weight: 600; position: sticky; top: var(--header-height, 58px); background: var(--surface); z-index: 1; }
@@ -113,6 +138,7 @@ td select:disabled { opacity: 0.4; }
   <span id="status"></span>
 </header>
 <main>
+  <div>
   <p id="empty">Open <code>all_observations_combined.csv</code> from <code>Data/Track A</code> to begin. You can also select <code>observation_metadata.csv</code> at the same time to filter by teacher, a translations CSV from <code>Data/Track A/translations</code> to show English translations under Spanish turns, and a codes CSV saved earlier to keep working on it. Your codes are kept in this browser as you work, but use <strong>Save codes (CSV)</strong> to keep a permanent copy.</p>
   <table id="transcript" hidden>
     <colgroup>
@@ -122,12 +148,23 @@ td select:disabled { opacity: 0.4; }
     </colgroup>
     <thead>
       <tr>
-        <th>#</th><th>In cue</th><th>Language</th><th>Speaker</th><th>Dialogue</th>
+        <th>#</th><th>In cue</th><th>Lang.</th><th>Speaker</th><th>Dialogue</th>
         <th>Whose</th><th>Builds on</th><th>Move</th><th>Level</th><th>Correct?</th><th>Episode / notes</th>
       </tr>
     </thead>
     <tbody></tbody>
   </table>
+  </div>
+  <aside id="builder">
+    <div id="builder-header">
+      <h2>Turn builder</h2>
+      <button id="builder-clear" class="secondary">Clear</button>
+    </div>
+    <div id="builder-rows" hidden></div>
+    <div id="builder-items">
+      <p id="builder-hint">Drag a line here by its dialogue or its number, or click + next to the number. Lines stay in transcript order. This is a scratchpad only and does not change your codes.</p>
+    </div>
+  </aside>
 </main>
 
 <script>
@@ -153,6 +190,7 @@ const translationsByObservation = new Map();
 let codes = {};
 let currentObservation = "";
 let unsavedChanges = false;
+const builderRowIds = new Set();
 
 const elements = {
   files: document.getElementById("files"),
@@ -164,8 +202,94 @@ const elements = {
   status: document.getElementById("status"),
   empty: document.getElementById("empty"),
   table: document.getElementById("transcript"),
-  body: document.querySelector("#transcript tbody")
+  body: document.querySelector("#transcript tbody"),
+  builder: document.getElementById("builder"),
+  builderClear: document.getElementById("builder-clear"),
+  builderRows: document.getElementById("builder-rows"),
+  builderItems: document.getElementById("builder-items"),
+  builderHint: document.getElementById("builder-hint")
 };
+
+function translationFor(rowId) {
+  return (translationsByObservation.get(currentObservation) || new Map()).get(rowId);
+}
+
+function renderBuilder() {
+  const rows = transcriptsByObservation.get(currentObservation) || [];
+  const selected = rows.filter(record => builderRowIds.has(rowIdentifier(record)));
+  elements.builderItems.innerHTML = "";
+  elements.builderHint.hidden = selected.length > 0;
+  elements.builderItems.appendChild(elements.builderHint);
+  elements.builderRows.hidden = selected.length === 0;
+  elements.builderRows.textContent = `Rows: ${selected.map(rowIdentifier).join(", ")}`;
+
+  for (const record of selected) {
+    const rowId = rowIdentifier(record);
+    const item = document.createElement("div");
+    item.className = "builder-item";
+
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    const speaker = document.createElement("span");
+    speaker.className = "speaker";
+    speaker.textContent = record.speaker;
+    meta.append(`${rowId} · `, speaker);
+
+    const text = document.createElement("div");
+    text.textContent = record.dialogue;
+    const translation = translationFor(rowId);
+    if (translation) {
+      const translationLine = document.createElement("span");
+      translationLine.className = "translation";
+      translationLine.textContent = translation;
+      text.appendChild(translationLine);
+    }
+
+    const remove = document.createElement("button");
+    remove.className = "remove";
+    remove.title = "Remove from turn builder";
+    remove.textContent = "×";
+    remove.addEventListener("click", () => {
+      builderRowIds.delete(rowId);
+      renderBuilder();
+    });
+
+    item.append(meta, text, remove);
+    elements.builderItems.appendChild(item);
+  }
+}
+
+function addToBuilder(rowId) {
+  builderRowIds.add(rowId);
+  renderBuilder();
+}
+
+function makeDraggable(cell, rowId) {
+  cell.draggable = true;
+  cell.addEventListener("dragstart", event => {
+    event.dataTransfer.setData("text/plain", rowId);
+    event.dataTransfer.effectAllowed = "copy";
+  });
+}
+
+elements.builder.addEventListener("dragover", event => {
+  event.preventDefault();
+  event.dataTransfer.dropEffect = "copy";
+  elements.builder.classList.add("drag-over");
+});
+elements.builder.addEventListener("dragleave", event => {
+  if (!elements.builder.contains(event.relatedTarget)) elements.builder.classList.remove("drag-over");
+});
+elements.builder.addEventListener("drop", event => {
+  event.preventDefault();
+  elements.builder.classList.remove("drag-over");
+  const rowId = event.dataTransfer.getData("text/plain");
+  if (rowId) addToBuilder(rowId);
+});
+elements.builderClear.addEventListener("click", () => {
+  builderRowIds.clear();
+  renderBuilder();
+});
 
 function readStorage(key, fallback) {
   try {
@@ -296,7 +420,9 @@ function populateObservations() {
 }
 
 function selectObservation(observation) {
+  if (observation !== currentObservation) builderRowIds.clear();
   currentObservation = observation;
+  renderBuilder();
   const rows = transcriptsByObservation.get(observation) || [];
   const segments = [...new Set(rows.map(row => row.segment))];
   fillSelect(elements.segment, ["", ...segments], "", { "": "All" });
@@ -347,16 +473,26 @@ function buildRow(record, rowId) {
   row.className = rowClass(record, entry);
 
   const dialogueCell = makeCell("dialogue", record.dialogue);
-  const translation = (translationsByObservation.get(currentObservation) || new Map()).get(rowId);
+  const translation = translationFor(rowId);
   if (translation) {
     const translationLine = document.createElement("span");
     translationLine.className = "translation";
     translationLine.textContent = translation;
     dialogueCell.appendChild(translationLine);
   }
+  makeDraggable(dialogueCell, rowId);
+
+  const numberCell = makeCell("number", record["#"]);
+  const addButton = document.createElement("button");
+  addButton.className = "add";
+  addButton.title = "Add to turn builder";
+  addButton.textContent = "+";
+  addButton.addEventListener("click", () => addToBuilder(rowId));
+  numberCell.appendChild(addButton);
+  makeDraggable(numberCell, rowId);
 
   row.append(
-    makeCell("number", record["#"]),
+    numberCell,
     makeCell("cue", record.in_cue),
     makeCell("language", record.named_language),
     makeCell("speaker", record.speaker),
