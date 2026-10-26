@@ -2,9 +2,17 @@
 
 This folder holds everything needed to compare human coding, the two LLM prompts, and GCA on two observations of Miguel and Gregorio in Ms. Gallagher's class: OBS_26-0498 (segments c and d, 97 lines) and OBS_26-0515 (segments a and b, 151 lines). All files contain codes and scores only. Transcript text, translations, and the LLMs' written reasons are left out so that classroom data stays out of this public repository; every file has a `row` ID (for example `c12`, meaning segment c, line 12) that joins back to the transcript in `Data/Track A/all_observations_combined.csv`.
 
+## Folders
+
+| Folder | Contents |
+|---|---|
+| `comparison_data/` | The input data: `analysis_table.csv` and the per-method files described below. |
+| `llm_agreement/` | Outputs of `A4 - LLM Agreement.ipynb`: turn-level agreement tables, agreement bars, and confusion matrices. |
+| `co_construction/` | Outputs of `A4 - Co-construction Detection.ipynb`: which co-construction turns each method surfaces, misses, and GCA score plots. |
+
 ## Start here
 
-`analysis_table.csv` combines everything into one table with one row per transcript line for both observations. Use it for the notebook, because all methods are already aligned on the same rows. The separate files below hold the same data, split by method and observation, in case you need them on their own.
+`comparison_data/analysis_table.csv` combines everything into one table with one row per transcript line for both observations. Use it for the notebook, because all methods are already aligned on the same rows. The separate files below hold the same data, split by method and observation, in case you need them on their own.
 
 ## Columns in `analysis_table.csv`
 
@@ -20,7 +28,7 @@ This folder holds everything needed to compare human coding, the two LLM prompts
 | `gca_social_impact`, `gca_impact_pct` | How similar the next few peer units are to this unit, and its percentile within the observation. |
 | `gca_responsivity`, `gca_responsivity_pct` | How similar this unit is to the previous few peer units, and its percentile within the observation. |
 
-## Other files
+## Other files in `comparison_data/`
 
 - `human_adjudicated_<observation>_<segments>.csv`: the human columns above, for one observation.
 - `llm_basic_<observation>_<segments>.csv` and `llm_enhanced_<observation>_<segments>.csv`: each LLM's codes for one observation.
