@@ -1,0 +1,29 @@
+turn,rows,speaker,vishal_whose,vishal_level,caesar_whose,caesar_level,coded_by_both,whose_agree,level_compared,level_agree
+c5,c5,Other,Self,Some detail,Other,Low,True,False,False,
+c10,c10,Gregorio,Self,Some detail,Other,Low,True,False,False,
+c11,c11,Other,Other,Medium,Other,Medium,True,True,True,True
+c12-c13,c12 c13,Gregorio,Other,High,Other,Medium,True,True,True,False
+c14,c14,Miguel,Other,High,Other,Low,True,True,True,False
+c15,c15,Other,Other,Low,Other,Low,True,True,True,True
+c16,c16,Gregorio,Other,High,Other,Low,True,True,True,False
+c17,c17,Other,Other,High,Other,Low,True,True,True,False
+c18,c18,Miguel,Other,High,Other,High,True,True,True,True
+c20,c20,Other,Other,Low,Other,Low,True,True,True,True
+c23,c23,Gregorio,Self,No detail,Self,No detail,True,True,True,True
+c24,c24,Miguel,Other,Low,Other,Low,True,True,True,True
+c27,c27,Miguel,Self,No detail,Self,No detail,True,True,True,True
+c28,c28,Gregorio,Other,High,Other,High,True,True,True,True
+c39,c39,Other,,,Other,Low,False,,False,
+c38-c43,c38 c42 c43,Gregorio,Self,Fully detailed,Other,Low,True,False,False,
+d2-d3,d2 d3,Miguel,Self,Fully detailed,Self,Fully detailed,True,True,True,True
+d4,d4,Gregorio,Other,High,Self,Some detail,True,False,False,
+d12,d12,Gregorio,Other,High,Other,Low,True,True,True,False
+d11-d16,d11 d16,Miguel,Self,No detail,,,False,,False,
+d19,d19,Gregorio,Self,Some detail,Other,Low,True,False,False,
+d20,d20,Miguel,Other,Low,Other,Low,True,True,True,True
+d25,d25,Miguel,Self,No detail,Self,No detail,True,True,True,True
+d22-d26,d22 d26,Gregorio,Self,Some detail,,,False,,False,
+d27,d27,Miguel,Other,Medium,Other,Low,True,True,True,False
+d31-d32,d31 d32,Gregorio,Self,Wrong detail,Self,Some detail,True,True,True,False
+d34,d34,Gregorio,Self,Wrong detail,Self,Some detail,True,True,True,False
+d40,d40,Miguel,,,Self,No detail,False,,False,

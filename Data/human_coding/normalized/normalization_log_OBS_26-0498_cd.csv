@@ -1,0 +1,20 @@
+coder,row,rule,before,after
+Vishal,d22,Unclear is treated as not coded,Unclear / ,not coded
+Caesar,c47,Adult lines are not coded,Other / Low,not coded
+Caesar,d33,Adult lines are not coded,Other / Low,not coded
+Caesar,c2,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,c23,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,c27,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,c33,Answers to the teacher are Self,Other / ,Self / 
+Caesar,c35,Answers to the teacher are Self,Other / ,Self / 
+Caesar,d34,Answers to the teacher are Self,Other / Medium,Self / Some detail
+Caesar,c2,Coordination moves and starter prompts are not coded,Self / No detail,not coded
+Caesar,c3,Coordination moves and starter prompts are not coded,Other / Low,not coded
+Caesar,c4,Coordination moves and starter prompts are not coded,Other / Low,not coded
+Caesar,c7,Coordination moves and starter prompts are not coded,Self / No detail,not coded
+Caesar,c33,Coordination moves and starter prompts are not coded,Self / ,not coded
+Caesar,c35,Coordination moves and starter prompts are not coded,Self / ,not coded
+Caesar,c41,Coordination moves and starter prompts are not coded,Self / No detail,not coded
+Caesar,c44,Coordination moves and starter prompts are not coded,Other / ,not coded
+Caesar,c45,Coordination moves and starter prompts are not coded,Other / High,not coded
+Caesar,c53,Coordination moves and starter prompts are not coded,Other / Medium,not coded

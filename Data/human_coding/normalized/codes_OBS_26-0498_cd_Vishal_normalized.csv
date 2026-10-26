@@ -1,0 +1,98 @@
+observation,row,speaker,whose,builds_on,move,level,correct,episode,notes,coder
+OBS_26-0498,c1,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c2,Miguel,,,,,,,,Vishal
+OBS_26-0498,c3,Other,,,,,,,,Vishal
+OBS_26-0498,c4,Miguel,,,,,,,,Vishal
+OBS_26-0498,c5,Other,Self,,,Some detail,,,,Vishal
+OBS_26-0498,c6,Miguel,,,,,,,,Vishal
+OBS_26-0498,c7,Miguel,,,,,,,,Vishal
+OBS_26-0498,c8,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c9,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c10,Gregorio,Self,,,Some detail,,,,Vishal
+OBS_26-0498,c11,Other,Other,,,Medium,,,,Vishal
+OBS_26-0498,c12,Gregorio,Other,,,,,,,Vishal
+OBS_26-0498,c13,Gregorio,Other,,,High,,,plet,Vishal
+OBS_26-0498,c14,Miguel,Other,,,High,,,,Vishal
+OBS_26-0498,c15,Other,Other,,,Low,,,,Vishal
+OBS_26-0498,c16,Gregorio,Other,,,High,,,,Vishal
+OBS_26-0498,c17,Other,Other,,,High,,,,Vishal
+OBS_26-0498,c18,Miguel,Other,,,High,,,,Vishal
+OBS_26-0498,c19,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c20,Other,Other,,,Low,,,,Vishal
+OBS_26-0498,c21,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c22,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c23,Gregorio,Self,,,No detail,,,,Vishal
+OBS_26-0498,c24,Miguel,Other,,,Low,,,,Vishal
+OBS_26-0498,c25,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c26,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c27,Miguel,Self,,,No detail,,,,Vishal
+OBS_26-0498,c28,Gregorio,Other,,,High,,,,Vishal
+OBS_26-0498,c29,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c30,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c31,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c32,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c33,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c34,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c35,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c36,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c37,Other,,,,,,,,Vishal
+OBS_26-0498,c38,Gregorio,Self,,,,,,,Vishal
+OBS_26-0498,c39,Other,,,,,,,,Vishal
+OBS_26-0498,c40,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c41,Miguel,,,,,,,,Vishal
+OBS_26-0498,c42,Gregorio,Self,,,,,,,Vishal
+OBS_26-0498,c43,Gregorio,Self,,,Fully detailed,,,,Vishal
+OBS_26-0498,c44,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c45,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c46,Miguel,,,,,,,,Vishal
+OBS_26-0498,c47,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c48,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c49,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c50,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,c51,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c52,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c53,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c54,Ms. Gallagher,,,,,,,,Vishal
+OBS_26-0498,c55,Gregorio,,,,,,,,Vishal
+OBS_26-0498,c56,Ms. Gallagher,,,,,,,,Vishal
+OBS_26-0498,d1,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d2,Miguel,Self,,,,,,,Vishal
+OBS_26-0498,d3,Miguel,Self,,,Fully detailed,,,,Vishal
+OBS_26-0498,d4,Gregorio,Other,,,High,,,,Vishal
+OBS_26-0498,d5,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d6,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d7,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d8,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d9,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d10,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d11,Miguel,Self,,,,,,,Vishal
+OBS_26-0498,d12,Gregorio,Other,,,High,,,"he's adding something, but it's wrong.",Vishal
+OBS_26-0498,d13,Miguel,,,,,,,,Vishal
+OBS_26-0498,d14,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d15,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d16,Miguel,Self,,,No detail,,,,Vishal
+OBS_26-0498,d17,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d18,Miguel,,,,,,,,Vishal
+OBS_26-0498,d19,Gregorio,Self,,,Some detail,,,"he's explaning the process, so like ",Vishal
+OBS_26-0498,d20,Miguel,Other,,,Low,,,,Vishal
+OBS_26-0498,d21,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d22,Gregorio,,,,,,,,Vishal
+OBS_26-0498,d23,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d24,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d25,Miguel,Self,,,No detail,,,,Vishal
+OBS_26-0498,d26,Gregorio,Self,,,Some detail,,,,Vishal
+OBS_26-0498,d27,Miguel,Other,,,Medium,,,,Vishal
+OBS_26-0498,d28,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d29,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d30,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d31,Gregorio,Self,,,,,,,Vishal
+OBS_26-0498,d32,Gregorio,Self,,,Wrong detail,,,,Vishal
+OBS_26-0498,d33,Ms. Benoit,,,,,,,,Vishal
+OBS_26-0498,d34,Gregorio,Self,,,Wrong detail,,,,Vishal
+OBS_26-0498,d35,Miguel,,,,,,,,Vishal
+OBS_26-0498,d36,Miguel,,,,,,,,Vishal
+OBS_26-0498,d37,Ms. Gallagher,,,,,,,,Vishal
+OBS_26-0498,d38,Miguel,,,,,,,,Vishal
+OBS_26-0498,d39,Gregorio,,,,,,,,Vishal
+OBS_26-0498,d40,Miguel,,,,,,,,Vishal
+OBS_26-0498,d41,Ms. Gallagher,,,,,,,,Vishal
