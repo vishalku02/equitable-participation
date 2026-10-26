@@ -1,0 +1,25 @@
+Sample,Method,Error,Reason,Turns
+Test: OBS_26-0498 c-d,Basic LLM,Extra,Whose,8
+Test: OBS_26-0498 c-d,Basic LLM,Extra,Level,4
+Test: OBS_26-0498 c-d,Enhanced LLM,Extra,Level,3
+Test: OBS_26-0498 c-d,Enhanced LLM,Miss,Whose,2
+Test: OBS_26-0498 c-d,GCA responsivity,Miss,Not scored,1
+Test: OBS_26-0498 c-d,GCA social impact,Miss,Not scored,1
+Test: OBS_26-0498 c-d,GCA responsivity,Miss,Below threshold,5
+Test: OBS_26-0498 c-d,GCA social impact,Miss,Below threshold,5
+Test: OBS_26-0498 c-d,Caesar,Miss,Level,2
+Test: OBS_26-0498 c-d,Vishal,Extra,Level,3
+Test: OBS_26-0498 c-d,Enhanced LLM,Extra,Whose,1
+Test: OBS_26-0498 c-d,Vishal,Extra,Whose,1
+Test: OBS_26-0498 c-d,GCA responsivity,Extra,Above threshold,2
+Test: OBS_26-0498 c-d,Basic LLM,Miss,Level,1
+Development: OBS_26-0515 a-b,Basic LLM,Extra,Whose,8
+Development: OBS_26-0515 a-b,GCA social impact,Extra,Above threshold,6
+Development: OBS_26-0515 a-b,Enhanced LLM,Miss,Level,1
+Development: OBS_26-0515 a-b,GCA social impact,Miss,Below threshold,2
+Development: OBS_26-0515 a-b,Enhanced LLM,Extra,Whose,2
+Development: OBS_26-0515 a-b,Basic LLM,Extra,Level,10
+Development: OBS_26-0515 a-b,GCA responsivity,Extra,Above threshold,16
+Development: OBS_26-0515 a-b,Enhanced LLM,Extra,Level,1
+Development: OBS_26-0515 a-b,Enhanced LLM,Miss,Whose,2
+Development: OBS_26-0515 a-b,GCA responsivity,Miss,Below threshold,3

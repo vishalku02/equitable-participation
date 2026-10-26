@@ -1,0 +1,17 @@
+Definition,GCA threshold,Method,Reference turns,Turns flagged,Recall,Precision
+Other at Medium or High,,Vishal,6,10,6/6 (100%),6/10 (60%)
+Other at Medium or High,,Caesar,6,4,4/6 (67%),4/4 (100%)
+Other at Medium or High,,Basic LLM,6,17,5/6 (83%),5/17 (29%)
+Other at Medium or High,,Enhanced LLM,6,8,4/6 (67%),4/8 (50%)
+Other at Medium or High,top 25%,GCA responsivity,6,2,0/6 (0%),0/2 (0%)
+Other at Medium or High,top 25%,GCA social impact,6,0,0/6 (0%),0/0
+Other at Medium or High,top 50%,GCA responsivity,6,11,4/6 (67%),4/11 (36%)
+Other at Medium or High,top 50%,GCA social impact,6,10,1/6 (17%),1/10 (10%)
+Other at High only,,Vishal,3,8,3/3 (100%),3/8 (38%)
+Other at High only,,Caesar,3,2,2/3 (67%),2/2 (100%)
+Other at High only,,Basic LLM,3,8,3/3 (100%),3/8 (38%)
+Other at High only,,Enhanced LLM,3,3,2/3 (67%),2/3 (67%)
+Other at High only,top 25%,GCA responsivity,3,2,0/3 (0%),0/2 (0%)
+Other at High only,top 25%,GCA social impact,3,0,0/3 (0%),0/0
+Other at High only,top 50%,GCA responsivity,3,11,2/3 (67%),2/11 (18%)
+Other at High only,top 50%,GCA social impact,3,10,0/3 (0%),0/10 (0%)
