@@ -1,0 +1,98 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-0498,c1,Ms. Benoit,,N/A,,
+OBS_26-0498,c2,Miguel,T1,Unclear / not coded,,
+OBS_26-0498,c3,Other,T2,Unclear / not coded,,
+OBS_26-0498,c4,Miguel,T3,Unclear / not coded,,
+OBS_26-0498,c5,Other,T4,Self,,some detail
+OBS_26-0498,c6,Miguel,T5,Unclear / not coded,,
+OBS_26-0498,c7,Miguel,T6,Unclear / not coded,,
+OBS_26-0498,c8,Gregorio,T7,Unclear / not coded,,
+OBS_26-0498,c9,Gregorio,T8,Other,Other c5 (groups of five),
+OBS_26-0498,c10,Gregorio,T8,Other,Other c5 (groups of five),medium
+OBS_26-0498,c11,Other,T9,Self,,some detail
+OBS_26-0498,c12,Gregorio,T10,Other,Other c11,
+OBS_26-0498,c13,Gregorio,T10,Other,Other c11,medium
+OBS_26-0498,c14,Miguel,T11,Other,Gregorio c12-c13,high
+OBS_26-0498,c15,Other,T12,Other,Miguel c14,low
+OBS_26-0498,c16,Gregorio,T13,Other,Miguel c14,medium
+OBS_26-0498,c17,Other,T14,Other,Gregorio c16,medium
+OBS_26-0498,c18,Miguel,T15,Other,Other c17,high
+OBS_26-0498,c19,Gregorio,T16,Unclear / not coded,,
+OBS_26-0498,c20,Other,T17,Other,Miguel c18,low
+OBS_26-0498,c21,Ms. Benoit,,N/A,,
+OBS_26-0498,c22,Ms. Benoit,,N/A,,
+OBS_26-0498,c23,Gregorio,T18,Unclear / not coded,,
+OBS_26-0498,c24,Miguel,T19,Self,,some detail
+OBS_26-0498,c25,Ms. Benoit,,N/A,,
+OBS_26-0498,c26,Ms. Benoit,,N/A,,
+OBS_26-0498,c27,Miguel,T20,Self,,no detail
+OBS_26-0498,c28,Gregorio,T21,Other,Miguel c24-c27,medium
+OBS_26-0498,c29,Ms. Benoit,,N/A,,
+OBS_26-0498,c30,Ms. Benoit,,N/A,,
+OBS_26-0498,c31,Ms. Benoit,,N/A,,
+OBS_26-0498,c32,Ms. Benoit,,N/A,,
+OBS_26-0498,c33,Gregorio,T22,Unclear / not coded,,
+OBS_26-0498,c34,Ms. Benoit,,N/A,,
+OBS_26-0498,c35,Gregorio,T23,Unclear / not coded,,
+OBS_26-0498,c36,Gregorio,T23,Unclear / not coded,,
+OBS_26-0498,c37,Other,T24,Unclear / not coded,,
+OBS_26-0498,c38,Gregorio,T23,Unclear / not coded,,
+OBS_26-0498,c39,Other,T24,Unclear / not coded,,
+OBS_26-0498,c40,Gregorio,T23,Unclear / not coded,,
+OBS_26-0498,c41,Miguel,T25,Unclear / not coded,,
+OBS_26-0498,c42,Gregorio,T26,Other,Other c11 and Miguel c24 (peer's drawing),
+OBS_26-0498,c43,Gregorio,T26,Other,Other c11 and Miguel c24 (peer's drawing),
+OBS_26-0498,c44,Gregorio,T26,Other,Other c11 and Miguel c24 (peer's drawing),
+OBS_26-0498,c45,Gregorio,T26,Other,Other c11 and Miguel c24 (peer's drawing),high
+OBS_26-0498,c46,Miguel,T27,Unclear / not coded,,
+OBS_26-0498,c47,Ms. Benoit,,N/A,,
+OBS_26-0498,c48,Gregorio,T28,N/A,,
+OBS_26-0498,c49,Ms. Benoit,,N/A,,
+OBS_26-0498,c50,Ms. Benoit,,N/A,,
+OBS_26-0498,c51,Gregorio,T29,N/A,,
+OBS_26-0498,c52,Gregorio,T30,N/A,,
+OBS_26-0498,c53,Gregorio,T31,N/A,,
+OBS_26-0498,c54,Ms. Gallagher,,N/A,,
+OBS_26-0498,c55,Gregorio,T32,N/A,,
+OBS_26-0498,c56,Ms. Gallagher,,N/A,,
+OBS_26-0498,d1,Ms. Benoit,,N/A,,
+OBS_26-0498,d2,Miguel,T33,Self,,
+OBS_26-0498,d3,Miguel,T33,Self,,some detail
+OBS_26-0498,d4,Gregorio,T34,Self,,some detail
+OBS_26-0498,d5,Ms. Benoit,,N/A,,
+OBS_26-0498,d6,Ms. Benoit,,N/A,,
+OBS_26-0498,d7,Ms. Benoit,,N/A,,
+OBS_26-0498,d8,Ms. Benoit,,N/A,,
+OBS_26-0498,d9,Ms. Benoit,,N/A,,
+OBS_26-0498,d10,Ms. Benoit,,N/A,,
+OBS_26-0498,d11,Miguel,T35,Self,,
+OBS_26-0498,d12,Gregorio,T36,Self,,no detail
+OBS_26-0498,d13,Miguel,T35,Self,,
+OBS_26-0498,d14,Ms. Benoit,,N/A,,
+OBS_26-0498,d15,Ms. Benoit,,N/A,,
+OBS_26-0498,d16,Miguel,T35,Self,,no detail
+OBS_26-0498,d17,Ms. Benoit,,N/A,,
+OBS_26-0498,d18,Miguel,T37,Unclear / not coded,,
+OBS_26-0498,d19,Gregorio,T38,Self,,
+OBS_26-0498,d20,Miguel,T39,Other,Gregorio d19,low
+OBS_26-0498,d21,Ms. Benoit,,N/A,,
+OBS_26-0498,d22,Gregorio,T38,Self,,some detail
+OBS_26-0498,d23,Ms. Benoit,,N/A,,
+OBS_26-0498,d24,Ms. Benoit,,N/A,,
+OBS_26-0498,d25,Miguel,T40,Self,,no detail
+OBS_26-0498,d26,Gregorio,T41,Self,,
+OBS_26-0498,d27,Miguel,T42,Other,Gregorio d26,low
+OBS_26-0498,d28,Ms. Benoit,,N/A,,
+OBS_26-0498,d29,Ms. Benoit,,N/A,,
+OBS_26-0498,d30,Ms. Benoit,,N/A,,
+OBS_26-0498,d31,Gregorio,T41,Self,,
+OBS_26-0498,d32,Gregorio,T41,Self,,
+OBS_26-0498,d33,Ms. Benoit,,N/A,,
+OBS_26-0498,d34,Gregorio,T41,Self,,some detail
+OBS_26-0498,d35,Miguel,T43,Unclear / not coded,,
+OBS_26-0498,d36,Miguel,T43,Unclear / not coded,,
+OBS_26-0498,d37,Ms. Gallagher,,N/A,,
+OBS_26-0498,d38,Miguel,T44,Unclear / not coded,,
+OBS_26-0498,d39,Gregorio,T45,Unclear / not coded,,
+OBS_26-0498,d40,Miguel,T46,Unclear / not coded,,
+OBS_26-0498,d41,Ms. Gallagher,,N/A,,

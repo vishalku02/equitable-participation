@@ -1,0 +1,98 @@
+observation,row,speaker,explanation,peer_engagement
+OBS_26-0498,c1,Ms. Benoit,N/A,N/A
+OBS_26-0498,c2,Miguel,N/A,Medium
+OBS_26-0498,c3,Other,N/A,Medium
+OBS_26-0498,c4,Miguel,N/A,Medium
+OBS_26-0498,c5,Other,Some detail,Medium
+OBS_26-0498,c6,Miguel,No detail,Low
+OBS_26-0498,c7,Miguel,No detail,Low
+OBS_26-0498,c8,Gregorio,N/A,Unclear
+OBS_26-0498,c9,Gregorio,N/A,High
+OBS_26-0498,c10,Gregorio,Some detail,High
+OBS_26-0498,c11,Other,Some detail,High
+OBS_26-0498,c12,Gregorio,Wrong detail,High
+OBS_26-0498,c13,Gregorio,Wrong detail,High
+OBS_26-0498,c14,Miguel,Some detail,High
+OBS_26-0498,c15,Other,No detail,Low
+OBS_26-0498,c16,Gregorio,N/A,High
+OBS_26-0498,c17,Other,Some detail,High
+OBS_26-0498,c18,Miguel,Fully detailed,High
+OBS_26-0498,c19,Gregorio,Unclear,Unclear
+OBS_26-0498,c20,Other,No detail,Low
+OBS_26-0498,c21,Ms. Benoit,N/A,N/A
+OBS_26-0498,c22,Ms. Benoit,N/A,N/A
+OBS_26-0498,c23,Gregorio,No detail,Medium
+OBS_26-0498,c24,Miguel,Some detail,Medium
+OBS_26-0498,c25,Ms. Benoit,N/A,N/A
+OBS_26-0498,c26,Ms. Benoit,N/A,N/A
+OBS_26-0498,c27,Miguel,No detail,Low
+OBS_26-0498,c28,Gregorio,N/A,High
+OBS_26-0498,c29,Ms. Benoit,N/A,N/A
+OBS_26-0498,c30,Ms. Benoit,N/A,N/A
+OBS_26-0498,c31,Ms. Benoit,N/A,N/A
+OBS_26-0498,c32,Ms. Benoit,N/A,N/A
+OBS_26-0498,c33,Gregorio,N/A,Low
+OBS_26-0498,c34,Ms. Benoit,N/A,N/A
+OBS_26-0498,c35,Gregorio,No detail,Low
+OBS_26-0498,c36,Gregorio,Unclear,Unclear
+OBS_26-0498,c37,Other,N/A,Medium
+OBS_26-0498,c38,Gregorio,Unclear,Unclear
+OBS_26-0498,c39,Other,N/A,Medium
+OBS_26-0498,c40,Gregorio,Unclear,Unclear
+OBS_26-0498,c41,Miguel,N/A,Low
+OBS_26-0498,c42,Gregorio,Fully detailed,High
+OBS_26-0498,c43,Gregorio,Some detail,High
+OBS_26-0498,c44,Gregorio,N/A,Low
+OBS_26-0498,c45,Gregorio,N/A,Low
+OBS_26-0498,c46,Miguel,N/A,Low
+OBS_26-0498,c47,Ms. Benoit,N/A,N/A
+OBS_26-0498,c48,Gregorio,N/A,N/A
+OBS_26-0498,c49,Ms. Benoit,N/A,N/A
+OBS_26-0498,c50,Ms. Benoit,N/A,N/A
+OBS_26-0498,c51,Gregorio,N/A,N/A
+OBS_26-0498,c52,Gregorio,N/A,N/A
+OBS_26-0498,c53,Gregorio,N/A,N/A
+OBS_26-0498,c54,Ms. Gallagher,N/A,N/A
+OBS_26-0498,c55,Gregorio,N/A,N/A
+OBS_26-0498,c56,Ms. Gallagher,N/A,N/A
+OBS_26-0498,d1,Ms. Benoit,N/A,N/A
+OBS_26-0498,d2,Miguel,Some detail,Medium
+OBS_26-0498,d3,Miguel,Some detail,Medium
+OBS_26-0498,d4,Gregorio,Some detail,Medium
+OBS_26-0498,d5,Ms. Benoit,N/A,N/A
+OBS_26-0498,d6,Ms. Benoit,N/A,N/A
+OBS_26-0498,d7,Ms. Benoit,N/A,N/A
+OBS_26-0498,d8,Ms. Benoit,N/A,N/A
+OBS_26-0498,d9,Ms. Benoit,N/A,N/A
+OBS_26-0498,d10,Ms. Benoit,N/A,N/A
+OBS_26-0498,d11,Miguel,No detail,Low
+OBS_26-0498,d12,Gregorio,Wrong detail,Low
+OBS_26-0498,d13,Miguel,Unclear,Unclear
+OBS_26-0498,d14,Ms. Benoit,N/A,N/A
+OBS_26-0498,d15,Ms. Benoit,N/A,N/A
+OBS_26-0498,d16,Miguel,Some detail,Medium
+OBS_26-0498,d17,Ms. Benoit,N/A,N/A
+OBS_26-0498,d18,Miguel,Unclear,Unclear
+OBS_26-0498,d19,Gregorio,Wrong detail,Low
+OBS_26-0498,d20,Miguel,No detail,Low
+OBS_26-0498,d21,Ms. Benoit,N/A,N/A
+OBS_26-0498,d22,Gregorio,Some detail,Medium
+OBS_26-0498,d23,Ms. Benoit,N/A,N/A
+OBS_26-0498,d24,Ms. Benoit,N/A,N/A
+OBS_26-0498,d25,Miguel,No detail,Low
+OBS_26-0498,d26,Gregorio,Unclear,Low
+OBS_26-0498,d27,Miguel,Wrong detail,Low
+OBS_26-0498,d28,Ms. Benoit,N/A,N/A
+OBS_26-0498,d29,Ms. Benoit,N/A,N/A
+OBS_26-0498,d30,Ms. Benoit,N/A,N/A
+OBS_26-0498,d31,Gregorio,Unclear,Unclear
+OBS_26-0498,d32,Gregorio,Fully detailed,Medium
+OBS_26-0498,d33,Ms. Benoit,N/A,N/A
+OBS_26-0498,d34,Gregorio,Some detail,Low
+OBS_26-0498,d35,Miguel,N/A,Unclear
+OBS_26-0498,d36,Miguel,N/A,Low
+OBS_26-0498,d37,Ms. Gallagher,N/A,N/A
+OBS_26-0498,d38,Miguel,Unclear,Unclear
+OBS_26-0498,d39,Gregorio,N/A,Low
+OBS_26-0498,d40,Miguel,No detail,Low
+OBS_26-0498,d41,Ms. Gallagher,N/A,N/A

@@ -1,0 +1,98 @@
+observation,row,speaker,vishal_whose,vishal_level,caesar_whose,caesar_level,final_whose,final_level
+OBS_26-0498,c1,Ms. Benoit,,,,,,
+OBS_26-0498,c2,Miguel,,,Other,Low,,
+OBS_26-0498,c3,Other,,,Other,Low,,
+OBS_26-0498,c4,Miguel,,,Other,Low,,
+OBS_26-0498,c5,Other,Self,Some detail,Other,Low,Self,No detail
+OBS_26-0498,c6,Miguel,,,,,,
+OBS_26-0498,c7,Miguel,,,Self,No detail,,
+OBS_26-0498,c8,Gregorio,,,,,,
+OBS_26-0498,c9,Gregorio,,,,,,
+OBS_26-0498,c10,Gregorio,Self,Some detail,Other,Low,Other,Low
+OBS_26-0498,c11,Other,Other,Medium,Other,Medium,Other,Medium
+OBS_26-0498,c12,Gregorio,Other,,Other,Medium,Other,
+OBS_26-0498,c13,Gregorio,Other,High,Other,Medium,Other,Medium
+OBS_26-0498,c14,Miguel,Other,High,Other,Low,Other,High
+OBS_26-0498,c15,Other,Other,Low,Other,Low,Other,Low
+OBS_26-0498,c16,Gregorio,Other,High,Other,Low,Other,Low
+OBS_26-0498,c17,Other,Other,High,Other,Low,Other,Low
+OBS_26-0498,c18,Miguel,Other,High,Other,High,Other,High
+OBS_26-0498,c19,Gregorio,,,,,,
+OBS_26-0498,c20,Other,Other,Low,Other,Low,Other,Low
+OBS_26-0498,c21,Ms. Benoit,,,,,,
+OBS_26-0498,c22,Ms. Benoit,,,,,,
+OBS_26-0498,c23,Gregorio,Self,No detail,Other,Low,Self,No detail
+OBS_26-0498,c24,Miguel,Other,Low,Other,Low,Other,Low
+OBS_26-0498,c25,Ms. Benoit,,,,,,
+OBS_26-0498,c26,Ms. Benoit,,,,,,
+OBS_26-0498,c27,Miguel,Self,No detail,Other,Low,Self,No detail
+OBS_26-0498,c28,Gregorio,Other,High,Other,High,Other,High
+OBS_26-0498,c29,Ms. Benoit,,,,,,
+OBS_26-0498,c30,Ms. Benoit,,,,,,
+OBS_26-0498,c31,Ms. Benoit,,,,,,
+OBS_26-0498,c32,Ms. Benoit,,,,,,
+OBS_26-0498,c33,Gregorio,,,Other,,,
+OBS_26-0498,c34,Ms. Benoit,,,,,,
+OBS_26-0498,c35,Gregorio,,,Other,,,
+OBS_26-0498,c36,Gregorio,,,,,,
+OBS_26-0498,c37,Other,,,,,,
+OBS_26-0498,c38,Gregorio,Self,,Other,Low,Self,
+OBS_26-0498,c39,Other,,,Other,Low,Self,No detail
+OBS_26-0498,c40,Gregorio,,,,,,
+OBS_26-0498,c41,Miguel,,,Self,No detail,Self,
+OBS_26-0498,c42,Gregorio,Self,,Other,,Self,
+OBS_26-0498,c43,Gregorio,Self,Fully detailed,Other,,Self,
+OBS_26-0498,c44,Gregorio,,,Other,,Self,
+OBS_26-0498,c45,Gregorio,,,Other,High,Self,Fully detailed
+OBS_26-0498,c46,Miguel,,,,,,
+OBS_26-0498,c47,Ms. Benoit,,,Other,Low,,
+OBS_26-0498,c48,Gregorio,,,,,,
+OBS_26-0498,c49,Ms. Benoit,,,,,,
+OBS_26-0498,c50,Ms. Benoit,,,,,,
+OBS_26-0498,c51,Gregorio,,,,,,
+OBS_26-0498,c52,Gregorio,,,,,,
+OBS_26-0498,c53,Gregorio,,,Other,Medium,,
+OBS_26-0498,c54,Ms. Gallagher,,,,,,
+OBS_26-0498,c55,Gregorio,,,,,,
+OBS_26-0498,c56,Ms. Gallagher,,,,,,
+OBS_26-0498,d1,Ms. Benoit,,,,,,
+OBS_26-0498,d2,Miguel,Self,,Self,,Self,
+OBS_26-0498,d3,Miguel,Self,Fully detailed,Self,Fully detailed,Self,Fully detailed
+OBS_26-0498,d4,Gregorio,Other,High,Self,Some detail,Self,Fully detailed
+OBS_26-0498,d5,Ms. Benoit,,,,,,
+OBS_26-0498,d6,Ms. Benoit,,,,,,
+OBS_26-0498,d7,Ms. Benoit,,,,,,
+OBS_26-0498,d8,Ms. Benoit,,,,,,
+OBS_26-0498,d9,Ms. Benoit,,,,,,
+OBS_26-0498,d10,Ms. Benoit,,,,,,
+OBS_26-0498,d11,Miguel,Self,,,,Self,Unclear
+OBS_26-0498,d12,Gregorio,Other,High,Other,Low,Other,Medium
+OBS_26-0498,d13,Miguel,,,,,,
+OBS_26-0498,d14,Ms. Benoit,,,,,,
+OBS_26-0498,d15,Ms. Benoit,,,,,,
+OBS_26-0498,d16,Miguel,Self,No detail,,,Self,No detail
+OBS_26-0498,d17,Ms. Benoit,,,,,,
+OBS_26-0498,d18,Miguel,,,,,,
+OBS_26-0498,d19,Gregorio,Self,Some detail,Other,Low,Self,No detail
+OBS_26-0498,d20,Miguel,Other,Low,Other,Low,Other,Low
+OBS_26-0498,d21,Ms. Benoit,,,,,,
+OBS_26-0498,d22,Gregorio,Unclear,,,,Self,No detail
+OBS_26-0498,d23,Ms. Benoit,,,,,,
+OBS_26-0498,d24,Ms. Benoit,,,,,,
+OBS_26-0498,d25,Miguel,Self,No detail,Self,No detail,Self,No detail
+OBS_26-0498,d26,Gregorio,Self,Some detail,,,Self,No detail
+OBS_26-0498,d27,Miguel,Other,Medium,Other,Low,Other,Low
+OBS_26-0498,d28,Ms. Benoit,,,,,,
+OBS_26-0498,d29,Ms. Benoit,,,,,,
+OBS_26-0498,d30,Ms. Benoit,,,,,,
+OBS_26-0498,d31,Gregorio,Self,,,,,
+OBS_26-0498,d32,Gregorio,Self,Wrong detail,Self,Some detail,Self,Some detail
+OBS_26-0498,d33,Ms. Benoit,,,Other,Low,,
+OBS_26-0498,d34,Gregorio,Self,Wrong detail,Other,Medium,Self,No detail
+OBS_26-0498,d35,Miguel,,,,,,
+OBS_26-0498,d36,Miguel,,,,,,
+OBS_26-0498,d37,Ms. Gallagher,,,,,,
+OBS_26-0498,d38,Miguel,,,,,,
+OBS_26-0498,d39,Gregorio,,,,,,
+OBS_26-0498,d40,Miguel,,,Self,No detail,Self,Some detail
+OBS_26-0498,d41,Ms. Gallagher,,,,,,

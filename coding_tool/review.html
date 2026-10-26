@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Human vs LLM Review</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<style>
+:root {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --text: #1d1d1b;
+  --muted: #6b6b66;
+  --border: #deddd8;
+  --teacher: #f1f0ec;
+  --accent: #2f5fa7;
+  --agree: #e9f5ec;
+  --disagree: #fbe6e3;
+  --disagree-text: #9b2c1f;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1b1a;
+    --surface: #242423;
+    --text: #ecebe6;
+    --muted: #a3a29c;
+    --border: #3a3a38;
+    --teacher: #2c2c2a;
+    --accent: #8cb4f0;
+    --agree: #1f3326;
+    --disagree: #3f2320;
+    --disagree-text: #f0a497;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+header {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 12px 16px; display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center;
+}
+header h1 { font-size: 16px; margin: 0 8px 0 0; }
+header label { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+header select { font: inherit; padding: 4px 6px; border: 1px solid var(--border); border-radius: 4px; background: var(--bg); color: var(--text); }
+button { font: inherit; padding: 5px 12px; border-radius: 4px; border: 1px solid var(--accent); background: var(--accent); color: var(--surface); cursor: pointer; }
+#summary { width: 100%; color: var(--muted); font-size: 13px; }
+main { padding: 16px; }
+#empty { color: var(--muted); max-width: 720px; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; background: var(--surface); }
+th, td { border-bottom: 1px solid var(--border); padding: 6px; vertical-align: top; text-align: left; }
+th { font-size: 12px; color: var(--muted); font-weight: 600; position: sticky; top: var(--header-height, 58px); background: var(--surface); z-index: 1; }
+td.number { color: var(--muted); font-size: 12px; }
+td.speaker { font-weight: 600; }
+.translation { display: block; margin-top: 3px; color: var(--muted); font-style: italic; font-size: 13px; }
+tr.segment td { background: var(--bg); color: var(--muted); font-style: italic; font-size: 12px; }
+tr.teacher td { background: var(--teacher); }
+td.code { font-size: 13px; }
+td.code.agree { background: var(--agree); }
+td.code.disagree { background: var(--disagree); }
+td.code.disagree .label { color: var(--disagree-text); }
+.label { font-weight: 600; display: block; }
+.reason { display: block; color: var(--muted); font-size: 12px; margin-top: 3px; }
+td textarea { width: 100%; font: inherit; font-size: 13px; padding: 3px 4px; border: 1px solid var(--border); border-radius: 4px; background: var(--surface); color: var(--text); resize: vertical; min-height: 34px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Human vs LLM Review</h1>
+  <label>Open files <input type="file" id="files" accept=".csv" multiple></label>
+  <label>Observation <select id="observation"></select></label>
+  <label>Segment <select id="segment"><option value="">Coded segments</option></select></label>
+  <label>Show
+    <select id="filter">
+      <option value="all">All rows</option>
+      <option value="coded">Rows anyone coded</option>
+      <option value="disagree">Rows where an LLM disagrees with the human code</option>
+    </select>
+  </label>
+  <button id="save">Save notes (CSV)</button>
+  <div id="summary"></div>
+</header>
+<main>
+  <p id="empty">Open these files together: <code>Data/Track A/all_observations_combined.csv</code>; the translations CSVs from <code>Data/Track A/translations</code>; the adjudicated <code>resolutions_OBS_…csv</code> files from <code>Data/human_coding</code>; and the <code>llm_basic_context_…csv</code> and <code>llm_enhanced_v2_context_…csv</code> files from <code>Data/llm_coding</code>. Notes are kept in this browser as you work; use <strong>Save notes (CSV)</strong> to keep a permanent copy, and select that file again to continue later.</p>
+  <table id="review" hidden>
+    <colgroup>
+      <col style="width:4%"><col style="width:7%"><col style="width:27%">
+      <col style="width:17%"><col style="width:17%"><col style="width:13%"><col style="width:15%">
+    </colgroup>
+    <thead>
+      <tr><th>Row</th><th>Speaker</th><th>Dialogue</th><th>Basic LLM</th><th>Enhanced LLM</th><th>Human (adjudicated)</th><th>Notes</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</main>
+
+<script>
+const ADULT_PATTERN = /^(Mr|Ms|Mrs|Dr|Teacher)\b/i;
+const EXPLANATION_LEVELS = ["fully detailed", "some detail", "wrong detail", "no detail"];
+const ENGAGEMENT_LEVELS = ["high", "medium", "low"];
+
+const transcripts = new Map();
+const translations = new Map();
+const human = new Map();
+const basic = new Map();
+const enhanced = new Map();
+let notes = readStorage("mol-review:notes", {});
+let unsavedChanges = false;
+
+const elements = {
+  files: document.getElementById("files"),
+  observation: document.getElementById("observation"),
+  segment: document.getElementById("segment"),
+  filter: document.getElementById("filter"),
+  save: document.getElementById("save"),
+  summary: document.getElementById("summary"),
+  empty: document.getElementById("empty"),
+  table: document.getElementById("review"),
+  body: document.querySelector("#review tbody")
+};
+
+function readStorage(key, fallback) {
+  try {
+    const value = localStorage.getItem(key);
+    return value === null ? fallback : JSON.parse(value);
+  } catch {
+    return fallback;
+  }
+}
+
+function writeStorage(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    return;
+  }
+}
+
+function parseFile(file) {
+  return new Promise((resolve, reject) => {
+    Papa.parse(file, { header: true, skipEmptyLines: true, complete: resolve, error: reject });
+  });
+}
+
+function observationFromName(name) {
+  const match = name.match(/OBS_(\d+)[-_](\d+)/);
+  return match ? `OBS_${match[1]}-${match[2]}` : "";
+}
+
+function nested(map, observation) {
+  if (!map.has(observation)) map.set(observation, new Map());
+  return map.get(observation);
+}
+
+function normalize(value) {
+  const text = (value || "").trim().toLowerCase();
+  if (["", "n/a", "na", "unclear", "unclear / not coded"].includes(text)) return "";
+  return text;
+}
+
+function rowIdentifier(record) {
+  return `${record.segment}${record["#"]}`;
+}
+
+function loadFile(result, name) {
+  const fields = result.meta.fields || [];
+  const fileObservation = observationFromName(name);
+  if (fields.includes("dialogue") && fields.includes("line_order")) {
+    for (const record of result.data) {
+      if (!record.observation) continue;
+      if (!transcripts.has(record.observation)) transcripts.set(record.observation, []);
+      transcripts.get(record.observation).push(record);
+    }
+    for (const rows of transcripts.values()) rows.sort((a, b) => Number(a.line_order) - Number(b.line_order));
+    return "transcript";
+  }
+  const target =
+    fields.includes("final_whose") ? human :
+    fields.includes("translation") ? translations :
+    fields.includes("peer_engagement") ? basic :
+    fields.includes("turn") && fields.includes("whose") ? enhanced :
+    fields.includes("notes") && fields.includes("row") ? "notes" : null;
+  if (!target) return null;
+  for (const record of result.data) {
+    const observation = record.observation || fileObservation;
+    if (!observation || !record.row) continue;
+    if (target === "notes") {
+      notes[observation] = notes[observation] || {};
+      if (record.notes) notes[observation][record.row] = record.notes;
+    } else if (target === translations) {
+      nested(translations, observation).set(record.row, record.translation);
+    } else {
+      nested(target, observation).set(record.row, record);
+    }
+  }
+  if (target === "notes") writeStorage("mol-review:notes", notes);
+  return target === human ? "human codes" : target === translations ? "translations" : target === basic ? "basic LLM" : target === enhanced ? "enhanced LLM" : "notes";
+}
+
+function humanCode(observation, row) {
+  const record = (human.get(observation) || new Map()).get(row) || {};
+  return { whose: record.final_whose || "", level: record.final_level || "", note: record.discussion_notes || "" };
+}
+
+function basicCode(observation, row) {
+  const record = (basic.get(observation) || new Map()).get(row);
+  return record ? { explanation: record.explanation || "", engagement: record.peer_engagement || "", reason: record.reason || "" } : null;
+}
+
+function enhancedCode(observation, row) {
+  const record = (enhanced.get(observation) || new Map()).get(row);
+  return record ? { turn: record.turn || "", whose: record.whose || "", level: record.level || "", reason: record.reason || "" } : null;
+}
+
+function basicStatus(humanValue, basicValue) {
+  if (!basicValue || !["self", "other"].includes(normalize(humanValue.whose))) return "";
+  const scheme = normalize(humanValue.whose) === "self" ? normalize(basicValue.explanation) : normalize(basicValue.engagement);
+  if (!normalize(humanValue.level)) return "";
+  return scheme === normalize(humanValue.level) ? "agree" : "disagree";
+}
+
+function enhancedStatus(humanValue, enhancedValue) {
+  if (!enhancedValue) return "";
+  const humanWhose = normalize(humanValue.whose);
+  const llmWhose = normalize(enhancedValue.whose);
+  if (!humanWhose && !llmWhose) return "";
+  if (humanWhose !== llmWhose) return "disagree";
+  if (normalize(humanValue.level) && normalize(enhancedValue.level) && normalize(humanValue.level) !== normalize(enhancedValue.level)) return "disagree";
+  return "agree";
+}
+
+function codedSegments(observation) {
+  const segments = new Set();
+  for (const [row, record] of human.get(observation) || new Map()) {
+    if (record.final_whose) segments.add(row[0]);
+  }
+  for (const row of (enhanced.get(observation) || new Map()).keys()) segments.add(row[0]);
+  return segments;
+}
+
+function makeCell(className, text) {
+  const cell = document.createElement("td");
+  if (className) cell.className = className;
+  if (text !== undefined) cell.textContent = text;
+  return cell;
+}
+
+function codeCell(status, label, reason) {
+  const cell = makeCell(`code ${status}`);
+  const labelLine = document.createElement("span");
+  labelLine.className = "label";
+  labelLine.textContent = label;
+  cell.appendChild(labelLine);
+  if (reason) {
+    const reasonLine = document.createElement("span");
+    reasonLine.className = "reason";
+    reasonLine.textContent = reason;
+    cell.appendChild(reasonLine);
+  }
+  return cell;
+}
+
+function render() {
+  const observation = elements.observation.value;
+  const rows = transcripts.get(observation) || [];
+  const segment = elements.segment.value;
+  const coded = codedSegments(observation);
+  const filter = elements.filter.value;
+  const counts = { basicAgree: 0, basicCompared: 0, enhancedAgree: 0, enhancedCompared: 0 };
+  elements.body.innerHTML = "";
+  let previousSegment = null;
+
+  for (const record of rows) {
+    if (segment ? record.segment !== segment : !coded.has(record.segment)) continue;
+    const row = rowIdentifier(record);
+    const humanValue = humanCode(observation, row);
+    const basicValue = basicCode(observation, row);
+    const enhancedValue = enhancedCode(observation, row);
+    const basicState = basicStatus(humanValue, basicValue);
+    const enhancedState = enhancedStatus(humanValue, enhancedValue);
+    if (basicState) { counts.basicCompared += 1; if (basicState === "agree") counts.basicAgree += 1; }
+    if (enhancedState) { counts.enhancedCompared += 1; if (enhancedState === "agree") counts.enhancedAgree += 1; }
+
+    const anyCoded = humanValue.whose || (basicValue && (normalize(basicValue.explanation) || normalize(basicValue.engagement))) || (enhancedValue && normalize(enhancedValue.whose));
+    if (filter === "coded" && !anyCoded) continue;
+    if (filter === "disagree" && basicState !== "disagree" && enhancedState !== "disagree") continue;
+
+    if (record.segment !== previousSegment) {
+      const segmentRow = document.createElement("tr");
+      segmentRow.className = "segment";
+      const cell = makeCell("", `Segment ${record.segment}`);
+      cell.colSpan = 7;
+      segmentRow.appendChild(cell);
+      elements.body.appendChild(segmentRow);
+      previousSegment = record.segment;
+    }
+
+    const tableRow = document.createElement("tr");
+    if (ADULT_PATTERN.test(record.speaker || "")) tableRow.className = "teacher";
+    const dialogueCell = makeCell("dialogue", record.dialogue);
+    const translation = (translations.get(observation) || new Map()).get(row);
+    if (translation) {
+      const line = document.createElement("span");
+      line.className = "translation";
+      line.textContent = translation;
+      dialogueCell.appendChild(line);
+    }
+
+    const humanLabel = humanValue.whose ? `${humanValue.whose}${humanValue.level ? " / " + humanValue.level : ""}` : "—";
+    const basicLabel = basicValue ? `${basicValue.explanation || "—"} · ${basicValue.engagement || "—"}` : "(not run)";
+    const enhancedLabel = enhancedValue ? `${enhancedValue.turn ? enhancedValue.turn + " · " : ""}${enhancedValue.whose || "—"}${enhancedValue.level ? " / " + enhancedValue.level : ""}` : "(not run)";
+
+    const notesCell = makeCell("");
+    const textarea = document.createElement("textarea");
+    textarea.placeholder = "Notes";
+    textarea.value = (notes[observation] || {})[row] || "";
+    textarea.addEventListener("change", () => {
+      notes[observation] = notes[observation] || {};
+      notes[observation][row] = textarea.value;
+      writeStorage("mol-review:notes", notes);
+      unsavedChanges = true;
+    });
+    notesCell.appendChild(textarea);
+
+    tableRow.append(
+      makeCell("number", row),
+      makeCell("speaker", record.speaker),
+      dialogueCell,
+      codeCell(basicState, basicLabel, basicValue ? basicValue.reason : ""),
+      codeCell(enhancedState, enhancedLabel, enhancedValue ? enhancedValue.reason : ""),
+      codeCell("", humanLabel, humanValue.note),
+      notesCell
+    );
+    elements.body.appendChild(tableRow);
+  }
+
+  const rate = (agree, compared) => compared ? `${agree}/${compared} (${Math.round(100 * agree / compared)}%)` : "n/a";
+  elements.summary.textContent = `Line-level agreement with the human code in these segments: basic LLM ${rate(counts.basicAgree, counts.basicCompared)} on Level (using its explanation label for human Self lines and its engagement label for human Other lines); enhanced LLM ${rate(counts.enhancedAgree, counts.enhancedCompared)} on Whose and Level.`;
+  elements.table.hidden = rows.length === 0;
+  elements.empty.hidden = rows.length > 0;
+  document.documentElement.style.setProperty("--header-height", `${document.querySelector("header").offsetHeight}px`);
+}
+
+function populateObservations() {
+  const withCodes = [...transcripts.keys()].filter(observation => human.has(observation) || enhanced.has(observation)).sort();
+  const current = elements.observation.value;
+  elements.observation.innerHTML = "";
+  for (const observation of withCodes) {
+    const option = document.createElement("option");
+    option.value = observation;
+    option.textContent = observation;
+    elements.observation.appendChild(option);
+  }
+  if (withCodes.includes(current)) elements.observation.value = current;
+  populateSegments();
+}
+
+function populateSegments() {
+  const rows = transcripts.get(elements.observation.value) || [];
+  elements.segment.innerHTML = '<option value="">Coded segments</option>';
+  for (const segment of [...new Set(rows.map(row => row.segment))]) {
+    const option = document.createElement("option");
+    option.value = segment;
+    option.textContent = `Segment ${segment}`;
+    elements.segment.appendChild(option);
+  }
+  render();
+}
+
+function saveNotes() {
+  const output = [];
+  for (const [observation, rows] of transcripts) {
+    for (const record of rows) {
+      const row = rowIdentifier(record);
+      const note = (notes[observation] || {})[row];
+      if (!note) continue;
+      const humanValue = humanCode(observation, row);
+      const basicValue = basicCode(observation, row) || {};
+      const enhancedValue = enhancedCode(observation, row) || {};
+      output.push({
+        observation, row, speaker: record.speaker,
+        human: [humanValue.whose, humanValue.level].filter(Boolean).join(" / "),
+        basic_llm: [basicValue.explanation, basicValue.engagement].filter(Boolean).join(" · "),
+        enhanced_llm: [enhancedValue.whose, enhancedValue.level].filter(Boolean).join(" / "),
+        notes: note
+      });
+    }
+  }
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(new Blob([Papa.unparse(output)], { type: "text/csv" }));
+  link.download = "review_notes.csv";
+  link.click();
+  URL.revokeObjectURL(link.href);
+  unsavedChanges = false;
+}
+
+elements.files.addEventListener("change", async () => {
+  const files = [...elements.files.files];
+  elements.summary.textContent = "Loading files...";
+  const results = await Promise.all(files.map(parseFile));
+  const loaded = [];
+  const ignored = [];
+  results.forEach((result, index) => {
+    const kind = loadFile(result, files[index].name);
+    (kind ? loaded : ignored).push(kind || files[index].name);
+  });
+  populateObservations();
+  const messages = [];
+  if (!transcripts.size) messages.push("No transcript loaded: also select Data/Track A/all_observations_combined.csv.");
+  if (ignored.length) messages.push(`Ignored (not recognized): ${ignored.join(", ")}.`);
+  if (messages.length) elements.summary.textContent = messages.join(" ");
+  elements.files.value = "";
+});
+
+elements.observation.addEventListener("change", populateSegments);
+elements.segment.addEventListener("change", render);
+elements.filter.addEventListener("change", render);
+elements.save.addEventListener("click", saveNotes);
+window.addEventListener("beforeunload", event => {
+  if (unsavedChanges) event.preventDefault();
+});
+</script>
+</body>
+</html>

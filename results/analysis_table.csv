@@ -1,0 +1,249 @@
+observation,row,segment,speaker,is_adult,vishal_whose,vishal_level,caesar_whose,caesar_level,human_final_whose,human_final_level,basic_explanation,basic_peer_engagement,enhanced_turn,enhanced_whose,enhanced_builds_on,enhanced_level,gca_unit,gca_social_impact,gca_impact_pct,gca_responsivity,gca_responsivity_pct
+OBS_26-0498,c1,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c2,c,Miguel,False,,,Other,Low,,,N/A,Medium,T1,Unclear / not coded,,,U78,0.2198510989546775,0.2,,
+OBS_26-0498,c3,c,Other,False,,,Other,Low,,,N/A,Medium,T2,Unclear / not coded,,,,,,,
+OBS_26-0498,c4,c,Miguel,False,,,Other,Low,,,N/A,Medium,T3,Unclear / not coded,,,U78,0.2198510989546775,0.2,,
+OBS_26-0498,c5,c,Other,False,Self,Some detail,Other,Low,Self,No detail,Some detail,Medium,T4,Self,,some detail,,,,,
+OBS_26-0498,c6,c,Miguel,False,,,,,,,No detail,Low,T5,Unclear / not coded,,,U78,0.2198510989546775,0.2,,
+OBS_26-0498,c7,c,Miguel,False,,,Self,No detail,,,No detail,Low,T6,Unclear / not coded,,,U78,0.2198510989546775,0.2,,
+OBS_26-0498,c8,c,Gregorio,False,,,,,,,N/A,Unclear,T7,Unclear / not coded,,,U79,0.3320425152778625,0.54,0.344355046749115,0.52
+OBS_26-0498,c9,c,Gregorio,False,,,,,,,N/A,High,T8,Other,Other c5 (groups of five),,U79,0.3320425152778625,0.54,0.344355046749115,0.52
+OBS_26-0498,c10,c,Gregorio,False,Self,Some detail,Other,Low,Other,Low,Some detail,High,T8,Other,Other c5 (groups of five),medium,U79,0.3320425152778625,0.54,0.344355046749115,0.52
+OBS_26-0498,c11,c,Other,False,Other,Medium,Other,Medium,Other,Medium,Some detail,High,T9,Self,,some detail,,,,,
+OBS_26-0498,c12,c,Gregorio,False,Other,,Other,Medium,Other,,Wrong detail,High,T10,Other,Other c11,,U79,0.3320425152778625,0.54,0.344355046749115,0.52
+OBS_26-0498,c13,c,Gregorio,False,Other,High,Other,Medium,Other,Medium,Wrong detail,High,T10,Other,Other c11,medium,U79,0.3320425152778625,0.54,0.344355046749115,0.52
+OBS_26-0498,c14,c,Miguel,False,Other,High,Other,Low,Other,High,Some detail,High,T11,Other,Gregorio c12-c13,high,U80,0.2997243404388428,0.39,0.3526044487953186,0.53
+OBS_26-0498,c15,c,Other,False,Other,Low,Other,Low,Other,Low,No detail,Low,T12,Other,Miguel c14,low,,,,,
+OBS_26-0498,c16,c,Gregorio,False,Other,High,Other,Low,Other,Low,N/A,High,T13,Other,Miguel c14,medium,U81,0.2733468487858772,0.32,0.2126030549407005,0.18
+OBS_26-0498,c17,c,Other,False,Other,High,Other,Low,Other,Low,Some detail,High,T14,Other,Gregorio c16,medium,,,,,
+OBS_26-0498,c18,c,Miguel,False,Other,High,Other,High,Other,High,Fully detailed,High,T15,Other,Other c17,high,U82,0.2982125431299209,0.38,0.3214364200830459,0.45
+OBS_26-0498,c19,c,Gregorio,False,,,,,,,Unclear,Unclear,T16,Unclear / not coded,,,,,,,
+OBS_26-0498,c20,c,Other,False,Other,Low,Other,Low,Other,Low,No detail,Low,T17,Other,Miguel c18,low,,,,,
+OBS_26-0498,c21,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c22,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c23,c,Gregorio,False,Self,No detail,Other,Low,Self,No detail,No detail,Medium,T18,Unclear / not coded,,,U83,0.308710865676403,0.46,0.227351427078247,0.2
+OBS_26-0498,c24,c,Miguel,False,Other,Low,Other,Low,Other,Low,Some detail,Medium,T19,Self,,some detail,U84,0.4239448457956314,0.68,0.1996697634458542,0.15
+OBS_26-0498,c25,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c26,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c27,c,Miguel,False,Self,No detail,Other,Low,Self,No detail,No detail,Low,T20,Self,,no detail,U84,0.4239448457956314,0.68,0.1996697634458542,0.15
+OBS_26-0498,c28,c,Gregorio,False,Other,High,Other,High,Other,High,N/A,High,T21,Other,Miguel c24-c27,medium,U85,0.2587253078818321,0.28,0.3811296373605728,0.62
+OBS_26-0498,c29,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c30,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c31,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c32,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c33,c,Gregorio,False,,,Other,,,,N/A,Low,T22,Unclear / not coded,,,U85,0.2587253078818321,0.28,0.3811296373605728,0.62
+OBS_26-0498,c34,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c35,c,Gregorio,False,,,Other,,,,No detail,Low,T23,Unclear / not coded,,,U85,0.2587253078818321,0.28,0.3811296373605728,0.62
+OBS_26-0498,c36,c,Gregorio,False,,,,,,,Unclear,Unclear,T23,Unclear / not coded,,,,,,,
+OBS_26-0498,c37,c,Other,False,,,,,,,N/A,Medium,T24,Unclear / not coded,,,,,,,
+OBS_26-0498,c38,c,Gregorio,False,Self,,Other,Low,Self,,Unclear,Unclear,T23,Unclear / not coded,,,U85,0.2587253078818321,0.28,0.3811296373605728,0.62
+OBS_26-0498,c39,c,Other,False,,,Other,Low,Self,No detail,N/A,Medium,T24,Unclear / not coded,,,,,,,
+OBS_26-0498,c40,c,Gregorio,False,,,,,,,Unclear,Unclear,T23,Unclear / not coded,,,,,,,
+OBS_26-0498,c41,c,Miguel,False,,,Self,No detail,Self,,N/A,Low,T25,Unclear / not coded,,,U86,0.3063027560710907,0.43,0.3591047078371048,0.55
+OBS_26-0498,c42,c,Gregorio,False,Self,,Other,,Self,,Fully detailed,High,T26,Other,Other c11 and Miguel c24 (peer's drawing),,U87,0.1890433877706527,0.14,0.3871429711580276,0.65
+OBS_26-0498,c43,c,Gregorio,False,Self,Fully detailed,Other,,Self,,Some detail,High,T26,Other,Other c11 and Miguel c24 (peer's drawing),,U87,0.1890433877706527,0.14,0.3871429711580276,0.65
+OBS_26-0498,c44,c,Gregorio,False,,,Other,,Self,,N/A,Low,T26,Other,Other c11 and Miguel c24 (peer's drawing),,U87,0.1890433877706527,0.14,0.3871429711580276,0.65
+OBS_26-0498,c45,c,Gregorio,False,,,Other,High,Self,Fully detailed,N/A,Low,T26,Other,Other c11 and Miguel c24 (peer's drawing),high,U87,0.1890433877706527,0.14,0.3871429711580276,0.65
+OBS_26-0498,c46,c,Miguel,False,,,,,,,N/A,Low,T27,Unclear / not coded,,,U88,0.3062884509563446,0.42,0.210834115743637,0.16
+OBS_26-0498,c47,c,Ms. Benoit,True,,,Other,Low,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c48,c,Gregorio,False,,,,,,,N/A,N/A,T28,N/A,,,U89,,,0.3207751959562301,0.44
+OBS_26-0498,c49,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c50,c,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c51,c,Gregorio,False,,,,,,,N/A,N/A,T29,N/A,,,U89,,,0.3207751959562301,0.44
+OBS_26-0498,c52,c,Gregorio,False,,,,,,,N/A,N/A,T30,N/A,,,U89,,,0.3207751959562301,0.44
+OBS_26-0498,c53,c,Gregorio,False,,,Other,Medium,,,N/A,N/A,T31,N/A,,,U89,,,0.3207751959562301,0.44
+OBS_26-0498,c54,c,Ms. Gallagher,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,c55,c,Gregorio,False,,,,,,,N/A,N/A,T32,N/A,,,U89,,,0.3207751959562301,0.44
+OBS_26-0498,c56,c,Ms. Gallagher,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d1,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d2,d,Miguel,False,Self,,Self,,Self,,Some detail,Medium,T33,Self,,,U90,0.4505938738584518,0.71,,
+OBS_26-0498,d3,d,Miguel,False,Self,Fully detailed,Self,Fully detailed,Self,Fully detailed,Some detail,Medium,T33,Self,,some detail,U90,0.4505938738584518,0.71,,
+OBS_26-0498,d4,d,Gregorio,False,Other,High,Self,Some detail,Self,Fully detailed,Some detail,Medium,T34,Self,,some detail,U91,0.4191567152738571,0.65,0.4921022653579712,0.78
+OBS_26-0498,d5,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d6,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d7,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d8,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d9,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d10,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d11,d,Miguel,False,Self,,,,Self,Unclear,No detail,Low,T35,Self,,,U92,0.3753316551446914,0.59,0.7461740970611572,0.99
+OBS_26-0498,d12,d,Gregorio,False,Other,High,Other,Low,Other,Medium,Wrong detail,Low,T36,Self,,no detail,U93,0.307886078953743,0.44,0.3884919285774231,0.66
+OBS_26-0498,d13,d,Miguel,False,,,,,,,Unclear,Unclear,T35,Self,,,U94,0.2638408988714218,0.31,0.1600455790758133,0.09
+OBS_26-0498,d14,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d15,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d16,d,Miguel,False,Self,No detail,,,Self,No detail,Some detail,Medium,T35,Self,,no detail,U94,0.2638408988714218,0.31,0.1600455790758133,0.09
+OBS_26-0498,d17,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d18,d,Miguel,False,,,,,,,Unclear,Unclear,T37,Unclear / not coded,,,U94,0.2638408988714218,0.31,0.1600455790758133,0.09
+OBS_26-0498,d19,d,Gregorio,False,Self,Some detail,Other,Low,Self,No detail,Wrong detail,Low,T38,Self,,,U95,0.427408754825592,0.69,0.2895251512527466,0.36
+OBS_26-0498,d20,d,Miguel,False,Other,Low,Other,Low,Other,Low,No detail,Low,T39,Other,Gregorio d19,low,U96,0.3167406022548675,0.49,0.3743645399808883,0.6
+OBS_26-0498,d21,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d22,d,Gregorio,False,Unclear,,,,Self,No detail,Some detail,Medium,T38,Self,,some detail,U97,0.2004868388175964,0.16,0.3229885101318359,0.46
+OBS_26-0498,d23,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d24,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d25,d,Miguel,False,Self,No detail,Self,No detail,Self,No detail,No detail,Low,T40,Self,,no detail,U98,0.3992622494697571,0.61,0.4090345203876495,0.69
+OBS_26-0498,d26,d,Gregorio,False,Self,Some detail,,,Self,No detail,Unclear,Low,T41,Self,,,U99,0.4236063808202743,0.67,0.3852381706237793,0.64
+OBS_26-0498,d27,d,Miguel,False,Other,Medium,Other,Low,Other,Low,Wrong detail,Low,T42,Other,Gregorio d26,low,U100,0.1598493382334709,0.08,0.2861907035112381,0.35
+OBS_26-0498,d28,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d29,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d30,d,Ms. Benoit,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d31,d,Gregorio,False,Self,,,,,,Unclear,Unclear,T41,Self,,,U101,0.2842882797122001,0.36,0.2564509958028793,0.26
+OBS_26-0498,d32,d,Gregorio,False,Self,Wrong detail,Self,Some detail,Self,Some detail,Fully detailed,Medium,T41,Self,,,U101,0.2842882797122001,0.36,0.2564509958028793,0.26
+OBS_26-0498,d33,d,Ms. Benoit,True,,,Other,Low,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d34,d,Gregorio,False,Self,Wrong detail,Other,Medium,Self,No detail,Some detail,Low,T41,Self,,some detail,U101,0.2842882797122001,0.36,0.2564509958028793,0.26
+OBS_26-0498,d35,d,Miguel,False,,,,,,,N/A,Unclear,T43,Unclear / not coded,,,U102,0.7046687006950378,0.98,0.291686438024044,0.37
+OBS_26-0498,d36,d,Miguel,False,,,,,,,N/A,Low,T43,Unclear / not coded,,,U102,0.7046687006950378,0.98,0.291686438024044,0.37
+OBS_26-0498,d37,d,Ms. Gallagher,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0498,d38,d,Miguel,False,,,,,,,Unclear,Unclear,T44,Unclear / not coded,,,,,,,
+OBS_26-0498,d39,d,Gregorio,False,,,,,,,N/A,Low,T45,Unclear / not coded,,,U103,0.3042314052581787,0.41,0.4292070791125297,0.72
+OBS_26-0498,d40,d,Miguel,False,,,Self,No detail,Self,Some detail,No detail,Low,T46,Unclear / not coded,,,U104,,,0.3205399215221405,0.42
+OBS_26-0498,d41,d,Ms. Gallagher,True,,,,,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a1,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a2,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a3,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a4,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a5,a,Miguel,False,,,N/A,N/A,,,N/A,High,,Unclear / not coded,,,U1,0.2902798950672149,0.2051282051282051,,
+OBS_26-0515,a6,a,Gregorio,False,Self,,Self,fully detailed,Self,Fully detailed,Fully detailed,Medium,T1,Self,,,U2,0.4299701824784279,0.6025641025641025,0.2874243557453155,0.2179487179487179
+OBS_26-0515,a7,a,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U3,0.3103690892457962,0.2948717948717949,0.1824838668107986,0.0384615384615384
+OBS_26-0515,a8,a,Miguel,False,,,Unclear,Unclear,,,Unclear,Unclear,,Unclear / not coded,,,,,,,
+OBS_26-0515,a9,a,Gregorio,False,Self,Fully detailed,Self,wrong detail,Self,Wrong detail,Unclear,Medium,T1,Self,,fully detailed,U4,0.5661852955818176,0.8589743589743589,0.2271007597446441,0.0769230769230769
+OBS_26-0515,a10,a,Miguel,False,Other,,Self,no detail,Other,,No detail,Medium,T2,Other,Gregorio a6,,U5,0.479076936841011,0.6794871794871795,0.6443460285663605,0.9230769230769232
+OBS_26-0515,a11,a,Miguel,False,Other,High,Other,medium,Other,High,Some detail,Medium,T2,Other,Gregorio a6,low,U5,0.479076936841011,0.6794871794871795,0.6443460285663605,0.9230769230769232
+OBS_26-0515,a12,a,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U5,0.479076936841011,0.6794871794871795,0.6443460285663605,0.9230769230769232
+OBS_26-0515,a13,a,Gregorio,False,,,N/A,N/A,,,N/A,Medium,,Unclear / not coded,,,U6,0.3546482473611831,0.3846153846153846,0.4791862964630127,0.7307692307692307
+OBS_26-0515,a14,a,Miguel,False,Self,,Self,no detail,Self,,No detail,Low,T3,Self,,,U7,0.4831736981868744,0.6923076923076923,0.4452156871557235,0.6282051282051282
+OBS_26-0515,a15,a,Miguel,False,Self,,Self,no detail,Self,,No detail,Low,T3,Self,,some detail,U7,0.4831736981868744,0.6923076923076923,0.4452156871557235,0.6282051282051282
+OBS_26-0515,a16,a,Gregorio,False,,,Unclear,Unclear,,,Unclear,Unclear,,Unclear / not coded,,,,,,,
+OBS_26-0515,a17,a,Miguel,False,Self,Some detail,N/A,N/A,Self,Some detail,No detail,Low,,Unclear / not coded,,,U7,0.4831736981868744,0.6923076923076923,0.4452156871557235,0.6282051282051282
+OBS_26-0515,a18,a,Gregorio,False,,,N/A,N/A,,,No detail,Low,,Unclear / not coded,,,U8,0.3724356144666672,0.4230769230769231,0.4826513677835464,0.7435897435897436
+OBS_26-0515,a19,a,Miguel,False,,,Unclear,Unclear,Self,,Unclear,Unclear,,Unclear / not coded,,,,,,,
+OBS_26-0515,a20,a,Gregorio,False,Self,,N/A,N/A,,,No detail,Medium,T4,Self,,,U8,0.3724356144666672,0.4230769230769231,0.4826513677835464,0.7435897435897436
+OBS_26-0515,a21,a,Miguel,False,,,Unclear,Unclear,Self,,No detail,Medium,T5,Other,Gregorio a20,,U9,0.1657257005572319,0.0384615384615384,0.2976668924093246,0.3076923076923077
+OBS_26-0515,a22,a,Miguel,False,Other,Low,Unclear,Unclear,Self,,No detail,Medium,T5,Other,Gregorio a20,medium,U9,0.1657257005572319,0.0384615384615384,0.2976668924093246,0.3076923076923077
+OBS_26-0515,a23,a,Gregorio,False,Self,,N/A,N/A,Self,,No detail,Medium,T4,Self,,,U10,0.2483557611703872,0.1538461538461538,0.2959544956684112,0.2948717948717949
+OBS_26-0515,a24,a,Miguel,False,Other,,Self,no detail,Self,,No detail,Medium,T6,Other,Gregorio a23,,U11,0.3783859312534332,0.4487179487179487,0.4086116850376129,0.5384615384615384
+OBS_26-0515,a25,a,Miguel,False,Other,,Unclear,Unclear,Self,Unclear,No detail,Medium,T6,Other,Gregorio a23,medium,U11,0.3783859312534332,0.4487179487179487,0.4086116850376129,0.5384615384615384
+OBS_26-0515,a26,a,Gregorio,False,Self,,N/A,N/A,Self,,No detail,Medium,T4,Self,,,U12,0.2962260544300079,0.2179487179487179,0.3035464361310005,0.3205128205128205
+OBS_26-0515,a27,a,Miguel,False,Other,Medium,N/A,N/A,Self,,N/A,Low,T7,Other,Gregorio a26,low,U13,0.222101129591465,0.1153846153846153,0.2955890893936157,0.282051282051282
+OBS_26-0515,a28,a,Gregorio,False,Self,,N/A,N/A,Self,,No detail,Medium,T4,Self,,,U14,0.2397042289376258,0.1282051282051282,0.2705727592110634,0.1923076923076923
+OBS_26-0515,a29,a,Gregorio,False,Self,,N/A,N/A,Self,,No detail,Medium,T4,Self,,,U14,0.2397042289376258,0.1282051282051282,0.2705727592110634,0.1923076923076923
+OBS_26-0515,a30,a,Miguel,False,Self,Fully detailed,N/A,N/A,Self,,N/A,Low,,Unclear / not coded,,,U15,0.1295695081353187,0.0256410256410256,0.1676231101155281,0.0256410256410256
+OBS_26-0515,a31,a,Gregorio,False,Other,High,N/A,N/A,Self,Unclear,No detail,Medium,T4,Self,,no detail,U16,0.536535456776619,0.8205128205128205,0.1961932927370071,0.0512820512820512
+OBS_26-0515,a32,a,Miguel,False,Self,,Unclear,Unclear,Self,,No detail,Low,T8,Self,,,U17,0.3983722180128097,0.5,0.4019805192947387,0.5128205128205128
+OBS_26-0515,a33,a,Miguel,False,Self,,N/A,N/A,,,N/A,Low,T8,Self,,,U17,0.3983722180128097,0.5,0.4019805192947387,0.5128205128205128
+OBS_26-0515,a34,a,Miguel,False,Self,,Unclear,Unclear,Self,Unclear,No detail,Low,T8,Self,,,U17,0.3983722180128097,0.5,0.4019805192947387,0.5128205128205128
+OBS_26-0515,a35,a,Miguel,False,Self,Some detail,Self,no detail,Self,No detail,No detail,Low,T8,Self,,no detail,U17,0.3983722180128097,0.5,0.4019805192947387,0.5128205128205128
+OBS_26-0515,a36,a,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U17,0.3983722180128097,0.5,0.4019805192947387,0.5128205128205128
+OBS_26-0515,a37,a,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,,,,,
+OBS_26-0515,a38,a,Gregorio,False,,,Unclear,Unclear,,,No detail,Low,,Unclear / not coded,,,U18,0.3648246824741363,0.4102564102564102,0.2671214118599891,0.1666666666666666
+OBS_26-0515,a39,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a40,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a41,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a42,a,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U18,0.3648246824741363,0.4102564102564102,0.2671214118599891,0.1666666666666666
+OBS_26-0515,a43,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a44,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,a45,a,Gregorio,False,Self,,Self,no detail,Self,,No detail,Low,T9,Self,,,U18,0.3648246824741363,0.4102564102564102,0.2671214118599891,0.1666666666666666
+OBS_26-0515,a46,a,Gregorio,False,Self,Some detail,Self,no detail,Self,Some detail,Some detail,Low,T9,Self,,no detail,U18,0.3648246824741363,0.4102564102564102,0.2671214118599891,0.1666666666666666
+OBS_26-0515,a47,a,Miguel,False,Other,,Unclear,Unclear,Other,,No detail,Medium,T10,Self,,,U19,0.4224870875477791,0.5641025641025641,0.5127839595079422,0.782051282051282
+OBS_26-0515,a48,a,Miguel,False,Other,,N/A,N/A,Other,,N/A,Medium,T10,Self,,,U19,0.4224870875477791,0.5641025641025641,0.5127839595079422,0.782051282051282
+OBS_26-0515,a49,a,Miguel,False,Other,,N/A,N/A,Other,,N/A,Medium,T10,Self,,,U19,0.4224870875477791,0.5641025641025641,0.5127839595079422,0.782051282051282
+OBS_26-0515,a50,a,Miguel,False,Other,,Self,no detail,Other,,No detail,Medium,T10,Self,,,U19,0.4224870875477791,0.5641025641025641,0.5127839595079422,0.782051282051282
+OBS_26-0515,a51,a,Miguel,False,Other,,N/A,N/A,Other,,No detail,Medium,T10,Self,,no detail,U19,0.4224870875477791,0.5641025641025641,0.5127839595079422,0.782051282051282
+OBS_26-0515,a52,a,Miguel,False,Other,,N/A,N/A,Other,,N/A,Medium,,Unclear / not coded,,,U19,0.4224870875477791,0.5641025641025641,0.5127839595079422,0.782051282051282
+OBS_26-0515,a53,a,Gregorio,False,,,Other,medium,Other,Low,No detail,Medium,T11,Other,Miguel a51,low,U20,0.48897685110569,0.7051282051282052,0.2926477417349815,0.2435897435897435
+OBS_26-0515,a54,a,Miguel,False,Other,,Other,medium,Other,Low,No detail,Medium,T12,Other,Gregorio a53,low,U21,0.4255679100751877,0.5769230769230769,0.3528237044811249,0.4230769230769231
+OBS_26-0515,a55,a,Miguel,False,Other,,Other,high,Other,,No detail,Medium,T13,Self,,,U21,0.4255679100751877,0.5769230769230769,0.3528237044811249,0.4230769230769231
+OBS_26-0515,a56,a,Miguel,False,Other,Medium,Unclear,Unclear,Other,,No detail,Low,T13,Self,,no detail,U21,0.4255679100751877,0.5769230769230769,0.3528237044811249,0.4230769230769231
+OBS_26-0515,a57,a,Gregorio,False,Other,,Other,low,Other,Low,N/A,Medium,,Unclear / not coded,,,U22,0.4948182553052902,0.717948717948718,0.5688550770282745,0.8717948717948718
+OBS_26-0515,a58,a,Gregorio,False,Other,,Other,low,Other,Low,No detail,Low,T14,Self,,,U22,0.4948182553052902,0.717948717948718,0.5688550770282745,0.8717948717948718
+OBS_26-0515,a59,a,Gregorio,False,Other,Medium,N/A,N/A,Unclear,,No detail,Low,T14,Self,,no detail,U22,0.4948182553052902,0.717948717948718,0.5688550770282745,0.8717948717948718
+OBS_26-0515,a60,a,Miguel,False,Other,Low,Other,low,Other,Low,N/A,Medium,,Unclear / not coded,,,U23,0.4118804186582565,0.5384615384615384,0.5293019413948059,0.8076923076923077
+OBS_26-0515,a61,a,Gregorio,False,,,N/A,N/A,,,N/A,High,,Unclear / not coded,,,U24,0.4626091122627258,0.6538461538461539,0.3185707330703735,0.358974358974359
+OBS_26-0515,a62,a,Miguel,False,Other,,N/A,N/A,Other,,No detail,High,T15,Self,,,U25,0.3276411741971969,0.3461538461538461,0.4900478273630142,0.7564102564102564
+OBS_26-0515,a63,a,Miguel,False,Other,Medium,Self,some detail,Other,,Some detail,High,T15,Self,,some detail,U25,0.3276411741971969,0.3461538461538461,0.4900478273630142,0.7564102564102564
+OBS_26-0515,a64,a,Gregorio,False,Other,Medium,Other,low,Other,Low,Unclear,High,T16,Other,Miguel a63,medium,U26,0.6489755511283875,0.935897435897436,0.4619599729776382,0.6794871794871795
+OBS_26-0515,a65,a,Miguel,False,,,N/A,N/A,,,N/A,Medium,,Unclear / not coded,,,U27,0.4035083800554275,0.5256410256410257,0.5742334425449371,0.8846153846153846
+OBS_26-0515,a66,a,Gregorio,False,Other,Medium,Self,no detail,Other,Low,N/A,Medium,,Unclear / not coded,,,U28,0.3224777579307556,0.3333333333333333,0.3061298429965973,0.3333333333333333
+OBS_26-0515,a67,a,Miguel,False,Other,,Unclear,Unclear,Other,,No detail,Medium,,Unclear / not coded,,,U29,0.5161754041910172,0.7692307692307693,0.4466455578804016,0.6410256410256411
+OBS_26-0515,a68,a,Gregorio,False,,,N/A,N/A,,,N/A,Medium,,Unclear / not coded,,,U30,0.3744097799062729,0.4358974358974359,0.4639818072319031,0.7051282051282052
+OBS_26-0515,a69,a,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U30,0.3744097799062729,0.4358974358974359,0.4639818072319031,0.7051282051282052
+OBS_26-0515,a70,a,Miguel,False,,,N/A,N/A,,,N/A,Medium,T17,Self,,,U31,0.5083959102630615,0.7435897435897436,0.4224404692649841,0.5641025641025641
+OBS_26-0515,a71,a,Miguel,False,Other,,Self,some detail,Other,,Some detail,High,T17,Self,,,U31,0.5083959102630615,0.7435897435897436,0.4224404692649841,0.5641025641025641
+OBS_26-0515,a72,a,Gregorio,False,,,Other,low,Other,Low,N/A,High,T18,Other,Miguel a71,low,U32,0.3115343302488327,0.3076923076923077,0.5486092269420624,0.8461538461538461
+OBS_26-0515,a73,a,Miguel,False,Other,High,Self,no detail,Other,,Some detail,High,T17,Self,,,U33,0.2774661630392074,0.1794871794871795,0.2507789582014084,0.1282051282051282
+OBS_26-0515,a74,a,Gregorio,False,Other,,Other,low,Other,Low,N/A,High,T19,Other,Miguel a73,low,U34,0.5496499240398407,0.8333333333333334,0.4024368375539779,0.5256410256410257
+OBS_26-0515,a75,a,Miguel,False,Other,Medium,Self,some detail,Other,,Some detail,High,T17,Self,,,U35,0.399933248758316,0.5128205128205128,0.4501820653676986,0.6538461538461539
+OBS_26-0515,a76,a,Gregorio,False,Other,,Other,low,Other,,N/A,High,T20,Other,Miguel a75,low,U36,0.4275189489126205,0.5897435897435898,0.3112843334674835,0.3461538461538461
+OBS_26-0515,a77,a,Miguel,False,Other,,Self,no detail,Other,,No detail,High,T17,Self,,,U37,0.5075887441635132,0.7307692307692307,0.4661453515291214,0.717948717948718
+OBS_26-0515,a78,a,Miguel,False,Other,,Self,some detail,Other,,Some detail,High,T17,Self,,some detail,U37,0.5075887441635132,0.7307692307692307,0.4661453515291214,0.717948717948718
+OBS_26-0515,a79,a,Gregorio,False,Other,,Other,low,Other,,N/A,High,T21,Other,Miguel a78,low,U38,0.7217384874820709,0.9615384615384616,0.4633896052837372,0.6923076923076923
+OBS_26-0515,a80,a,Miguel,False,Other,Medium,Unclear,Unclear,Other,Medium,N/A,Medium,,Unclear / not coded,,,U39,0.9999997615814208,1.0,0.7421976923942566,0.9743589743589745
+OBS_26-0515,a81,a,Gregorio,False,Other,Low,Unclear,Unclear,Other,Low,N/A,Medium,,Unclear / not coded,,,U40,0.4434772133827209,0.6282051282051282,0.753794252872467,0.9871794871794872
+OBS_26-0515,a82,a,Miguel,False,,,Self,no detail,,,No detail,Medium,,Unclear / not coded,,,U41,,,0.4434772133827209,0.6153846153846154
+OBS_26-0515,a83,a,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b1,b,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U42,0.205868624150753,0.1025641025641025,,
+OBS_26-0515,b2,b,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U42,0.205868624150753,0.1025641025641025,,
+OBS_26-0515,b3,b,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U43,0.4460937604308128,0.6410256410256411,0.2272540032863617,0.0897435897435897
+OBS_26-0515,b4,b,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U44,0.3036539331078529,0.2307692307692307,0.69280606508255,0.9615384615384616
+OBS_26-0515,b5,b,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U45,0.244005735963583,0.141025641025641,0.2945306524634361,0.2692307692307692
+OBS_26-0515,b6,b,Miguel,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U45,0.244005735963583,0.141025641025641,0.2945306524634361,0.2692307692307692
+OBS_26-0515,b7,b,Gregorio,False,Self,No detail,Unclear,Unclear,Self,No detail,No detail,Medium,,Unclear / not coded,,,U46,0.7392520606517792,0.9871794871794872,0.155177105218172,0.0128205128205128
+OBS_26-0515,b8,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b9,b,Miguel,False,Other,Low,Other,medium,Other,Low,No detail,Medium,,Unclear / not coded,,,U47,0.2058399319648742,0.0897435897435897,0.5816491469740868,0.8974358974358975
+OBS_26-0515,b10,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b11,b,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U48,0.1857392266392707,0.0641025641025641,0.2926950454711914,0.2564102564102564
+OBS_26-0515,b12,b,Miguel,False,Self,,Self,some detail,Self,,No detail,Medium,T22,Self,,,U49,0.6483945548534393,0.9230769230769232,0.3337915986776352,0.3846153846153846
+OBS_26-0515,b13,b,Miguel,False,Self,,Self,no detail,Self,,No detail,Medium,T22,Self,,,U49,0.6483945548534393,0.9230769230769232,0.3337915986776352,0.3846153846153846
+OBS_26-0515,b14,b,Miguel,False,,,Unclear,Unclear,,,Unclear,Unclear,,Unclear / not coded,,,,,,,
+OBS_26-0515,b15,b,Gregorio,False,Other,,Self,no detail,Self,,No detail,Medium,T23,Self,,,U50,0.563866138458252,0.8461538461538461,0.3714814782142639,0.4615384615384615
+OBS_26-0515,b16,b,Miguel,False,Self,Some detail,Self,no detail,Self,Some detail,Wrong detail,Medium,T22,Self,,no detail,U51,0.3915250673890114,0.4743589743589743,0.3758284673094749,0.4871794871794871
+OBS_26-0515,b17,b,Gregorio,False,Other,Low,Self,no detail,Self,,No detail,Medium,T23,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b18,b,Gregorio,False,Other,Low,Other,medium,Self,Some detail,No detail,Medium,T23,Self,,no detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b19,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b20,b,Gregorio,False,,,Self,some detail,Self,Some detail,No detail,Low,T24,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b21,b,Gregorio,False,,,Self,no detail,Self,No detail,No detail,Low,T24,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b22,b,Gregorio,False,,,Self,some detail,Self,Some detail,No detail,Low,T24,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b23,b,Gregorio,False,,,Self,some detail,Self,,Wrong detail,Low,T24,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b24,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b25,b,Gregorio,False,,,Self,wrong detail,Self,,Wrong detail,Low,T24,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b26,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b27,b,Gregorio,False,,,Self,wrong detail,Self,,Wrong detail,Low,T24,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b28,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b29,b,Gregorio,False,,,Self,some detail,Self,Some detail,No detail,Low,T24,Self,,wrong detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b30,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b31,b,Gregorio,False,,,N/A,N/A,,,N/A,Low,T25,Self,,no detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b32,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b33,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b34,b,Gregorio,False,,,Self,no detail,Self,,Wrong detail,Low,T26,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b35,b,Gregorio,False,,,Self,no detail,Self,No detail,Wrong detail,Low,T26,Self,,no detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b36,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b37,b,Gregorio,False,,,Self,no detail,Self,No detail,No detail,Low,T27,Self,,no detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b38,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b39,b,Gregorio,False,,,Self,no detail,Self,,N/A,Low,T28,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b40,b,Gregorio,False,,,Self,some detail,Self,No detail,Unclear,Low,T28,Self,,no detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b41,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b42,b,Gregorio,False,,,Self,no detail,Self,,Some detail,Low,T29,Self,,,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b43,b,Gregorio,False,,,Self,no detail,Self,No detail,Some detail,Low,T29,Self,,some detail,U52,0.4128991216421127,0.5512820512820513,0.6611422002315521,0.935897435897436
+OBS_26-0515,b44,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b45,b,Miguel,False,,,Self,no detail,Self,Some detail,Unclear,Low,T30,Self,,some detail,U53,0.1774531453847885,0.0512820512820512,0.5206286162137985,0.7948717948717948
+OBS_26-0515,b46,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b47,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b48,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b49,b,Gregorio,False,,,Self,no detail,,,No detail,Low,T31,Self,,no detail,U54,0.3063075244426727,0.2564102564102564,0.2113881260156631,0.0641025641025641
+OBS_26-0515,b50,b,Ms. Benoit,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b51,b,Miguel,False,Self,,Unclear,Unclear,Self,,Some detail,High,T32,Self,,,U55,0.592362642288208,0.8846153846153846,0.396079733967781,0.5
+OBS_26-0515,b52,b,Gregorio,False,,,N/A,N/A,,,N/A,Medium,,Unclear / not coded,,,U56,0.3616519421339035,0.3974358974358974,0.4100201800465584,0.5512820512820513
+OBS_26-0515,b53,b,Miguel,False,Self,,Other,medium,Self,,Some detail,High,T32,Self,,some detail,U57,0.279338501393795,0.1923076923076923,0.2657959759235382,0.1538461538461538
+OBS_26-0515,b54,b,Miguel,False,Self,,Other,medium,Self,,N/A,High,T33,Other,Gregorio b49,,U57,0.279338501393795,0.1923076923076923,0.2657959759235382,0.1538461538461538
+OBS_26-0515,b55,b,Miguel,False,Self,,Self,some detail,Self,,No detail,High,T33,Other,Gregorio b49,,U57,0.279338501393795,0.1923076923076923,0.2657959759235382,0.1538461538461538
+OBS_26-0515,b56,b,Gregorio,False,,,N/A,N/A,,,N/A,Low,,Unclear / not coded,,,U58,0.3155790865421295,0.3205128205128205,0.3704997226595878,0.4358974358974359
+OBS_26-0515,b57,b,Miguel,False,,,N/A,N/A,,,N/A,Medium,,Unclear / not coded,,,U59,0.5329179167747498,0.7948717948717948,0.3516274392604828,0.4102564102564102
+OBS_26-0515,b58,b,Miguel,False,Self,,Self,some detail,Self,,No detail,High,T33,Other,Gregorio b49,,U59,0.5329179167747498,0.7948717948717948,0.3516274392604828,0.4102564102564102
+OBS_26-0515,b59,b,Miguel,False,Self,,Self,some detail,Self,,Some detail,High,T33,Other,Gregorio b49,,U59,0.5329179167747498,0.7948717948717948,0.3516274392604828,0.4102564102564102
+OBS_26-0515,b60,b,Miguel,False,Self,,Self,no detail,Self,Some detail,Some detail,High,T33,Other,Gregorio b49,medium,U59,0.5329179167747498,0.7948717948717948,0.3516274392604828,0.4102564102564102
+OBS_26-0515,b61,b,Gregorio,False,,,Other,high,Other,High,Some detail,High,T34,Self,,some detail,U60,0.3876427710056305,0.4615384615384615,0.3722755312919616,0.4743589743589743
+OBS_26-0515,b62,b,Miguel,False,Self,,Other,high,Other,,No detail,High,T35,Other,Gregorio b61,,U61,0.6003615856170654,0.8974358974358975,0.3708477914333343,0.4487179487179487
+OBS_26-0515,b63,b,Miguel,False,Self,Fully detailed,Other,high,Other,High,No detail,High,T35,Other,Gregorio b61,,U61,0.6003615856170654,0.8974358974358975,0.3708477914333343,0.4487179487179487
+OBS_26-0515,b64,b,Miguel,False,,,Other,medium,Other,Medium,N/A,High,T35,Other,Gregorio b61,medium,U61,0.6003615856170654,0.8974358974358975,0.3708477914333343,0.4487179487179487
+OBS_26-0515,b65,b,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b66,b,Gregorio,False,,,Unclear,Unclear,,,Some detail,Medium,T36,Self,,no detail,U62,0.1184288635849952,0.0128205128205128,0.6270296275615692,0.9102564102564102
+OBS_26-0515,b67,b,Ms. Gallagher,True,,,N/A,N/A,,,N/A,N/A,,N/A,,,,,,,
+OBS_26-0515,b68,b,Miguel,False,,,Other,low,,,N/A,Medium,,Unclear / not coded,,,U63,,,0.2372684367001056,0.1025641025641025
