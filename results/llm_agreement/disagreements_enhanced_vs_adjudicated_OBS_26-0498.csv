@@ -8,7 +8,8 @@ c23,Gregorio,self / no detail,not coded,no detail,Not coded by LLM
 c24,Miguel,other / low,self / some detail,medium,Whose
 c28,Gregorio,other / high,other / medium,high,Level
 c39,Other,self / no detail,not coded,not coded,Not coded by LLM
-c38-c45,Gregorio,self / fully detailed,other / high,some detail,Whose
+c38-c43,Gregorio,self,other / high,some detail,Whose
+c44-c45,Gregorio,self / fully detailed,other / high,not coded,Whose
 d2-d3,Miguel,self / fully detailed,self / some detail,some detail,Level
 d4,Gregorio,self / fully detailed,self / some detail,some detail,Level
 d12,Gregorio,other / medium,self / no detail,low,Whose

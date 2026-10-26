@@ -1,25 +1,32 @@
 Sample,Method,Error,Reason,Turns
-Test: OBS_26-0498 c-d,Basic LLM,Extra,Whose,8
-Test: OBS_26-0498 c-d,Basic LLM,Extra,Level,4
-Test: OBS_26-0498 c-d,Enhanced LLM,Extra,Level,3
-Test: OBS_26-0498 c-d,Enhanced LLM,Miss,Whose,2
-Test: OBS_26-0498 c-d,GCA responsivity,Miss,Not scored,1
-Test: OBS_26-0498 c-d,GCA social impact,Miss,Not scored,1
-Test: OBS_26-0498 c-d,GCA responsivity,Miss,Below threshold,5
-Test: OBS_26-0498 c-d,GCA social impact,Miss,Below threshold,5
-Test: OBS_26-0498 c-d,Caesar,Miss,Level,2
-Test: OBS_26-0498 c-d,Vishal,Extra,Level,3
-Test: OBS_26-0498 c-d,Enhanced LLM,Extra,Whose,1
-Test: OBS_26-0498 c-d,Vishal,Extra,Whose,1
-Test: OBS_26-0498 c-d,GCA responsivity,Extra,Above threshold,2
-Test: OBS_26-0498 c-d,Basic LLM,Miss,Level,1
-Development: OBS_26-0515 a-b,Basic LLM,Extra,Whose,8
-Development: OBS_26-0515 a-b,GCA social impact,Extra,Above threshold,6
-Development: OBS_26-0515 a-b,Enhanced LLM,Miss,Level,1
-Development: OBS_26-0515 a-b,GCA social impact,Miss,Below threshold,2
-Development: OBS_26-0515 a-b,Enhanced LLM,Extra,Whose,2
-Development: OBS_26-0515 a-b,Basic LLM,Extra,Level,10
-Development: OBS_26-0515 a-b,GCA responsivity,Extra,Above threshold,16
-Development: OBS_26-0515 a-b,Enhanced LLM,Extra,Level,1
-Development: OBS_26-0515 a-b,Enhanced LLM,Miss,Whose,2
-Development: OBS_26-0515 a-b,GCA responsivity,Miss,Below threshold,3
+OBS_26-0498 c-d (test),Basic LLM,Extra,Whose,9
+OBS_26-0498 c-d (test),Basic LLM,Extra,Level,4
+OBS_26-0498 c-d (test),Enhanced LLM,Extra,Level,3
+OBS_26-0498 c-d (test),Enhanced LLM,Miss,Whose,2
+OBS_26-0498 c-d (test),GCA responsivity,Miss,Not scored,1
+OBS_26-0498 c-d (test),GCA social impact,Miss,Not scored,1
+OBS_26-0498 c-d (test),GCA responsivity,Miss,Below threshold,5
+OBS_26-0498 c-d (test),GCA social impact,Miss,Below threshold,5
+OBS_26-0498 c-d (test),Caesar,Miss,Level,2
+OBS_26-0498 c-d (test),Vishal,Extra,Level,3
+OBS_26-0498 c-d (test),Enhanced LLM,Extra,Whose,2
+OBS_26-0498 c-d (test),Vishal,Extra,Whose,1
+OBS_26-0498 c-d (test),GCA responsivity,Extra,Above threshold,2
+OBS_26-0498 c-d (test),Basic LLM,Miss,Level,1
+OBS_26-0515 a-b (calibration),Basic LLM,Extra,Whose,10
+OBS_26-0515 a-b (calibration),GCA social impact,Extra,Above threshold,6
+OBS_26-0515 a-b (calibration),Enhanced LLM,Miss,Level,1
+OBS_26-0515 a-b (calibration),GCA social impact,Miss,Below threshold,2
+OBS_26-0515 a-b (calibration),Enhanced LLM,Extra,Whose,3
+OBS_26-0515 a-b (calibration),Vishal,Extra,Whose,3
+OBS_26-0515 a-b (calibration),Caesar,Extra,Level,3
+OBS_26-0515 a-b (calibration),Basic LLM,Extra,Level,13
+OBS_26-0515 a-b (calibration),Vishal,Extra,Level,6
+OBS_26-0515 a-b (calibration),GCA responsivity,Extra,Above threshold,19
+OBS_26-0515 a-b (calibration),Enhanced LLM,Extra,Level,1
+OBS_26-0515 a-b (calibration),Caesar,Miss,Whose,1
+OBS_26-0515 a-b (calibration),Enhanced LLM,Miss,Whose,2
+OBS_26-0515 a-b (calibration),Caesar,Extra,Whose,1
+OBS_26-0515 a-b (calibration),Vishal,Miss,Not coded,2
+OBS_26-0515 a-b (calibration),GCA responsivity,Miss,Below threshold,3
+OBS_26-0515 a-b (calibration),Vishal,Miss,Whose,1

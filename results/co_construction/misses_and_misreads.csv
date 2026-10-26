@@ -1,91 +1,119 @@
 Sample,Method,Turn,Speaker,Error,Adjudicated,Method label,Reason
-Test: OBS_26-0498 c-d,Basic LLM,c5,Other,Extra,self / no detail,medium,Whose
-Test: OBS_26-0498 c-d,Basic LLM,c10,Gregorio,Extra,other / low,high,Level
-Test: OBS_26-0498 c-d,Enhanced LLM,c10,Gregorio,Extra,other / low,other / medium,Level
-Test: OBS_26-0498 c-d,Enhanced LLM,c11,Other,Miss,other / medium,self / some detail,Whose
-Test: OBS_26-0498 c-d,GCA responsivity,c11,Other,Miss,other / medium,no unit,Not scored
-Test: OBS_26-0498 c-d,GCA social impact,c11,Other,Miss,other / medium,no unit,Not scored
-Test: OBS_26-0498 c-d,GCA responsivity,c12-c13,Gregorio,Miss,other / medium,52%,Below threshold
-Test: OBS_26-0498 c-d,GCA social impact,c12-c13,Gregorio,Miss,other / medium,54%,Below threshold
-Test: OBS_26-0498 c-d,Caesar,c14,Miguel,Miss,other / high,other / low,Level
-Test: OBS_26-0498 c-d,GCA responsivity,c14,Miguel,Miss,other / high,53%,Below threshold
-Test: OBS_26-0498 c-d,GCA social impact,c14,Miguel,Miss,other / high,39%,Below threshold
-Test: OBS_26-0498 c-d,Vishal,c16,Gregorio,Extra,other / low,other / high,Level
-Test: OBS_26-0498 c-d,Basic LLM,c16,Gregorio,Extra,other / low,high,Level
-Test: OBS_26-0498 c-d,Enhanced LLM,c16,Gregorio,Extra,other / low,other / medium,Level
-Test: OBS_26-0498 c-d,Vishal,c17,Other,Extra,other / low,other / high,Level
-Test: OBS_26-0498 c-d,Basic LLM,c17,Other,Extra,other / low,high,Level
-Test: OBS_26-0498 c-d,Enhanced LLM,c17,Other,Extra,other / low,other / medium,Level
-Test: OBS_26-0498 c-d,GCA responsivity,c18,Miguel,Miss,other / high,45%,Below threshold
-Test: OBS_26-0498 c-d,GCA social impact,c18,Miguel,Miss,other / high,38%,Below threshold
-Test: OBS_26-0498 c-d,Basic LLM,c23,Gregorio,Extra,self / no detail,medium,Whose
-Test: OBS_26-0498 c-d,Basic LLM,c24,Miguel,Extra,other / low,medium,Level
-Test: OBS_26-0498 c-d,GCA responsivity,c28,Gregorio,Miss,other / high,62%,Below threshold
-Test: OBS_26-0498 c-d,GCA social impact,c28,Gregorio,Miss,other / high,28%,Below threshold
-Test: OBS_26-0498 c-d,Basic LLM,c39,Other,Extra,self / no detail,medium,Whose
-Test: OBS_26-0498 c-d,Enhanced LLM,c38-c45,Gregorio,Extra,self / fully detailed,other / high,Whose
-Test: OBS_26-0498 c-d,Basic LLM,d2-d3,Miguel,Extra,self / fully detailed,medium,Whose
-Test: OBS_26-0498 c-d,Vishal,d4,Gregorio,Extra,self / fully detailed,other / high,Whose
-Test: OBS_26-0498 c-d,Basic LLM,d4,Gregorio,Extra,self / fully detailed,medium,Whose
-Test: OBS_26-0498 c-d,GCA responsivity,d4,Gregorio,Extra,self / fully detailed,78%,Above threshold
-Test: OBS_26-0498 c-d,GCA responsivity,d11,Miguel,Extra,self,99%,Above threshold
-Test: OBS_26-0498 c-d,Caesar,d12,Gregorio,Miss,other / medium,other / low,Level
-Test: OBS_26-0498 c-d,Basic LLM,d12,Gregorio,Miss,other / medium,low,Level
-Test: OBS_26-0498 c-d,Enhanced LLM,d12,Gregorio,Miss,other / medium,self / no detail,Whose
-Test: OBS_26-0498 c-d,GCA responsivity,d12,Gregorio,Miss,other / medium,66%,Below threshold
-Test: OBS_26-0498 c-d,GCA social impact,d12,Gregorio,Miss,other / medium,44%,Below threshold
-Test: OBS_26-0498 c-d,Basic LLM,d16,Miguel,Extra,self / no detail,medium,Whose
-Test: OBS_26-0498 c-d,Basic LLM,d22,Gregorio,Extra,self / no detail,medium,Whose
-Test: OBS_26-0498 c-d,Vishal,d27,Miguel,Extra,other / low,other / medium,Level
-Test: OBS_26-0498 c-d,Basic LLM,d32,Gregorio,Extra,self / some detail,medium,Whose
-Development: OBS_26-0515 a-b,Basic LLM,a6,Gregorio,Extra,self / fully detailed,medium,Whose
-Development: OBS_26-0515 a-b,Basic LLM,a9,Gregorio,Extra,self / wrong detail,medium,Whose
-Development: OBS_26-0515 a-b,GCA social impact,a9,Gregorio,Extra,self / wrong detail,86%,Above threshold
-Development: OBS_26-0515 a-b,Enhanced LLM,a10-a11,Miguel,Miss,other / high,other / low,Level
-Development: OBS_26-0515 a-b,GCA social impact,a10-a11,Miguel,Miss,other / high,68%,Below threshold
-Development: OBS_26-0515 a-b,Basic LLM,a19-a25,Miguel,Extra,self,medium,Whose
-Development: OBS_26-0515 a-b,Enhanced LLM,a19-a25,Miguel,Extra,self,other / medium,Whose
-Development: OBS_26-0515 a-b,Basic LLM,a23-a31,Gregorio,Extra,self,medium,Whose
-Development: OBS_26-0515 a-b,GCA social impact,a23-a31,Gregorio,Extra,self,82%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,a53,Gregorio,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,Basic LLM,a47-a54,Miguel,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,Basic LLM,a57,Gregorio,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,GCA responsivity,a57,Gregorio,Extra,other / low,87%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,a58,Gregorio,Extra,other / low,87%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,a55-a60,Miguel,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,GCA responsivity,a55-a60,Miguel,Extra,other / low,81%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,a59-a64,Gregorio,Extra,other / low,high,Level
-Development: OBS_26-0515 a-b,Enhanced LLM,a59-a64,Gregorio,Extra,other / low,other / medium,Level
-Development: OBS_26-0515 a-b,GCA social impact,a59-a64,Gregorio,Extra,other / low,94%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,a66,Gregorio,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,Basic LLM,a72,Gregorio,Extra,other / low,high,Level
-Development: OBS_26-0515 a-b,GCA responsivity,a72,Gregorio,Extra,other / low,85%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,a74,Gregorio,Extra,other / low,high,Level
-Development: OBS_26-0515 a-b,GCA social impact,a74,Gregorio,Extra,other / low,83%,Above threshold
-Development: OBS_26-0515 a-b,Enhanced LLM,a62-a80,Miguel,Miss,other / medium,self / some detail,Whose
-Development: OBS_26-0515 a-b,Basic LLM,a76-a81,Gregorio,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,GCA responsivity,a76-a81,Gregorio,Extra,other / low,99%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,b7,Gregorio,Extra,self / no detail,medium,Whose
-Development: OBS_26-0515 a-b,GCA social impact,b7,Gregorio,Extra,self / no detail,99%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,b9,Miguel,Extra,other / low,medium,Level
-Development: OBS_26-0515 a-b,GCA responsivity,b9,Miguel,Extra,other / low,90%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,b12-b16,Miguel,Extra,self / some detail,medium,Whose
-Development: OBS_26-0515 a-b,Basic LLM,b15-b18,Gregorio,Extra,self / some detail,medium,Whose
-Development: OBS_26-0515 a-b,GCA responsivity,b15-b18,Gregorio,Extra,self / some detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b20,Gregorio,Extra,self / some detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b21,Gregorio,Extra,self / no detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b22,Gregorio,Extra,self / some detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b23-b29,Gregorio,Extra,self / some detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b34-b35,Gregorio,Extra,self / no detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b37,Gregorio,Extra,self / no detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b39-b40,Gregorio,Extra,self / no detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b42-b43,Gregorio,Extra,self / no detail,94%,Above threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b45,Miguel,Extra,self / some detail,79%,Above threshold
-Development: OBS_26-0515 a-b,Basic LLM,b51-b60,Miguel,Extra,self / some detail,high,Whose
-Development: OBS_26-0515 a-b,Enhanced LLM,b51-b60,Miguel,Extra,self / some detail,other / medium,Whose
-Development: OBS_26-0515 a-b,GCA social impact,b51-b60,Miguel,Extra,self / some detail,79%,Above threshold
-Development: OBS_26-0515 a-b,Enhanced LLM,b61,Gregorio,Miss,other / high,self / some detail,Whose
-Development: OBS_26-0515 a-b,GCA responsivity,b61,Gregorio,Miss,other / high,47%,Below threshold
-Development: OBS_26-0515 a-b,GCA social impact,b61,Gregorio,Miss,other / high,46%,Below threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b62-b63,Miguel,Miss,other / high,45%,Below threshold
-Development: OBS_26-0515 a-b,GCA responsivity,b64,Miguel,Miss,other / medium,45%,Below threshold
+OBS_26-0498 c-d (test),Basic LLM,c5,Other,Extra,self / no detail,medium,Whose
+OBS_26-0498 c-d (test),Basic LLM,c10,Gregorio,Extra,other / low,high,Level
+OBS_26-0498 c-d (test),Enhanced LLM,c10,Gregorio,Extra,other / low,other / medium,Level
+OBS_26-0498 c-d (test),Enhanced LLM,c11,Other,Miss,other / medium,self / some detail,Whose
+OBS_26-0498 c-d (test),GCA responsivity,c11,Other,Miss,other / medium,no unit,Not scored
+OBS_26-0498 c-d (test),GCA social impact,c11,Other,Miss,other / medium,no unit,Not scored
+OBS_26-0498 c-d (test),GCA responsivity,c12-c13,Gregorio,Miss,other / medium,52%,Below threshold
+OBS_26-0498 c-d (test),GCA social impact,c12-c13,Gregorio,Miss,other / medium,54%,Below threshold
+OBS_26-0498 c-d (test),Caesar,c14,Miguel,Miss,other / high,other / low,Level
+OBS_26-0498 c-d (test),GCA responsivity,c14,Miguel,Miss,other / high,53%,Below threshold
+OBS_26-0498 c-d (test),GCA social impact,c14,Miguel,Miss,other / high,39%,Below threshold
+OBS_26-0498 c-d (test),Vishal,c16,Gregorio,Extra,other / low,other / high,Level
+OBS_26-0498 c-d (test),Basic LLM,c16,Gregorio,Extra,other / low,high,Level
+OBS_26-0498 c-d (test),Enhanced LLM,c16,Gregorio,Extra,other / low,other / medium,Level
+OBS_26-0498 c-d (test),Vishal,c17,Other,Extra,other / low,other / high,Level
+OBS_26-0498 c-d (test),Basic LLM,c17,Other,Extra,other / low,high,Level
+OBS_26-0498 c-d (test),Enhanced LLM,c17,Other,Extra,other / low,other / medium,Level
+OBS_26-0498 c-d (test),GCA responsivity,c18,Miguel,Miss,other / high,45%,Below threshold
+OBS_26-0498 c-d (test),GCA social impact,c18,Miguel,Miss,other / high,38%,Below threshold
+OBS_26-0498 c-d (test),Basic LLM,c23,Gregorio,Extra,self / no detail,medium,Whose
+OBS_26-0498 c-d (test),Basic LLM,c24,Miguel,Extra,other / low,medium,Level
+OBS_26-0498 c-d (test),GCA responsivity,c28,Gregorio,Miss,other / high,62%,Below threshold
+OBS_26-0498 c-d (test),GCA social impact,c28,Gregorio,Miss,other / high,28%,Below threshold
+OBS_26-0498 c-d (test),Basic LLM,c39,Other,Extra,self / no detail,medium,Whose
+OBS_26-0498 c-d (test),Basic LLM,c38-c43,Gregorio,Extra,self,high,Whose
+OBS_26-0498 c-d (test),Enhanced LLM,c38-c43,Gregorio,Extra,self,other / high,Whose
+OBS_26-0498 c-d (test),Enhanced LLM,c44-c45,Gregorio,Extra,self / fully detailed,other / high,Whose
+OBS_26-0498 c-d (test),Basic LLM,d2-d3,Miguel,Extra,self / fully detailed,medium,Whose
+OBS_26-0498 c-d (test),Vishal,d4,Gregorio,Extra,self / fully detailed,other / high,Whose
+OBS_26-0498 c-d (test),Basic LLM,d4,Gregorio,Extra,self / fully detailed,medium,Whose
+OBS_26-0498 c-d (test),GCA responsivity,d4,Gregorio,Extra,self / fully detailed,78%,Above threshold
+OBS_26-0498 c-d (test),GCA responsivity,d11,Miguel,Extra,self,99%,Above threshold
+OBS_26-0498 c-d (test),Caesar,d12,Gregorio,Miss,other / medium,other / low,Level
+OBS_26-0498 c-d (test),Basic LLM,d12,Gregorio,Miss,other / medium,low,Level
+OBS_26-0498 c-d (test),Enhanced LLM,d12,Gregorio,Miss,other / medium,self / no detail,Whose
+OBS_26-0498 c-d (test),GCA responsivity,d12,Gregorio,Miss,other / medium,66%,Below threshold
+OBS_26-0498 c-d (test),GCA social impact,d12,Gregorio,Miss,other / medium,44%,Below threshold
+OBS_26-0498 c-d (test),Basic LLM,d16,Miguel,Extra,self / no detail,medium,Whose
+OBS_26-0498 c-d (test),Basic LLM,d22,Gregorio,Extra,self / no detail,medium,Whose
+OBS_26-0498 c-d (test),Vishal,d27,Miguel,Extra,other / low,other / medium,Level
+OBS_26-0498 c-d (test),Basic LLM,d32,Gregorio,Extra,self / some detail,medium,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,a6,Gregorio,Extra,self / fully detailed,medium,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,a9,Gregorio,Extra,self / wrong detail,medium,Whose
+OBS_26-0515 a-b (calibration),GCA social impact,a9,Gregorio,Extra,self / wrong detail,86%,Above threshold
+OBS_26-0515 a-b (calibration),Enhanced LLM,a10-a11,Miguel,Miss,other / high,other / low,Level
+OBS_26-0515 a-b (calibration),GCA social impact,a10-a11,Miguel,Miss,other / high,68%,Below threshold
+OBS_26-0515 a-b (calibration),Basic LLM,a19-a22,Miguel,Extra,self,medium,Whose
+OBS_26-0515 a-b (calibration),Enhanced LLM,a19-a22,Miguel,Extra,self,other / medium,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,a24-a25,Miguel,Extra,self,medium,Whose
+OBS_26-0515 a-b (calibration),Enhanced LLM,a24-a25,Miguel,Extra,self,other / medium,Whose
+OBS_26-0515 a-b (calibration),Vishal,a27,Miguel,Extra,self,other / medium,Whose
+OBS_26-0515 a-b (calibration),Vishal,a23-a31,Gregorio,Extra,self,other / high,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,a23-a31,Gregorio,Extra,self,medium,Whose
+OBS_26-0515 a-b (calibration),GCA social impact,a23-a31,Gregorio,Extra,self,82%,Above threshold
+OBS_26-0515 a-b (calibration),Caesar,a53,Gregorio,Extra,other / low,other / medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a53,Gregorio,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),Caesar,a47-a54,Miguel,Extra,other / low,other / medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a47-a54,Miguel,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),Vishal,a55-a56,Miguel,Extra,other,other / medium,Level
+OBS_26-0515 a-b (calibration),Caesar,a55-a56,Miguel,Extra,other,other / high,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a57,Gregorio,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),GCA responsivity,a57,Gregorio,Extra,other / low,87%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,a58,Gregorio,Extra,other / low,87%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,a59,Gregorio,Extra,not coded,other / medium,Whose
+OBS_26-0515 a-b (calibration),GCA responsivity,a59,Gregorio,Extra,not coded,87%,Above threshold
+OBS_26-0515 a-b (calibration),Basic LLM,a60,Miguel,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),GCA responsivity,a60,Miguel,Extra,other / low,81%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,a62-a63,Miguel,Extra,other,other / medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a62-a63,Miguel,Extra,other,high,Level
+OBS_26-0515 a-b (calibration),GCA responsivity,a62-a63,Miguel,Extra,other,76%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,a64,Gregorio,Extra,other / low,other / medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a64,Gregorio,Extra,other / low,high,Level
+OBS_26-0515 a-b (calibration),Enhanced LLM,a64,Gregorio,Extra,other / low,other / medium,Level
+OBS_26-0515 a-b (calibration),GCA social impact,a64,Gregorio,Extra,other / low,94%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,a66,Gregorio,Extra,other / low,other / medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a66,Gregorio,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a72,Gregorio,Extra,other / low,high,Level
+OBS_26-0515 a-b (calibration),GCA responsivity,a72,Gregorio,Extra,other / low,85%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,a67-a73,Miguel,Extra,other,other / high,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a67-a73,Miguel,Extra,other,high,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a74,Gregorio,Extra,other / low,high,Level
+OBS_26-0515 a-b (calibration),GCA social impact,a74,Gregorio,Extra,other / low,83%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,a75,Miguel,Extra,other,other / medium,Level
+OBS_26-0515 a-b (calibration),Basic LLM,a75,Miguel,Extra,other,high,Level
+OBS_26-0515 a-b (calibration),Caesar,a77-a80,Miguel,Miss,other / medium,self / some detail,Whose
+OBS_26-0515 a-b (calibration),Enhanced LLM,a77-a80,Miguel,Miss,other / medium,self / some detail,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,a76-a81,Gregorio,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),GCA responsivity,a76-a81,Gregorio,Extra,other / low,99%,Above threshold
+OBS_26-0515 a-b (calibration),Basic LLM,b7,Gregorio,Extra,self / no detail,medium,Whose
+OBS_26-0515 a-b (calibration),GCA social impact,b7,Gregorio,Extra,self / no detail,99%,Above threshold
+OBS_26-0515 a-b (calibration),Basic LLM,b9,Miguel,Extra,other / low,medium,Level
+OBS_26-0515 a-b (calibration),GCA responsivity,b9,Miguel,Extra,other / low,90%,Above threshold
+OBS_26-0515 a-b (calibration),Basic LLM,b12-b16,Miguel,Extra,self / some detail,medium,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,b15-b17,Gregorio,Extra,self,medium,Whose
+OBS_26-0515 a-b (calibration),GCA responsivity,b15-b17,Gregorio,Extra,self,94%,Above threshold
+OBS_26-0515 a-b (calibration),Caesar,b18,Gregorio,Extra,self / some detail,other / medium,Whose
+OBS_26-0515 a-b (calibration),Basic LLM,b18,Gregorio,Extra,self / some detail,medium,Whose
+OBS_26-0515 a-b (calibration),GCA responsivity,b18,Gregorio,Extra,self / some detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b20,Gregorio,Extra,self / some detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b21,Gregorio,Extra,self / no detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b22,Gregorio,Extra,self / some detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b23-b29,Gregorio,Extra,self / some detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b34-b35,Gregorio,Extra,self / no detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b37,Gregorio,Extra,self / no detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b39-b40,Gregorio,Extra,self / no detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b42-b43,Gregorio,Extra,self / no detail,94%,Above threshold
+OBS_26-0515 a-b (calibration),GCA responsivity,b45,Miguel,Extra,self / some detail,79%,Above threshold
+OBS_26-0515 a-b (calibration),Basic LLM,b51-b60,Miguel,Extra,self / some detail,high,Whose
+OBS_26-0515 a-b (calibration),Enhanced LLM,b51-b60,Miguel,Extra,self / some detail,other / medium,Whose
+OBS_26-0515 a-b (calibration),GCA social impact,b51-b60,Miguel,Extra,self / some detail,79%,Above threshold
+OBS_26-0515 a-b (calibration),Vishal,b61,Gregorio,Miss,other / high,not coded,Not coded
+OBS_26-0515 a-b (calibration),Enhanced LLM,b61,Gregorio,Miss,other / high,self / some detail,Whose
+OBS_26-0515 a-b (calibration),GCA responsivity,b61,Gregorio,Miss,other / high,47%,Below threshold
+OBS_26-0515 a-b (calibration),GCA social impact,b61,Gregorio,Miss,other / high,46%,Below threshold
+OBS_26-0515 a-b (calibration),Vishal,b62-b63,Miguel,Miss,other / high,self / fully detailed,Whose
+OBS_26-0515 a-b (calibration),GCA responsivity,b62-b63,Miguel,Miss,other / high,45%,Below threshold
+OBS_26-0515 a-b (calibration),Vishal,b64,Miguel,Miss,other / medium,not coded,Not coded
+OBS_26-0515 a-b (calibration),GCA responsivity,b64,Miguel,Miss,other / medium,45%,Below threshold

@@ -1,0 +1,30 @@
+Turn,Speaker,Adjudicated,Enhanced LLM,Basic LLM level,Difference
+a9,Gregorio,self / wrong detail,self / fully detailed,not coded,Level
+a10-a11,Miguel,other / high,other / low,medium,Level
+a19-a22,Miguel,self,other / medium,no detail,Whose
+a24-a25,Miguel,self,other / medium,no detail,Whose
+a27,Miguel,self,other / low,not coded,Whose
+a30,Miguel,self,not coded,not coded,Not coded by LLM
+a45-a46,Gregorio,self / some detail,self / no detail,some detail,Level
+a55-a56,Miguel,other,self / no detail,low,Whose
+a57,Gregorio,other / low,not coded,medium,Not coded by LLM
+a58,Gregorio,other / low,self / no detail,low,Whose
+a60,Miguel,other / low,not coded,medium,Not coded by LLM
+a62-a63,Miguel,other,self / some detail,high,Whose
+a64,Gregorio,other / low,other / medium,high,Level
+a66,Gregorio,other / low,not coded,medium,Not coded by LLM
+a67-a73,Miguel,other,self / some detail,high,Whose
+a75,Miguel,other,self / some detail,high,Whose
+a77-a80,Miguel,other / medium,self / some detail,medium,Whose
+b7,Gregorio,self / no detail,not coded,no detail,Not coded by LLM
+b9,Miguel,other / low,not coded,medium,Not coded by LLM
+b12-b16,Miguel,self / some detail,self / no detail,wrong detail,Level
+b18,Gregorio,self / some detail,self / no detail,no detail,Level
+b20,Gregorio,self / some detail,self / wrong detail,no detail,Level
+b21,Gregorio,self / no detail,self / wrong detail,no detail,Level
+b22,Gregorio,self / some detail,self / wrong detail,no detail,Level
+b23-b29,Gregorio,self / some detail,self / wrong detail,no detail,Level
+b42-b43,Gregorio,self / no detail,self / some detail,some detail,Level
+b51-b60,Miguel,self / some detail,other / medium,some detail,Whose
+b61,Gregorio,other / high,self / some detail,high,Whose
+b62-b63,Miguel,other / high,other / medium,high,Level

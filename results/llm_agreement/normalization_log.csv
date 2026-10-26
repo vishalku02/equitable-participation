@@ -1,0 +1,70 @@
+coder,row,rule,before,after
+Vishal,d22,Unclear is treated as not coded,Unclear / ,not coded
+Caesar,c47,Adult lines are not coded,Other / Low,not coded
+Caesar,d33,Adult lines are not coded,Other / Low,not coded
+Caesar,c2,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,c23,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,c27,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,c33,Answers to the teacher are Self,Other / ,Self / 
+Caesar,c35,Answers to the teacher are Self,Other / ,Self / 
+Caesar,d34,Answers to the teacher are Self,Other / Medium,Self / Some detail
+Caesar,c2,Coordination moves and starter prompts are not coded,Self / No detail,not coded
+Caesar,c3,Coordination moves and starter prompts are not coded,Other / Low,not coded
+Caesar,c4,Coordination moves and starter prompts are not coded,Other / Low,not coded
+Caesar,c7,Coordination moves and starter prompts are not coded,Self / No detail,not coded
+Caesar,c33,Coordination moves and starter prompts are not coded,Self / ,not coded
+Caesar,c35,Coordination moves and starter prompts are not coded,Self / ,not coded
+Caesar,c41,Coordination moves and starter prompts are not coded,Self / No detail,not coded
+Caesar,c44,Coordination moves and starter prompts are not coded,Other / ,not coded
+Caesar,c45,Coordination moves and starter prompts are not coded,Other / High,not coded
+Caesar,c53,Coordination moves and starter prompts are not coded,Other / Medium,not coded
+Vishal,b9,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,a1,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a2,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a3,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a4,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a39,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a40,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a41,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a43,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a44,Adult lines are not coded,N/A / N/A,not coded
+Caesar,a83,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b8,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b10,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b19,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b24,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b26,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b28,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b30,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b32,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b33,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b36,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b38,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b41,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b44,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b46,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b47,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b48,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b50,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b65,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b67,Adult lines are not coded,N/A / N/A,not coded
+Caesar,b9,Answers to the teacher are Self,Other / Medium,Self / Some detail
+Caesar,b68,Answers to the teacher are Self,Other / Low,Self / No detail
+Caesar,a8,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a16,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a19,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a21,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a22,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a25,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a32,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a34,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a38,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a47,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a56,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a67,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a80,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,a81,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,b7,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,b14,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,b51,Unclear is treated as not coded,Unclear / Unclear,not coded
+Caesar,b66,Unclear is treated as not coded,Unclear / Unclear,not coded

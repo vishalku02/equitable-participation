@@ -1,11 +1,13 @@
-Sample,Method,Reference turns,Turns flagged,Recall,Precision,Flags outside coded turns,recall_value,precision_value
-Test: OBS_26-0498 c-d,Vishal,6,10,6/6 (100%),6/10 (60%),0,1.0,0.6
-Test: OBS_26-0498 c-d,Caesar,6,4,4/6 (67%),4/4 (100%),0,0.6666666666666666,1.0
-Test: OBS_26-0498 c-d,Basic LLM,6,17,5/6 (83%),5/17 (29%),5,0.8333333333333334,0.29411764705882354
-Test: OBS_26-0498 c-d,Enhanced LLM,6,8,4/6 (67%),4/8 (50%),0,0.6666666666666666,0.5
-Test: OBS_26-0498 c-d,GCA responsivity,6,2,0/6 (0%),0/2 (0%),0,0.0,0.0
-Test: OBS_26-0498 c-d,GCA social impact,6,0,0/6 (0%),0/0,1,0.0,
-Development: OBS_26-0515 a-b,Basic LLM,5,23,5/5 (100%),5/23 (22%),12,1.0,0.21739130434782608
-Development: OBS_26-0515 a-b,Enhanced LLM,5,5,2/5 (40%),2/5 (40%),0,0.4,0.4
-Development: OBS_26-0515 a-b,GCA responsivity,5,18,2/5 (40%),2/18 (11%),3,0.4,0.1111111111111111
-Development: OBS_26-0515 a-b,GCA social impact,5,9,3/5 (60%),3/9 (33%),0,0.6,0.3333333333333333
+Sample,Method,Reference turns,Turns flagged,Recall,Precision,Flags outside coded turns
+OBS_26-0498 c-d (test),Vishal,6,10,6/6 (100%),6/10 (60%),0
+OBS_26-0498 c-d (test),Caesar,6,4,4/6 (67%),4/4 (100%),0
+OBS_26-0498 c-d (test),Basic LLM,6,18,5/6 (83%),5/18 (28%),5
+OBS_26-0498 c-d (test),Enhanced LLM,6,9,4/6 (67%),4/9 (44%),0
+OBS_26-0498 c-d (test),GCA responsivity,6,2,0/6 (0%),0/2 (0%),0
+OBS_26-0498 c-d (test),GCA social impact,6,0,0/6 (0%),0/0,1
+OBS_26-0515 a-b (calibration),Vishal,5,11,2/5 (40%),2/11 (18%),0
+OBS_26-0515 a-b (calibration),Caesar,5,8,4/5 (80%),4/8 (50%),0
+OBS_26-0515 a-b (calibration),Basic LLM,5,28,5/5 (100%),5/28 (18%),12
+OBS_26-0515 a-b (calibration),Enhanced LLM,5,6,2/5 (40%),2/6 (33%),0
+OBS_26-0515 a-b (calibration),GCA responsivity,5,21,2/5 (40%),2/21 (10%),3
+OBS_26-0515 a-b (calibration),GCA social impact,5,9,3/5 (60%),3/9 (33%),0

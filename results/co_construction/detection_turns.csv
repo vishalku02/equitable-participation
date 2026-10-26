@@ -14,7 +14,8 @@ OBS_26-0498,c24,c24,Miguel,other,low,other,low,other,low,self,some detail,medium
 OBS_26-0498,c27,c27,Miguel,self,no detail,self,no detail,self,no detail,self,no detail,low,U84,0.15,0.68,False,False,False,False,False,False,False
 OBS_26-0498,c28,c28,Gregorio,other,high,other,high,other,high,other,medium,high,U85,0.62,0.28,True,True,True,True,True,False,False
 OBS_26-0498,c39,c39,Other,self,no detail,,,other,low,,,medium,,,,False,False,False,False,True,False,False
-OBS_26-0498,c38-c45,c38 c42 c43 c44 c45,Gregorio,self,fully detailed,self,fully detailed,other,low,other,high,low,U87,0.65,0.14,False,False,False,True,False,False,False
+OBS_26-0498,c38-c43,c38 c42 c43,Gregorio,self,,self,fully detailed,other,low,other,high,high,U87,0.65,0.14,False,False,False,True,True,False,False
+OBS_26-0498,c44-c45,c44 c45,Gregorio,self,fully detailed,,,,,other,high,low,U87,0.65,0.14,False,False,False,True,False,False,False
 OBS_26-0498,d2-d3,d2 d3,Miguel,self,fully detailed,self,fully detailed,self,fully detailed,self,some detail,medium,U90,,0.71,False,False,False,False,True,False,False
 OBS_26-0498,d4,d4,Gregorio,self,fully detailed,other,high,self,some detail,self,some detail,medium,U91,0.78,0.65,False,True,False,False,True,True,False
 OBS_26-0498,d11,d11,Miguel,self,,self,,,,self,no detail,low,U92,0.99,0.59,False,False,False,False,False,True,False
@@ -29,40 +30,49 @@ OBS_26-0498,d27,d27,Miguel,other,low,other,medium,other,low,other,low,low,U100,0
 OBS_26-0498,d32,d32,Gregorio,self,some detail,self,wrong detail,self,some detail,self,some detail,medium,U101,0.26,0.36,False,False,False,False,True,False,False
 OBS_26-0498,d34,d34,Gregorio,self,no detail,self,wrong detail,self,some detail,self,some detail,low,U101,0.26,0.36,False,False,False,False,False,False,False
 OBS_26-0498,d40,d40,Miguel,self,some detail,,,self,no detail,,,low,U104,0.42,,False,False,False,False,False,False,False
-OBS_26-0515,a6,a6,Gregorio,self,fully detailed,,,,,self,fully detailed,medium,U2,0.2179487179487179,0.6025641025641025,False,,,False,True,False,False
-OBS_26-0515,a9,a9,Gregorio,self,wrong detail,,,,,self,fully detailed,medium,U4,0.0769230769230769,0.8589743589743589,False,,,False,True,False,True
-OBS_26-0515,a10-a11,a10 a11,Miguel,other,high,,,,,other,low,medium,U5,0.9230769230769232,0.6794871794871795,True,,,False,True,True,False
-OBS_26-0515,a14-a17,a14 a15 a17,Miguel,self,some detail,,,,,self,some detail,low,U7,0.6282051282051282,0.6923076923076923,False,,,False,False,False,False
-OBS_26-0515,a19-a25,a19 a21 a22 a24 a25,Miguel,self,,,,,,other,medium,medium,U11,0.5384615384615384,0.4487179487179487,False,,,True,True,False,False
-OBS_26-0515,a23-a31,a23 a26 a28 a29 a31,Gregorio,self,,,,,,self,no detail,medium,U16,0.0512820512820512,0.8205128205128205,False,,,False,True,False,True
-OBS_26-0515,a27-a34,a27 a30 a32 a34,Miguel,self,,,,,,self,no detail,low,U17,0.5128205128205128,0.5,False,,,False,False,False,False
-OBS_26-0515,a35,a35,Miguel,self,no detail,,,,,self,no detail,low,U17,0.5128205128205128,0.5,False,,,False,False,False,False
-OBS_26-0515,a45-a46,a45 a46,Gregorio,self,some detail,,,,,self,no detail,low,U18,0.1666666666666666,0.4102564102564102,False,,,False,False,False,False
-OBS_26-0515,a53,a53,Gregorio,other,low,,,,,other,low,medium,U20,0.2435897435897435,0.7051282051282052,False,,,False,True,False,False
-OBS_26-0515,a47-a54,a47 a48 a49 a50 a51 a52 a54,Miguel,other,low,,,,,other,low,medium,U21,0.4230769230769231,0.5769230769230769,False,,,False,True,False,False
-OBS_26-0515,a57,a57,Gregorio,other,low,,,,,,,medium,U22,0.8717948717948718,0.717948717948718,False,,,False,True,True,False
-OBS_26-0515,a58,a58,Gregorio,other,low,,,,,self,no detail,low,U22,0.8717948717948718,0.717948717948718,False,,,False,False,True,False
-OBS_26-0515,a55-a60,a55 a56 a60,Miguel,other,low,,,,,self,no detail,medium,U23,0.8076923076923077,0.5384615384615384,False,,,False,True,True,False
-OBS_26-0515,a59-a64,a59 a64,Gregorio,other,low,,,,,other,medium,high,U26,0.6794871794871795,0.935897435897436,False,,,True,True,False,True
-OBS_26-0515,a66,a66,Gregorio,other,low,,,,,,,medium,U28,0.3333333333333333,0.3333333333333333,False,,,False,True,False,False
-OBS_26-0515,a72,a72,Gregorio,other,low,,,,,other,low,high,U32,0.8461538461538461,0.3076923076923077,False,,,False,True,True,False
-OBS_26-0515,a74,a74,Gregorio,other,low,,,,,other,low,high,U34,0.5256410256410257,0.8333333333333334,False,,,False,True,False,True
-OBS_26-0515,a62-a80,a62 a63 a67 a71 a73 a75 a77 a78 a80,Miguel,other,medium,,,,,self,some detail,medium,U39,0.9743589743589745,1.0,True,,,False,True,True,True
-OBS_26-0515,a76-a81,a76 a79 a81,Gregorio,other,low,,,,,other,low,medium,U40,0.9871794871794872,0.6282051282051282,False,,,False,True,True,False
-OBS_26-0515,b7,b7,Gregorio,self,no detail,,,,,,,medium,U46,0.0128205128205128,0.9871794871794872,False,,,False,True,False,True
-OBS_26-0515,b9,b9,Miguel,other,low,,,,,,,medium,U47,0.8974358974358975,0.0897435897435897,False,,,False,True,True,False
-OBS_26-0515,b12-b16,b12 b13 b16,Miguel,self,some detail,,,,,self,no detail,medium,U51,0.4871794871794871,0.4743589743589743,False,,,False,True,False,False
-OBS_26-0515,b15-b18,b15 b17 b18,Gregorio,self,some detail,,,,,self,no detail,medium,U52,0.935897435897436,0.5512820512820513,False,,,False,True,True,False
-OBS_26-0515,b20,b20,Gregorio,self,some detail,,,,,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b21,b21,Gregorio,self,no detail,,,,,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b22,b22,Gregorio,self,some detail,,,,,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b23-b29,b23 b25 b27 b29,Gregorio,self,some detail,,,,,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b34-b35,b34 b35,Gregorio,self,no detail,,,,,self,no detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b37,b37,Gregorio,self,no detail,,,,,self,no detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b39-b40,b39 b40,Gregorio,self,no detail,,,,,self,no detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b42-b43,b42 b43,Gregorio,self,no detail,,,,,self,some detail,low,U52,0.935897435897436,0.5512820512820513,False,,,False,False,True,False
-OBS_26-0515,b45,b45,Miguel,self,some detail,,,,,self,some detail,low,U53,0.7948717948717948,0.0512820512820512,False,,,False,False,True,False
-OBS_26-0515,b51-b60,b51 b53 b54 b55 b58 b59 b60,Miguel,self,some detail,,,,,other,medium,high,U59,0.4102564102564102,0.7948717948717948,False,,,True,True,False,True
-OBS_26-0515,b61,b61,Gregorio,other,high,,,,,self,some detail,high,U60,0.4743589743589743,0.4615384615384615,True,,,False,True,False,False
-OBS_26-0515,b62-b63,b62 b63,Miguel,other,high,,,,,other,medium,high,U61,0.4487179487179487,0.8974358974358975,True,,,True,True,False,True
-OBS_26-0515,b64,b64,Miguel,other,medium,,,,,other,medium,high,U61,0.4487179487179487,0.8974358974358975,True,,,True,True,False,True
+OBS_26-0515,a6,a6,Gregorio,self,fully detailed,self,,self,fully detailed,self,fully detailed,medium,U2,0.2179487179487179,0.6025641025641025,False,False,False,False,True,False,False
+OBS_26-0515,a9,a9,Gregorio,self,wrong detail,self,fully detailed,self,wrong detail,self,fully detailed,medium,U4,0.0769230769230769,0.8589743589743589,False,False,False,False,True,False,True
+OBS_26-0515,a10-a11,a10 a11,Miguel,other,high,other,high,other,medium,other,low,medium,U5,0.9230769230769232,0.6794871794871795,True,True,True,False,True,True,False
+OBS_26-0515,a14-a17,a14 a15 a17,Miguel,self,some detail,self,some detail,self,no detail,self,some detail,low,U7,0.6282051282051282,0.6923076923076923,False,False,False,False,False,False,False
+OBS_26-0515,a19-a22,a19 a21 a22,Miguel,self,,other,low,,,other,medium,medium,U9,0.3076923076923077,0.0384615384615384,False,False,False,True,True,False,False
+OBS_26-0515,a24-a25,a24 a25,Miguel,self,,other,,self,no detail,other,medium,medium,U11,0.5384615384615384,0.4487179487179487,False,False,False,True,True,False,False
+OBS_26-0515,a27,a27,Miguel,self,,other,medium,,,other,low,low,U13,0.282051282051282,0.1153846153846153,False,True,False,False,False,False,False
+OBS_26-0515,a30,a30,Miguel,self,,self,fully detailed,,,,,low,U15,0.0256410256410256,0.0256410256410256,False,False,False,False,False,False,False
+OBS_26-0515,a23-a31,a23 a26 a28 a29 a31,Gregorio,self,,other,high,,,self,no detail,medium,U16,0.0512820512820512,0.8205128205128205,False,True,False,False,True,False,True
+OBS_26-0515,a32-a34,a32 a34,Miguel,self,,self,,,,self,no detail,low,U17,0.5128205128205128,0.5,False,False,False,False,False,False,False
+OBS_26-0515,a35,a35,Miguel,self,no detail,self,some detail,self,no detail,self,no detail,low,U17,0.5128205128205128,0.5,False,False,False,False,False,False,False
+OBS_26-0515,a45-a46,a45 a46,Gregorio,self,some detail,self,some detail,self,no detail,self,no detail,low,U18,0.1666666666666666,0.4102564102564102,False,False,False,False,False,False,False
+OBS_26-0515,a53,a53,Gregorio,other,low,,,other,medium,other,low,medium,U20,0.2435897435897435,0.7051282051282052,False,False,True,False,True,False,False
+OBS_26-0515,a47-a54,a47 a48 a49 a50 a51 a52 a54,Miguel,other,low,other,,other,medium,other,low,medium,U21,0.4230769230769231,0.5769230769230769,False,False,True,False,True,False,False
+OBS_26-0515,a55-a56,a55 a56,Miguel,other,,other,medium,other,high,self,no detail,low,U21,0.4230769230769231,0.5769230769230769,False,True,True,False,False,False,False
+OBS_26-0515,a57,a57,Gregorio,other,low,other,,other,low,,,medium,U22,0.8717948717948718,0.717948717948718,False,False,False,False,True,True,False
+OBS_26-0515,a58,a58,Gregorio,other,low,other,,other,low,self,no detail,low,U22,0.8717948717948718,0.717948717948718,False,False,False,False,False,True,False
+OBS_26-0515,a59,a59,Gregorio,,,other,medium,,,self,no detail,low,U22,0.8717948717948718,0.717948717948718,False,True,False,False,False,True,False
+OBS_26-0515,a60,a60,Miguel,other,low,other,low,other,low,,,medium,U23,0.8076923076923077,0.5384615384615384,False,False,False,False,True,True,False
+OBS_26-0515,a62-a63,a62 a63,Miguel,other,,other,medium,self,some detail,self,some detail,high,U25,0.7564102564102564,0.3461538461538461,False,True,False,False,True,True,False
+OBS_26-0515,a64,a64,Gregorio,other,low,other,medium,other,low,other,medium,high,U26,0.6794871794871795,0.935897435897436,False,True,False,True,True,False,True
+OBS_26-0515,a66,a66,Gregorio,other,low,other,medium,self,no detail,,,medium,U28,0.3333333333333333,0.3333333333333333,False,True,False,False,True,False,False
+OBS_26-0515,a72,a72,Gregorio,other,low,,,other,low,other,low,high,U32,0.8461538461538461,0.3076923076923077,False,False,False,False,True,True,False
+OBS_26-0515,a67-a73,a67 a71 a73,Miguel,other,,other,high,self,no detail,self,some detail,high,U33,0.1282051282051282,0.1794871794871795,False,True,False,False,True,False,False
+OBS_26-0515,a74,a74,Gregorio,other,low,other,,other,low,other,low,high,U34,0.5256410256410257,0.8333333333333334,False,False,False,False,True,False,True
+OBS_26-0515,a75,a75,Miguel,other,,other,medium,self,some detail,self,some detail,high,U35,0.6538461538461539,0.5128205128205128,False,True,False,False,True,False,False
+OBS_26-0515,a77-a80,a77 a78 a80,Miguel,other,medium,other,medium,self,some detail,self,some detail,medium,U39,0.9743589743589745,1.0,True,True,False,False,True,True,True
+OBS_26-0515,a76-a81,a76 a79 a81,Gregorio,other,low,other,low,other,low,other,low,medium,U40,0.9871794871794872,0.6282051282051282,False,False,False,False,True,True,False
+OBS_26-0515,b7,b7,Gregorio,self,no detail,self,no detail,,,,,medium,U46,0.0128205128205128,0.9871794871794872,False,False,False,False,True,False,True
+OBS_26-0515,b9,b9,Miguel,other,low,self,no detail,self,some detail,,,medium,U47,0.8974358974358975,0.0897435897435897,False,False,False,False,True,True,False
+OBS_26-0515,b12-b16,b12 b13 b16,Miguel,self,some detail,self,some detail,self,no detail,self,no detail,medium,U51,0.4871794871794871,0.4743589743589743,False,False,False,False,True,False,False
+OBS_26-0515,b15-b17,b15 b17,Gregorio,self,,other,low,self,no detail,self,no detail,medium,U52,0.935897435897436,0.5512820512820513,False,False,False,False,True,True,False
+OBS_26-0515,b18,b18,Gregorio,self,some detail,other,low,other,medium,self,no detail,medium,U52,0.935897435897436,0.5512820512820513,False,False,True,False,True,True,False
+OBS_26-0515,b20,b20,Gregorio,self,some detail,,,self,some detail,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b21,b21,Gregorio,self,no detail,,,self,no detail,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b22,b22,Gregorio,self,some detail,,,self,some detail,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b23-b29,b23 b25 b27 b29,Gregorio,self,some detail,,,self,some detail,self,wrong detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b34-b35,b34 b35,Gregorio,self,no detail,,,self,no detail,self,no detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b37,b37,Gregorio,self,no detail,,,self,no detail,self,no detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b39-b40,b39 b40,Gregorio,self,no detail,,,self,some detail,self,no detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b42-b43,b42 b43,Gregorio,self,no detail,,,self,no detail,self,some detail,low,U52,0.935897435897436,0.5512820512820513,False,False,False,False,False,True,False
+OBS_26-0515,b45,b45,Miguel,self,some detail,,,self,no detail,self,some detail,low,U53,0.7948717948717948,0.0512820512820512,False,False,False,False,False,True,False
+OBS_26-0515,b51-b60,b51 b53 b54 b55 b58 b59 b60,Miguel,self,some detail,self,,self,no detail,other,medium,high,U59,0.4102564102564102,0.7948717948717948,False,False,False,True,True,False,True
+OBS_26-0515,b61,b61,Gregorio,other,high,,,other,high,self,some detail,high,U60,0.4743589743589743,0.4615384615384615,True,False,True,False,True,False,False
+OBS_26-0515,b62-b63,b62 b63,Miguel,other,high,self,fully detailed,other,high,other,medium,high,U61,0.4487179487179487,0.8974358974358975,True,False,True,True,True,False,True
+OBS_26-0515,b64,b64,Miguel,other,medium,,,other,medium,other,medium,high,U61,0.4487179487179487,0.8974358974358975,True,False,True,True,True,False,True
