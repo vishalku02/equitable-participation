@@ -1,0 +1,315 @@
+observation,reference,rater,turn,rows,speaker,reference_whose,reference_level,rater_whose,rater_level
+OBS_26-0498,Vishal,Basic LLM,c5,c5,Other,self,some detail,,some detail
+OBS_26-0498,Vishal,Basic LLM,c10,c10,Gregorio,self,some detail,,some detail
+OBS_26-0498,Vishal,Basic LLM,c11,c11,Other,other,medium,,high
+OBS_26-0498,Vishal,Basic LLM,c12-c13,c12 c13,Gregorio,other,high,,high
+OBS_26-0498,Vishal,Basic LLM,c14,c14,Miguel,other,high,,high
+OBS_26-0498,Vishal,Basic LLM,c15,c15,Other,other,low,,low
+OBS_26-0498,Vishal,Basic LLM,c16,c16,Gregorio,other,high,,high
+OBS_26-0498,Vishal,Basic LLM,c17,c17,Other,other,high,,high
+OBS_26-0498,Vishal,Basic LLM,c18,c18,Miguel,other,high,,high
+OBS_26-0498,Vishal,Basic LLM,c20,c20,Other,other,low,,low
+OBS_26-0498,Vishal,Basic LLM,c23,c23,Gregorio,self,no detail,,no detail
+OBS_26-0498,Vishal,Basic LLM,c24,c24,Miguel,other,low,,medium
+OBS_26-0498,Vishal,Basic LLM,c27,c27,Miguel,self,no detail,,no detail
+OBS_26-0498,Vishal,Basic LLM,c28,c28,Gregorio,other,high,,high
+OBS_26-0498,Vishal,Basic LLM,c38-c43,c38 c42 c43,Gregorio,self,fully detailed,,some detail
+OBS_26-0498,Vishal,Basic LLM,d2-d3,d2 d3,Miguel,self,fully detailed,,some detail
+OBS_26-0498,Vishal,Basic LLM,d4,d4,Gregorio,other,high,,medium
+OBS_26-0498,Vishal,Basic LLM,d12,d12,Gregorio,other,high,,low
+OBS_26-0498,Vishal,Basic LLM,d11-d16,d11 d16,Miguel,self,no detail,,some detail
+OBS_26-0498,Vishal,Basic LLM,d19,d19,Gregorio,self,some detail,,wrong detail
+OBS_26-0498,Vishal,Basic LLM,d20,d20,Miguel,other,low,,low
+OBS_26-0498,Vishal,Basic LLM,d25,d25,Miguel,self,no detail,,no detail
+OBS_26-0498,Vishal,Basic LLM,d22-d26,d22 d26,Gregorio,self,some detail,,some detail
+OBS_26-0498,Vishal,Basic LLM,d27,d27,Miguel,other,medium,,low
+OBS_26-0498,Vishal,Basic LLM,d31-d32,d31 d32,Gregorio,self,wrong detail,,fully detailed
+OBS_26-0498,Vishal,Basic LLM,d34,d34,Gregorio,self,wrong detail,,some detail
+OBS_26-0498,Vishal,Enhanced LLM,c5,c5,Other,self,some detail,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,c10,c10,Gregorio,self,some detail,other,medium
+OBS_26-0498,Vishal,Enhanced LLM,c11,c11,Other,other,medium,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,c12-c13,c12 c13,Gregorio,other,high,other,medium
+OBS_26-0498,Vishal,Enhanced LLM,c14,c14,Miguel,other,high,other,high
+OBS_26-0498,Vishal,Enhanced LLM,c15,c15,Other,other,low,other,low
+OBS_26-0498,Vishal,Enhanced LLM,c16,c16,Gregorio,other,high,other,medium
+OBS_26-0498,Vishal,Enhanced LLM,c17,c17,Other,other,high,other,medium
+OBS_26-0498,Vishal,Enhanced LLM,c18,c18,Miguel,other,high,other,high
+OBS_26-0498,Vishal,Enhanced LLM,c20,c20,Other,other,low,other,low
+OBS_26-0498,Vishal,Enhanced LLM,c23,c23,Gregorio,self,no detail,,
+OBS_26-0498,Vishal,Enhanced LLM,c24,c24,Miguel,other,low,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,c27,c27,Miguel,self,no detail,self,no detail
+OBS_26-0498,Vishal,Enhanced LLM,c28,c28,Gregorio,other,high,other,medium
+OBS_26-0498,Vishal,Enhanced LLM,c38-c43,c38 c42 c43,Gregorio,self,fully detailed,other,high
+OBS_26-0498,Vishal,Enhanced LLM,d2-d3,d2 d3,Miguel,self,fully detailed,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,d4,d4,Gregorio,other,high,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,d12,d12,Gregorio,other,high,self,no detail
+OBS_26-0498,Vishal,Enhanced LLM,d11-d16,d11 d16,Miguel,self,no detail,self,no detail
+OBS_26-0498,Vishal,Enhanced LLM,d19,d19,Gregorio,self,some detail,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,d20,d20,Miguel,other,low,other,low
+OBS_26-0498,Vishal,Enhanced LLM,d25,d25,Miguel,self,no detail,self,no detail
+OBS_26-0498,Vishal,Enhanced LLM,d22-d26,d22 d26,Gregorio,self,some detail,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,d27,d27,Miguel,other,medium,other,low
+OBS_26-0498,Vishal,Enhanced LLM,d31-d32,d31 d32,Gregorio,self,wrong detail,self,some detail
+OBS_26-0498,Vishal,Enhanced LLM,d34,d34,Gregorio,self,wrong detail,self,some detail
+OBS_26-0498,Vishal,Caesar,c5,c5,Other,self,some detail,other,low
+OBS_26-0498,Vishal,Caesar,c10,c10,Gregorio,self,some detail,other,low
+OBS_26-0498,Vishal,Caesar,c11,c11,Other,other,medium,other,medium
+OBS_26-0498,Vishal,Caesar,c12-c13,c12 c13,Gregorio,other,high,other,medium
+OBS_26-0498,Vishal,Caesar,c14,c14,Miguel,other,high,other,low
+OBS_26-0498,Vishal,Caesar,c15,c15,Other,other,low,other,low
+OBS_26-0498,Vishal,Caesar,c16,c16,Gregorio,other,high,other,low
+OBS_26-0498,Vishal,Caesar,c17,c17,Other,other,high,other,low
+OBS_26-0498,Vishal,Caesar,c18,c18,Miguel,other,high,other,high
+OBS_26-0498,Vishal,Caesar,c20,c20,Other,other,low,other,low
+OBS_26-0498,Vishal,Caesar,c23,c23,Gregorio,self,no detail,self,no detail
+OBS_26-0498,Vishal,Caesar,c24,c24,Miguel,other,low,other,low
+OBS_26-0498,Vishal,Caesar,c27,c27,Miguel,self,no detail,self,no detail
+OBS_26-0498,Vishal,Caesar,c28,c28,Gregorio,other,high,other,high
+OBS_26-0498,Vishal,Caesar,c38-c43,c38 c42 c43,Gregorio,self,fully detailed,other,low
+OBS_26-0498,Vishal,Caesar,d2-d3,d2 d3,Miguel,self,fully detailed,self,fully detailed
+OBS_26-0498,Vishal,Caesar,d4,d4,Gregorio,other,high,self,some detail
+OBS_26-0498,Vishal,Caesar,d12,d12,Gregorio,other,high,other,low
+OBS_26-0498,Vishal,Caesar,d11-d16,d11 d16,Miguel,self,no detail,,
+OBS_26-0498,Vishal,Caesar,d19,d19,Gregorio,self,some detail,other,low
+OBS_26-0498,Vishal,Caesar,d20,d20,Miguel,other,low,other,low
+OBS_26-0498,Vishal,Caesar,d25,d25,Miguel,self,no detail,self,no detail
+OBS_26-0498,Vishal,Caesar,d22-d26,d22 d26,Gregorio,self,some detail,,
+OBS_26-0498,Vishal,Caesar,d27,d27,Miguel,other,medium,other,low
+OBS_26-0498,Vishal,Caesar,d31-d32,d31 d32,Gregorio,self,wrong detail,self,some detail
+OBS_26-0498,Vishal,Caesar,d34,d34,Gregorio,self,wrong detail,self,some detail
+OBS_26-0498,Caesar,Basic LLM,c2,c2,Miguel,,,,medium
+OBS_26-0498,Caesar,Basic LLM,c3,c3,Other,,,,medium
+OBS_26-0498,Caesar,Basic LLM,c4,c4,Miguel,,,,medium
+OBS_26-0498,Caesar,Basic LLM,c5,c5,Other,other,low,,medium
+OBS_26-0498,Caesar,Basic LLM,c7,c7,Miguel,,,,low
+OBS_26-0498,Caesar,Basic LLM,c10,c10,Gregorio,other,low,,high
+OBS_26-0498,Caesar,Basic LLM,c11,c11,Other,other,medium,,high
+OBS_26-0498,Caesar,Basic LLM,c12,c12,Gregorio,other,medium,,high
+OBS_26-0498,Caesar,Basic LLM,c13,c13,Gregorio,other,medium,,high
+OBS_26-0498,Caesar,Basic LLM,c14,c14,Miguel,other,low,,high
+OBS_26-0498,Caesar,Basic LLM,c15,c15,Other,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,c16,c16,Gregorio,other,low,,high
+OBS_26-0498,Caesar,Basic LLM,c17,c17,Other,other,low,,high
+OBS_26-0498,Caesar,Basic LLM,c18,c18,Miguel,other,high,,high
+OBS_26-0498,Caesar,Basic LLM,c20,c20,Other,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,c23,c23,Gregorio,self,no detail,,no detail
+OBS_26-0498,Caesar,Basic LLM,c24,c24,Miguel,other,low,,medium
+OBS_26-0498,Caesar,Basic LLM,c27,c27,Miguel,self,no detail,,no detail
+OBS_26-0498,Caesar,Basic LLM,c28,c28,Gregorio,other,high,,high
+OBS_26-0498,Caesar,Basic LLM,c33-c38,c33 c35 c38,Gregorio,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,c39,c39,Other,other,low,,medium
+OBS_26-0498,Caesar,Basic LLM,c41,c41,Miguel,,,,low
+OBS_26-0498,Caesar,Basic LLM,c42-c45,c42 c43 c44 c45,Gregorio,other,,,low
+OBS_26-0498,Caesar,Basic LLM,c53,c53,Gregorio,,,,
+OBS_26-0498,Caesar,Basic LLM,d2-d3,d2 d3,Miguel,self,fully detailed,,some detail
+OBS_26-0498,Caesar,Basic LLM,d4,d4,Gregorio,self,some detail,,some detail
+OBS_26-0498,Caesar,Basic LLM,d12,d12,Gregorio,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,d19,d19,Gregorio,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,d20,d20,Miguel,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,d25,d25,Miguel,self,no detail,,no detail
+OBS_26-0498,Caesar,Basic LLM,d27,d27,Miguel,other,low,,low
+OBS_26-0498,Caesar,Basic LLM,d32,d32,Gregorio,self,some detail,,fully detailed
+OBS_26-0498,Caesar,Basic LLM,d34,d34,Gregorio,self,some detail,,some detail
+OBS_26-0498,Caesar,Basic LLM,d40,d40,Miguel,self,no detail,,no detail
+OBS_26-0498,Caesar,Enhanced LLM,c2,c2,Miguel,,,,
+OBS_26-0498,Caesar,Enhanced LLM,c3,c3,Other,,,,
+OBS_26-0498,Caesar,Enhanced LLM,c4,c4,Miguel,,,,
+OBS_26-0498,Caesar,Enhanced LLM,c5,c5,Other,other,low,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,c7,c7,Miguel,,,,
+OBS_26-0498,Caesar,Enhanced LLM,c10,c10,Gregorio,other,low,other,medium
+OBS_26-0498,Caesar,Enhanced LLM,c11,c11,Other,other,medium,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,c12,c12,Gregorio,other,medium,other,medium
+OBS_26-0498,Caesar,Enhanced LLM,c13,c13,Gregorio,other,medium,other,medium
+OBS_26-0498,Caesar,Enhanced LLM,c14,c14,Miguel,other,low,other,high
+OBS_26-0498,Caesar,Enhanced LLM,c15,c15,Other,other,low,other,low
+OBS_26-0498,Caesar,Enhanced LLM,c16,c16,Gregorio,other,low,other,medium
+OBS_26-0498,Caesar,Enhanced LLM,c17,c17,Other,other,low,other,medium
+OBS_26-0498,Caesar,Enhanced LLM,c18,c18,Miguel,other,high,other,high
+OBS_26-0498,Caesar,Enhanced LLM,c20,c20,Other,other,low,other,low
+OBS_26-0498,Caesar,Enhanced LLM,c23,c23,Gregorio,self,no detail,,
+OBS_26-0498,Caesar,Enhanced LLM,c24,c24,Miguel,other,low,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,c27,c27,Miguel,self,no detail,self,no detail
+OBS_26-0498,Caesar,Enhanced LLM,c28,c28,Gregorio,other,high,other,medium
+OBS_26-0498,Caesar,Enhanced LLM,c33-c38,c33 c35 c38,Gregorio,other,low,,
+OBS_26-0498,Caesar,Enhanced LLM,c39,c39,Other,other,low,,
+OBS_26-0498,Caesar,Enhanced LLM,c41,c41,Miguel,,,,
+OBS_26-0498,Caesar,Enhanced LLM,c42-c45,c42 c43 c44 c45,Gregorio,other,,other,high
+OBS_26-0498,Caesar,Enhanced LLM,c53,c53,Gregorio,,,,
+OBS_26-0498,Caesar,Enhanced LLM,d2-d3,d2 d3,Miguel,self,fully detailed,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,d4,d4,Gregorio,self,some detail,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,d12,d12,Gregorio,other,low,self,no detail
+OBS_26-0498,Caesar,Enhanced LLM,d19,d19,Gregorio,other,low,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,d20,d20,Miguel,other,low,other,low
+OBS_26-0498,Caesar,Enhanced LLM,d25,d25,Miguel,self,no detail,self,no detail
+OBS_26-0498,Caesar,Enhanced LLM,d27,d27,Miguel,other,low,other,low
+OBS_26-0498,Caesar,Enhanced LLM,d32,d32,Gregorio,self,some detail,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,d34,d34,Gregorio,self,some detail,self,some detail
+OBS_26-0498,Caesar,Enhanced LLM,d40,d40,Miguel,self,no detail,,
+OBS_26-0498,Caesar,Vishal,c2,c2,Miguel,,,,
+OBS_26-0498,Caesar,Vishal,c3,c3,Other,,,,
+OBS_26-0498,Caesar,Vishal,c4,c4,Miguel,,,,
+OBS_26-0498,Caesar,Vishal,c5,c5,Other,other,low,self,some detail
+OBS_26-0498,Caesar,Vishal,c7,c7,Miguel,,,,
+OBS_26-0498,Caesar,Vishal,c10,c10,Gregorio,other,low,self,some detail
+OBS_26-0498,Caesar,Vishal,c11,c11,Other,other,medium,other,medium
+OBS_26-0498,Caesar,Vishal,c12,c12,Gregorio,other,medium,other,
+OBS_26-0498,Caesar,Vishal,c13,c13,Gregorio,other,medium,other,high
+OBS_26-0498,Caesar,Vishal,c14,c14,Miguel,other,low,other,high
+OBS_26-0498,Caesar,Vishal,c15,c15,Other,other,low,other,low
+OBS_26-0498,Caesar,Vishal,c16,c16,Gregorio,other,low,other,high
+OBS_26-0498,Caesar,Vishal,c17,c17,Other,other,low,other,high
+OBS_26-0498,Caesar,Vishal,c18,c18,Miguel,other,high,other,high
+OBS_26-0498,Caesar,Vishal,c20,c20,Other,other,low,other,low
+OBS_26-0498,Caesar,Vishal,c23,c23,Gregorio,self,no detail,self,no detail
+OBS_26-0498,Caesar,Vishal,c24,c24,Miguel,other,low,other,low
+OBS_26-0498,Caesar,Vishal,c27,c27,Miguel,self,no detail,self,no detail
+OBS_26-0498,Caesar,Vishal,c28,c28,Gregorio,other,high,other,high
+OBS_26-0498,Caesar,Vishal,c33-c38,c33 c35 c38,Gregorio,other,low,self,
+OBS_26-0498,Caesar,Vishal,c39,c39,Other,other,low,,
+OBS_26-0498,Caesar,Vishal,c41,c41,Miguel,,,,
+OBS_26-0498,Caesar,Vishal,c42-c45,c42 c43 c44 c45,Gregorio,other,,self,fully detailed
+OBS_26-0498,Caesar,Vishal,c53,c53,Gregorio,,,,
+OBS_26-0498,Caesar,Vishal,d2-d3,d2 d3,Miguel,self,fully detailed,self,fully detailed
+OBS_26-0498,Caesar,Vishal,d4,d4,Gregorio,self,some detail,other,high
+OBS_26-0498,Caesar,Vishal,d12,d12,Gregorio,other,low,other,high
+OBS_26-0498,Caesar,Vishal,d19,d19,Gregorio,other,low,self,some detail
+OBS_26-0498,Caesar,Vishal,d20,d20,Miguel,other,low,other,low
+OBS_26-0498,Caesar,Vishal,d25,d25,Miguel,self,no detail,self,no detail
+OBS_26-0498,Caesar,Vishal,d27,d27,Miguel,other,low,other,medium
+OBS_26-0498,Caesar,Vishal,d32,d32,Gregorio,self,some detail,self,wrong detail
+OBS_26-0498,Caesar,Vishal,d34,d34,Gregorio,self,some detail,self,wrong detail
+OBS_26-0498,Caesar,Vishal,d40,d40,Miguel,self,no detail,,
+OBS_26-0498,Adjudicated,Basic LLM,c5,c5,Other,self,no detail,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,c10,c10,Gregorio,other,low,,high
+OBS_26-0498,Adjudicated,Basic LLM,c11,c11,Other,other,medium,,high
+OBS_26-0498,Adjudicated,Basic LLM,c12-c13,c12 c13,Gregorio,other,medium,,high
+OBS_26-0498,Adjudicated,Basic LLM,c14,c14,Miguel,other,high,,high
+OBS_26-0498,Adjudicated,Basic LLM,c15,c15,Other,other,low,,low
+OBS_26-0498,Adjudicated,Basic LLM,c16,c16,Gregorio,other,low,,high
+OBS_26-0498,Adjudicated,Basic LLM,c17,c17,Other,other,low,,high
+OBS_26-0498,Adjudicated,Basic LLM,c18,c18,Miguel,other,high,,high
+OBS_26-0498,Adjudicated,Basic LLM,c20,c20,Other,other,low,,low
+OBS_26-0498,Adjudicated,Basic LLM,c23,c23,Gregorio,self,no detail,,no detail
+OBS_26-0498,Adjudicated,Basic LLM,c24,c24,Miguel,other,low,,medium
+OBS_26-0498,Adjudicated,Basic LLM,c27,c27,Miguel,self,no detail,,no detail
+OBS_26-0498,Adjudicated,Basic LLM,c28,c28,Gregorio,other,high,,high
+OBS_26-0498,Adjudicated,Basic LLM,c39,c39,Other,self,no detail,,
+OBS_26-0498,Adjudicated,Basic LLM,c38-c45,c38 c42 c43 c44 c45,Gregorio,self,fully detailed,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,d2-d3,d2 d3,Miguel,self,fully detailed,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,d4,d4,Gregorio,self,fully detailed,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,d11,d11,Miguel,self,,,no detail
+OBS_26-0498,Adjudicated,Basic LLM,d12,d12,Gregorio,other,medium,,low
+OBS_26-0498,Adjudicated,Basic LLM,d16,d16,Miguel,self,no detail,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,d19,d19,Gregorio,self,no detail,,wrong detail
+OBS_26-0498,Adjudicated,Basic LLM,d20,d20,Miguel,other,low,,low
+OBS_26-0498,Adjudicated,Basic LLM,d22,d22,Gregorio,self,no detail,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,d25,d25,Miguel,self,no detail,,no detail
+OBS_26-0498,Adjudicated,Basic LLM,d26,d26,Gregorio,self,no detail,,
+OBS_26-0498,Adjudicated,Basic LLM,d27,d27,Miguel,other,low,,low
+OBS_26-0498,Adjudicated,Basic LLM,d32,d32,Gregorio,self,some detail,,fully detailed
+OBS_26-0498,Adjudicated,Basic LLM,d34,d34,Gregorio,self,no detail,,some detail
+OBS_26-0498,Adjudicated,Basic LLM,d40,d40,Miguel,self,some detail,,no detail
+OBS_26-0498,Adjudicated,Enhanced LLM,c5,c5,Other,self,no detail,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,c10,c10,Gregorio,other,low,other,medium
+OBS_26-0498,Adjudicated,Enhanced LLM,c11,c11,Other,other,medium,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,c12-c13,c12 c13,Gregorio,other,medium,other,medium
+OBS_26-0498,Adjudicated,Enhanced LLM,c14,c14,Miguel,other,high,other,high
+OBS_26-0498,Adjudicated,Enhanced LLM,c15,c15,Other,other,low,other,low
+OBS_26-0498,Adjudicated,Enhanced LLM,c16,c16,Gregorio,other,low,other,medium
+OBS_26-0498,Adjudicated,Enhanced LLM,c17,c17,Other,other,low,other,medium
+OBS_26-0498,Adjudicated,Enhanced LLM,c18,c18,Miguel,other,high,other,high
+OBS_26-0498,Adjudicated,Enhanced LLM,c20,c20,Other,other,low,other,low
+OBS_26-0498,Adjudicated,Enhanced LLM,c23,c23,Gregorio,self,no detail,,
+OBS_26-0498,Adjudicated,Enhanced LLM,c24,c24,Miguel,other,low,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,c27,c27,Miguel,self,no detail,self,no detail
+OBS_26-0498,Adjudicated,Enhanced LLM,c28,c28,Gregorio,other,high,other,medium
+OBS_26-0498,Adjudicated,Enhanced LLM,c39,c39,Other,self,no detail,,
+OBS_26-0498,Adjudicated,Enhanced LLM,c38-c45,c38 c42 c43 c44 c45,Gregorio,self,fully detailed,other,high
+OBS_26-0498,Adjudicated,Enhanced LLM,d2-d3,d2 d3,Miguel,self,fully detailed,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d4,d4,Gregorio,self,fully detailed,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d11,d11,Miguel,self,,self,no detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d12,d12,Gregorio,other,medium,self,no detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d16,d16,Miguel,self,no detail,self,no detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d19,d19,Gregorio,self,no detail,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d20,d20,Miguel,other,low,other,low
+OBS_26-0498,Adjudicated,Enhanced LLM,d22,d22,Gregorio,self,no detail,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d25,d25,Miguel,self,no detail,self,no detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d26,d26,Gregorio,self,no detail,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d27,d27,Miguel,other,low,other,low
+OBS_26-0498,Adjudicated,Enhanced LLM,d32,d32,Gregorio,self,some detail,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d34,d34,Gregorio,self,no detail,self,some detail
+OBS_26-0498,Adjudicated,Enhanced LLM,d40,d40,Miguel,self,some detail,,
+OBS_26-0515,Adjudicated,Basic LLM,a6,a6,Gregorio,self,fully detailed,,fully detailed
+OBS_26-0515,Adjudicated,Basic LLM,a9,a9,Gregorio,self,wrong detail,,
+OBS_26-0515,Adjudicated,Basic LLM,a10-a11,a10 a11,Miguel,other,high,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a14-a17,a14 a15 a17,Miguel,self,some detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,a19-a25,a19 a21 a22 a24 a25,Miguel,self,,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,a23-a31,a23 a26 a28 a29 a31,Gregorio,self,,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,a27-a34,a27 a30 a32 a34,Miguel,self,,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,a35,a35,Miguel,self,no detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,a45-a46,a45 a46,Gregorio,self,some detail,,some detail
+OBS_26-0515,Adjudicated,Basic LLM,a53,a53,Gregorio,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a47-a54,a47 a48 a49 a50 a51 a52 a54,Miguel,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a57,a57,Gregorio,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a58,a58,Gregorio,other,low,,low
+OBS_26-0515,Adjudicated,Basic LLM,a55-a60,a55 a56 a60,Miguel,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a59-a64,a59 a64,Gregorio,other,low,,high
+OBS_26-0515,Adjudicated,Basic LLM,a66,a66,Gregorio,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a72,a72,Gregorio,other,low,,high
+OBS_26-0515,Adjudicated,Basic LLM,a74,a74,Gregorio,other,low,,high
+OBS_26-0515,Adjudicated,Basic LLM,a62-a80,a62 a63 a67 a71 a73 a75 a77 a78 a80,Miguel,other,medium,,medium
+OBS_26-0515,Adjudicated,Basic LLM,a76-a81,a76 a79 a81,Gregorio,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,b7,b7,Gregorio,self,no detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b9,b9,Miguel,other,low,,medium
+OBS_26-0515,Adjudicated,Basic LLM,b12-b16,b12 b13 b16,Miguel,self,some detail,,wrong detail
+OBS_26-0515,Adjudicated,Basic LLM,b15-b18,b15 b17 b18,Gregorio,self,some detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b20,b20,Gregorio,self,some detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b21,b21,Gregorio,self,no detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b22,b22,Gregorio,self,some detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b23-b29,b23 b25 b27 b29,Gregorio,self,some detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b34-b35,b34 b35,Gregorio,self,no detail,,wrong detail
+OBS_26-0515,Adjudicated,Basic LLM,b37,b37,Gregorio,self,no detail,,no detail
+OBS_26-0515,Adjudicated,Basic LLM,b39-b40,b39 b40,Gregorio,self,no detail,,
+OBS_26-0515,Adjudicated,Basic LLM,b42-b43,b42 b43,Gregorio,self,no detail,,some detail
+OBS_26-0515,Adjudicated,Basic LLM,b45,b45,Miguel,self,some detail,,
+OBS_26-0515,Adjudicated,Basic LLM,b51-b60,b51 b53 b54 b55 b58 b59 b60,Miguel,self,some detail,,some detail
+OBS_26-0515,Adjudicated,Basic LLM,b61,b61,Gregorio,other,high,,high
+OBS_26-0515,Adjudicated,Basic LLM,b62-b63,b62 b63,Miguel,other,high,,high
+OBS_26-0515,Adjudicated,Basic LLM,b64,b64,Miguel,other,medium,,high
+OBS_26-0515,Adjudicated,Enhanced LLM,a6,a6,Gregorio,self,fully detailed,self,fully detailed
+OBS_26-0515,Adjudicated,Enhanced LLM,a9,a9,Gregorio,self,wrong detail,self,fully detailed
+OBS_26-0515,Adjudicated,Enhanced LLM,a10-a11,a10 a11,Miguel,other,high,other,low
+OBS_26-0515,Adjudicated,Enhanced LLM,a14-a17,a14 a15 a17,Miguel,self,some detail,self,some detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a19-a25,a19 a21 a22 a24 a25,Miguel,self,,other,medium
+OBS_26-0515,Adjudicated,Enhanced LLM,a23-a31,a23 a26 a28 a29 a31,Gregorio,self,,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a27-a34,a27 a30 a32 a34,Miguel,self,,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a35,a35,Miguel,self,no detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a45-a46,a45 a46,Gregorio,self,some detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a53,a53,Gregorio,other,low,other,low
+OBS_26-0515,Adjudicated,Enhanced LLM,a47-a54,a47 a48 a49 a50 a51 a52 a54,Miguel,other,low,other,low
+OBS_26-0515,Adjudicated,Enhanced LLM,a57,a57,Gregorio,other,low,,
+OBS_26-0515,Adjudicated,Enhanced LLM,a58,a58,Gregorio,other,low,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a55-a60,a55 a56 a60,Miguel,other,low,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a59-a64,a59 a64,Gregorio,other,low,other,medium
+OBS_26-0515,Adjudicated,Enhanced LLM,a66,a66,Gregorio,other,low,,
+OBS_26-0515,Adjudicated,Enhanced LLM,a72,a72,Gregorio,other,low,other,low
+OBS_26-0515,Adjudicated,Enhanced LLM,a74,a74,Gregorio,other,low,other,low
+OBS_26-0515,Adjudicated,Enhanced LLM,a62-a80,a62 a63 a67 a71 a73 a75 a77 a78 a80,Miguel,other,medium,self,some detail
+OBS_26-0515,Adjudicated,Enhanced LLM,a76-a81,a76 a79 a81,Gregorio,other,low,other,low
+OBS_26-0515,Adjudicated,Enhanced LLM,b7,b7,Gregorio,self,no detail,,
+OBS_26-0515,Adjudicated,Enhanced LLM,b9,b9,Miguel,other,low,,
+OBS_26-0515,Adjudicated,Enhanced LLM,b12-b16,b12 b13 b16,Miguel,self,some detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b15-b18,b15 b17 b18,Gregorio,self,some detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b20,b20,Gregorio,self,some detail,self,wrong detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b21,b21,Gregorio,self,no detail,self,wrong detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b22,b22,Gregorio,self,some detail,self,wrong detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b23-b29,b23 b25 b27 b29,Gregorio,self,some detail,self,wrong detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b34-b35,b34 b35,Gregorio,self,no detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b37,b37,Gregorio,self,no detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b39-b40,b39 b40,Gregorio,self,no detail,self,no detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b42-b43,b42 b43,Gregorio,self,no detail,self,some detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b45,b45,Miguel,self,some detail,self,some detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b51-b60,b51 b53 b54 b55 b58 b59 b60,Miguel,self,some detail,other,medium
+OBS_26-0515,Adjudicated,Enhanced LLM,b61,b61,Gregorio,other,high,self,some detail
+OBS_26-0515,Adjudicated,Enhanced LLM,b62-b63,b62 b63,Miguel,other,high,other,medium
+OBS_26-0515,Adjudicated,Enhanced LLM,b64,b64,Miguel,other,medium,other,medium

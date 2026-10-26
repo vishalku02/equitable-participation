@@ -1,0 +1,19 @@
+Turn,Speaker,Adjudicated,Enhanced LLM,Basic LLM level,Difference
+c5,Other,self / no detail,self / some detail,some detail,Level
+c10,Gregorio,other / low,other / medium,high,Level
+c11,Other,other / medium,self / some detail,high,Whose
+c16,Gregorio,other / low,other / medium,high,Level
+c17,Other,other / low,other / medium,high,Level
+c23,Gregorio,self / no detail,not coded,no detail,Not coded by LLM
+c24,Miguel,other / low,self / some detail,medium,Whose
+c28,Gregorio,other / high,other / medium,high,Level
+c39,Other,self / no detail,not coded,not coded,Not coded by LLM
+c38-c45,Gregorio,self / fully detailed,other / high,some detail,Whose
+d2-d3,Miguel,self / fully detailed,self / some detail,some detail,Level
+d4,Gregorio,self / fully detailed,self / some detail,some detail,Level
+d12,Gregorio,other / medium,self / no detail,low,Whose
+d19,Gregorio,self / no detail,self / some detail,wrong detail,Level
+d22,Gregorio,self / no detail,self / some detail,some detail,Level
+d26,Gregorio,self / no detail,self / some detail,not coded,Level
+d34,Gregorio,self / no detail,self / some detail,some detail,Level
+d40,Miguel,self / some detail,not coded,no detail,Not coded by LLM
