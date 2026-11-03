@@ -1,0 +1,27 @@
+observation,responder_turn,responder,responder_language,source_row,source_turn,source,source_role,level,developed,source_language
+OBS_26-0498,T8,Gregorio,English,c5,T4,Other,Unnamed student,medium,True,English
+OBS_26-0498,T10,Gregorio,English,c11,T9,Other,Unnamed student,medium,True,English
+OBS_26-0498,T11,Miguel,English,c12,T10,Gregorio,Student,high,True,English
+OBS_26-0498,T12,Other,English,c14,T11,Miguel,Student,low,False,English
+OBS_26-0498,T13,Gregorio,English,c14,T11,Miguel,Student,medium,True,English
+OBS_26-0498,T14,Other,English,c16,T13,Gregorio,Student,medium,True,English
+OBS_26-0498,T15,Miguel,English,c17,T14,Other,Unnamed student,high,True,English
+OBS_26-0498,T17,Other,English,c18,T15,Miguel,Student,low,False,English
+OBS_26-0498,T21,Gregorio,Both,c24,T19,Miguel,Student,medium,True,English
+OBS_26-0498,T26,Gregorio,English,c11,T9,Other,Unnamed student,high,True,English
+OBS_26-0498,T26,Gregorio,English,c24,T19,Miguel,Student,high,True,English
+OBS_26-0498,T39,Miguel,English,d19,T38,Gregorio,Student,low,False,English
+OBS_26-0498,T42,Miguel,English,d26,T41,Gregorio,Student,low,False,English
+OBS_26-0515,T2,Miguel,Both,a6,T1,Gregorio,Student,low,False,Spanish
+OBS_26-0515,T5,Miguel,Both,a20,T4,Gregorio,Student,medium,True,Spanish
+OBS_26-0515,T6,Miguel,Spanish,a23,T4,Gregorio,Student,medium,True,Spanish
+OBS_26-0515,T7,Miguel,Spanish,a26,T4,Gregorio,Student,low,False,Spanish
+OBS_26-0515,T11,Gregorio,Spanish,a51,T10,Miguel,Student,low,False,Both
+OBS_26-0515,T12,Miguel,Spanish,a53,T11,Gregorio,Student,low,False,Spanish
+OBS_26-0515,T16,Gregorio,Spanish,a63,T15,Miguel,Student,medium,True,Spanish
+OBS_26-0515,T18,Gregorio,Both,a71,T17,Miguel,Student,low,False,Spanish
+OBS_26-0515,T19,Gregorio,Spanish,a73,T17,Miguel,Student,low,False,Spanish
+OBS_26-0515,T20,Gregorio,Spanish,a75,T17,Miguel,Student,low,False,Spanish
+OBS_26-0515,T21,Gregorio,Spanish,a78,T17,Miguel,Student,low,False,Spanish
+OBS_26-0515,T33,Miguel,Both,b49,T31,Gregorio,Student,medium,True,English
+OBS_26-0515,T35,Miguel,Spanish,b61,T34,Gregorio,Student,medium,True,Spanish

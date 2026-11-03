@@ -9,6 +9,7 @@ This folder holds everything needed to compare human coding, the two LLM prompts
 | `comparison_data/` | The input data: `analysis_table.csv` and the per-method files described below. |
 | `llm_agreement/` | Outputs of `A4 - LLM Agreement.ipynb`: turn-level agreement tables, agreement bars, and confusion matrices. |
 | `co_construction/` | Outputs of `A4 - Co-construction Detection.ipynb`: which co-construction turns each method surfaces, misses, and GCA score plots. |
+| `uptake_participation/` | Outputs of `A5 - Uptake and Participation.ipynb`: whose ideas are taken up, who builds on whom, how participation is distributed, uptake by language, and LLM-coded uptake against GCA. |
 
 ## Start here
 

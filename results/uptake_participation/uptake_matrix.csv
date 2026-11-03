@@ -1,0 +1,9 @@
+observation,source,responder,events,developed
+OBS_26-0498,Gregorio,Miguel,3,1
+OBS_26-0498,Gregorio,Other,1,1
+OBS_26-0498,Miguel,Gregorio,3,3
+OBS_26-0498,Miguel,Other,2,0
+OBS_26-0498,Other,Gregorio,3,3
+OBS_26-0498,Other,Miguel,1,1
+OBS_26-0515,Gregorio,Miguel,7,4
+OBS_26-0515,Miguel,Gregorio,6,1

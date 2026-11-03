@@ -1,0 +1,83 @@
+observation,turn,rows,speaker,role,whose,level,language,developed
+OBS_26-0498,T1,c2,Miguel,Student,,,English,False
+OBS_26-0498,T2,c3,Other,Unnamed student,,,English,False
+OBS_26-0498,T3,c4,Miguel,Student,,,English,False
+OBS_26-0498,T4,c5,Other,Unnamed student,self,some detail,English,False
+OBS_26-0498,T5,c6,Miguel,Student,,,Spanish,False
+OBS_26-0498,T6,c7,Miguel,Student,,,English,False
+OBS_26-0498,T7,c8,Gregorio,Student,,,English,False
+OBS_26-0498,T8,c9 c10,Gregorio,Student,other,medium,English,True
+OBS_26-0498,T9,c11,Other,Unnamed student,self,some detail,English,False
+OBS_26-0498,T10,c12 c13,Gregorio,Student,other,medium,English,True
+OBS_26-0498,T11,c14,Miguel,Student,other,high,English,True
+OBS_26-0498,T12,c15,Other,Unnamed student,other,low,English,False
+OBS_26-0498,T13,c16,Gregorio,Student,other,medium,English,True
+OBS_26-0498,T14,c17,Other,Unnamed student,other,medium,English,True
+OBS_26-0498,T15,c18,Miguel,Student,other,high,English,True
+OBS_26-0498,T16,c19,Gregorio,Student,,,Unknown,False
+OBS_26-0498,T17,c20,Other,Unnamed student,other,low,English,False
+OBS_26-0498,T18,c23,Gregorio,Student,,,English,False
+OBS_26-0498,T19,c24,Miguel,Student,self,some detail,English,False
+OBS_26-0498,T20,c27,Miguel,Student,self,no detail,English,False
+OBS_26-0498,T21,c28,Gregorio,Student,other,medium,Both,True
+OBS_26-0498,T22,c33,Gregorio,Student,,,English,False
+OBS_26-0498,T23,c35 c36 c38 c40,Gregorio,Student,,,English,False
+OBS_26-0498,T24,c37 c39,Other,Unnamed student,,,English,False
+OBS_26-0498,T25,c41,Miguel,Student,,,Spanish,False
+OBS_26-0498,T26,c42 c43 c44 c45,Gregorio,Student,other,high,English,True
+OBS_26-0498,T27,c46,Miguel,Student,,,English,False
+OBS_26-0498,T28,c48,Gregorio,Student,,,English,False
+OBS_26-0498,T29,c51,Gregorio,Student,,,English,False
+OBS_26-0498,T30,c52,Gregorio,Student,,,English,False
+OBS_26-0498,T31,c53,Gregorio,Student,,,Both,False
+OBS_26-0498,T32,c55,Gregorio,Student,,,Spanish,False
+OBS_26-0498,T33,d2 d3,Miguel,Student,self,some detail,English,False
+OBS_26-0498,T34,d4,Gregorio,Student,self,some detail,English,False
+OBS_26-0498,T35,d11 d13 d16,Miguel,Student,self,no detail,English,False
+OBS_26-0498,T36,d12,Gregorio,Student,self,no detail,English,False
+OBS_26-0498,T37,d18,Miguel,Student,,,Unknown,False
+OBS_26-0498,T38,d19 d22,Gregorio,Student,self,some detail,English,False
+OBS_26-0498,T39,d20,Miguel,Student,other,low,English,False
+OBS_26-0498,T40,d25,Miguel,Student,self,no detail,English,False
+OBS_26-0498,T41,d26 d31 d32 d34,Gregorio,Student,self,some detail,English,False
+OBS_26-0498,T42,d27,Miguel,Student,other,low,English,False
+OBS_26-0498,T43,d35 d36,Miguel,Student,,,Spanish,False
+OBS_26-0498,T44,d38,Miguel,Student,,,Unknown,False
+OBS_26-0498,T45,d39,Gregorio,Student,,,Unknown,False
+OBS_26-0498,T46,d40,Miguel,Student,,,Both,False
+OBS_26-0515,T1,a6 a9,Gregorio,Student,self,fully detailed,Spanish,False
+OBS_26-0515,T2,a10 a11,Miguel,Student,other,low,Both,False
+OBS_26-0515,T3,a14 a15,Miguel,Student,self,some detail,Both,False
+OBS_26-0515,T4,a20 a23 a26 a28 a29 a31,Gregorio,Student,self,no detail,Spanish,False
+OBS_26-0515,T5,a21 a22,Miguel,Student,other,medium,Both,True
+OBS_26-0515,T6,a24 a25,Miguel,Student,other,medium,Spanish,True
+OBS_26-0515,T7,a27,Miguel,Student,other,low,Spanish,False
+OBS_26-0515,T8,a32 a33 a34 a35,Miguel,Student,self,no detail,Both,False
+OBS_26-0515,T9,a45 a46,Gregorio,Student,self,no detail,Spanish,False
+OBS_26-0515,T10,a47 a48 a49 a50 a51,Miguel,Student,self,no detail,Both,False
+OBS_26-0515,T11,a53,Gregorio,Student,other,low,Spanish,False
+OBS_26-0515,T12,a54,Miguel,Student,other,low,Spanish,False
+OBS_26-0515,T13,a55 a56,Miguel,Student,self,no detail,Spanish,False
+OBS_26-0515,T14,a58 a59,Gregorio,Student,self,no detail,Both,False
+OBS_26-0515,T15,a62 a63,Miguel,Student,self,some detail,Spanish,False
+OBS_26-0515,T16,a64,Gregorio,Student,other,medium,Spanish,True
+OBS_26-0515,T17,a70 a71 a73 a75 a77 a78,Miguel,Student,self,some detail,Spanish,False
+OBS_26-0515,T18,a72,Gregorio,Student,other,low,Both,False
+OBS_26-0515,T19,a74,Gregorio,Student,other,low,Spanish,False
+OBS_26-0515,T20,a76,Gregorio,Student,other,low,Spanish,False
+OBS_26-0515,T21,a79,Gregorio,Student,other,low,Spanish,False
+OBS_26-0515,T22,b12 b13 b16,Miguel,Student,self,no detail,English,False
+OBS_26-0515,T23,b15 b17 b18,Gregorio,Student,self,no detail,English,False
+OBS_26-0515,T24,b20 b21 b22 b23 b25 b27 b29,Gregorio,Student,self,wrong detail,English,False
+OBS_26-0515,T25,b31,Gregorio,Student,self,no detail,English,False
+OBS_26-0515,T26,b34 b35,Gregorio,Student,self,no detail,English,False
+OBS_26-0515,T27,b37,Gregorio,Student,self,no detail,English,False
+OBS_26-0515,T28,b39 b40,Gregorio,Student,self,no detail,English,False
+OBS_26-0515,T29,b42 b43,Gregorio,Student,self,some detail,English,False
+OBS_26-0515,T30,b45,Miguel,Student,self,some detail,English,False
+OBS_26-0515,T31,b49,Gregorio,Student,self,no detail,English,False
+OBS_26-0515,T32,b51 b53,Miguel,Student,self,some detail,Spanish,False
+OBS_26-0515,T33,b54 b55 b58 b59 b60,Miguel,Student,other,medium,Both,True
+OBS_26-0515,T34,b61,Gregorio,Student,self,some detail,Spanish,False
+OBS_26-0515,T35,b62 b63 b64,Miguel,Student,other,medium,Spanish,True
+OBS_26-0515,T36,b66,Gregorio,Student,self,no detail,Spanish,False
