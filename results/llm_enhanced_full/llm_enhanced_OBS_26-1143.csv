@@ -1,0 +1,157 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-1143,a1,Ms. Gallagher,,N/A,,
+OBS_26-1143,a2,Norberto,T1,Unclear / not coded,,
+OBS_26-1143,a3,Ms. Gallagher,,N/A,,
+OBS_26-1143,a4,Miguel,T2,Unclear / not coded,,
+OBS_26-1143,a5,Miguel,T3,Unclear / not coded,,
+OBS_26-1143,a6,Norberto,T4,Unclear / not coded,,
+OBS_26-1143,a7,Miguel,T5,Unclear / not coded,,
+OBS_26-1143,a8,Miguel,T6,Unclear / not coded,,
+OBS_26-1143,a9,Norberto,T7,Unclear / not coded,,
+OBS_26-1143,a10,Miguel,T8,Unclear / not coded,,
+OBS_26-1143,a11,Miguel,T9,Unclear / not coded,,
+OBS_26-1143,a12,Miguel,T10,Unclear / not coded,,
+OBS_26-1143,a13,Miguel,T11,Unclear / not coded,,
+OBS_26-1143,a14,Miguel,T12,Unclear / not coded,,
+OBS_26-1143,a15,Miguel,T13,Self,,
+OBS_26-1143,a16,Miguel,T14,Unclear / not coded,,
+OBS_26-1143,a17,Miguel,T15,Unclear / not coded,,
+OBS_26-1143,a18,Norberto,T16,Unclear / not coded,,
+OBS_26-1143,a19,Miguel,T13,Self,,
+OBS_26-1143,a20,Miguel,T17,Unclear / not coded,,
+OBS_26-1143,a21,Miguel,T13,Self,,no detail
+OBS_26-1143,a22,Norberto,T18,Other,Miguel a21,low
+OBS_26-1143,a23,Miguel,T19,Unclear / not coded,,
+OBS_26-1143,a24,Ms. Gallagher,,N/A,,
+OBS_26-1143,a25,Norberto,T20,Self,,no detail
+OBS_26-1143,a26,Miguel,T21,Self,,no detail
+OBS_26-1143,a27,Miguel,T22,Self,,no detail
+OBS_26-1143,a28,Miguel,T23,Unclear / not coded,,
+OBS_26-1143,a29,Miguel,T24,Self,,no detail
+OBS_26-1143,a30,Norberto,T25,Unclear / not coded,,
+OBS_26-1143,a31,Norberto,T26,Self,,
+OBS_26-1143,a32,Norberto,T26,Self,,no detail
+OBS_26-1143,a33,Miguel,T27,Self,,no detail
+OBS_26-1143,a34,Norberto,T28,Other,Miguel a33,medium
+OBS_26-1143,a35,Miguel,T29,Other,Norberto a34,
+OBS_26-1143,a36,Miguel,T29,Other,Norberto a34,
+OBS_26-1143,a37,Miguel,T29,Other,Norberto a34,
+OBS_26-1143,a38,Miguel,T29,Other,Norberto a34,
+OBS_26-1143,a39,Miguel,T29,Other,Norberto a34,high
+OBS_26-1143,a40,Miguel,T30,Self,,no detail
+OBS_26-1143,a41,Norberto,T31,Other,Miguel a37,medium
+OBS_26-1143,a42,Miguel,T32,Unclear / not coded,,
+OBS_26-1143,a43,Miguel,T33,Unclear / not coded,,
+OBS_26-1143,a44,Norberto,T34,Unclear / not coded,,
+OBS_26-1143,a45,Miguel,T35,Unclear / not coded,,
+OBS_26-1143,a46,Miguel,T36,Unclear / not coded,,
+OBS_26-1143,a47,Norberto,T37,Unclear / not coded,,
+OBS_26-1143,a48,Miguel,T38,Unclear / not coded,,
+OBS_26-1143,a49,Miguel,T39,Unclear / not coded,,
+OBS_26-1143,a50,Miguel,T40,Unclear / not coded,,
+OBS_26-1143,a51,Miguel,T41,Unclear / not coded,,
+OBS_26-1143,a52,Ms. Benoit,,N/A,,
+OBS_26-1143,a53,Miguel,T42,Unclear / not coded,,
+OBS_26-1143,a54,Ms. Benoit,,N/A,,
+OBS_26-1143,a55,Miguel,T43,Unclear / not coded,,
+OBS_26-1143,a56,Ms. Benoit,,N/A,,
+OBS_26-1143,a57,Miguel,T44,Unclear / not coded,,
+OBS_26-1143,a58,Ms. Benoit,,N/A,,
+OBS_26-1143,a59,Miguel,T45,Unclear / not coded,,
+OBS_26-1143,a60,Ms. Benoit,,N/A,,
+OBS_26-1143,a61,Miguel,T46,Self,,
+OBS_26-1143,a62,Ms. Benoit,,N/A,,
+OBS_26-1143,a63,Miguel,T46,Self,,
+OBS_26-1143,a64,Miguel,T46,Self,,
+OBS_26-1143,a65,Miguel,T46,Self,,
+OBS_26-1143,a66,Miguel,T46,Self,,
+OBS_26-1143,a67,Miguel,T46,Self,,no detail
+OBS_26-1143,a68,Ms. Benoit,,N/A,,
+OBS_26-1143,a69,Miguel,T47,Unclear / not coded,,
+OBS_26-1143,a70,Ms. Benoit,,N/A,,
+OBS_26-1143,a71,Norberto,T48,Unclear / not coded,,
+OBS_26-1143,a72,Miguel,T49,Unclear / not coded,,
+OBS_26-1143,a73,Ms. Benoit,,N/A,,
+OBS_26-1143,a74,Ms. Benoit,,N/A,,
+OBS_26-1143,a75,Ms. Benoit,,N/A,,
+OBS_26-1143,a76,Miguel,T50,Unclear / not coded,,
+OBS_26-1143,a77,Ms. Benoit,,N/A,,
+OBS_26-1143,a78,Ms. Benoit,,N/A,,
+OBS_26-1143,a79,Miguel,T51,Unclear / not coded,,
+OBS_26-1143,a80,Norberto,T52,Unclear / not coded,,
+OBS_26-1143,a81,Ms. Benoit,,N/A,,
+OBS_26-1143,a82,Miguel,T53,Unclear / not coded,,
+OBS_26-1143,a83,Norberto,T54,Unclear / not coded,,
+OBS_26-1143,a84,Ms. Gallagher,,N/A,,
+OBS_26-1143,a85,Miguel,T55,Unclear / not coded,,
+OBS_26-1143,a86,Miguel,T56,Unclear / not coded,,
+OBS_26-1143,a87,Miguel,T57,Unclear / not coded,,
+OBS_26-1143,a88,Miguel,T58,Unclear / not coded,,
+OBS_26-1143,a89,Ms. Gallagher,,N/A,,
+OBS_26-1143,a90,Ms. Benoit,,N/A,,
+OBS_26-1143,a91,Miguel,T59,Unclear / not coded,,
+OBS_26-1143,a92,Ms. Benoit,,N/A,,
+OBS_26-1143,a93,Ms. Benoit,,N/A,,
+OBS_26-1143,a94,Norberto,T60,Unclear / not coded,,
+OBS_26-1143,a95,Ms. Benoit,,N/A,,
+OBS_26-1143,a96,Miguel,T61,Unclear / not coded,,
+OBS_26-1143,a97,Ms. Benoit,,N/A,,
+OBS_26-1143,a98,Norberto,T62,Self,,
+OBS_26-1143,a99,Miguel,T63,Other,Norberto a98,low
+OBS_26-1143,a100,Miguel,T64,Other,Norberto a98,medium
+OBS_26-1143,a101,Norberto,T62,Self,,
+OBS_26-1143,a102,Miguel,T65,Other,Norberto a101,
+OBS_26-1143,a103,Miguel,T65,Other,Norberto a101,medium
+OBS_26-1143,a104,Norberto,T62,Self,,
+OBS_26-1143,a105,Miguel,T66,Other,Norberto a104,low
+OBS_26-1143,a106,Miguel,T67,Unclear / not coded,,
+OBS_26-1143,a107,Ms. Gallagher,,N/A,,
+OBS_26-1143,a108,Miguel,T68,Unclear / not coded,,
+OBS_26-1143,a109,Norberto,T62,Self,,some detail
+OBS_26-1143,a110,Miguel,T69,Other,Norberto a109,low
+OBS_26-1143,a111,Ms. Gallagher,,N/A,,
+OBS_26-1143,a112,Miguel,T70,Unclear / not coded,,
+OBS_26-1143,b1,Ms. Gallagher,,N/A,,
+OBS_26-1143,b2,Miguel,T71,Self,,no detail
+OBS_26-1143,b3,Norberto,T72,Self,,no detail
+OBS_26-1143,b4,Miguel,T73,Self,,no detail
+OBS_26-1143,b5,Norberto,T74,Self,,no detail
+OBS_26-1143,b6,Miguel,T75,Other,Norberto b5,low
+OBS_26-1143,b7,Ms. Gallagher,,N/A,,
+OBS_26-1143,c1,Ms. Gallagher,,N/A,,
+OBS_26-1143,c2,Other Adult,,N/A,,
+OBS_26-1143,c3,Miguel,T76,Unclear / not coded,,
+OBS_26-1143,c4,Miguel,T77,Unclear / not coded,,
+OBS_26-1143,c5,Miguel,T78,Unclear / not coded,,
+OBS_26-1143,c6,Miguel,T79,Unclear / not coded,,
+OBS_26-1143,c7,Other Adult,,N/A,,
+OBS_26-1143,c8,Other Adult,,N/A,,
+OBS_26-1143,c9,Miguel,T80,Unclear / not coded,,
+OBS_26-1143,c10,Other Adult,,N/A,,
+OBS_26-1143,c11,Miguel,T81,Unclear / not coded,,
+OBS_26-1143,c12,Other Adult,,N/A,,
+OBS_26-1143,c13,Other Adult,,N/A,,
+OBS_26-1143,c14,Miguel,T82,Unclear / not coded,,
+OBS_26-1143,c15,Other Adult,,N/A,,
+OBS_26-1143,c16,Miguel,T83,Unclear / not coded,,
+OBS_26-1143,c17,Miguel,T84,Self,,
+OBS_26-1143,c18,Miguel,T84,Self,,no detail
+OBS_26-1143,c19,Miguel,T85,Unclear / not coded,,
+OBS_26-1143,c20,Norberto,T86,Unclear / not coded,,
+OBS_26-1143,c21,Miguel,T87,Self,,no detail
+OBS_26-1143,c22,Norberto,T88,Unclear / not coded,,
+OBS_26-1143,c23,Miguel,T89,Unclear / not coded,,
+OBS_26-1143,c24,Norberto,T90,Unclear / not coded,,
+OBS_26-1143,c25,Miguel,T91,Unclear / not coded,,
+OBS_26-1143,c26,Norberto,T92,Unclear / not coded,,
+OBS_26-1143,c27,Miguel,T93,Unclear / not coded,,
+OBS_26-1143,c28,Ms. Gallagher,,N/A,,
+OBS_26-1143,c29,Ms. Gallagher,,N/A,,
+OBS_26-1143,c30,Ms. Gallagher,,N/A,,
+OBS_26-1143,c31,Miguel,T94,Self,,no detail
+OBS_26-1143,c32,Miguel,T95,Unclear / not coded,,
+OBS_26-1143,c33,Miguel,T96,Self,,
+OBS_26-1143,c34,Miguel,T96,Self,,no detail
+OBS_26-1143,c35,Miguel,T97,Other,Norberto a98,medium
+OBS_26-1143,c36,Miguel,T98,Unclear / not coded,,
+OBS_26-1143,c37,Ms. Gallagher,,N/A,,

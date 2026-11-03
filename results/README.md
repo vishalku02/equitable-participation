@@ -10,6 +10,23 @@ This folder holds everything needed to compare human coding, the two LLM prompts
 | `llm_agreement/` | Outputs of `A4 - LLM Agreement.ipynb`: turn-level agreement tables, agreement bars, and confusion matrices. |
 | `co_construction/` | Outputs of `A4 - Co-construction Detection.ipynb`: which co-construction turns each method surfaces, misses, and GCA score plots. |
 | `uptake_participation/` | Outputs of `A5 - Uptake and Participation.ipynb`: whose ideas are taken up, who builds on whom, how participation is distributed, uptake by language, and LLM-coded uptake against GCA. |
+| `llm_enhanced_full/` | Enhanced-prompt codes for whole observations: all 20 of Ms. Gallagher's and 9 of Ms. Cooper's 10 (OBS_26-0587 has no student names in the metadata). One file per observation, in the A5 input format, without the `reason` column. |
+
+## The whole-observation LLM run (`llm_enhanced_full/`)
+
+`analysis/run_enhanced_llm.py` produced these files with Claude Sonnet 5.5 (`claude-sonnet-5-5`), one call per observation. It differs from the A4 runs in four ways:
+
+- It codes every segment of each observation, so it lines up with the whole-observation GCA scores from `A3 - Methods.ipynb`.
+- The prompt (`llm_prompts/enhanced_prompt.txt`) names no group: the script fills in each observation's students from the metadata. The A4 version is kept as `enhanced_prompt_v2.txt`.
+- The model reads the original Spanish, with no working translations.
+- The lesson context is the IM lesson itself, attached as one PDF (teacher guide, student edition, and preparation page) instead of a written summary. `llm_prompts/observation_lessons.csv` maps each observation to its lesson. The PDFs stay local in `Data/curriculum/`, and `Data/curriculum/download_list.md` has their links.
+
+Things to know before analyzing:
+
+- The model gives Unclear / not coded lines turn IDs too, and whole observations include off-task stretches, so about two thirds of student lines are Unclear. Count participation over Self and Other turns, or the off-task turns will inflate "All turns".
+- In OBS_25-0259 the speaker labeled "Other" reads problems aloud and directs the students, so the model treated that speaker as an adult (N/A) rather than a student.
+- Level labels differ in capitalization between files; lowercase them before comparing.
+- Twenty observations were returned as CSV text and nine through structured outputs (OBS_26-0745, 0905, 0971, 1000, 1107, 1120, 1124, 1131, 1143), after the CSV runs failed or were interrupted. The prompt is identical; only the response format differs.
 
 ## Start here
 

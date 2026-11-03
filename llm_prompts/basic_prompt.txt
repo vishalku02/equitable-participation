@@ -1,0 +1,7 @@
+Please code this transcript using Webb et al.'s (2014) framework, focusing on co-construction: how students engage with and develop one another's mathematical ideas, and whose ideas are taken up.
+
+A student's turn may span multiple utterances, including lines interrupted by another speaker; treat the turn as the student's contribution.
+
+For each row, assign an Explanation label (Fully detailed, Some detail, Wrong detail, No detail, N/A, or Unclear) and a Peer engagement label (High, Medium, Low, N/A, or Unclear). Consider the surrounding conversation and provide a brief reason for each judgment. Preserve the original row order and return the results as a CSV.
+
+{transcript}

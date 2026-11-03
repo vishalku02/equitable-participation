@@ -1,0 +1,37 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_25-0209,a1,Ms. Gallagher,,N/A,,
+OBS_25-0209,a2,Ms. Gallagher,,N/A,,
+OBS_25-0209,a3,Other,,Unclear / not coded,,
+OBS_25-0209,a4,Other,,Unclear / not coded,,
+OBS_25-0209,a5,Ms. Gallagher,,N/A,,
+OBS_25-0209,a6,Gregorio,,Unclear / not coded,,
+OBS_25-0209,a7,Other,,Unclear / not coded,,
+OBS_25-0209,a8,Eddy,,Unclear / not coded,,
+OBS_25-0209,a9,Other,,Unclear / not coded,,
+OBS_25-0209,a10,Eddy,,Unclear / not coded,,
+OBS_25-0209,a11,Gregorio,T1,Self,,
+OBS_25-0209,a12,Eddy,T2,Other,Gregorio a11,Low
+OBS_25-0209,a13,Gregorio,T1,Self,,Some detail
+OBS_25-0209,a14,Eddy,,Unclear / not coded,,
+OBS_25-0209,a15,Eddy,T3,Other,Gregorio a11; Gregorio a13,
+OBS_25-0209,a16,Eddy,T3,Other,Gregorio a11; Gregorio a13,High
+OBS_25-0209,a17,Gregorio,T4,Self,,Some detail
+OBS_25-0209,a18,Eddy,T5,Other,Gregorio a17,
+OBS_25-0209,a19,Eddy,T5,Other,Gregorio a17,
+OBS_25-0209,a20,Eddy,T5,Other,Gregorio a17,Low
+OBS_25-0209,a21,Eddy,,Unclear / not coded,,
+OBS_25-0209,a22,Gregorio,,Unclear / not coded,,
+OBS_25-0209,a23,Gregorio,,Unclear / not coded,,
+OBS_25-0209,a24,Eddy,,Unclear / not coded,,
+OBS_25-0209,a25,Gregorio,,Unclear / not coded,,
+OBS_25-0209,a26,Eddy,T6,Self,,
+OBS_25-0209,a27,Eddy,T6,Self,,
+OBS_25-0209,a28,Eddy,T6,Self,,Some detail
+OBS_25-0209,a29,Gregorio,,Unclear / not coded,,
+OBS_25-0209,a30,Eddy,T7,Other,Gregorio a29,
+OBS_25-0209,a31,Eddy,T7,Other,Gregorio a29,
+OBS_25-0209,a32,Eddy,T7,Other,Gregorio a29,Medium
+OBS_25-0209,a33,Gregorio,T8,Other,Eddy a32,Medium
+OBS_25-0209,a34,Eddy,T9,Other,Gregorio a33,Low
+OBS_25-0209,a35,Gregorio,,Unclear / not coded,,
+OBS_25-0209,a36,Gregorio,,Unclear / not coded,,

@@ -1,0 +1,211 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-0944,a1,Ms. Cooper,,N/A,,
+OBS_26-0944,a2,Ms. Cooper,,N/A,,
+OBS_26-0944,a3,Ms. Cooper,,N/A,,
+OBS_26-0944,a4,Adam,T1,Unclear / not coded,,
+OBS_26-0944,a5,Doris,T2,Unclear / not coded,,
+OBS_26-0944,a6,Adam,T3,Unclear / not coded,,
+OBS_26-0944,a7,Ms. Cooper,,N/A,,
+OBS_26-0944,a8,Adam,T4,Unclear / not coded,,
+OBS_26-0944,a9,Doris,T5,Unclear / not coded,,
+OBS_26-0944,a10,Doris,T6,Self,,fully detailed
+OBS_26-0944,a11,Adam,T7,Self,,fully detailed
+OBS_26-0944,a12,Doris,T8,Other,Adam a11,high
+OBS_26-0944,a13,Doris,T9,Unclear / not coded,,
+OBS_26-0944,a14,Adam,T10,Self,,some detail
+OBS_26-0944,a15,Doris,T11,Other,Adam a14,low
+OBS_26-0944,a16,Doris,T12,Self,,fully detailed
+OBS_26-0944,a17,Adam,T13,Unclear / not coded,,
+OBS_26-0944,a18,Adam,T14,Unclear / not coded,,
+OBS_26-0944,a19,Doris,T15,Unclear / not coded,,
+OBS_26-0944,a20,Adam,T16,Unclear / not coded,,
+OBS_26-0944,a21,Adam,T17,Unclear / not coded,,
+OBS_26-0944,a22,Doris,T18,Unclear / not coded,,
+OBS_26-0944,a23,Adam,T19,Unclear / not coded,,
+OBS_26-0944,a24,Doris,T20,Self,,
+OBS_26-0944,a25,Doris,T20,Self,,
+OBS_26-0944,a26,Doris,T20,Self,,wrong detail
+OBS_26-0944,a27,Adam,T21,Other,Doris a26; Doris a28,high
+OBS_26-0944,a28,Doris,T22,Other,Adam a27,medium
+OBS_26-0944,a29,Adam,T21,Other,Doris a26; Doris a28,high
+OBS_26-0944,a30,Ms. Cooper,,N/A,,
+OBS_26-0944,b1,Ms. Cooper,,N/A,,
+OBS_26-0944,b2,Adam,T23,Self,,
+OBS_26-0944,b3,Adam,T23,Self,,
+OBS_26-0944,b4,Adam,T23,Self,,
+OBS_26-0944,b5,Adam,T23,Self,,no detail
+OBS_26-0944,b6,Doris,T24,Other,Adam b5,low
+OBS_26-0944,b7,Adam,T25,Unclear / not coded,,
+OBS_26-0944,b8,Doris,T26,Other,Adam b7,medium
+OBS_26-0944,b9,Adam,T27,Self,,
+OBS_26-0944,b10,Adam,T27,Self,,no detail
+OBS_26-0944,b11,Doris,T28,Self,,no detail
+OBS_26-0944,b12,Doris,T29,Unclear / not coded,,
+OBS_26-0944,b13,Adam,T30,Unclear / not coded,,
+OBS_26-0944,b14,Doris,T31,Unclear / not coded,,
+OBS_26-0944,b15,Doris,T32,Unclear / not coded,,
+OBS_26-0944,b16,Adam,T33,Unclear / not coded,,
+OBS_26-0944,b17,Adam,T34,Self,,
+OBS_26-0944,b18,Adam,T34,Self,,no detail
+OBS_26-0944,b19,Adam,T35,Unclear / not coded,,
+OBS_26-0944,b20,Doris,T36,Self,,
+OBS_26-0944,b21,Doris,T36,Self,,
+OBS_26-0944,b22,Doris,T36,Self,,no detail
+OBS_26-0944,b23,Adam,T37,Self,,
+OBS_26-0944,b24,Adam,T37,Self,,no detail
+OBS_26-0944,b25,Adam,T38,Unclear / not coded,,
+OBS_26-0944,b26,Doris,T39,Unclear / not coded,,
+OBS_26-0944,b27,Adam,T40,Unclear / not coded,,
+OBS_26-0944,b28,Doris,T41,Unclear / not coded,,
+OBS_26-0944,b29,Doris,T41,Unclear / not coded,,
+OBS_26-0944,b30,Doris,T42,Self,,
+OBS_26-0944,b31,Doris,T42,Self,,no detail
+OBS_26-0944,b32,Doris,T43,Unclear / not coded,,
+OBS_26-0944,b33,Adam,T44,Unclear / not coded,,
+OBS_26-0944,b34,Doris,T45,Self,,
+OBS_26-0944,b35,Doris,T45,Self,,no detail
+OBS_26-0944,b36,Adam,T46,Other,Doris b35,
+OBS_26-0944,b37,Adam,T46,Other,Doris b35,low
+OBS_26-0944,b38,Doris,T47,Unclear / not coded,,
+OBS_26-0944,b39,Doris,T48,Other,Adam b37,low
+OBS_26-0944,b40,Adam,T49,Self,,
+OBS_26-0944,b41,Adam,T49,Self,,
+OBS_26-0944,b42,Adam,T49,Self,,no detail
+OBS_26-0944,b43,Doris,T50,Self,,no detail
+OBS_26-0944,b44,Adam,T51,Other,Doris b43,
+OBS_26-0944,b45,Adam,T51,Other,Doris b43,medium
+OBS_26-0944,b46,Doris,T52,Unclear / not coded,,
+OBS_26-0944,b47,Adam,T53,Self,,no detail
+OBS_26-0944,b48,Adam,T54,Unclear / not coded,,
+OBS_26-0944,b49,Doris,T55,Unclear / not coded,,
+OBS_26-0944,b50,Adam,T56,Unclear / not coded,,
+OBS_26-0944,b51,Doris,T57,Unclear / not coded,,
+OBS_26-0944,b52,Adam,T58,Unclear / not coded,,
+OBS_26-0944,b53,Adam,T59,Unclear / not coded,,
+OBS_26-0944,b54,Doris,T60,Unclear / not coded,,
+OBS_26-0944,b55,Adam,T61,Unclear / not coded,,
+OBS_26-0944,b56,Adam,T62,Unclear / not coded,,
+OBS_26-0944,b57,Doris,T63,Unclear / not coded,,
+OBS_26-0944,b58,Adam,T64,Unclear / not coded,,
+OBS_26-0944,b59,Doris,T65,Unclear / not coded,,
+OBS_26-0944,b60,Adam,T66,Unclear / not coded,,
+OBS_26-0944,b61,Adam,T67,Unclear / not coded,,
+OBS_26-0944,b62,Adam,T68,Unclear / not coded,,
+OBS_26-0944,b63,Adam,T69,Unclear / not coded,,
+OBS_26-0944,b64,Doris,T70,Unclear / not coded,,
+OBS_26-0944,b65,Adam,T71,Unclear / not coded,,
+OBS_26-0944,b66,Doris,T72,Unclear / not coded,,
+OBS_26-0944,b67,Adam,T73,Unclear / not coded,,
+OBS_26-0944,b68,Doris,T74,Unclear / not coded,,
+OBS_26-0944,b69,Adam,T75,Unclear / not coded,,
+OBS_26-0944,b70,Doris,T76,Unclear / not coded,,
+OBS_26-0944,b71,Adam,T77,Unclear / not coded,,
+OBS_26-0944,b72,Doris,T78,Unclear / not coded,,
+OBS_26-0944,b73,Adam,T79,Unclear / not coded,,
+OBS_26-0944,b74,Adam,T80,Unclear / not coded,,
+OBS_26-0944,b75,Doris,T81,Unclear / not coded,,
+OBS_26-0944,b76,Adam,T82,Unclear / not coded,,
+OBS_26-0944,b77,Doris,T83,Unclear / not coded,,
+OBS_26-0944,b78,Adam,T84,Unclear / not coded,,
+OBS_26-0944,b79,Doris,T85,Unclear / not coded,,
+OBS_26-0944,b80,Adam,T86,Unclear / not coded,,
+OBS_26-0944,b81,Adam,T87,Unclear / not coded,,
+OBS_26-0944,b82,Adam,T88,Unclear / not coded,,
+OBS_26-0944,b83,Adam,T89,Unclear / not coded,,
+OBS_26-0944,b84,Adam,T90,Unclear / not coded,,
+OBS_26-0944,b85,Adam,T90,Unclear / not coded,,
+OBS_26-0944,b86,Ms. Cooper,,N/A,,
+OBS_26-0944,b87,Adam,T91,Unclear / not coded,,
+OBS_26-0944,b88,Doris,T92,Unclear / not coded,,
+OBS_26-0944,b89,Adam,T93,Unclear / not coded,,
+OBS_26-0944,b90,Doris,T94,Other,Adam b87,medium
+OBS_26-0944,b91,Adam,T95,Other,Doris b90,low
+OBS_26-0944,b92,Doris,T96,Unclear / not coded,,
+OBS_26-0944,b93,Adam,T97,Unclear / not coded,,
+OBS_26-0944,b94,Doris,T98,Unclear / not coded,,
+OBS_26-0944,b95,Adam,T99,Unclear / not coded,,
+OBS_26-0944,b96,Doris,T100,Unclear / not coded,,
+OBS_26-0944,b97,Adam,T101,Unclear / not coded,,
+OBS_26-0944,b98,Doris,T102,Unclear / not coded,,
+OBS_26-0944,b99,Ms. Cooper,,N/A,,
+OBS_26-0944,b100,Adam,T103,Unclear / not coded,,
+OBS_26-0944,b101,Doris,T104,Unclear / not coded,,
+OBS_26-0944,b102,Adam,T105,Self,,no detail
+OBS_26-0944,b103,Ms. Cooper,,N/A,,
+OBS_26-0944,b104,Adam,T106,Unclear / not coded,,
+OBS_26-0944,b105,Ms. Cooper,,N/A,,
+OBS_26-0944,b106,Ms. Cooper,,N/A,,
+OBS_26-0944,b107,Adam,T107,Self,,
+OBS_26-0944,b108,Ms. Cooper,,N/A,,
+OBS_26-0944,b109,Adam,T107,Self,,
+OBS_26-0944,b110,Adam,T107,Self,,some detail
+OBS_26-0944,b111,Doris,T108,Other,Adam b107; Adam b109,
+OBS_26-0944,b112,Adam,T109,Other,Doris b111,medium
+OBS_26-0944,b113,Doris,T108,Other,Adam b107; Adam b109,high
+OBS_26-0944,b114,Adam,T110,Other,Doris b113,low
+OBS_26-0944,b115,Adam,T111,Unclear / not coded,,
+OBS_26-0944,b116,Doris,T112,Unclear / not coded,,
+OBS_26-0944,b117,Adam,T113,Unclear / not coded,,
+OBS_26-0944,b118,Adam,T114,Unclear / not coded,,
+OBS_26-0944,b119,Ms. Cooper,,N/A,,
+OBS_26-0944,b120,Doris,T115,Unclear / not coded,,
+OBS_26-0944,c1,Ms. Cooper,,N/A,,
+OBS_26-0944,c2,Ms. Cooper,,N/A,,
+OBS_26-0944,c3,Ms. Cooper,,N/A,,
+OBS_26-0944,c4,Doris,T116,Self,,
+OBS_26-0944,c5,Adam,T117,Unclear / not coded,,
+OBS_26-0944,c6,Doris,T116,Self,,no detail
+OBS_26-0944,c7,Adam,T118,Unclear / not coded,,
+OBS_26-0944,c8,Doris,T119,Unclear / not coded,,
+OBS_26-0944,c9,Adam,T120,Unclear / not coded,,
+OBS_26-0944,c10,Adam,T121,Unclear / not coded,,
+OBS_26-0944,c11,Doris,T122,Other,Adam c10,
+OBS_26-0944,c12,Adam,T123,Unclear / not coded,,
+OBS_26-0944,c13,Doris,T122,Other,Adam c10,medium
+OBS_26-0944,c14,Adam,T124,Other,Doris c13,medium
+OBS_26-0944,c15,Doris,T125,Unclear / not coded,,
+OBS_26-0944,c16,Adam,T126,Other,Doris c13; Doris c15,
+OBS_26-0944,c17,Adam,T126,Other,Doris c13; Doris c15,
+OBS_26-0944,c18,Adam,T126,Other,Doris c13; Doris c15,
+OBS_26-0944,c19,Adam,T126,Other,Doris c13; Doris c15,
+OBS_26-0944,c20,Doris,T127,Unclear / not coded,,
+OBS_26-0944,c21,Adam,T126,Other,Doris c13; Doris c15,low
+OBS_26-0944,c22,Adam,T128,Unclear / not coded,,
+OBS_26-0944,c23,Adam,T129,Unclear / not coded,,
+OBS_26-0944,c24,Adam,T130,Unclear / not coded,,
+OBS_26-0944,c25,Adam,T131,Unclear / not coded,,
+OBS_26-0944,c26,Doris,T132,Unclear / not coded,,
+OBS_26-0944,c27,Adam,T133,Unclear / not coded,,
+OBS_26-0944,c28,Adam,T134,Unclear / not coded,,
+OBS_26-0944,c29,Adam,T135,Unclear / not coded,,
+OBS_26-0944,c30,Adam,T136,Unclear / not coded,,
+OBS_26-0944,c31,Ms. Cooper,,N/A,,
+OBS_26-0944,c32,Adam,T137,Unclear / not coded,,
+OBS_26-0944,c33,Ms. Cooper,,N/A,,
+OBS_26-0944,c34,Adam,T138,Self,,no detail
+OBS_26-0944,c35,Ms. Cooper,,N/A,,
+OBS_26-0944,c36,Doris,T139,Other,Adam c34,medium
+OBS_26-0944,c37,Adam,T140,Self,,
+OBS_26-0944,c38,Adam,T141,Unclear / not coded,,
+OBS_26-0944,c39,Doris,T142,Other,Adam c37,medium
+OBS_26-0944,c40,Adam,T140,Self,,
+OBS_26-0944,c41,Adam,T140,Self,,
+OBS_26-0944,c42,Adam,T140,Self,,
+OBS_26-0944,c43,Adam,T140,Self,,no detail
+OBS_26-0944,c44,Ms. Cooper,,N/A,,
+OBS_26-0944,c45,Ms. Cooper,,N/A,,
+OBS_26-0944,c46,Ms. Cooper,,N/A,,
+OBS_26-0944,c47,Adam,T143,Unclear / not coded,,
+OBS_26-0944,c48,Ms. Cooper,,N/A,,
+OBS_26-0944,c49,Adam,T144,Unclear / not coded,,
+OBS_26-0944,c50,Ms. Cooper,,N/A,,
+OBS_26-0944,c51,Adam,T145,Unclear / not coded,,
+OBS_26-0944,c52,Ms. Cooper,,N/A,,
+OBS_26-0944,c53,Adam,T146,Unclear / not coded,,
+OBS_26-0944,c54,Adam,T147,Unclear / not coded,,
+OBS_26-0944,c55,Adam,T148,Unclear / not coded,,
+OBS_26-0944,c56,Adam,T149,Unclear / not coded,,
+OBS_26-0944,c57,Ms. Cooper,,N/A,,
+OBS_26-0944,c58,Ms. Cooper,,N/A,,
+OBS_26-0944,c59,Doris,T150,Self,,some detail
+OBS_26-0944,c60,Ms. Cooper,,N/A,,

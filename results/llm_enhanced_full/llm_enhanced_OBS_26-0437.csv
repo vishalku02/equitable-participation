@@ -1,0 +1,186 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-0437,a1,Ms. Benoit,,N/A,,
+OBS_26-0437,a2,Ms. Benoit,,N/A,,
+OBS_26-0437,a3,Gregorio,,Unclear / not coded,,
+OBS_26-0437,a4,Eddy,T1,Self,,
+OBS_26-0437,a5,Eddy,T1,Self,,
+OBS_26-0437,a6,Eddy,T1,Self,,
+OBS_26-0437,a7,Gregorio,,Unclear / not coded,,
+OBS_26-0437,a8,Eddy,T1,Self,,
+OBS_26-0437,a9,Eddy,T1,Self,,
+OBS_26-0437,a10,Eddy,T1,Self,,
+OBS_26-0437,a11,Eddy,T1,Self,,some detail
+OBS_26-0437,a12,Gregorio,,Unclear / not coded,,
+OBS_26-0437,a13,Gregorio,T2,Self,,
+OBS_26-0437,a14,Gregorio,T2,Self,,
+OBS_26-0437,a15,Gregorio,T2,Self,,
+OBS_26-0437,a16,Eddy,T3,Other,Gregorio a15,
+OBS_26-0437,a17,Gregorio,T2,Self,,no detail
+OBS_26-0437,a18,Eddy,T3,Other,Gregorio a15; Gregorio a17,medium
+OBS_26-0437,a19,Eddy,,Unclear / not coded,,
+OBS_26-0437,a20,Gregorio,T4,Self,,no detail
+OBS_26-0437,a21,Eddy,T5,Other,Gregorio a20,medium
+OBS_26-0437,a22,Gregorio,T6,Other,Eddy a21,
+OBS_26-0437,a23,Gregorio,T6,Other,Eddy a21,medium
+OBS_26-0437,a24,Eddy,,Unclear / not coded,,
+OBS_26-0437,a25,Gregorio,T7,Self,,no detail
+OBS_26-0437,a26,Eddy,T8,Other,Gregorio a25,medium
+OBS_26-0437,a27,Gregorio,T9,Self,,no detail
+OBS_26-0437,a28,Ms. Benoit,,N/A,,
+OBS_26-0437,a29,Gregorio,,Unclear / not coded,,
+OBS_26-0437,a30,Gregorio,,Unclear / not coded,,
+OBS_26-0437,a31,Gregorio,,Unclear / not coded,,
+OBS_26-0437,b1,Ms. Gallagher,,N/A,,
+OBS_26-0437,b2,Eddy,T10,Self,,
+OBS_26-0437,b3,Gregorio,T11,Other,Eddy b2,
+OBS_26-0437,b4,Eddy,T10,Self,,
+OBS_26-0437,b5,Gregorio,,Unclear / not coded,,
+OBS_26-0437,b6,Eddy,T10,Self,,
+OBS_26-0437,b7,Gregorio,T11,Other,Eddy b6,
+OBS_26-0437,b8,Eddy,T10,Self,,some detail
+OBS_26-0437,b9,Gregorio,T11,Other,Eddy b8,low
+OBS_26-0437,b10,Ms. Benoit,,N/A,,
+OBS_26-0437,b11,Eddy,T12,Self,,no detail
+OBS_26-0437,b12,Ms. Benoit,,N/A,,
+OBS_26-0437,b13,Ms. Benoit,,N/A,,
+OBS_26-0437,b14,Gregorio,,Unclear / not coded,,
+OBS_26-0437,b15,Ms. Benoit,,N/A,,
+OBS_26-0437,b16,Eddy,T13,Self,,
+OBS_26-0437,b17,Eddy,T13,Self,,
+OBS_26-0437,b18,Ms. Gallagher,,N/A,,
+OBS_26-0437,b19,Ms. Benoit,,N/A,,
+OBS_26-0437,b20,Eddy,,Unclear / not coded,,
+OBS_26-0437,b21,Ms. Gallagher,,N/A,,
+OBS_26-0437,b22,Gregorio,,Unclear / not coded,,
+OBS_26-0437,b23,Eddy,T13,Self,,
+OBS_26-0437,b24,Gregorio,,Unclear / not coded,,
+OBS_26-0437,b25,Eddy,T13,Self,,
+OBS_26-0437,b26,Eddy,T13,Self,,some detail
+OBS_26-0437,b27,Gregorio,T14,Other,Eddy b25; Eddy b26,low
+OBS_26-0437,b28,Ms. Gallagher,,N/A,,
+OBS_26-0437,c1,Ms. Gallagher,,N/A,,
+OBS_26-0437,c2,Ms. Gallagher,,N/A,,
+OBS_26-0437,c3,Ms. Gallagher,,N/A,,
+OBS_26-0437,c4,Eddy,,Unclear / not coded,,
+OBS_26-0437,c5,Eddy,,Unclear / not coded,,
+OBS_26-0437,c6,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c7,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c8,Eddy,,Unclear / not coded,,
+OBS_26-0437,c9,Eddy,,Unclear / not coded,,
+OBS_26-0437,c10,Eddy,,Unclear / not coded,,
+OBS_26-0437,c11,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c12,Eddy,,Unclear / not coded,,
+OBS_26-0437,c13,Gregorio,T15,Self,,no detail
+OBS_26-0437,c14,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c15,Eddy,T16,Self,,
+OBS_26-0437,c16,Eddy,T16,Self,,
+OBS_26-0437,c17,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c18,Eddy,T16,Self,,some detail
+OBS_26-0437,c19,Gregorio,T17,Other,Eddy c18,low
+OBS_26-0437,c20,Gregorio,T18,Self,,
+OBS_26-0437,c21,Gregorio,T18,Self,,no detail
+OBS_26-0437,c22,Eddy,T19,Self,,
+OBS_26-0437,c23,Gregorio,T20,Other,Eddy c22,low
+OBS_26-0437,c24,Eddy,T19,Self,,
+OBS_26-0437,c25,Eddy,T19,Self,,
+OBS_26-0437,c26,Eddy,T19,Self,,
+OBS_26-0437,c27,Eddy,T19,Self,,
+OBS_26-0437,c28,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c29,Eddy,T19,Self,,some detail
+OBS_26-0437,c30,Gregorio,T21,Other,Eddy c29,low
+OBS_26-0437,c31,Gregorio,T22,Self,,
+OBS_26-0437,c32,Gregorio,T22,Self,,
+OBS_26-0437,c33,Gregorio,T22,Self,,no detail
+OBS_26-0437,c34,Eddy,T23,Other,Gregorio c33,
+OBS_26-0437,c35,Eddy,T23,Other,Gregorio c33,low
+OBS_26-0437,c36,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c37,Ms. Benoit,,N/A,,
+OBS_26-0437,c38,Ms. Benoit,,N/A,,
+OBS_26-0437,c39,Eddy,,Unclear / not coded,,
+OBS_26-0437,c40,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c41,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c42,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c43,Eddy,,Unclear / not coded,,
+OBS_26-0437,c44,Eddy,,Unclear / not coded,,
+OBS_26-0437,c45,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c46,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c47,Ms. Gallagher,,N/A,,
+OBS_26-0437,c48,Ms. Gallagher,,N/A,,
+OBS_26-0437,c49,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c50,Ms. Gallagher,,N/A,,
+OBS_26-0437,c51,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c52,Ms. Gallagher,,N/A,,
+OBS_26-0437,c53,Eddy,T24,Self,,
+OBS_26-0437,c54,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c55,Eddy,,Unclear / not coded,,
+OBS_26-0437,c56,Eddy,T24,Self,,no detail
+OBS_26-0437,c57,Ms. Gallagher,,N/A,,
+OBS_26-0437,c58,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c59,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c60,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c61,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c62,Ms. Gallagher,,N/A,,
+OBS_26-0437,c63,Eddy,T25,Self,,some detail
+OBS_26-0437,c64,Gregorio,T26,Other,Eddy c63,
+OBS_26-0437,c65,Ms. Gallagher,,N/A,,
+OBS_26-0437,c66,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c67,Eddy,,Unclear / not coded,,
+OBS_26-0437,c68,Gregorio,T26,Other,Eddy c63; Eddy c16,
+OBS_26-0437,c69,Ms. Gallagher,,N/A,,
+OBS_26-0437,c70,Gregorio,T26,Other,Eddy c63; Eddy c16,medium
+OBS_26-0437,c71,Ms. Gallagher,,N/A,,
+OBS_26-0437,c72,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c73,Ms. Gallagher,,N/A,,
+OBS_26-0437,c74,Gregorio,T27,Self,,
+OBS_26-0437,c75,Ms. Gallagher,,N/A,,
+OBS_26-0437,c76,Gregorio,T27,Self,,wrong detail
+OBS_26-0437,c77,Ms. Gallagher,,N/A,,
+OBS_26-0437,c78,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c79,Ms. Gallagher,,N/A,,
+OBS_26-0437,c80,Eddy,T28,Self,,some detail
+OBS_26-0437,c81,Ms. Gallagher,,N/A,,
+OBS_26-0437,c82,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c83,Eddy,,Unclear / not coded,,
+OBS_26-0437,c84,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c85,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c86,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c87,Eddy,T29,Self,,
+OBS_26-0437,c88,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c89,Eddy,T29,Self,,no detail
+OBS_26-0437,c90,Gregorio,,Unclear / not coded,,
+OBS_26-0437,c91,Eddy,,Unclear / not coded,,
+OBS_26-0437,c92,Eddy,T30,Self,,no detail
+OBS_26-0437,c93,Gregorio,T31,Self,,no detail
+OBS_26-0437,c94,Ms. Gallagher,,N/A,,
+OBS_26-0437,d1,Ms. Gallagher,,N/A,,
+OBS_26-0437,d2,Eddy,T32,Self,,fully detailed
+OBS_26-0437,d3,Other,,Unclear / not coded,,
+OBS_26-0437,d4,Eddy,,Unclear / not coded,,
+OBS_26-0437,d5,Gregorio,,Unclear / not coded,,
+OBS_26-0437,d6,Ms. Gallagher,,N/A,,
+OBS_26-0437,d7,Ms. Gallagher,,N/A,,
+OBS_26-0437,e1,Ms. Gallagher,,N/A,,
+OBS_26-0437,e2,Eddy,T33,Self,,fully detailed
+OBS_26-0437,e3,Gregorio,T34,Other,Eddy e2,
+OBS_26-0437,e4,Gregorio,T34,Other,Eddy e2,
+OBS_26-0437,e5,Gregorio,T34,Other,Eddy e2,medium
+OBS_26-0437,e6,Ms. Gallagher,,N/A,,
+OBS_26-0437,f1,Ms. Benoit,,N/A,,
+OBS_26-0437,f2,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f3,Eddy,,Unclear / not coded,,
+OBS_26-0437,f4,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f5,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f6,Ms. Gallagher,,N/A,,
+OBS_26-0437,f7,Ms. Gallagher,,N/A,,
+OBS_26-0437,f8,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f9,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f10,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f11,Eddy,T35,Other,Gregorio f10,
+OBS_26-0437,f12,Eddy,T35,Other,Gregorio f10,
+OBS_26-0437,f13,Eddy,T35,Other,Gregorio f10,
+OBS_26-0437,f14,Eddy,T35,Other,Gregorio f10,
+OBS_26-0437,f15,Eddy,T35,Other,Gregorio f10,
+OBS_26-0437,f16,Eddy,T35,Other,Gregorio f10; Gregorio f8,high
+OBS_26-0437,f17,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f18,Gregorio,,Unclear / not coded,,
+OBS_26-0437,f19,Ms. Gallagher,,N/A,,

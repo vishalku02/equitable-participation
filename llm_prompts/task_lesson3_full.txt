@@ -1,0 +1,25 @@
+Source: Illustrative Mathematics K-5, Grade 4, Unit 5, Lesson 3, "Solve Multiplicative Comparison Problems." Quoted text is verbatim from the student edition (Open Up Resources) and teacher guide (Kendall Hunt), accessed 2026-10-24. Text in [brackets] is the researchers' description of an image, not curriculum text.
+
+Student-facing goal: "Let's solve multiplicative comparison problems."
+Materials: connecting cubes.
+
+WARM-UP: Number Talk: Find the Unknown Factor
+Student task: "Find the value of each unknown mentally." 8 × ? = 16; 3 × ? = 24; ? × 8 = 32; 40 ÷ 8 = ?
+Teacher guide purpose: "to elicit strategies and understandings students have for finding a unknown factor and relating multiplication and division."
+
+ACTIVITY 1: A Book Drive (likely the activity in the segments to be coded)
+Student task: "This diagram shows the books Lin and Diego donated for the school book drive. [Image: a discrete tape diagram with 16 boxes labeled 'Lin's books' and 4 boxes labeled 'Diego's books.']
+1. Lin donated 16 books. Diego donated 4 books. How many times as many books did Lin donate as Diego did? Explain or show your reasoning. Use the diagram if it is helpful.
+2. Priya donated 3 books. Noah donated 21 books. How many times as many books did Noah donate as Priya did? Draw a diagram to show your reasoning.
+3. Mai made a pile of 27 donated books. Tyler made his own pile of 3 books. How many times as many books did Mai stack as Tyler did? Explain or show your reasoning." [Image: a short stack and a tall stack of books.]
+Teacher guide, monitor for students who represent Noah and Priya's books with: "3 books at a time for Noah and stop at 21", "all of Noah's books and circle groups of 3", "a tape diagram", "a multiplication equation with a symbol for unknown", "a division equation."
+Teacher guide, expected answers: 1. "Lin donated 4 times as many books as Diego did." 2. "Noah donated 7 times as many books as Priya did." [sample tape diagram: 21 boxes in colored groups of 3, and 3 boxes for Priya] 3. "Mai has 9 times as many books in a stack as Tyler," with "a discrete tape diagram" or "9 × 3 = 27."
+Teacher guide, Advancing Student Thinking: "Students may lose track of the group being multiplied and the factor serving as the multiplier and begin to represent, for example, 16 times as many as 4 books. Consider asking: 'What is being compared in this problem?' 'How many times as many books are being described in this problem?'"
+Teacher guide, Activity Synthesis: "Invite selected students to share their representation of Priya and Noah's books… If no students created an equation, ask, 'How could we represent Priya and Noah's books with an equation with a symbol for the unknown?' (? × 3 = 21 or 7 × ? = 21) 'How did you use multiplication to solve the problem?' (I knew 7 × 3 = 21. So, Noah has 7 times as much.) 'How did you use division to reason about the problem?' (I knew 21 divided by 3 is 7.)"
+Access for English Learners (MLR7 Compare and Connect): "After all strategies have been presented, lead a discussion comparing, contrasting, and connecting the different approaches. Ask, 'What did the strategies have in common?', 'How were they different?', and 'Why did the different approaches lead to the same outcome?'"
+
+ACTIVITY 2: Represent a Missing Amount
+Student task: "1. Clare donated 48 books. Clare donated 6 times as many books as Andre. a. Draw a diagram to represent the situation. b. How many books did Andre donate? Explain your reasoning. 2. Han says he can figure out the number of books Andre donated using division. Tyler says we have to use multiplication because it says 'times as many'. a. Do you agree with Han or Tyler? Explain your reasoning. b. Write an equation to represent Tyler's thinking. c. Write an equation to represent Han's thinking. 3. Elena donated 9 times as many books as Diego. Elena donated 81 books. Use multiplication or division to find the number of books Diego donated."
+Teacher guide, expected answers: 1. "Andre has 8 books." 2. "I think Han is right, because 48 ÷ 6 is the same as 6 × ? = 48." 3. "Diego donated 9 books, because 81 ÷ 9 = 9."
+
+What the transcript itself shows: the students work in a pair and mention numbers from Activity 1 (16 and 4; 3 and 21; 27 and 3) and Activity 2 (48 and 6). The students' own drawings and cubes are not visible in the transcript.

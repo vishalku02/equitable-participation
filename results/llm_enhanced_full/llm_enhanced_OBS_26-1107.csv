@@ -1,0 +1,227 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-1107,a1,Ms. Gallagher,,N/A,,
+OBS_26-1107,a2,Ms. Gallagher,,N/A,,
+OBS_26-1107,a3,Norberto,,Unclear / not coded,,
+OBS_26-1107,a4,Norberto,,Unclear / not coded,,
+OBS_26-1107,a5,Norberto,T1,Self,,
+OBS_26-1107,a6,Norberto,T1,Self,,
+OBS_26-1107,a7,Norberto,T1,Self,,
+OBS_26-1107,a8,Patrice,,Unclear / not coded,,
+OBS_26-1107,a9,Norberto,T1,Self,,
+OBS_26-1107,a10,Norberto,T1,Self,,
+OBS_26-1107,a11,Norberto,T1,Self,,some detail
+OBS_26-1107,a12,Patrice,,Unclear / not coded,,
+OBS_26-1107,a13,Norberto,T2,Self,,
+OBS_26-1107,a14,Norberto,T2,Self,,
+OBS_26-1107,a15,Norberto,T2,Self,,some detail
+OBS_26-1107,a16,Norberto,,Unclear / not coded,,
+OBS_26-1107,a17,Norberto,,Unclear / not coded,,
+OBS_26-1107,a18,Norberto,,Unclear / not coded,,
+OBS_26-1107,a19,Norberto,,Unclear / not coded,,
+OBS_26-1107,a20,Norberto,,Unclear / not coded,,
+OBS_26-1107,a21,Norberto,,Unclear / not coded,,
+OBS_26-1107,a22,Norberto,,Unclear / not coded,,
+OBS_26-1107,a23,Ms. Gallagher,,N/A,,
+OBS_26-1107,a24,Norberto,,Unclear / not coded,,
+OBS_26-1107,a25,Norberto,,Unclear / not coded,,
+OBS_26-1107,a26,Norberto,,Unclear / not coded,,
+OBS_26-1107,a27,Norberto,,Unclear / not coded,,
+OBS_26-1107,a28,Norberto,,Unclear / not coded,,
+OBS_26-1107,a29,Norberto,,Unclear / not coded,,
+OBS_26-1107,a30,Patrice,,Unclear / not coded,,
+OBS_26-1107,a31,Norberto,,Unclear / not coded,,
+OBS_26-1107,a32,Norberto,,Unclear / not coded,,
+OBS_26-1107,a33,Ms. Gallagher,,N/A,,
+OBS_26-1107,a34,Norberto,,Unclear / not coded,,
+OBS_26-1107,b1,Ms. Gallagher,,N/A,,
+OBS_26-1107,b2,Norberto,,Unclear / not coded,,
+OBS_26-1107,b3,Patrice,,Unclear / not coded,,
+OBS_26-1107,b4,Norberto,,Unclear / not coded,,
+OBS_26-1107,b5,Patrice,,Unclear / not coded,,
+OBS_26-1107,b6,Patrice,,Unclear / not coded,,
+OBS_26-1107,b7,Norberto,,Unclear / not coded,,
+OBS_26-1107,b8,Patrice,T3,Self,,
+OBS_26-1107,b9,Patrice,T3,Self,,no detail
+OBS_26-1107,b10,Norberto,T4,Other,Patrice b9,low
+OBS_26-1107,b11,Patrice,,Unclear / not coded,,
+OBS_26-1107,b12,Norberto,,Unclear / not coded,,
+OBS_26-1107,b13,Patrice,T5,Self,,no detail
+OBS_26-1107,b14,Norberto,T6,Other,Patrice b13,low
+OBS_26-1107,b15,Patrice,,Unclear / not coded,,
+OBS_26-1107,b16,Norberto,T7,Other,Patrice b13,medium
+OBS_26-1107,b17,Patrice,T8,Self,,no detail
+OBS_26-1107,b18,Norberto,T9,Other,Patrice b17,medium
+OBS_26-1107,b19,Patrice,,Unclear / not coded,,
+OBS_26-1107,b20,Norberto,,Unclear / not coded,,
+OBS_26-1107,b21,Patrice,T10,Self,,
+OBS_26-1107,b22,Patrice,T10,Self,,
+OBS_26-1107,b23,Norberto,T11,Other,Patrice b21,medium
+OBS_26-1107,b24,Patrice,T10,Self,,
+OBS_26-1107,b25,Norberto,T12,Other,Patrice b24,medium
+OBS_26-1107,b26,Patrice,T10,Self,,some detail
+OBS_26-1107,b27,Norberto,T13,Other,Patrice b26,low
+OBS_26-1107,b28,Patrice,,Unclear / not coded,,
+OBS_26-1107,b29,Patrice,T14,Self,,
+OBS_26-1107,b30,Patrice,T14,Self,,
+OBS_26-1107,b31,Patrice,T14,Self,,
+OBS_26-1107,b32,Norberto,T15,Other,Patrice b21,
+OBS_26-1107,b33,Norberto,T15,Other,Patrice b21,
+OBS_26-1107,b34,Patrice,,Unclear / not coded,,
+OBS_26-1107,b35,Patrice,,Unclear / not coded,,
+OBS_26-1107,b36,Norberto,T15,Other,Patrice b21,medium
+OBS_26-1107,b37,Patrice,T16,Self,,
+OBS_26-1107,b38,Norberto,T17,Other,Patrice b37,medium
+OBS_26-1107,b39,Patrice,T16,Self,,no detail
+OBS_26-1107,b40,Norberto,T18,Other,Patrice b39,low
+OBS_26-1107,b41,Patrice,,Unclear / not coded,,
+OBS_26-1107,b42,Norberto,,Unclear / not coded,,
+OBS_26-1107,b43,Patrice,T14,Self,,
+OBS_26-1107,b44,Patrice,T14,Self,,
+OBS_26-1107,b45,Patrice,T14,Self,,some detail
+OBS_26-1107,b46,Norberto,T19,Other,Patrice b45,low
+OBS_26-1107,b47,Patrice,,Unclear / not coded,,
+OBS_26-1107,b48,Norberto,T20,Other,Patrice b45,low
+OBS_26-1107,b49,Patrice,,Unclear / not coded,,
+OBS_26-1107,b50,Norberto,T21,Other,Patrice b43,medium
+OBS_26-1107,b51,Patrice,T22,Self,,no detail
+OBS_26-1107,b52,Norberto,,Unclear / not coded,,
+OBS_26-1107,b53,Norberto,,Unclear / not coded,,
+OBS_26-1107,b54,Patrice,,Unclear / not coded,,
+OBS_26-1107,b55,Norberto,,Unclear / not coded,,
+OBS_26-1107,b56,Norberto,,Unclear / not coded,,
+OBS_26-1107,b57,Norberto,,Unclear / not coded,,
+OBS_26-1107,b58,Norberto,,Unclear / not coded,,
+OBS_26-1107,b59,Norberto,,Unclear / not coded,,
+OBS_26-1107,b60,Ms. Gallagher,,N/A,,
+OBS_26-1107,b61,Norberto,,Unclear / not coded,,
+OBS_26-1107,b62,Norberto,,Unclear / not coded,,
+OBS_26-1107,b63,Norberto,,Unclear / not coded,,
+OBS_26-1107,b64,Patrice,,Unclear / not coded,,
+OBS_26-1107,b65,Norberto,,Unclear / not coded,,
+OBS_26-1107,b66,Patrice,,Unclear / not coded,,
+OBS_26-1107,b67,Patrice,,Unclear / not coded,,
+OBS_26-1107,b68,Patrice,,Unclear / not coded,,
+OBS_26-1107,b69,Norberto,,Unclear / not coded,,
+OBS_26-1107,b70,Norberto,,Unclear / not coded,,
+OBS_26-1107,b71,Norberto,,Unclear / not coded,,
+OBS_26-1107,b72,Norberto,,Unclear / not coded,,
+OBS_26-1107,b73,Norberto,,Unclear / not coded,,
+OBS_26-1107,b74,Norberto,,Unclear / not coded,,
+OBS_26-1107,b75,Ms. Gallagher,,N/A,,
+OBS_26-1107,c1,Ms. Gallagher,,N/A,,
+OBS_26-1107,c2,Ms. Gallagher,,N/A,,
+OBS_26-1107,c3,Norberto,,Unclear / not coded,,
+OBS_26-1107,c4,Ms. Gallagher,,N/A,,
+OBS_26-1107,c5,Patrice,,Unclear / not coded,,
+OBS_26-1107,c6,Norberto,,Unclear / not coded,,
+OBS_26-1107,c7,Norberto,,Unclear / not coded,,
+OBS_26-1107,c8,Patrice,T23,Self,,
+OBS_26-1107,c9,Patrice,T23,Self,,
+OBS_26-1107,c10,Patrice,T23,Self,,some detail
+OBS_26-1107,c11,Norberto,T24,Other,Patrice c9; Patrice c10,low
+OBS_26-1107,c12,Norberto,T25,Self,,
+OBS_26-1107,c13,Norberto,T25,Self,,
+OBS_26-1107,c14,Norberto,T25,Self,,
+OBS_26-1107,c15,Norberto,T25,Self,,
+OBS_26-1107,c16,Norberto,T25,Self,,
+OBS_26-1107,c17,Norberto,T25,Self,,
+OBS_26-1107,c18,Norberto,T25,Self,,
+OBS_26-1107,c19,Patrice,,Unclear / not coded,,
+OBS_26-1107,c20,Norberto,T25,Self,,some detail
+OBS_26-1107,c21,Ms. Gallagher,,N/A,,
+OBS_26-1107,d1,Ms. Gallagher,,N/A,,
+OBS_26-1107,d2,Ms. Gallagher,,N/A,,
+OBS_26-1107,d3,Norberto,,Unclear / not coded,,
+OBS_26-1107,d4,Norberto,T26,Self,,
+OBS_26-1107,d5,Norberto,T26,Self,,no detail
+OBS_26-1107,d6,Patrice,T27,Self,,
+OBS_26-1107,d7,Patrice,T27,Self,,
+OBS_26-1107,d8,Patrice,T27,Self,,some detail
+OBS_26-1107,d9,Norberto,,Unclear / not coded,,
+OBS_26-1107,d10,Patrice,,Unclear / not coded,,
+OBS_26-1107,d11,Norberto,,Unclear / not coded,,
+OBS_26-1107,d12,Norberto,,Unclear / not coded,,
+OBS_26-1107,d13,Norberto,,Unclear / not coded,,
+OBS_26-1107,d14,Norberto,,Unclear / not coded,,
+OBS_26-1107,d15,Norberto,,Unclear / not coded,,
+OBS_26-1107,d16,Norberto,,Unclear / not coded,,
+OBS_26-1107,d17,Ms. Gallagher,,N/A,,
+OBS_26-1107,e1,Ms. Gallagher,,N/A,,
+OBS_26-1107,e2,Norberto,T28,Self,,
+OBS_26-1107,e3,Norberto,T28,Self,,
+OBS_26-1107,e4,Norberto,T28,Self,,some detail
+OBS_26-1107,e5,Ms. Benoit,,N/A,,
+OBS_26-1107,e6,Patrice,T29,Other,Norberto e2; Norberto e4,
+OBS_26-1107,e7,Patrice,T29,Other,Norberto e2; Norberto e4,
+OBS_26-1107,e8,Patrice,T29,Other,Norberto e2; Norberto e4,
+OBS_26-1107,e9,Ms. Benoit,,N/A,,
+OBS_26-1107,e10,Patrice,T29,Other,Norberto e2; Norberto e4,
+OBS_26-1107,e11,Patrice,T29,Other,Norberto e2; Norberto e4,medium
+OBS_26-1107,e12,Norberto,T30,Self,,
+OBS_26-1107,e13,Ms. Gallagher,,N/A,,
+OBS_26-1107,e14,Ms. Benoit,,N/A,,
+OBS_26-1107,e15,Norberto,T30,Self,,
+OBS_26-1107,e16,Norberto,T30,Self,,
+OBS_26-1107,e17,Norberto,T30,Self,,some detail
+OBS_26-1107,e18,Ms. Benoit,,N/A,,
+OBS_26-1107,e19,Patrice,T31,Self,,
+OBS_26-1107,e20,Patrice,T31,Self,,
+OBS_26-1107,e21,Patrice,T31,Self,,some detail
+OBS_26-1107,e22,Norberto,T32,Other,Patrice e21,low
+OBS_26-1107,e23,Norberto,T33,Other,Patrice e19; Patrice e21,
+OBS_26-1107,e24,Norberto,T33,Other,Patrice e19; Patrice e21,medium
+OBS_26-1107,e25,Patrice,T34,Self,,some detail
+OBS_26-1107,e26,Ms. Gallagher,,N/A,,
+OBS_26-1107,f1,Ms. Gallagher,,N/A,,
+OBS_26-1107,f2,Gregorio,,Unclear / not coded,,
+OBS_26-1107,f3,Ms. Gallagher,,N/A,,
+OBS_26-1107,f4,Hortensia,T35,Self,,some detail
+OBS_26-1107,f5,Patrice,T36,Self,,
+OBS_26-1107,f6,Patrice,T36,Self,,some detail
+OBS_26-1107,f7,Patrice,T37,Other,Hortensia f4,medium
+OBS_26-1107,f8,Hortensia,T38,Other,Patrice f7,medium
+OBS_26-1107,f9,Patrice,T39,Other,Hortensia f8,low
+OBS_26-1107,f10,Ms. Gallagher,,N/A,,
+OBS_26-1107,f11,Ms. Benoit,,N/A,,
+OBS_26-1107,f12,Patrice,,Unclear / not coded,,
+OBS_26-1107,f13,Ms. Benoit,,N/A,,
+OBS_26-1107,f14,Ms. Gallagher,,N/A,,
+OBS_26-1107,f15,Ms. Gallagher,,N/A,,
+OBS_26-1107,f16,Hortensia,,Unclear / not coded,,
+OBS_26-1107,f17,Hortensia,,Unclear / not coded,,
+OBS_26-1107,f18,Patrice,T40,Self,,some detail
+OBS_26-1107,f19,Hortensia,,Unclear / not coded,,
+OBS_26-1107,f20,Patrice,T41,Self,,no detail
+OBS_26-1107,f21,Hortensia,T42,Other,Patrice f18; Patrice f20,low
+OBS_26-1107,f22,Hortensia,T43,Self,,
+OBS_26-1107,f23,Patrice,,Unclear / not coded,,
+OBS_26-1107,f24,Hortensia,T43,Self,,some detail
+OBS_26-1107,f25,Ms. Gallagher,,N/A,,
+OBS_26-1107,g1,Ms. Gallagher,,N/A,,
+OBS_26-1107,g2,Ms. Benoit,,N/A,,
+OBS_26-1107,g3,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g4,Ms. Gallagher,,N/A,,
+OBS_26-1107,g5,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g6,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g7,Ms. Benoit,,N/A,,
+OBS_26-1107,g8,Ms. Benoit,,N/A,,
+OBS_26-1107,g9,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g10,Ms. Benoit,,N/A,,
+OBS_26-1107,g11,Gregorio,T44,Self,,
+OBS_26-1107,g12,Gregorio,T44,Self,,
+OBS_26-1107,g13,Gregorio,T44,Self,,no detail
+OBS_26-1107,g14,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g15,Patrice,T45,Self,,
+OBS_26-1107,g16,Patrice,T45,Self,,some detail
+OBS_26-1107,g17,Gregorio,T46,Other,Patrice g15; Patrice g16,
+OBS_26-1107,g18,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g19,Gregorio,T46,Other,Patrice g15; Patrice g16,medium
+OBS_26-1107,g20,Ms. Gallagher,,N/A,,
+OBS_26-1107,g21,Ms. Gallagher,,N/A,,
+OBS_26-1107,g22,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g23,Ms. Gallagher,,N/A,,
+OBS_26-1107,g24,Patrice,T47,Self,,some detail
+OBS_26-1107,g25,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g26,Gregorio,,Unclear / not coded,,
+OBS_26-1107,g27,Patrice,T48,Self,,some detail
+OBS_26-1107,g28,Ms. Gallagher,,N/A,,

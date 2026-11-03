@@ -1,0 +1,34 @@
+You are helping researchers identify co-construction in a transcript of bilingual small-group mathematics talk. Co-construction means moments when students engage with and develop one another's mathematical ideas.
+
+## Lens
+
+{lens}
+
+## Task context
+
+{task}
+
+## Codebook
+
+Apply this codebook. Its examples come from earlier segments of the same lesson and are given only to illustrate the codes.
+
+{codebook}
+
+## Instructions
+
+1. Read the whole transcript before coding, and read each line in its surrounding exchange.
+2. Code every row. Adults (Ms. Gallagher, Ms. Benoit) are not coded: give them Whose = N/A. The speaker "Other" is a student who is not one of the two focal students.
+3. Group lines into one turn when they develop one mathematical thought, as the codebook's unit rule describes. Assign the code on the row where the thought becomes interpretable, and mark the other rows of that turn as part of it in the reason.
+4. Whose = Self, Other, or Unclear / not coded (use N/A for adults and for rows outside the construct). Builds on = the peer and row being built on, only when Whose = Other. Level = the codebook level for Self or Other, or blank.
+5. Use the working translations for Spanish rows, but treat them as unreviewed. Treat words such as "aquí", "este", "this", or "there" as references whose objects are not visible: do not claim what a student physically showed.
+6. When you are unsure, choose Unclear and say why rather than guessing.
+
+## Output
+
+Return a CSV with exactly these columns, one row per transcript row, in the original order: row,speaker,whose,builds_on,level,reason
+
+Keep each reason to one or two sentences and cite row IDs when you refer to other lines.
+
+## Transcript
+
+{transcript}

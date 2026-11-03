@@ -1,0 +1,28 @@
+Source: Illustrative Mathematics K-5, Grade 4, Unit 5, Lesson 1, "Times as Many." Quoted text is verbatim from the student edition (Open Up Resources) and teacher guide (Kendall Hunt), accessed 2026-10-24. Text in [brackets] is the researchers' description of an image, not curriculum text.
+
+Student-facing goal: "Let's represent situations that involve 'times as many.'"
+Materials: connecting cubes (students can build with cubes or draw).
+
+WARM-UP: Notice and Wonder: Compare Cubes
+Student task: "What do you notice? What do you wonder?"
+[Image: two pairs of connected cube trains. First pair: "Andre" has 3 blue cubes; "Han" has 12 cubes in four colors, 3 of each color. Second pair: "Andre" has 3 blue cubes; "Mai" has 7 cubes, 3 blue and 4 yellow.]
+Teacher guide purpose: "to elicit comparison language from students, which will be useful when students represent situations that involve '_____ times as many' later in the lesson."
+
+ACTIVITY 1: Twice as Many
+Student task: "Andre has some cubes. Han has twice as many cubes as Andre. Use cubes, pictures, or other diagrams to show how many cubes Andre could have and how many cubes Han could have. Be prepared to explain how your representation shows that Han has twice as many cubes."
+Teacher guide, Advancing Student Thinking: "Students may represent '2 more than' and not '2 times as many' in this task."
+
+ACTIVITY 2: Times as Many (the activity in the segments to be coded)
+Student task: "Draw a picture to show the number of cubes the students have in each situation. Be prepared to explain your reasoning.
+1. Andre has the following cubes and Han has 4 times as many. [Image: 5 separate, unconnected blue cubes labeled Andre; an empty space labeled Han.]
+2. Priya has the following cubes and Jada has 6 times as many. [Image: 3 connected cubes labeled Priya; an empty space labeled Jada.]
+3. Tyler has the following cubes and Mai has 8 times as many. [Image: 2 connected cubes labeled Tyler; an empty space labeled Mai.]
+4. What number represents '8 times as many as 2'? Show your reasoning."
+Teacher guide, launch: "Think about how you might use the connecting cubes or drawings to solve each problem."
+Teacher guide, monitor for students who: "organize their cubes or drawings to visualize the comparison" and "reason using multiplication expressions or equations."
+Teacher guide, expected answers: 1. "20 cubes" [sample drawings: 4 groups of 5 circles; a tape diagram of 20 squares in alternating colored groups of 5]. 2. "18 cubes" [6 groups of 3]. 3. "16 cubes" [8 groups of 2]. 4. "16. Sample response: 2 × 8, 8 × 2."
+Teacher guide, Advancing Student Thinking: "Students may write expressions to reason about the number of cubes in each problem. If students write addition expressions, ask them what multiplication expressions they could write. Then, ask what each number represents."
+Teacher guide, Activity Synthesis: "Invite selected students to share their representations and their reasoning. For each question, ask, 'Where do you see _____ times as many in _____'s representation?' 'What does it mean to have '_____ times as many'?' (It means we have that many groups of the original number of cubes.) For students who reason using multiplication expressions or equations, ask, 'How does this equation show 'times as many'? What does each number represent?' (In the example of Priya and Jada, the equation 6 × 3 = 18 represents 6 times as many as 3. The 3 is the number of cubes Priya has, 18 represents the number of cubes that Jada has, which is 6 times as many as Priya.)"
+Access for English Learners (MLR8 Discussion Supports): "During group presentations, invite the student(s) who are not speaking to follow along and point to the corresponding parts of the display."
+
+What the transcript itself shows: before these segments, an adult restates problem 1 as "Andre has five. Han has four times as many." In segment c, an adult asks students to "share your picture, your drawing" and "where do you see the times as many?" In segment d, adults ask what the 5, the 4, and the 20 represent. The students' own drawings are not visible in the transcript.

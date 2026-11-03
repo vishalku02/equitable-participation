@@ -1,0 +1,219 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-0716,a1,Ms. Cooper,,N/A,,
+OBS_26-0716,a2,William,T1,Self,,
+OBS_26-0716,a3,William,T1,Self,,
+OBS_26-0716,a4,William,T1,Self,,some detail
+OBS_26-0716,a5,Carrie,T2,Other,William a4,high
+OBS_26-0716,a6,William,T3,Other,Carrie a5,low
+OBS_26-0716,a7,Carrie,T4,Self,,
+OBS_26-0716,a8,Carrie,T4,Self,,some detail
+OBS_26-0716,a9,Ms. Cooper,,N/A,,
+OBS_26-0716,b1,Ms. Cooper,,N/A,,
+OBS_26-0716,b2,William,T5,Self,,fully detailed
+OBS_26-0716,b3,Carrie,T6,Self,,fully detailed
+OBS_26-0716,b4,William,,Unclear / not coded,,
+OBS_26-0716,b5,William,T7,Other,Carrie b3,low
+OBS_26-0716,b6,Ms. Cooper,,N/A,,
+OBS_26-0716,c1,Ms. Cooper,,N/A,,
+OBS_26-0716,c2,Carrie,T8,Self,,some detail
+OBS_26-0716,c3,William,T9,Other,Carrie c2,high
+OBS_26-0716,c4,Carrie,T10,Other,William c3,high
+OBS_26-0716,c5,Ms. Cooper,,N/A,,
+OBS_26-0716,c6,William,,Unclear / not coded,,
+OBS_26-0716,d1,Ms. Cooper,,N/A,,
+OBS_26-0716,d2,Carrie,T11,Self,,
+OBS_26-0716,d3,Carrie,T11,Self,,some detail
+OBS_26-0716,d4,William,T12,Other,Carrie d2; Carrie d3,
+OBS_26-0716,d5,Carrie,T13,Other,William d4,low
+OBS_26-0716,d6,William,T12,Other,Carrie d2; Carrie d3,high
+OBS_26-0716,d7,Carrie,T14,Other,William d6,low
+OBS_26-0716,d8,Carrie,T15,Self,,some detail
+OBS_26-0716,d9,William,T16,Other,Carrie d8,low
+OBS_26-0716,d10,Ms. Cooper,,N/A,,
+OBS_26-0716,e1,Ms. Cooper,,N/A,,
+OBS_26-0716,e2,William,T17,Self,,some detail
+OBS_26-0716,e3,Carrie,T18,Self,,some detail
+OBS_26-0716,e4,William,T19,Other,Carrie e3,medium
+OBS_26-0716,e5,Carrie,T20,Other,William e4,high
+OBS_26-0716,e6,William,,Unclear / not coded,,
+OBS_26-0716,e7,Carrie,T21,Self,,
+OBS_26-0716,e8,Carrie,T21,Self,,some detail
+OBS_26-0716,e9,William,T22,Other,Carrie e8,
+OBS_26-0716,e10,William,T22,Other,Carrie e8,
+OBS_26-0716,e11,William,T22,Other,Carrie e8,medium
+OBS_26-0716,e12,Carrie,T23,Self,,
+OBS_26-0716,e13,Carrie,T23,Self,,fully detailed
+OBS_26-0716,e14,William,T24,Other,Carrie e13,
+OBS_26-0716,e15,William,T24,Other,Carrie e13,low
+OBS_26-0716,e16,Ms. Cooper,,N/A,,
+OBS_26-0716,f1,Ms. Cooper,,N/A,,
+OBS_26-0716,f2,Ms. Cooper,,N/A,,
+OBS_26-0716,f3,Carrie,,Unclear / not coded,,
+OBS_26-0716,f4,Ms. Cooper,,N/A,,
+OBS_26-0716,f5,Carrie,T25,Self,,
+OBS_26-0716,f6,Carrie,T25,Self,,
+OBS_26-0716,f7,Carrie,T25,Self,,
+OBS_26-0716,f8,William,,Unclear / not coded,,
+OBS_26-0716,f9,Carrie,T25,Self,,fully detailed
+OBS_26-0716,f10,William,,Unclear / not coded,,
+OBS_26-0716,f11,Ms. Cooper,,N/A,,
+OBS_26-0716,f12,Ms. Cooper,,N/A,,
+OBS_26-0716,f13,Carrie,T26,Self,,
+OBS_26-0716,f14,William,,Unclear / not coded,,
+OBS_26-0716,f15,Carrie,T26,Self,,
+OBS_26-0716,f16,Ms. Cooper,,N/A,,
+OBS_26-0716,f17,Carrie,,Unclear / not coded,,
+OBS_26-0716,f18,Carrie,T26,Self,,
+OBS_26-0716,f19,Carrie,T26,Self,,some detail
+OBS_26-0716,f20,Carrie,,Unclear / not coded,,
+OBS_26-0716,f21,William,,Unclear / not coded,,
+OBS_26-0716,f22,Carrie,,Unclear / not coded,,
+OBS_26-0716,f23,Carrie,T27,Self,,
+OBS_26-0716,f24,Carrie,T27,Self,,
+OBS_26-0716,f25,William,T28,Other,Carrie f24,
+OBS_26-0716,f26,William,T28,Other,Carrie f24,medium
+OBS_26-0716,f27,Carrie,T27,Self,,
+OBS_26-0716,f28,William,T29,Self,,
+OBS_26-0716,f29,Carrie,T27,Self,,
+OBS_26-0716,f30,William,T29,Self,,wrong detail
+OBS_26-0716,f31,Carrie,T27,Self,,
+OBS_26-0716,f32,William,T30,Other,Carrie f31,medium
+OBS_26-0716,f33,Carrie,T27,Self,,
+OBS_26-0716,f34,William,T31,Self,,
+OBS_26-0716,f35,Carrie,,Unclear / not coded,,
+OBS_26-0716,f36,Carrie,,Unclear / not coded,,
+OBS_26-0716,f37,William,T31,Self,,some detail
+OBS_26-0716,f38,Carrie,,Unclear / not coded,,
+OBS_26-0716,f39,Carrie,T27,Self,,fully detailed
+OBS_26-0716,f40,Carrie,,Unclear / not coded,,
+OBS_26-0716,f41,William,T32,Self,,wrong detail
+OBS_26-0716,f42,Carrie,T33,Other,William f41,
+OBS_26-0716,f43,Carrie,T33,Other,William f41,medium
+OBS_26-0716,f44,Carrie,,Unclear / not coded,,
+OBS_26-0716,f45,William,,Unclear / not coded,,
+OBS_26-0716,f46,Ms. Cooper,,N/A,,
+OBS_26-0716,f47,Carrie,,Unclear / not coded,,
+OBS_26-0716,f48,William,T34,Self,,some detail
+OBS_26-0716,f49,Carrie,,Unclear / not coded,,
+OBS_26-0716,f50,Carrie,T35,Self,,
+OBS_26-0716,f51,Carrie,T35,Self,,fully detailed
+OBS_26-0716,f52,William,T36,Other,Carrie f51,
+OBS_26-0716,f53,Carrie,T37,Other,William f52,low
+OBS_26-0716,f54,William,T36,Other,Carrie f51,medium
+OBS_26-0716,f55,Carrie,,Unclear / not coded,,
+OBS_26-0716,f56,Carrie,,Unclear / not coded,,
+OBS_26-0716,f57,William,,Unclear / not coded,,
+OBS_26-0716,f58,Ms. Cooper,,N/A,,
+OBS_26-0716,g1,Ms. Cooper,,N/A,,
+OBS_26-0716,g2,William,T38,Self,,fully detailed
+OBS_26-0716,g3,Carrie,T39,Self,,fully detailed
+OBS_26-0716,g4,Ms. Cooper,,N/A,,
+OBS_26-0716,h1,Ms. Cooper,,N/A,,
+OBS_26-0716,h2,Ms. Cooper,,N/A,,
+OBS_26-0716,h3,William,,Unclear / not coded,,
+OBS_26-0716,h4,William,,Unclear / not coded,,
+OBS_26-0716,h5,William,,Unclear / not coded,,
+OBS_26-0716,h6,William,,Unclear / not coded,,
+OBS_26-0716,h7,William,,Unclear / not coded,,
+OBS_26-0716,h8,Ms. Cooper,,N/A,,
+OBS_26-0716,h9,Carrie,,Unclear / not coded,,
+OBS_26-0716,h10,William,,Unclear / not coded,,
+OBS_26-0716,h11,Ms. Cooper,,N/A,,
+OBS_26-0716,h12,William,,Unclear / not coded,,
+OBS_26-0716,h13,William,,Unclear / not coded,,
+OBS_26-0716,h14,William,,Unclear / not coded,,
+OBS_26-0716,h15,William,,Unclear / not coded,,
+OBS_26-0716,h16,William,,Unclear / not coded,,
+OBS_26-0716,h17,Carrie,,Unclear / not coded,,
+OBS_26-0716,h18,William,,Unclear / not coded,,
+OBS_26-0716,h19,Ms. Cooper,,N/A,,
+OBS_26-0716,h20,Carrie,,Unclear / not coded,,
+OBS_26-0716,h21,William,,Unclear / not coded,,
+OBS_26-0716,h22,William,,Unclear / not coded,,
+OBS_26-0716,h23,Ms. Cooper,,N/A,,
+OBS_26-0716,h24,Carrie,,Unclear / not coded,,
+OBS_26-0716,h25,William,,Unclear / not coded,,
+OBS_26-0716,h26,William,,Unclear / not coded,,
+OBS_26-0716,h27,William,,Unclear / not coded,,
+OBS_26-0716,h28,Carrie,,Unclear / not coded,,
+OBS_26-0716,h29,William,,Unclear / not coded,,
+OBS_26-0716,h30,William,,Unclear / not coded,,
+OBS_26-0716,h31,Carrie,,Unclear / not coded,,
+OBS_26-0716,h32,William,,Unclear / not coded,,
+OBS_26-0716,h33,Ms. Cooper,,N/A,,
+OBS_26-0716,h34,Carrie,,Unclear / not coded,,
+OBS_26-0716,h35,Carrie,,Unclear / not coded,,
+OBS_26-0716,h36,William,,Unclear / not coded,,
+OBS_26-0716,h37,Ms. Cooper,,N/A,,
+OBS_26-0716,h38,William,,Unclear / not coded,,
+OBS_26-0716,h39,Ms. Cooper,,N/A,,
+OBS_26-0716,h40,William,,Unclear / not coded,,
+OBS_26-0716,h41,Ms. Cooper,,N/A,,
+OBS_26-0716,h42,Ms. Cooper,,N/A,,
+OBS_26-0716,h43,Ms. Cooper,,N/A,,
+OBS_26-0716,h44,William,T40,Self,,no detail
+OBS_26-0716,h45,Ms. Cooper,,N/A,,
+OBS_26-0716,h46,Ms. Cooper,,N/A,,
+OBS_26-0716,h47,William,,Unclear / not coded,,
+OBS_26-0716,h48,Ms. Cooper,,N/A,,
+OBS_26-0716,h49,Ms. Cooper,,N/A,,
+OBS_26-0716,h50,Ms. Cooper,,N/A,,
+OBS_26-0716,h51,Carrie,T41,Self,,
+OBS_26-0716,h52,William,,Unclear / not coded,,
+OBS_26-0716,h53,Carrie,T41,Self,,fully detailed
+OBS_26-0716,h54,William,T42,Other,Carrie h53,low
+OBS_26-0716,h55,Carrie,,Unclear / not coded,,
+OBS_26-0716,h56,William,,Unclear / not coded,,
+OBS_26-0716,h57,Carrie,T43,Other,William h56,
+OBS_26-0716,h58,Carrie,T43,Other,William h56,medium
+OBS_26-0716,h59,Carrie,,Unclear / not coded,,
+OBS_26-0716,h60,William,T44,Other,Carrie h58,
+OBS_26-0716,h61,William,T44,Other,Carrie h58,
+OBS_26-0716,h62,William,T44,Other,Carrie h58,
+OBS_26-0716,h63,William,T44,Other,Carrie h58,
+OBS_26-0716,h64,William,T44,Other,Carrie h58,medium
+OBS_26-0716,h65,Carrie,T45,Other,William h64,
+OBS_26-0716,h66,William,T46,Other,Carrie h65,low
+OBS_26-0716,h67,Carrie,T45,Other,William h64,medium
+OBS_26-0716,h68,William,T47,Other,Carrie h67,
+OBS_26-0716,h69,William,T47,Other,Carrie h67,medium
+OBS_26-0716,h70,William,,Unclear / not coded,,
+OBS_26-0716,h71,Carrie,,Unclear / not coded,,
+OBS_26-0716,h72,William,,Unclear / not coded,,
+OBS_26-0716,h73,Carrie,,Unclear / not coded,,
+OBS_26-0716,h74,William,,Unclear / not coded,,
+OBS_26-0716,h75,Carrie,,Unclear / not coded,,
+OBS_26-0716,h76,William,T48,Self,,no detail
+OBS_26-0716,h77,Carrie,,Unclear / not coded,,
+OBS_26-0716,h78,William,,Unclear / not coded,,
+OBS_26-0716,h79,Carrie,,Unclear / not coded,,
+OBS_26-0716,h80,William,,Unclear / not coded,,
+OBS_26-0716,h81,William,,Unclear / not coded,,
+OBS_26-0716,h82,Ms. Cooper,,N/A,,
+OBS_26-0716,h83,Carrie,,Unclear / not coded,,
+OBS_26-0716,h84,Carrie,,Unclear / not coded,,
+OBS_26-0716,h85,Ms. Cooper,,N/A,,
+OBS_26-0716,h86,Carrie,,Unclear / not coded,,
+OBS_26-0716,h87,Ms. Cooper,,N/A,,
+OBS_26-0716,h88,Carrie,,Unclear / not coded,,
+OBS_26-0716,h89,William,,Unclear / not coded,,
+OBS_26-0716,h90,Carrie,,Unclear / not coded,,
+OBS_26-0716,h91,William,T49,Self,,no detail
+OBS_26-0716,h92,Carrie,,Unclear / not coded,,
+OBS_26-0716,h93,Carrie,T50,Self,,no detail
+OBS_26-0716,h94,William,,Unclear / not coded,,
+OBS_26-0716,h95,Carrie,,Unclear / not coded,,
+OBS_26-0716,h96,William,,Unclear / not coded,,
+OBS_26-0716,h97,Carrie,,Unclear / not coded,,
+OBS_26-0716,h98,Carrie,,Unclear / not coded,,
+OBS_26-0716,h99,William,,Unclear / not coded,,
+OBS_26-0716,h100,William,T51,Self,,
+OBS_26-0716,h101,William,T51,Self,,no detail
+OBS_26-0716,h102,Carrie,,Unclear / not coded,,
+OBS_26-0716,h103,William,T52,Self,,no detail
+OBS_26-0716,h104,Carrie,T53,Other,William h103,
+OBS_26-0716,h105,Carrie,T53,Other,William h103,medium
+OBS_26-0716,h106,Carrie,,Unclear / not coded,,
+OBS_26-0716,h107,William,,Unclear / not coded,,
+OBS_26-0716,h108,Carrie,,Unclear / not coded,,
+OBS_26-0716,h109,Ms. Cooper,,N/A,,

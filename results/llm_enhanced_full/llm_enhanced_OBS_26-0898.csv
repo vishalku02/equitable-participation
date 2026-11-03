@@ -1,0 +1,200 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_26-0898,a1,Ms. Gallagher,,N/A,,
+OBS_26-0898,a2,Milagros,T1,Unclear / not coded,,
+OBS_26-0898,a3,Milagros,T1,Unclear / not coded,,
+OBS_26-0898,a4,Milagros,T2,Unclear / not coded,,
+OBS_26-0898,a5,Milagros,T3,Unclear / not coded,,
+OBS_26-0898,a6,Patrice,T4,Unclear / not coded,,
+OBS_26-0898,a7,Milagros,T5,Unclear / not coded,,
+OBS_26-0898,a8,Patrice,T6,Unclear / not coded,,
+OBS_26-0898,a9,Milagros,T7,Unclear / not coded,,
+OBS_26-0898,a10,Milagros,T8,Self,,
+OBS_26-0898,a11,Milagros,T8,Self,,
+OBS_26-0898,a12,Milagros,T8,Self,,
+OBS_26-0898,a13,Milagros,T8,Self,,
+OBS_26-0898,a14,Milagros,T8,Self,,
+OBS_26-0898,a15,Milagros,T8,Self,,
+OBS_26-0898,a16,Milagros,T8,Self,,
+OBS_26-0898,a17,Milagros,T8,Self,,wrong detail
+OBS_26-0898,a18,Patrice,T9,Other,Milagros a14; Milagros a17,medium
+OBS_26-0898,a19,Patrice,T10,Unclear / not coded,,
+OBS_26-0898,a20,Milagros,T11,Unclear / not coded,,
+OBS_26-0898,a21,Patrice,T10,Unclear / not coded,,
+OBS_26-0898,a22,Patrice,T10,Unclear / not coded,,
+OBS_26-0898,a23,Patrice,T12,Self,,
+OBS_26-0898,a24,Patrice,T12,Self,,
+OBS_26-0898,a25,Patrice,T12,Self,,
+OBS_26-0898,a26,Patrice,T12,Self,,
+OBS_26-0898,a27,Patrice,T12,Self,,fully detailed
+OBS_26-0898,a28,Milagros,T13,Unclear / not coded,,
+OBS_26-0898,a29,Patrice,T14,Unclear / not coded,,
+OBS_26-0898,a30,Patrice,T15,Unclear / not coded,,
+OBS_26-0898,a31,Milagros,T16,Unclear / not coded,,
+OBS_26-0898,a32,Patrice,T15,Unclear / not coded,,
+OBS_26-0898,a33,Milagros,T17,Unclear / not coded,,
+OBS_26-0898,a34,Milagros,T17,Unclear / not coded,,
+OBS_26-0898,a35,Patrice,T18,Other,Milagros a33,
+OBS_26-0898,a36,Patrice,T18,Other,Milagros a33,medium
+OBS_26-0898,a37,Patrice,T19,Unclear / not coded,,
+OBS_26-0898,b1,Ms. Gallagher,,N/A,,
+OBS_26-0898,b2,Patrice,T20,Unclear / not coded,,
+OBS_26-0898,b3,Milagros,T21,Self,,
+OBS_26-0898,b4,Patrice,T22,Unclear / not coded,,
+OBS_26-0898,b5,Milagros,T23,Unclear / not coded,,
+OBS_26-0898,b6,Patrice,T22,Unclear / not coded,,
+OBS_26-0898,b7,Milagros,T21,Self,,
+OBS_26-0898,b8,Milagros,T21,Self,,no detail
+OBS_26-0898,b9,Patrice,T24,Other,Milagros b8,medium
+OBS_26-0898,b10,Milagros,T25,Other,Patrice b9,low
+OBS_26-0898,b11,Patrice,T26,Unclear / not coded,,
+OBS_26-0898,b12,Milagros,T27,Unclear / not coded,,
+OBS_26-0898,b13,Patrice,T26,Unclear / not coded,,
+OBS_26-0898,b14,Patrice,T26,Unclear / not coded,,
+OBS_26-0898,b15,Ms. Gallagher,,N/A,,
+OBS_26-0898,b16,Milagros,T28,Unclear / not coded,,
+OBS_26-0898,b17,Milagros,T29,Self,,
+OBS_26-0898,b18,Milagros,T29,Self,,
+OBS_26-0898,b19,Milagros,T29,Self,,some detail
+OBS_26-0898,b20,Patrice,T30,Unclear / not coded,,
+OBS_26-0898,b21,Patrice,T30,Unclear / not coded,,
+OBS_26-0898,b22,Milagros,T31,Unclear / not coded,,
+OBS_26-0898,b23,Patrice,T32,Self,,
+OBS_26-0898,b24,Patrice,T32,Self,,
+OBS_26-0898,b25,Patrice,T32,Self,,some detail
+OBS_26-0898,b26,Milagros,T33,Self,,
+OBS_26-0898,b27,Milagros,T33,Self,,some detail
+OBS_26-0898,b28,Patrice,T34,Self,,
+OBS_26-0898,b29,Patrice,T34,Self,,fully detailed
+OBS_26-0898,b30,Milagros,T35,Other,Patrice b29,medium
+OBS_26-0898,b31,Patrice,T36,Unclear / not coded,,
+OBS_26-0898,b32,Milagros,T37,Other,Patrice b29,
+OBS_26-0898,b33,Patrice,T36,Unclear / not coded,,
+OBS_26-0898,b34,Milagros,T37,Other,Patrice b29,
+OBS_26-0898,b35,Patrice,T36,Unclear / not coded,,
+OBS_26-0898,b36,Milagros,T37,Other,Patrice b29,low
+OBS_26-0898,b37,Patrice,T38,Unclear / not coded,,
+OBS_26-0898,b38,Patrice,T39,Unclear / not coded,,
+OBS_26-0898,b39,Patrice,T39,Unclear / not coded,,
+OBS_26-0898,b40,Patrice,T39,Unclear / not coded,,
+OBS_26-0898,b41,Milagros,T40,Unclear / not coded,,
+OBS_26-0898,b42,Patrice,T41,Unclear / not coded,,
+OBS_26-0898,b43,Milagros,T42,Other,Patrice b29,medium
+OBS_26-0898,b44,Patrice,T43,Self,,
+OBS_26-0898,b45,Milagros,T44,Other,Patrice b44,low
+OBS_26-0898,b46,Patrice,T43,Self,,fully detailed
+OBS_26-0898,b47,Milagros,T45,Other,Patrice b46,
+OBS_26-0898,b48,Patrice,T46,Self,,
+OBS_26-0898,b49,Milagros,T45,Other,Patrice b46,
+OBS_26-0898,b50,Patrice,T46,Self,,
+OBS_26-0898,b51,Milagros,T45,Other,Patrice b46,medium
+OBS_26-0898,b52,Patrice,T46,Self,,no detail
+OBS_26-0898,b53,Patrice,T47,Self,,some detail
+OBS_26-0898,b54,Milagros,T48,Other,Patrice b53,low
+OBS_26-0898,b55,Patrice,T49,Unclear / not coded,,
+OBS_26-0898,b56,Milagros,T50,Other,Patrice b53,low
+OBS_26-0898,b57,Patrice,T51,Self,,
+OBS_26-0898,b58,Patrice,T51,Self,,
+OBS_26-0898,b59,Patrice,T51,Self,,
+OBS_26-0898,b60,Patrice,T51,Self,,
+OBS_26-0898,b61,Patrice,T51,Self,,
+OBS_26-0898,b62,Patrice,T51,Self,,
+OBS_26-0898,b63,Patrice,T51,Self,,
+OBS_26-0898,b64,Patrice,T51,Self,,
+OBS_26-0898,b65,Patrice,T51,Self,,fully detailed
+OBS_26-0898,b66,Milagros,T52,Other,Patrice b65,medium
+OBS_26-0898,b67,Patrice,T53,Other,Milagros b66,medium
+OBS_26-0898,b68,Milagros,T54,Other,Patrice b67,low
+OBS_26-0898,b69,Patrice,T55,Unclear / not coded,,
+OBS_26-0898,b70,Milagros,T56,Unclear / not coded,,
+OBS_26-0898,b71,Milagros,T57,Self,,no detail
+OBS_26-0898,b72,Patrice,T58,Other,Milagros b71,medium
+OBS_26-0898,b73,Patrice,T59,Unclear / not coded,,
+OBS_26-0898,b74,Milagros,T60,Unclear / not coded,,
+OBS_26-0898,b75,Milagros,T60,Unclear / not coded,,
+OBS_26-0898,b76,Patrice,T61,Self,,
+OBS_26-0898,b77,Milagros,T62,Other,Patrice b76,
+OBS_26-0898,b78,Milagros,T62,Other,Patrice b76,
+OBS_26-0898,b79,Milagros,T62,Other,Patrice b76,
+OBS_26-0898,b80,Milagros,T62,Other,Patrice b76,low
+OBS_26-0898,b81,Patrice,T61,Self,,
+OBS_26-0898,b82,Patrice,T61,Self,,some detail
+OBS_26-0898,b83,Milagros,T63,Unclear / not coded,,
+OBS_26-0898,b84,Patrice,T64,Unclear / not coded,,
+OBS_26-0898,b85,Milagros,T65,Unclear / not coded,,
+OBS_26-0898,b86,Milagros,T65,Unclear / not coded,,
+OBS_26-0898,b87,Patrice,T66,Unclear / not coded,,
+OBS_26-0898,b88,Milagros,T67,Self,,
+OBS_26-0898,b89,Milagros,T67,Self,,some detail
+OBS_26-0898,b90,Patrice,T68,Other,Milagros b88; Milagros b89,low
+OBS_26-0898,b91,Milagros,T69,Other,Patrice b90,low
+OBS_26-0898,b92,Patrice,T70,Other,Milagros b88,
+OBS_26-0898,b93,Patrice,T70,Other,Milagros b88,
+OBS_26-0898,b94,Patrice,T70,Other,Milagros b88,
+OBS_26-0898,b95,Patrice,T70,Other,Milagros b88,
+OBS_26-0898,b96,Patrice,T70,Other,Milagros b88,
+OBS_26-0898,b97,Patrice,T70,Other,Milagros b88,high
+OBS_26-0898,b98,Milagros,T71,Other,Patrice b97,medium
+OBS_26-0898,b99,Milagros,T72,Self,,
+OBS_26-0898,b100,Milagros,T72,Self,,some detail
+OBS_26-0898,b101,Patrice,T73,Self,,
+OBS_26-0898,b102,Milagros,T74,Unclear / not coded,,
+OBS_26-0898,b103,Patrice,T73,Self,,
+OBS_26-0898,b104,Patrice,T73,Self,,fully detailed
+OBS_26-0898,b105,Milagros,T75,Other,Patrice b104,
+OBS_26-0898,b106,Patrice,T76,Self,,no detail
+OBS_26-0898,b107,Milagros,T75,Other,Patrice b104,medium
+OBS_26-0898,b108,Patrice,T77,Self,,no detail
+OBS_26-0898,b109,Milagros,T78,Unclear / not coded,,
+OBS_26-0898,b110,Milagros,T79,Other,Patrice b104,
+OBS_26-0898,b111,Patrice,T80,Unclear / not coded,,
+OBS_26-0898,b112,Milagros,T79,Other,Patrice b104,medium
+OBS_26-0898,b113,Patrice,T81,Self,,some detail
+OBS_26-0898,b114,Milagros,T82,Other,Patrice b113,
+OBS_26-0898,b115,Milagros,T82,Other,Patrice b104; Patrice b113,medium
+OBS_26-0898,b116,Patrice,T83,Unclear / not coded,,
+OBS_26-0898,b117,Milagros,T84,Unclear / not coded,,
+OBS_26-0898,b118,Patrice,T85,Unclear / not coded,,
+OBS_26-0898,b119,Patrice,T86,Self,,
+OBS_26-0898,b120,Milagros,T87,Other,Patrice b119,low
+OBS_26-0898,b121,Patrice,T86,Self,,
+OBS_26-0898,b122,Patrice,T86,Self,,
+OBS_26-0898,b123,Patrice,T86,Self,,
+OBS_26-0898,b124,Patrice,T86,Self,,fully detailed
+OBS_26-0898,b125,Milagros,T88,Unclear / not coded,,
+OBS_26-0898,b126,Patrice,T89,Unclear / not coded,,
+OBS_26-0898,b127,Patrice,T89,Unclear / not coded,,
+OBS_26-0898,b128,Ms. Gallagher,,N/A,,
+OBS_26-0898,b129,Milagros,T90,Unclear / not coded,,
+OBS_26-0898,b130,Ms. Gallagher,,N/A,,
+OBS_26-0898,b131,Ms. Gallagher,,N/A,,
+OBS_26-0898,b132,Milagros,T91,Other,Patrice b122,medium
+OBS_26-0898,b133,Patrice,T92,Self,,
+OBS_26-0898,b134,Patrice,T92,Self,,
+OBS_26-0898,b135,Milagros,T93,Unclear / not coded,,
+OBS_26-0898,b136,Patrice,T92,Self,,no detail
+OBS_26-0898,b137,Milagros,T94,Other,Patrice b133,high
+OBS_26-0898,b138,Patrice,T95,Other,Milagros b137,low
+OBS_26-0898,b139,Patrice,T96,Unclear / not coded,,
+OBS_26-0898,b140,Milagros,T97,Unclear / not coded,,
+OBS_26-0898,b141,Patrice,T98,Unclear / not coded,,
+OBS_26-0898,b142,Milagros,T99,Unclear / not coded,,
+OBS_26-0898,b143,Patrice,T100,Unclear / not coded,,
+OBS_26-0898,b144,Milagros,T101,Unclear / not coded,,
+OBS_26-0898,b145,Patrice,T102,Unclear / not coded,,
+OBS_26-0898,b146,Milagros,T103,Unclear / not coded,,
+OBS_26-0898,b147,Milagros,T104,Unclear / not coded,,
+OBS_26-0898,b148,Milagros,T105,Unclear / not coded,,
+OBS_26-0898,b149,Patrice,T106,Unclear / not coded,,
+OBS_26-0898,b150,Milagros,T107,Unclear / not coded,,
+OBS_26-0898,b151,Patrice,T108,Self,,no detail
+OBS_26-0898,b152,Milagros,T109,Other,Patrice b151,
+OBS_26-0898,b153,Milagros,T109,Other,Patrice b151,
+OBS_26-0898,b154,Patrice,T110,Other,Milagros b153,
+OBS_26-0898,b155,Milagros,T109,Other,Patrice b151,
+OBS_26-0898,b156,Patrice,T110,Other,Milagros b153; Milagros b155,low
+OBS_26-0898,b157,Milagros,T109,Other,Patrice b151,medium
+OBS_26-0898,b158,Patrice,T111,Other,Milagros b157,low
+OBS_26-0898,b159,Ms. Gallagher,,N/A,,
+OBS_26-0898,b160,Milagros,T112,Unclear / not coded,,
+OBS_26-0898,b161,Patrice,T113,Unclear / not coded,,
+OBS_26-0898,b162,Ms. Gallagher,,N/A,,

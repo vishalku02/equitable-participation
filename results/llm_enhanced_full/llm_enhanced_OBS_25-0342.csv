@@ -1,0 +1,172 @@
+observation,row,speaker,turn,whose,builds_on,level
+OBS_25-0342,a1,Ms. Benoit,,N/A,,
+OBS_25-0342,a2,Ms. Gallagher,,N/A,,
+OBS_25-0342,a3,Kelsey,T1,Self,,
+OBS_25-0342,a4,Kelsey,T1,Self,,
+OBS_25-0342,a5,Kelsey,T1,Self,,
+OBS_25-0342,a6,Kelsey,T1,Self,,
+OBS_25-0342,a7,Kelsey,T1,Self,,
+OBS_25-0342,a8,Kelsey,T1,Self,,
+OBS_25-0342,a9,Kelsey,T1,Self,,
+OBS_25-0342,a10,Kelsey,T1,Self,,
+OBS_25-0342,a11,Kelsey,T1,Self,,
+OBS_25-0342,a12,Kelsey,T1,Self,,fully detailed
+OBS_25-0342,a13,Miguel,T2,Other,Kelsey a3; Kelsey a4; Kelsey a5; Kelsey a6; Kelsey a7; Kelsey a8; Kelsey a9; Kelsey a10; Kelsey a11; Kelsey a12,
+OBS_25-0342,a14,Miguel,T2,Other,Kelsey a3; Kelsey a4; Kelsey a5; Kelsey a6; Kelsey a7; Kelsey a8; Kelsey a9; Kelsey a10; Kelsey a11; Kelsey a12,low
+OBS_25-0342,a15,Kelsey,T3,Other,Miguel a14,medium
+OBS_25-0342,a16,Miguel,T4,Self,,wrong detail
+OBS_25-0342,a17,Kelsey,T5,Self,,some detail
+OBS_25-0342,a18,Miguel,T6,Other,Kelsey a17,low
+OBS_25-0342,a19,Miguel,T7,Unclear / not coded,,
+OBS_25-0342,a20,Ms. Gallagher,,N/A,,
+OBS_25-0342,a21,Miguel,T8,Unclear / not coded,,
+OBS_25-0342,a22,Kelsey,T9,Unclear / not coded,,
+OBS_25-0342,a23,Kelsey,T10,Unclear / not coded,,
+OBS_25-0342,a24,Miguel,T11,Self,,wrong detail
+OBS_25-0342,a25,Kelsey,T12,Other,Miguel a24,
+OBS_25-0342,a26,Kelsey,T12,Other,Miguel a24,
+OBS_25-0342,a27,Kelsey,T12,Other,Miguel a24,
+OBS_25-0342,a28,Kelsey,T12,Other,Miguel a24,
+OBS_25-0342,a29,Miguel,T13,Other,Kelsey a28,low
+OBS_25-0342,a30,Kelsey,T12,Other,Miguel a24,medium
+OBS_25-0342,a31,Kelsey,T14,Self,,
+OBS_25-0342,a32,Kelsey,T14,Self,,
+OBS_25-0342,a33,Kelsey,T14,Self,,fully detailed
+OBS_25-0342,a34,Miguel,T15,Other,Kelsey a33,low
+OBS_25-0342,a35,Kelsey,T16,Self,,
+OBS_25-0342,a36,Miguel,T17,Unclear / not coded,,
+OBS_25-0342,a37,Kelsey,T16,Self,,no detail
+OBS_25-0342,a38,Miguel,T18,Other,Kelsey a37,low
+OBS_25-0342,a39,Kelsey,T19,Self,,
+OBS_25-0342,a40,Kelsey,T19,Self,,
+OBS_25-0342,a41,Kelsey,T19,Self,,no detail
+OBS_25-0342,a42,Miguel,T20,Other,Kelsey a41,low
+OBS_25-0342,a43,Kelsey,T21,Self,,no detail
+OBS_25-0342,a44,Kelsey,T22,Other,Miguel a42,low
+OBS_25-0342,a45,Miguel,T23,Other,Kelsey a44,low
+OBS_25-0342,a46,Kelsey,T24,Unclear / not coded,,
+OBS_25-0342,a47,Miguel,T25,Unclear / not coded,,
+OBS_25-0342,a48,Kelsey,T26,Unclear / not coded,,
+OBS_25-0342,a49,Kelsey,T27,Unclear / not coded,,
+OBS_25-0342,a50,Miguel,T28,Self,,wrong detail
+OBS_25-0342,a51,Kelsey,T29,Other,Miguel a50,
+OBS_25-0342,a52,Miguel,T30,Unclear / not coded,,
+OBS_25-0342,a53,Kelsey,T29,Other,Miguel a50,
+OBS_25-0342,a54,Kelsey,T29,Other,Miguel a50,medium
+OBS_25-0342,a55,Miguel,T31,Other,Kelsey a54,
+OBS_25-0342,a56,Miguel,T31,Other,Kelsey a54,
+OBS_25-0342,a57,Miguel,T31,Other,Kelsey a54,low
+OBS_25-0342,a58,Kelsey,T32,Unclear / not coded,,
+OBS_25-0342,a59,Miguel,T33,Unclear / not coded,,
+OBS_25-0342,a60,Kelsey,T34,Unclear / not coded,,
+OBS_25-0342,a61,Miguel,T35,Unclear / not coded,,
+OBS_25-0342,a62,Kelsey,T36,Unclear / not coded,,
+OBS_25-0342,a63,Kelsey,T37,Unclear / not coded,,
+OBS_25-0342,a64,Ms. Gallagher,,N/A,,
+OBS_25-0342,a65,Kelsey,T38,Unclear / not coded,,
+OBS_25-0342,a66,Ms. Gallagher,,N/A,,
+OBS_25-0342,a67,Ms. Gallagher,,N/A,,
+OBS_25-0342,a68,Miguel,T39,Self,,
+OBS_25-0342,a69,Kelsey,T40,Other,Miguel a68,low
+OBS_25-0342,a70,Miguel,T41,Unclear / not coded,,
+OBS_25-0342,a71,Miguel,T39,Self,,wrong detail
+OBS_25-0342,a72,Kelsey,T42,Other,Miguel a71,medium
+OBS_25-0342,a73,Miguel,T43,Self,,
+OBS_25-0342,a74,Miguel,T43,Self,,
+OBS_25-0342,a75,Miguel,T43,Self,,wrong detail
+OBS_25-0342,a76,Kelsey,T44,Other,Miguel a75,low
+OBS_25-0342,a77,Kelsey,T45,Other,Miguel a73; Miguel a74; Miguel a75,
+OBS_25-0342,a78,Miguel,T46,Other,Kelsey a77,low
+OBS_25-0342,a79,Kelsey,T45,Other,Miguel a73; Miguel a74; Miguel a75,
+OBS_25-0342,a80,Miguel,T47,Other,Kelsey a79,low
+OBS_25-0342,a81,Kelsey,T45,Other,Miguel a73; Miguel a74; Miguel a75,medium
+OBS_25-0342,a82,Kelsey,T48,Other,Miguel a81,
+OBS_25-0342,a83,Miguel,T49,Other,Kelsey a82,low
+OBS_25-0342,a84,Kelsey,T48,Other,Miguel a81,
+OBS_25-0342,a85,Miguel,T50,Other,Kelsey a84,low
+OBS_25-0342,a86,Kelsey,T48,Other,Miguel a81,
+OBS_25-0342,a87,Kelsey,T48,Other,Miguel a81,medium
+OBS_25-0342,a88,Miguel,T51,Self,,wrong detail
+OBS_25-0342,a89,Kelsey,T52,Other,Miguel a88,medium
+OBS_25-0342,a90,Miguel,T53,Self,,wrong detail
+OBS_25-0342,a91,Kelsey,T54,Other,Miguel a90,medium
+OBS_25-0342,a92,Miguel,T55,Other,Kelsey a91,low
+OBS_25-0342,a93,Miguel,T56,Self,,wrong detail
+OBS_25-0342,a94,Kelsey,T57,Other,Miguel a93,low
+OBS_25-0342,a95,Kelsey,T58,Other,Miguel a93,
+OBS_25-0342,a96,Kelsey,T58,Other,Miguel a93,
+OBS_25-0342,a97,Miguel,T59,Other,Kelsey a96,low
+OBS_25-0342,a98,Kelsey,T58,Other,Miguel a93,
+OBS_25-0342,a99,Miguel,T60,Other,Kelsey a98,low
+OBS_25-0342,a100,Kelsey,T58,Other,Miguel a93,
+OBS_25-0342,a101,Kelsey,T58,Other,Miguel a93,
+OBS_25-0342,a102,Miguel,T61,Unclear / not coded,,
+OBS_25-0342,a103,Kelsey,T58,Other,Miguel a93,medium
+OBS_25-0342,a104,Kelsey,T62,Unclear / not coded,,
+OBS_25-0342,a105,Ms. Gallagher,,N/A,,
+OBS_25-0342,a106,Miguel,T63,Unclear / not coded,,
+OBS_25-0342,a107,Ms. Gallagher,,N/A,,
+OBS_25-0342,a108,Ms. Gallagher,,N/A,,
+OBS_25-0342,a109,Ms. Gallagher,,N/A,,
+OBS_25-0342,a110,Ms. Gallagher,,N/A,,
+OBS_25-0342,a111,Ms. Gallagher,,N/A,,
+OBS_25-0342,a112,Kelsey,T64,Unclear / not coded,,
+OBS_25-0342,a113,Kelsey,T64,Unclear / not coded,,
+OBS_25-0342,a114,Kelsey,T64,Unclear / not coded,,
+OBS_25-0342,a115,Miguel,T65,Unclear / not coded,,
+OBS_25-0342,b1,Ms. Gallagher,,N/A,,
+OBS_25-0342,b2,Ms. Gallagher,,N/A,,
+OBS_25-0342,b3,Kelsey,T66,Self,,no detail
+OBS_25-0342,b4,Miguel,T67,Other,Kelsey b3,
+OBS_25-0342,b5,Miguel,T67,Other,Kelsey b3,
+OBS_25-0342,b6,Kelsey,T68,Other,Miguel b5,low
+OBS_25-0342,b7,Miguel,T67,Other,Kelsey b3,high
+OBS_25-0342,b8,Kelsey,T69,Other,Miguel b5; Miguel b7,high
+OBS_25-0342,b9,Miguel,T70,Other,Kelsey b8,
+OBS_25-0342,b10,Miguel,T70,Other,Kelsey b8,low
+OBS_25-0342,b11,Ms. Gallagher,,N/A,,
+OBS_25-0342,c1,Ms. Gallagher,,N/A,,
+OBS_25-0342,c2,Ms. Gallagher,,N/A,,
+OBS_25-0342,c3,Miguel,T71,Unclear / not coded,,
+OBS_25-0342,c4,Miguel,T72,Unclear / not coded,,
+OBS_25-0342,c5,Kelsey,T73,Unclear / not coded,,
+OBS_25-0342,c6,Kelsey,T74,Self,,
+OBS_25-0342,c7,Kelsey,T74,Self,,
+OBS_25-0342,c8,Kelsey,T74,Self,,
+OBS_25-0342,c9,Kelsey,T74,Self,,
+OBS_25-0342,c10,Kelsey,T74,Self,,some detail
+OBS_25-0342,c11,Ms. Gallagher,,N/A,,
+OBS_25-0342,c12,Other,T75,Unclear / not coded,,
+OBS_25-0342,c13,Miguel,T76,Unclear / not coded,,
+OBS_25-0342,c14,Other,T77,Unclear / not coded,,
+OBS_25-0342,c15,Kelsey,T78,Unclear / not coded,,
+OBS_25-0342,c16,Miguel,T79,Unclear / not coded,,
+OBS_25-0342,c17,Miguel,T80,Unclear / not coded,,
+OBS_25-0342,c18,Other,T81,Self,,
+OBS_25-0342,c19,Other,T81,Self,,no detail
+OBS_25-0342,c20,Kelsey,T82,Other,Other c18; Other c19,
+OBS_25-0342,c21,Kelsey,T82,Other,Other c18; Other c19,medium
+OBS_25-0342,c22,Other,T83,Other,Kelsey c21,low
+OBS_25-0342,c23,Ms. Gallagher,,N/A,,
+OBS_25-0342,c24,Ms. Gallagher,,N/A,,
+OBS_25-0342,c25,Ms. Gallagher,,N/A,,
+OBS_25-0342,c26,Ms. Gallagher,,N/A,,
+OBS_25-0342,c27,Ms. Gallagher,,N/A,,
+OBS_25-0342,c28,Miguel,T84,Self,,wrong detail
+OBS_25-0342,c29,Ms. Gallagher,,N/A,,
+OBS_25-0342,c30,Ms. Gallagher,,N/A,,
+OBS_25-0342,c31,Miguel,T85,Self,,no detail
+OBS_25-0342,c32,Ms. Gallagher,,N/A,,
+OBS_25-0342,c33,Ms. Gallagher,,N/A,,
+OBS_25-0342,c34,Miguel,T86,Self,,no detail
+OBS_25-0342,c35,Ms. Gallagher,,N/A,,
+OBS_25-0342,c36,Miguel,T87,Unclear / not coded,,
+OBS_25-0342,c37,Miguel,T87,Unclear / not coded,,
+OBS_25-0342,c38,Kelsey,T88,Self,,no detail
+OBS_25-0342,c39,Ms. Gallagher,,N/A,,
+OBS_25-0342,c40,Miguel,T89,Unclear / not coded,,
+OBS_25-0342,c41,Kelsey,T90,Self,,
+OBS_25-0342,c42,Ms. Gallagher,,N/A,,
+OBS_25-0342,c43,Kelsey,T90,Self,,
+OBS_25-0342,c44,Kelsey,T90,Self,,some detail
+OBS_25-0342,c45,Miguel,T91,Unclear / not coded,,
