@@ -1,5 +1,8 @@
-observation,source_language,English,Spanish,Both,Unknown
-OBS_26-0498,English,12,0,1,0
-OBS_26-0515,Both,0,1,0,0
-OBS_26-0515,English,0,0,1,0
-OBS_26-0515,Spanish,0,8,3,0
+classroom,source_language,English,Spanish,Both,Unknown
+Ms. Cooper,English,115,0,3,1
+Ms. Cooper,Spanish,1,7,0,0
+Ms. Cooper,Unknown,4,0,0,0
+Ms. Gallagher,Both,3,14,6,1
+Ms. Gallagher,English,339,4,9,2
+Ms. Gallagher,Spanish,2,19,6,0
+Ms. Gallagher,Unknown,8,1,0,0

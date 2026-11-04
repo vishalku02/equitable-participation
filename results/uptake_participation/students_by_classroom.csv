@@ -1,0 +1,20 @@
+classroom,speaker,role,observations,coded_turns,self_turns,other_turns,developed_turns,uptake_received,developed_received,acknowledged_received,self_turns_taken_up
+Ms. Cooper,Adam,Student,4,64,43,21,10,21,13,8,10
+Ms. Cooper,Carrie,Student,1,25,15,10,7,16,10,6,10
+Ms. Cooper,Clifton,Student,1,8,7,1,0,7,5,2,5
+Ms. Cooper,Delores,Student,1,7,7,0,0,6,0,6,4
+Ms. Cooper,Doris,Student,1,21,10,11,8,10,5,5,3
+Ms. Cooper,Gerald,Student,1,26,13,13,5,18,9,9,10
+Ms. Cooper,Isaias,Student,2,36,27,9,5,10,6,4,6
+Ms. Cooper,Tangela,Student,2,13,5,8,1,5,4,1,1
+Ms. Cooper,William,Student,5,118,78,40,23,38,19,19,19
+Ms. Gallagher,Allison,Student,2,63,47,16,6,20,9,11,12
+Ms. Gallagher,Eddy,Student,3,44,29,15,10,34,17,17,15
+Ms. Gallagher,Gregorio,Student,9,122,75,47,22,55,27,28,21
+Ms. Gallagher,Hortensia,Student,1,4,2,2,1,2,1,1,1
+Ms. Gallagher,Kelsey,Student,2,41,20,21,14,40,5,35,11
+Ms. Gallagher,Miguel,Student,13,275,178,97,34,107,54,53,48
+Ms. Gallagher,Milagros,Student,3,66,33,33,18,20,9,11,10
+Ms. Gallagher,Norberto,Student,6,91,58,33,17,55,29,26,25
+Ms. Gallagher,Other,Unnamed student,4,11,3,8,3,9,8,1,3
+Ms. Gallagher,Patrice,Student,5,121,67,54,25,70,42,28,32

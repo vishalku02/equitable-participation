@@ -1,3 +1,7 @@
-GCA measure,LLM measure,points,Spearman rho
-GCA social impact,LLM uptake received per Self turn,4,-0.95
-GCA responsivity,Share of turns coded Other,4,0.8
+GCA measure,LLM measure,Scope,Points,Spearman rho
+GCA social impact,LLM uptake received per Self turn,All,62,0.18
+GCA social impact,LLM uptake received per Self turn,Ms. Cooper,18,-0.03
+GCA social impact,LLM uptake received per Self turn,Ms. Gallagher,44,0.27
+GCA responsivity,Share of coded turns that are Other,All,62,0.08
+GCA responsivity,Share of coded turns that are Other,Ms. Cooper,18,-0.09
+GCA responsivity,Share of coded turns that are Other,Ms. Gallagher,44,0.16
