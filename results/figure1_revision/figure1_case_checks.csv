@@ -1,0 +1,5 @@
+case,observation_id,source_turn_id,student,source_row_ids,responses
+no developed response,OBS_25-0259,T1,Milagros,a2 a4 a5,
+one developed response,OBS_25-0342,T11,Miguel,a24,T12 Kelsey medium
+several developed responses,OBS_26-0467,T213,Miguel,c411 c413 c417,T214 Allison medium; T215 Allison medium
+"one response, several source turns",OBS_26-0437,"T25, T16","Eddy, Eddy","c63, c16",T26 Gregorio medium

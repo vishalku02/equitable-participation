@@ -1,0 +1,41 @@
+observation_id,student,partner_names,n_self_turns,n_developed_responses_received,n_developed_responses_to_self_turns,n_self_turns_with_developed_uptake,metric_1_original,metric_1_corrected,metric_2
+OBS_26-0944,Adam,Doris,12,8,4,4,0.667,0.333,0.333
+OBS_26-1000,Adam,Isaias,10,1,1,1,0.1,0.1,0.1
+OBS_26-1120,Adam,William,14,0,0,0,0.0,0.0,0.0
+OBS_26-1131,Adam,William,7,2,2,2,0.286,0.286,0.286
+OBS_26-0437,Gregorio,Eddy,9,4,3,3,0.444,0.333,0.333
+OBS_26-0498,Gregorio,Miguel,16,7,3,2,0.438,0.188,0.125
+OBS_26-0501,Gregorio,Miguel,5,0,0,0,0.0,0.0,0.0
+OBS_26-0515,Gregorio,Miguel,10,3,2,2,0.3,0.2,0.2
+OBS_26-0572,Gregorio,Miguel,10,4,2,2,0.4,0.2,0.2
+OBS_26-0600,Gregorio,Miguel,10,1,1,2,0.1,0.1,0.2
+OBS_26-0905,Gregorio,"Milagros, Norberto, Patrice",12,0,0,0,0.0,0.0,0.0
+OBS_26-0423,Miguel,Allison,5,1,1,1,0.2,0.2,0.2
+OBS_26-0467,Miguel,Allison,33,6,5,4,0.182,0.152,0.121
+OBS_26-0803,Miguel,Eddy,13,4,3,2,0.308,0.231,0.154
+OBS_26-0498,Miguel,Gregorio,21,4,2,1,0.19,0.095,0.048
+OBS_26-0501,Miguel,Gregorio,15,3,3,3,0.2,0.2,0.2
+OBS_26-0515,Miguel,Gregorio,9,1,0,0,0.111,0.0,0.0
+OBS_26-0572,Miguel,Gregorio,18,5,4,4,0.278,0.222,0.222
+OBS_26-0600,Miguel,Gregorio,15,0,0,0,0.0,0.0,0.0
+OBS_25-0342,Miguel,Kelsey,11,9,7,7,0.818,0.636,0.636
+OBS_26-0745,Miguel,Kelsey,10,3,0,0,0.3,0.0,0.0
+OBS_25-0259,Miguel,Milagros,12,1,0,0,0.083,0.0,0.0
+OBS_26-1143,Miguel,Norberto,13,2,1,1,0.154,0.077,0.077
+OBS_26-0905,Milagros,"Gregorio, Norberto, Patrice",14,2,2,2,0.143,0.143,0.143
+OBS_25-0259,Milagros,Miguel,12,0,0,0,0.0,0.0,0.0
+OBS_26-0898,Milagros,Patrice,7,6,4,4,0.857,0.571,0.571
+OBS_26-1107,Norberto,"Gregorio, Hortensia, Patrice",6,1,1,1,0.167,0.167,0.167
+OBS_26-1143,Norberto,Miguel,5,4,3,1,0.8,0.6,0.2
+OBS_26-0971,Norberto,Patrice,15,5,4,2,0.333,0.267,0.133
+OBS_26-0983,Norberto,Patrice,29,10,8,8,0.345,0.276,0.276
+OBS_26-1107,Patrice,"Gregorio, Hortensia, Norberto",17,10,9,7,0.588,0.529,0.412
+OBS_26-0905,Patrice,"Gregorio, Milagros, Norberto",16,4,4,4,0.25,0.25,0.25
+OBS_26-0898,Patrice,Milagros,15,11,10,8,0.733,0.667,0.533
+OBS_26-0971,Patrice,Norberto,6,2,2,2,0.333,0.333,0.333
+OBS_26-0983,Patrice,Norberto,13,4,2,2,0.308,0.154,0.154
+OBS_26-1120,William,Adam,17,1,1,1,0.059,0.059,0.059
+OBS_26-1131,William,Adam,17,1,1,1,0.059,0.059,0.059
+OBS_26-0716,William,Carrie,13,7,3,3,0.538,0.231,0.231
+OBS_26-0736,William,Clifton,14,0,0,0,0.0,0.0,0.0
+OBS_26-0999,William,Gerald,17,5,4,5,0.294,0.235,0.294

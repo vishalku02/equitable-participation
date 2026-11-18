@@ -1,0 +1,5 @@
+records,count
+named student-observations,62
+  with zero Self turns (metric missing),0
+  with 1-4 Self turns (below the per-observation minimum),9
+  kept: students with >= 5 Self turns in >= 3 observations,40

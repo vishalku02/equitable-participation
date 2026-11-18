@@ -1,0 +1,17 @@
+check,count
+Student turns (named or unnamed students),3014
+Turns whose lines have more than one speaker,0
+Self turns,717
+Other turns,439
+Medium/High Other turns,209
+"Links (unique response turn x source turn, plus unresolved citations)",459
+"  valid (source turn found, earlier, different student)",436
+  invalid or unresolved,23
+Medium/High responses with a valid link to a Self turn,150
+Medium/High responses with valid links to more than one source turn,7
+Medium/High responses with no valid link to any Self turn,59
+  status: no_row_id,1
+  status: ok,436
+  status: source_after_response,8
+  status: source_is_responder,1
+  status: source_row_without_turn,13

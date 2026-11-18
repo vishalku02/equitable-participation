@@ -1,0 +1,460 @@
+observation_id,response_turn_id,responder,responder_role,response_level,response_developed,builds_on_raw,source_row,source_turn_id,source_student,source_role,source_whose,link_status
+OBS_25-0209,T2,Eddy,Student,low,False,Gregorio a11,a11,T1,Gregorio,Student,self,ok
+OBS_25-0209,T3,Eddy,Student,high,True,Gregorio a11; Gregorio a13 | Gregorio a11; Gregorio a13,a11,T1,Gregorio,Student,self,ok
+OBS_25-0209,T5,Eddy,Student,low,False,Gregorio a17 | Gregorio a17 | Gregorio a17,a17,T4,Gregorio,Student,self,ok
+OBS_25-0209,T8,Gregorio,Student,medium,True,Eddy a32,a32,T7,Eddy,Student,other,ok
+OBS_25-0209,T9,Eddy,Student,low,False,Gregorio a33,a33,T8,Gregorio,Student,other,ok
+OBS_25-0259,T7,Milagros,Student,low,False,Miguel a12,a12,T6,Miguel,Student,self,ok
+OBS_25-0259,T8,Milagros,Student,low,False,Miguel a14,a14,T6,Miguel,Student,self,ok
+OBS_25-0259,T9,Milagros,Student,low,False,Miguel a10; Miguel a14,a10,T6,Miguel,Student,self,ok
+OBS_25-0259,T21,Miguel,Student,low,False,Milagros b9 | Milagros b9,b9,T19,Milagros,Student,self,ok
+OBS_25-0259,T82,Milagros,Student,high,True,Miguel c104 | Miguel c104 | Miguel c104 | Miguel c104,c104,T83,Miguel,Student,self,source_after_response
+OBS_25-0259,T86,Milagros,Student,low,False,Miguel c114,c114,T85,Miguel,Student,self,ok
+OBS_25-0259,T149,Milagros,Student,low,False,Miguel c208,c208,T148,Miguel,Student,self,ok
+OBS_25-0342,T2,Miguel,Student,low,False,Kelsey a3; Kelsey a4; Kelsey a5; Kelsey a6; Kelsey a7; Kelsey a8; Kelsey a9; Kelsey a10; Kelsey a11; Kelsey a12 | Kelsey a3; Kelsey a4; Kelsey a5; Kelsey a6; Kelsey a7; Kelsey a8; Kelsey a9; Kelsey a10; Kelsey a11; Kelsey a12,a3,T1,Kelsey,Student,self,ok
+OBS_25-0342,T3,Kelsey,Student,medium,True,Miguel a14,a14,T2,Miguel,Student,other,ok
+OBS_25-0342,T6,Miguel,Student,low,False,Kelsey a17,a17,T5,Kelsey,Student,self,ok
+OBS_25-0342,T12,Kelsey,Student,medium,True,Miguel a24 | Miguel a24 | Miguel a24 | Miguel a24 | Miguel a24,a24,T11,Miguel,Student,self,ok
+OBS_25-0342,T13,Miguel,Student,low,False,Kelsey a28,a28,T12,Kelsey,Student,other,ok
+OBS_25-0342,T15,Miguel,Student,low,False,Kelsey a33,a33,T14,Kelsey,Student,self,ok
+OBS_25-0342,T18,Miguel,Student,low,False,Kelsey a37,a37,T16,Kelsey,Student,self,ok
+OBS_25-0342,T20,Miguel,Student,low,False,Kelsey a41,a41,T19,Kelsey,Student,self,ok
+OBS_25-0342,T22,Kelsey,Student,low,False,Miguel a42,a42,T20,Miguel,Student,other,ok
+OBS_25-0342,T23,Miguel,Student,low,False,Kelsey a44,a44,T22,Kelsey,Student,other,ok
+OBS_25-0342,T29,Kelsey,Student,medium,True,Miguel a50 | Miguel a50 | Miguel a50,a50,T28,Miguel,Student,self,ok
+OBS_25-0342,T31,Miguel,Student,low,False,Kelsey a54 | Kelsey a54 | Kelsey a54,a54,T29,Kelsey,Student,other,ok
+OBS_25-0342,T40,Kelsey,Student,low,False,Miguel a68,a68,T39,Miguel,Student,self,ok
+OBS_25-0342,T42,Kelsey,Student,medium,True,Miguel a71,a71,T39,Miguel,Student,self,ok
+OBS_25-0342,T44,Kelsey,Student,low,False,Miguel a75,a75,T43,Miguel,Student,self,ok
+OBS_25-0342,T45,Kelsey,Student,medium,True,Miguel a73; Miguel a74; Miguel a75 | Miguel a73; Miguel a74; Miguel a75 | Miguel a73; Miguel a74; Miguel a75,a73,T43,Miguel,Student,self,ok
+OBS_25-0342,T46,Miguel,Student,low,False,Kelsey a77,a77,T45,Kelsey,Student,other,ok
+OBS_25-0342,T47,Miguel,Student,low,False,Kelsey a79,a79,T45,Kelsey,Student,other,ok
+OBS_25-0342,T49,Miguel,Student,low,False,Kelsey a82,a82,T48,Kelsey,Student,other,ok
+OBS_25-0342,T50,Miguel,Student,low,False,Kelsey a84,a84,T48,Kelsey,Student,other,ok
+OBS_25-0342,T52,Kelsey,Student,medium,True,Miguel a88,a88,T51,Miguel,Student,self,ok
+OBS_25-0342,T54,Kelsey,Student,medium,True,Miguel a90,a90,T53,Miguel,Student,self,ok
+OBS_25-0342,T55,Miguel,Student,low,False,Kelsey a91,a91,T54,Kelsey,Student,other,ok
+OBS_25-0342,T57,Kelsey,Student,low,False,Miguel a93,a93,T56,Miguel,Student,self,ok
+OBS_25-0342,T58,Kelsey,Student,medium,True,Miguel a93 | Miguel a93 | Miguel a93 | Miguel a93 | Miguel a93 | Miguel a93,a93,T56,Miguel,Student,self,ok
+OBS_25-0342,T59,Miguel,Student,low,False,Kelsey a96,a96,T58,Kelsey,Student,other,ok
+OBS_25-0342,T60,Miguel,Student,low,False,Kelsey a98,a98,T58,Kelsey,Student,other,ok
+OBS_25-0342,T67,Miguel,Student,high,True,Kelsey b3 | Kelsey b3 | Kelsey b3,b3,T66,Kelsey,Student,self,ok
+OBS_25-0342,T68,Kelsey,Student,low,False,Miguel b5,b5,T67,Miguel,Student,other,ok
+OBS_25-0342,T69,Kelsey,Student,high,True,Miguel b5; Miguel b7,b5,T67,Miguel,Student,other,ok
+OBS_25-0342,T70,Miguel,Student,low,False,Kelsey b8 | Kelsey b8,b8,T69,Kelsey,Student,other,ok
+OBS_25-0342,T82,Kelsey,Student,medium,True,Other c18; Other c19 | Other c18; Other c19,c18,T81,Other,Unnamed student,self,ok
+OBS_25-0342,T83,Other,Unnamed student,low,False,Kelsey c21,c21,T82,Kelsey,Student,other,ok
+OBS_26-0423,T18,Other,Unnamed student,low,False,Miguel a22,a22,T17,Miguel,Student,self,ok
+OBS_26-0423,T19,Other,Unnamed student,medium,True,Miguel a24 | Miguel a24,a24,T17,Miguel,Student,self,ok
+OBS_26-0423,T21,Other,Unnamed student,medium,True,Allison a18,a18,T14,Allison,Student,self,ok
+OBS_26-0423,T22,Miguel,Student,medium,True,Allison a18,a18,T14,Allison,Student,self,ok
+OBS_26-0423,T25,Miguel,Student,low,False,Allison b8; b9,b8,T24,Allison,Student,self,ok
+OBS_26-0423,T27,Miguel,Student,low,False,Allison b16,b16,T26,Allison,Student,self,ok
+OBS_26-0423,T38,Miguel,Student,low,False,Allison b40,b40,T37,Allison,Student,self,ok
+OBS_26-0437,T3,Eddy,Student,medium,True,Gregorio a15 | Gregorio a15; Gregorio a17,a15,T2,Gregorio,Student,self,ok
+OBS_26-0437,T5,Eddy,Student,medium,True,Gregorio a20,a20,T4,Gregorio,Student,self,ok
+OBS_26-0437,T6,Gregorio,Student,medium,True,Eddy a21 | Eddy a21,a21,T5,Eddy,Student,other,ok
+OBS_26-0437,T8,Eddy,Student,medium,True,Gregorio a25,a25,T7,Gregorio,Student,self,ok
+OBS_26-0437,T11,Gregorio,Student,low,False,Eddy b2 | Eddy b6 | Eddy b8,b2,T10,Eddy,Student,self,ok
+OBS_26-0437,T14,Gregorio,Student,low,False,Eddy b25; Eddy b26,b25,T13,Eddy,Student,self,ok
+OBS_26-0437,T17,Gregorio,Student,low,False,Eddy c18,c18,T16,Eddy,Student,self,ok
+OBS_26-0437,T20,Gregorio,Student,low,False,Eddy c22,c22,T19,Eddy,Student,self,ok
+OBS_26-0437,T21,Gregorio,Student,low,False,Eddy c29,c29,T19,Eddy,Student,self,ok
+OBS_26-0437,T23,Eddy,Student,low,False,Gregorio c33 | Gregorio c33,c33,T22,Gregorio,Student,self,ok
+OBS_26-0437,T26,Gregorio,Student,medium,True,Eddy c63 | Eddy c63; Eddy c16 | Eddy c63; Eddy c16,c63,T25,Eddy,Student,self,ok
+OBS_26-0437,T26,Gregorio,Student,medium,True,Eddy c63 | Eddy c63; Eddy c16 | Eddy c63; Eddy c16,c16,T16,Eddy,Student,self,ok
+OBS_26-0437,T34,Gregorio,Student,medium,True,Eddy e2 | Eddy e2 | Eddy e2,e2,T33,Eddy,Student,self,ok
+OBS_26-0467,T6,Allison,Student,low,False,Miguel a10;a11,a10,T5,Miguel,Student,self,ok
+OBS_26-0467,T10,Allison,Student,low,False,Miguel a16,a16,T9,Miguel,Student,self,ok
+OBS_26-0467,T11,Allison,Student,low,False,Miguel a18,a18,T9,Miguel,Student,self,ok
+OBS_26-0467,T18,Allison,Student,low,False,Miguel b9 | Miguel b9,b9,T16,Miguel,Student,self,ok
+OBS_26-0467,T33,Allison,Student,medium,True,Miguel c16,c16,T32,Miguel,Student,self,ok
+OBS_26-0467,T35,Allison,Student,low,False,Miguel c21,c21,T34,Miguel,Student,self,ok
+OBS_26-0467,T36,Miguel,Student,medium,True,Allison c24 | Allison c24 | Allison c24,c24,T37,Allison,Student,self,source_after_response
+OBS_26-0467,T39,Miguel,Student,medium,True,Allison c30,c30,T38,Allison,Student,self,ok
+OBS_26-0467,T41,Miguel,Student,medium,True,Allison c30;c32,c30,T38,Allison,Student,self,ok
+OBS_26-0467,T41,Miguel,Student,medium,True,Allison c30;c32,c32,T40,Allison,Student,self,ok
+OBS_26-0467,T48,Miguel,Student,low,False,Allison c42,c42,T47,Allison,Student,self,ok
+OBS_26-0467,T49,Miguel,Student,medium,True,Allison c45 | Allison c45 | Allison c45,c45,T47,Allison,Student,self,ok
+OBS_26-0467,T50,Allison,Student,high,True,Miguel c48 | Miguel c48,c48,T49,Miguel,Student,other,ok
+OBS_26-0467,T51,Miguel,Student,low,False,Allison c50,c50,T50,Allison,Student,other,ok
+OBS_26-0467,T53,Miguel,Student,low,False,Allison c53,c53,T52,Allison,Student,self,ok
+OBS_26-0467,T56,Allison,Student,high,True,Miguel c59,c59,T55,Miguel,Student,self,ok
+OBS_26-0467,T57,Miguel,Student,medium,True,Allison c60 | Allison c60,c60,T56,Allison,Student,other,ok
+OBS_26-0467,T58,Allison,Student,low,False,Miguel c62,c62,T57,Miguel,Student,other,ok
+OBS_26-0467,T59,Allison,Student,low,False,Miguel c62;c65 | Miguel c62;c65,c62,T57,Miguel,Student,other,ok
+OBS_26-0467,T59,Allison,Student,low,False,Miguel c62;c65 | Miguel c62;c65,c65,T60,Miguel,Student,self,source_after_response
+OBS_26-0467,T66,Allison,Student,low,False,Miguel c73,c73,T65,Miguel,Student,self,ok
+OBS_26-0467,T69,Miguel,Student,low,False,Allison c77;c79,c77,T68,Allison,Student,self,ok
+OBS_26-0467,T70,Allison,Student,medium,True,Miguel c73;c74 | Miguel c73;c74 | Miguel c73;c74,c73,T65,Miguel,Student,self,ok
+OBS_26-0467,T71,Miguel,Student,low,False,Allison c83 | Allison c83,c83,T70,Allison,Student,other,ok
+OBS_26-0467,T73,Allison,Student,low,False,Miguel c86,c86,T71,Miguel,Student,other,ok
+OBS_26-0467,T80,Miguel,Student,medium,True,Allison c95,c95,T79,Allison,Student,self,ok
+OBS_26-0467,T107,Miguel,Student,low,False,Allison c153,c153,T102,Allison,Student,self,ok
+OBS_26-0467,T214,Allison,Student,medium,True,Miguel c411;c413 | Miguel c411;c413 | Miguel c411;c413 | Miguel c411;c413,c411,T213,Miguel,Student,self,ok
+OBS_26-0467,T215,Allison,Student,medium,True,Miguel c417,c417,T213,Miguel,Student,self,ok
+OBS_26-0498,T4,Miguel,Student,low,False,Gregorio a6,a6,T2,Gregorio,Student,self,ok
+OBS_26-0498,T6,Miguel,Student,low,False,Gregorio a9,a9,T5,Gregorio,Student,self,ok
+OBS_26-0498,T7,Gregorio,Student,low,False,Miguel a10,a10,T6,Miguel,Student,other,ok
+OBS_26-0498,T8,Miguel,Student,low,False,Gregorio a12,a12,T5,Gregorio,Student,self,ok
+OBS_26-0498,T9,Gregorio,Student,medium,True,Miguel a13,a13,T8,Miguel,Student,other,ok
+OBS_26-0498,T10,Miguel,Student,low,False,Gregorio a15,a15,T5,Gregorio,Student,self,ok
+OBS_26-0498,T12,Miguel,Student,high,True,Gregorio a6 | Gregorio a6,a6,T2,Gregorio,Student,self,ok
+OBS_26-0498,T31,Miguel,Student,medium,True,Gregorio a6 | Gregorio a6,a6,T2,Gregorio,Student,self,ok
+OBS_26-0498,T32,Gregorio,Student,medium,True,Miguel a41 | Miguel a41 | Miguel a41 | Miguel a41,a41,T31,Miguel,Student,other,ok
+OBS_26-0498,T33,Miguel,Student,low,False,Gregorio a42,a42,T32,Gregorio,Student,other,ok
+OBS_26-0498,T34,Miguel,Student,low,False,Gregorio a45,a45,T32,Gregorio,Student,other,ok
+OBS_26-0498,T50,Miguel,Student,high,True,Gregorio b26 | Gregorio b26,b26,T48,Gregorio,Student,self,ok
+OBS_26-0498,T59,Gregorio,Student,medium,True,Miguel b43 | Miguel b43,b43,T58,Miguel,Student,self,ok
+OBS_26-0498,T61,Gregorio,Student,medium,True,Miguel b47,b47,T58,Miguel,Student,self,ok
+OBS_26-0498,T62,Miguel,Student,medium,True,Gregorio b49,b49,T61,Gregorio,Student,other,ok
+OBS_26-0498,T68,Miguel,Student,medium,True,Gregorio b49 | Gregorio b49,b49,T61,Gregorio,Student,other,ok
+OBS_26-0498,T106,Gregorio,Student,medium,True,Other c5 | Other c5,c5,T102,Other,Unnamed student,self,ok
+OBS_26-0498,T108,Gregorio,Student,medium,True,Other c11 | Other c11 | Other c11,c11,T107,Other,Unnamed student,self,ok
+OBS_26-0498,T109,Miguel,Student,medium,True,Gregorio c13,c13,T108,Gregorio,Student,other,ok
+OBS_26-0498,T110,Other,Unnamed student,low,False,Miguel c14,c14,T109,Miguel,Student,other,ok
+OBS_26-0498,T111,Other,Unnamed student,medium,True,Gregorio c16,c16,T108,Gregorio,Student,other,ok
+OBS_26-0498,T112,Miguel,Student,high,True,Other c17,c17,T111,Other,Unnamed student,other,ok
+OBS_26-0498,T114,Other,Unnamed student,low,False,Miguel c18,c18,T112,Miguel,Student,other,ok
+OBS_26-0498,T116,Miguel,Student,medium,True,Other c11,c11,T107,Other,Unnamed student,self,ok
+OBS_26-0498,T117,Miguel,Student,low,False,Other c11,c11,T107,Other,Unnamed student,self,ok
+OBS_26-0498,T118,Gregorio,Student,medium,True,Other c11,c11,T107,Other,Unnamed student,self,ok
+OBS_26-0498,T125,Gregorio,Student,high,True,Other c11 | Other c11 | Other c11 | Other c11,c11,T107,Other,Unnamed student,self,ok
+OBS_26-0498,T133,Gregorio,Student,low,False,Miguel d11,d11,T132,Miguel,Student,self,ok
+OBS_26-0498,T136,Miguel,Student,low,False,Gregorio d19,d19,T135,Gregorio,Student,self,ok
+OBS_26-0498,T140,Miguel,Student,low,False,Gregorio d26,d26,T139,Gregorio,Student,,ok
+OBS_26-0501,T19,Gregorio,Student,medium,True,Miguel c4 | Miguel c4 | Miguel c4 | Miguel c4,c4,T18,Miguel,Student,self,ok
+OBS_26-0501,T24,Gregorio,Student,low,False,Miguel d6,d6,T23,Miguel,Student,self,ok
+OBS_26-0501,T25,Gregorio,Student,low,False,Miguel d9,d9,T23,Miguel,Student,self,ok
+OBS_26-0501,T64,Gregorio,Student,low,False,Miguel e81,e81,T63,Miguel,Student,self,ok
+OBS_26-0501,T79,Gregorio,Student,medium,True,Miguel e100,e100,T78,Miguel,Student,self,ok
+OBS_26-0501,T94,Gregorio,Student,high,True,Miguel f9,f9,T93,Miguel,Student,self,ok
+OBS_26-0515,T5,Miguel,Student,medium,True,Gregorio a6; Gregorio a9 | Gregorio a6; Gregorio a9,a6,T2,Gregorio,Student,self,ok
+OBS_26-0515,T30,Gregorio,Student,low,False,Miguel a63,a63,T29,Miguel,Student,self,ok
+OBS_26-0515,T37,Gregorio,Student,low,False,Miguel a71,a71,T36,Miguel,Student,self,ok
+OBS_26-0515,T38,Gregorio,Student,low,False,Miguel a73,a73,T36,Miguel,Student,self,ok
+OBS_26-0515,T39,Gregorio,Student,low,False,Miguel a75,a75,T36,Miguel,Student,self,ok
+OBS_26-0515,T41,Gregorio,Student,low,False,Miguel a77; Miguel a78 | Miguel a77; Miguel a78,a77,T40,Miguel,Student,self,ok
+OBS_26-0515,T58,Miguel,Student,medium,True,Gregorio b43 | Gregorio b43 | Gregorio b43 | Gregorio b43 | Gregorio b43 | Gregorio b43 | Gregorio b43,b43,T55,Gregorio,Student,self,ok
+OBS_26-0515,T62,Gregorio,Student,medium,True,Miguel b58; Miguel b59,b58,T58,Miguel,Student,other,ok
+OBS_26-0515,T63,Miguel,Student,medium,True,Gregorio b61 | Gregorio b61 | Gregorio b61,b61,T62,Gregorio,Student,other,ok
+OBS_26-0515,T69,Miguel,Student,low,False,Gregorio c5; Gregorio c6 | Gregorio c5; Gregorio c6; Gregorio c8,c5,T68,Gregorio,Student,self,ok
+OBS_26-0572,T21,Gregorio,Student,medium,True,Miguel b32 | Miguel b32,b32,T17,Miguel,Student,self,ok
+OBS_26-0572,T27,Gregorio,Student,low,False,Miguel b54; Miguel b58 | Miguel b54; Miguel b58,b54,T24,Miguel,Student,self,ok
+OBS_26-0572,T27,Gregorio,Student,low,False,Miguel b54; Miguel b58 | Miguel b54; Miguel b58,b58,T26,Miguel,Student,,ok
+OBS_26-0572,T35,Miguel,Student,low,False,Gregorio b73; Gregorio b74 | Gregorio b73; Gregorio b74,b73,T34,Gregorio,Student,self,ok
+OBS_26-0572,T97,Miguel,Student,medium,True,Gregorio b194,b194,T96,Gregorio,Student,,ok
+OBS_26-0572,T98,Gregorio,Student,medium,True,Miguel b195,b195,T97,Miguel,Student,other,ok
+OBS_26-0572,T123,Gregorio,Student,low,False,Miguel b236 | Miguel b238,b236,T120,Miguel,Student,self,ok
+OBS_26-0572,T126,Gregorio,Student,medium,True,Miguel c4 | Miguel c4,c4,T125,Miguel,Student,self,ok
+OBS_26-0572,T127,Miguel,Student,low,False,Gregorio c6,c6,T126,Gregorio,Student,other,ok
+OBS_26-0572,T132,Gregorio,Student,medium,True,Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12,c10,T130,Miguel,Student,self,ok
+OBS_26-0572,T132,Gregorio,Student,medium,True,Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12 | Miguel c10; Miguel c12,c12,T131,Miguel,Student,,ok
+OBS_26-0572,T133,Miguel,Student,low,False,Gregorio c15 | Gregorio c15; Gregorio c17,c15,T132,Gregorio,Student,other,ok
+OBS_26-0572,T142,Gregorio,Student,medium,True,Miguel c28; Miguel c32 | Miguel c28; Miguel c32 | Miguel c28; Miguel c32 | Miguel c28; Miguel c32,c28,T139,Miguel,Student,self,ok
+OBS_26-0572,T144,Miguel,Student,medium,True,Gregorio c37 | Gregorio c37 | Gregorio c37,c37,T142,Gregorio,Student,other,ok
+OBS_26-0572,T147,Miguel,Student,low,False,Gregorio c47,c47,T146,Gregorio,Student,self,ok
+OBS_26-0572,T150,Miguel,Student,low,False,Gregorio c47; Gregorio c49 | Gregorio c47; Gregorio c49,c47,T146,Gregorio,Student,self,ok
+OBS_26-0572,T150,Miguel,Student,low,False,Gregorio c47; Gregorio c49 | Gregorio c47; Gregorio c49,c49,T148,Gregorio,Student,,ok
+OBS_26-0572,T151,Gregorio,Student,low,False,Miguel c52,c52,T150,Miguel,Student,other,ok
+OBS_26-0572,T208,Gregorio,Student,low,False,Miguel d97,d97,T205,Miguel,Student,,ok
+OBS_26-0572,T215,Miguel,Student,low,False,Gregorio e19,e19,T214,Gregorio,Student,self,ok
+OBS_26-0572,T222,Gregorio,Student,low,False,Miguel e32,e32,T221,Miguel,Student,self,ok
+OBS_26-0572,T224,Miguel,Student,medium,True,Gregorio e36,e36,T223,Gregorio,Student,self,ok
+OBS_26-0572,T225,Gregorio,Student,low,False,Miguel e38,e38,T224,Miguel,Student,other,ok
+OBS_26-0572,T249,Miguel,Student,low,False,Gregorio f13; Gregorio f14,f13,T248,Gregorio,Student,self,ok
+OBS_26-0572,T251,Miguel,Student,medium,True,Gregorio f16; Gregorio f20,f16,T248,Gregorio,Student,self,ok
+OBS_26-0572,T252,Gregorio,Student,low,False,Miguel f21,f21,T251,Miguel,Student,other,ok
+OBS_26-0600,T6,Miguel,Student,low,False,Gregorio c7 | Gregorio c7,c7,T5,Gregorio,Student,self,ok
+OBS_26-0600,T8,Miguel,Student,medium,True,Gregorio c7; Gregorio c11 | Gregorio c7; Gregorio c11 | Gregorio c7; Gregorio c11,c7,T5,Gregorio,Student,self,ok
+OBS_26-0600,T8,Miguel,Student,medium,True,Gregorio c7; Gregorio c11 | Gregorio c7; Gregorio c11 | Gregorio c7; Gregorio c11,c11,T7,Gregorio,Student,self,ok
+OBS_26-0600,T13,Gregorio,Student,low,False,Miguel e2 | Miguel e2,e2,T11,Miguel,Student,self,ok
+OBS_26-0600,T15,Gregorio,Student,low,False,Miguel e12 | Miguel e12; Miguel e14,e12,T14,Miguel,Student,self,ok
+OBS_26-0600,T17,Gregorio,Student,low,False,Miguel e21,e21,T16,Miguel,Student,self,ok
+OBS_26-0674,T20,Tangela,Student,low,False,Delores b20,b20,T18,Delores,Student,self,ok
+OBS_26-0674,T22,Tangela,Student,low,False,Delores b26,b26,T18,Delores,Student,self,ok
+OBS_26-0674,T25,Tangela,Student,low,False,Delores b32,b32,T24,Delores,Student,self,ok
+OBS_26-0674,T26,Tangela,Student,low,False,Delores b34,b34,T24,Delores,Student,self,ok
+OBS_26-0674,T59,Tangela,Student,low,False,Delores b80,b80,T58,Delores,Student,self,ok
+OBS_26-0674,T76,Tangela,Student,low,False,Delores b102,b102,T75,Delores,Student,self,ok
+OBS_26-0716,T2,Carrie,Student,high,True,William a4,a4,T1,William,Student,self,ok
+OBS_26-0716,T3,William,Student,low,False,Carrie a5,a5,T2,Carrie,Student,other,ok
+OBS_26-0716,T7,William,Student,low,False,Carrie b3,b3,T6,Carrie,Student,self,ok
+OBS_26-0716,T9,William,Student,high,True,Carrie c2,c2,T8,Carrie,Student,self,ok
+OBS_26-0716,T10,Carrie,Student,high,True,William c3,c3,T9,William,Student,other,ok
+OBS_26-0716,T12,William,Student,high,True,Carrie d2; Carrie d3 | Carrie d2; Carrie d3,d2,T11,Carrie,Student,self,ok
+OBS_26-0716,T13,Carrie,Student,low,False,William d4,d4,T12,William,Student,other,ok
+OBS_26-0716,T14,Carrie,Student,low,False,William d6,d6,T12,William,Student,other,ok
+OBS_26-0716,T16,William,Student,low,False,Carrie d8,d8,T15,Carrie,Student,self,ok
+OBS_26-0716,T19,William,Student,medium,True,Carrie e3,e3,T18,Carrie,Student,self,ok
+OBS_26-0716,T20,Carrie,Student,high,True,William e4,e4,T19,William,Student,other,ok
+OBS_26-0716,T22,William,Student,medium,True,Carrie e8 | Carrie e8 | Carrie e8,e8,T21,Carrie,Student,self,ok
+OBS_26-0716,T24,William,Student,low,False,Carrie e13 | Carrie e13,e13,T23,Carrie,Student,self,ok
+OBS_26-0716,T28,William,Student,medium,True,Carrie f24 | Carrie f24,f24,T27,Carrie,Student,self,ok
+OBS_26-0716,T30,William,Student,medium,True,Carrie f31,f31,T27,Carrie,Student,self,ok
+OBS_26-0716,T33,Carrie,Student,medium,True,William f41 | William f41,f41,T32,William,Student,self,ok
+OBS_26-0716,T36,William,Student,medium,True,Carrie f51 | Carrie f51,f51,T35,Carrie,Student,self,ok
+OBS_26-0716,T37,Carrie,Student,low,False,William f52,f52,T36,William,Student,other,ok
+OBS_26-0716,T42,William,Student,low,False,Carrie h53,h53,T41,Carrie,Student,self,ok
+OBS_26-0716,T44,William,Student,medium,True,Carrie h58 | Carrie h58 | Carrie h58 | Carrie h58 | Carrie h58,h58,T43,Carrie,Student,other,ok
+OBS_26-0716,T45,Carrie,Student,medium,True,William h64 | William h64,h64,T44,William,Student,other,ok
+OBS_26-0716,T46,William,Student,low,False,Carrie h65,h65,T45,Carrie,Student,other,ok
+OBS_26-0716,T47,William,Student,medium,True,Carrie h67 | Carrie h67,h67,T45,Carrie,Student,other,ok
+OBS_26-0716,T53,Carrie,Student,medium,True,William h103 | William h103,h103,T52,William,Student,self,ok
+OBS_26-0736,T3,William,Student,medium,True,Clifton a9; Clifton a7 | Clifton a9; Clifton a7,a9,T1,Clifton,Student,self,ok
+OBS_26-0736,T9,William,Student,medium,True,Clifton b9; Clifton b11 | Clifton b9; Clifton b11,b9,T7,Clifton,Student,self,ok
+OBS_26-0736,T17,Clifton,Student,low,False,William d3; William d5 | William d3; William d5 | William d3; William d5,d3,T16,William,Student,self,ok
+OBS_26-0736,T40,William,Student,low,False,Clifton e63,e63,T39,Clifton,Student,self,ok
+OBS_26-0736,T54,William,Student,medium,True,Clifton e88 | Clifton e88 | Clifton e88,e88,T53,Clifton,Student,self,ok
+OBS_26-0736,T59,William,Student,low,False,Clifton e97,e97,T58,Clifton,Student,self,ok
+OBS_26-0745,T5,Miguel,Student,low,False,Kelsey a18 | Kelsey a20 | Kelsey a18; Kelsey a20,a18,T3,Kelsey,Student,self,ok
+OBS_26-0745,T8,Miguel,Student,low,False,Kelsey b16,b16,T7,Kelsey,Student,self,ok
+OBS_26-0745,T11,Kelsey,Student,high,True,Miguel c11 | Miguel c11 | Miguel c11 | Miguel c11 | Miguel c11 | Miguel c11; Miguel c8,c11,T9,Miguel,Student,self,source_after_response
+OBS_26-0745,T12,Miguel,Student,low,False,Kelsey c12,c12,T11,Kelsey,Student,other,ok
+OBS_26-0745,T13,Miguel,Student,low,False,Kelsey c14,c14,T11,Kelsey,Student,other,ok
+OBS_26-0745,T14,Miguel,Student,medium,True,Kelsey c14,c14,T11,Kelsey,Student,other,ok
+OBS_26-0745,T25,Miguel,Student,low,False,Kelsey d122,d122,T23,Kelsey,Student,self,ok
+OBS_26-0745,T27,Kelsey,Student,low,False,Miguel d133 | Miguel d133,d133,T26,Miguel,Student,self,ok
+OBS_26-0745,T29,Miguel,Student,low,False,Kelsey e2,e2,T28,Kelsey,Student,self,ok
+OBS_26-0745,T30,Miguel,Student,medium,True,Kelsey e13 | Kelsey e13; Kelsey e15,e13,T28,Kelsey,Student,self,ok
+OBS_26-0745,T30,Miguel,Student,medium,True,Kelsey e13 | Kelsey e13; Kelsey e15,e15,T31,Kelsey,Student,other,source_after_response
+OBS_26-0745,T31,Kelsey,Student,medium,True,Miguel e14 | Miguel e14; Miguel e16,e14,T30,Miguel,Student,other,ok
+OBS_26-0745,T33,Miguel,Student,medium,True,Kelsey e21 | Kelsey e21,e21,T28,Kelsey,Student,self,ok
+OBS_26-0745,T35,Other,Unnamed student,low,False,Kelsey e57,e57,T34,Kelsey,Student,self,ok
+OBS_26-0745,T36,Miguel,Student,low,False,Kelsey e59,e59,T34,Kelsey,Student,self,ok
+OBS_26-0803,T2,Miguel,Student,low,False,Eddy a2 | Eddy a2,a2,T1,Eddy,Student,self,ok
+OBS_26-0803,T5,Miguel,Student,low,False,Eddy a7,a7,T3,Eddy,Student,self,ok
+OBS_26-0803,T9,Miguel,Student,low,False,Eddy a15,a15,T8,Eddy,Student,self,ok
+OBS_26-0803,T13,Miguel,Student,medium,True,Eddy a32 | Eddy a32 | Eddy a32 | Eddy a32,a32,T12,Eddy,Student,self,ok
+OBS_26-0803,T16,Miguel,Student,low,False,Eddy a57,a57,T15,Eddy,Student,self,ok
+OBS_26-0803,T18,Miguel,Student,low,False,Eddy b5,b5,T17,Eddy,Student,self,ok
+OBS_26-0803,T21,Eddy,Student,low,False,Miguel b11,b11,T20,Miguel,Student,self,ok
+OBS_26-0803,T24,Miguel,Student,low,False,Eddy b16,b16,T23,Eddy,Student,self,ok
+OBS_26-0803,T27,Eddy,Student,medium,True,Miguel b21 | Miguel b21 | Miguel b21,b21,T26,Miguel,Student,self,ok
+OBS_26-0803,T28,Eddy,Student,high,True,Miguel b29 | Miguel b21; Miguel b29 | Miguel b21 | Miguel b21 | Miguel b21 | Miguel b21 | Miguel b21 | Miguel b21; Miguel b29,b29,T26,Miguel,Student,self,ok
+OBS_26-0803,T29,Miguel,Student,medium,True,Eddy b31 | Eddy b33 | Eddy b35 | Eddy b37; Eddy b38; Eddy b39,b31,T28,Eddy,Student,other,ok
+OBS_26-0803,T30,Miguel,Student,medium,True,Eddy b41 | Eddy b43 | Eddy b45 | Eddy b47 | Eddy b49,b41,T28,Eddy,Student,other,ok
+OBS_26-0803,T30,Miguel,Student,medium,True,Eddy b41 | Eddy b43 | Eddy b45 | Eddy b47 | Eddy b49,b43,T31,Eddy,Student,other,source_after_response
+OBS_26-0803,T31,Eddy,Student,high,True,Miguel b42 | Miguel b44 | Miguel b46 | Miguel b48 | Miguel b42; Miguel b46; Miguel b48,b42,T30,Miguel,Student,other,ok
+OBS_26-0803,T38,Miguel,Student,low,False,Eddy b70; Eddy b71,b70,T37,Eddy,Student,self,ok
+OBS_26-0803,T41,Miguel,Student,low,False,Eddy b78,b78,T40,Eddy,Student,self,ok
+OBS_26-0803,T43,Eddy,Student,medium,True,Miguel c13,c13,T42,Miguel,Student,self,ok
+OBS_26-0898,T9,Patrice,Student,medium,True,Milagros a14; Milagros a17,a14,T8,Milagros,Student,self,ok
+OBS_26-0898,T18,Patrice,Student,medium,True,Milagros a33 | Milagros a33,a33,T17,Milagros,Student,,ok
+OBS_26-0898,T24,Patrice,Student,medium,True,Milagros b8,b8,T21,Milagros,Student,self,ok
+OBS_26-0898,T25,Milagros,Student,low,False,Patrice b9,b9,T24,Patrice,Student,other,ok
+OBS_26-0898,T35,Milagros,Student,medium,True,Patrice b29,b29,T34,Patrice,Student,self,ok
+OBS_26-0898,T37,Milagros,Student,low,False,Patrice b29 | Patrice b29 | Patrice b29,b29,T34,Patrice,Student,self,ok
+OBS_26-0898,T42,Milagros,Student,medium,True,Patrice b29,b29,T34,Patrice,Student,self,ok
+OBS_26-0898,T44,Milagros,Student,low,False,Patrice b44,b44,T43,Patrice,Student,self,ok
+OBS_26-0898,T45,Milagros,Student,medium,True,Patrice b46 | Patrice b46 | Patrice b46,b46,T43,Patrice,Student,self,ok
+OBS_26-0898,T48,Milagros,Student,low,False,Patrice b53,b53,T47,Patrice,Student,self,ok
+OBS_26-0898,T50,Milagros,Student,low,False,Patrice b53,b53,T47,Patrice,Student,self,ok
+OBS_26-0898,T52,Milagros,Student,medium,True,Patrice b65,b65,T51,Patrice,Student,self,ok
+OBS_26-0898,T53,Patrice,Student,medium,True,Milagros b66,b66,T52,Milagros,Student,other,ok
+OBS_26-0898,T54,Milagros,Student,low,False,Patrice b67,b67,T53,Patrice,Student,other,ok
+OBS_26-0898,T58,Patrice,Student,medium,True,Milagros b71,b71,T57,Milagros,Student,self,ok
+OBS_26-0898,T62,Milagros,Student,low,False,Patrice b76 | Patrice b76 | Patrice b76 | Patrice b76,b76,T61,Patrice,Student,self,ok
+OBS_26-0898,T68,Patrice,Student,low,False,Milagros b88; Milagros b89,b88,T67,Milagros,Student,self,ok
+OBS_26-0898,T69,Milagros,Student,low,False,Patrice b90,b90,T68,Patrice,Student,other,ok
+OBS_26-0898,T70,Patrice,Student,high,True,Milagros b88 | Milagros b88 | Milagros b88 | Milagros b88 | Milagros b88 | Milagros b88,b88,T67,Milagros,Student,self,ok
+OBS_26-0898,T71,Milagros,Student,medium,True,Patrice b97,b97,T70,Patrice,Student,other,ok
+OBS_26-0898,T75,Milagros,Student,medium,True,Patrice b104 | Patrice b104,b104,T73,Patrice,Student,self,ok
+OBS_26-0898,T79,Milagros,Student,medium,True,Patrice b104 | Patrice b104,b104,T73,Patrice,Student,self,ok
+OBS_26-0898,T82,Milagros,Student,medium,True,Patrice b113 | Patrice b104; Patrice b113,b113,T81,Patrice,Student,self,ok
+OBS_26-0898,T82,Milagros,Student,medium,True,Patrice b113 | Patrice b104; Patrice b113,b104,T73,Patrice,Student,self,ok
+OBS_26-0898,T87,Milagros,Student,low,False,Patrice b119,b119,T86,Patrice,Student,self,ok
+OBS_26-0898,T91,Milagros,Student,medium,True,Patrice b122,b122,T86,Patrice,Student,self,ok
+OBS_26-0898,T94,Milagros,Student,high,True,Patrice b133,b133,T92,Patrice,Student,self,ok
+OBS_26-0898,T95,Patrice,Student,low,False,Milagros b137,b137,T94,Milagros,Student,other,ok
+OBS_26-0898,T109,Milagros,Student,medium,True,Patrice b151 | Patrice b151 | Patrice b151 | Patrice b151,b151,T108,Patrice,Student,self,ok
+OBS_26-0898,T110,Patrice,Student,low,False,Milagros b153 | Milagros b153; Milagros b155,b153,T109,Milagros,Student,other,ok
+OBS_26-0898,T111,Patrice,Student,low,False,Milagros b157,b157,T109,Milagros,Student,other,ok
+OBS_26-0905,T22,Milagros,Student,high,True,Norberto a27,a27,T19,Norberto,Student,self,ok
+OBS_26-0905,T50,Norberto,Student,low,False,Gregorio a62,a62,T49,Gregorio,Student,self,ok
+OBS_26-0905,T72,Milagros,Student,high,True,Norberto a86 | Norberto a86,a86,T69,Norberto,Student,self,ok
+OBS_26-0905,T112,Milagros,Student,low,False,Patrice b45,b45,T110,Patrice,Student,self,ok
+OBS_26-0905,T114,Milagros,Student,medium,True,Patrice b37; b40; b42,b37,T110,Patrice,Student,self,ok
+OBS_26-0905,T154,Patrice,Student,low,False,Milagros c28 | Milagros c28,c28,T153,Milagros,Student,self,ok
+OBS_26-0905,T156,Patrice,Student,low,False,Milagros c32,c32,T155,Milagros,Student,self,ok
+OBS_26-0905,T160,Patrice,Student,medium,True,Milagros c35 | Milagros c35,c35,T157,Milagros,Student,self,ok
+OBS_26-0905,T168,Milagros,Student,high,True,Patrice c47,c47,T167,Patrice,Student,self,ok
+OBS_26-0905,T181,Patrice,Student,low,False,Milagros c66,c66,T180,Milagros,Student,self,ok
+OBS_26-0905,T193,Patrice,Student,medium,True,Milagros c94,c94,T192,Milagros,Student,self,ok
+OBS_26-0905,T195,Patrice,Student,low,False,Milagros c94,c94,T192,Milagros,Student,self,ok
+OBS_26-0905,T213,Milagros,Student,high,True,Patrice c137 | Patrice c137 | Patrice c137 | Patrice c137,c137,T212,Patrice,Student,self,ok
+OBS_26-0905,T216,Milagros,Student,medium,True,Patrice c146,c146,T215,Patrice,Student,self,ok
+OBS_26-0944,T8,Doris,Student,high,True,Adam a11,a11,T7,Adam,Student,self,ok
+OBS_26-0944,T11,Doris,Student,low,False,Adam a14,a14,T10,Adam,Student,self,ok
+OBS_26-0944,T21,Adam,Student,high,True,Doris a26; Doris a28 | Doris a26; Doris a28,a26,T20,Doris,Student,self,ok
+OBS_26-0944,T21,Adam,Student,high,True,Doris a26; Doris a28 | Doris a26; Doris a28,a28,T22,Doris,Student,other,source_after_response
+OBS_26-0944,T22,Doris,Student,medium,True,Adam a27,a27,T21,Adam,Student,other,ok
+OBS_26-0944,T24,Doris,Student,low,False,Adam b5,b5,T23,Adam,Student,self,ok
+OBS_26-0944,T26,Doris,Student,medium,True,Adam b7,b7,T25,Adam,Student,,ok
+OBS_26-0944,T46,Adam,Student,low,False,Doris b35 | Doris b35,b35,T45,Doris,Student,self,ok
+OBS_26-0944,T48,Doris,Student,low,False,Adam b37,b37,T46,Adam,Student,other,ok
+OBS_26-0944,T51,Adam,Student,medium,True,Doris b43 | Doris b43,b43,T50,Doris,Student,self,ok
+OBS_26-0944,T94,Doris,Student,medium,True,Adam b87,b87,T91,Adam,Student,,ok
+OBS_26-0944,T95,Adam,Student,low,False,Doris b90,b90,T94,Doris,Student,other,ok
+OBS_26-0944,T108,Doris,Student,high,True,Adam b107; Adam b109 | Adam b107; Adam b109,b107,T107,Adam,Student,self,ok
+OBS_26-0944,T109,Adam,Student,medium,True,Doris b111,b111,T108,Doris,Student,other,ok
+OBS_26-0944,T110,Adam,Student,low,False,Doris b113,b113,T108,Doris,Student,other,ok
+OBS_26-0944,T122,Doris,Student,medium,True,Adam c10 | Adam c10,c10,T121,Adam,Student,,ok
+OBS_26-0944,T124,Adam,Student,medium,True,Doris c13,c13,T122,Doris,Student,other,ok
+OBS_26-0944,T126,Adam,Student,low,False,Doris c13; Doris c15 | Doris c13; Doris c15 | Doris c13; Doris c15 | Doris c13; Doris c15 | Doris c13; Doris c15,c13,T122,Doris,Student,other,ok
+OBS_26-0944,T126,Adam,Student,low,False,Doris c13; Doris c15 | Doris c13; Doris c15 | Doris c13; Doris c15 | Doris c13; Doris c15 | Doris c13; Doris c15,c15,T125,Doris,Student,,ok
+OBS_26-0944,T139,Doris,Student,medium,True,Adam c34,c34,T138,Adam,Student,self,ok
+OBS_26-0944,T142,Doris,Student,medium,True,Adam c37,c37,T140,Adam,Student,self,ok
+OBS_26-0971,T9,Patrice,Student,low,False,Norberto a11 | Norberto a11,a11,T8,Norberto,Student,self,ok
+OBS_26-0971,T10,Patrice,Student,low,False,Norberto a14 | Norberto a14,a14,T8,Norberto,Student,self,ok
+OBS_26-0971,T11,Patrice,Student,low,False,Norberto a17 | Norberto a17 | Norberto a17,a17,T8,Norberto,Student,self,ok
+OBS_26-0971,T21,Norberto,Student,low,False,Patrice b7,b7,T20,Patrice,Student,self,ok
+OBS_26-0971,T24,Patrice,Student,medium,True,Norberto b10,b10,T23,Norberto,Student,self,ok
+OBS_26-0971,T25,Patrice,Student,medium,True,Norberto b10 | Norberto b10; Norberto b16,b10,T23,Norberto,Student,self,ok
+OBS_26-0971,T26,Norberto,Student,low,False,Patrice b21 | Patrice b21,b21,T25,Patrice,Student,other,ok
+OBS_26-0971,T27,Patrice,Student,low,False,Norberto b23,b23,T26,Norberto,Student,other,ok
+OBS_26-0971,T30,Norberto,Student,low,False,Patrice c14,c14,T29,Patrice,Student,self,ok
+OBS_26-0971,T32,Patrice,Student,low,False,Norberto d3,d3,T31,Norberto,Student,self,ok
+OBS_26-0971,T37,Patrice,Student,low,False,Norberto d10,d10,T36,Norberto,Student,self,ok
+OBS_26-0971,T38,Patrice,Student,low,False,Norberto d12; Norberto d13,d12,T36,Norberto,Student,self,ok
+OBS_26-0971,T47,Patrice,Student,low,False,Norberto d45,d45,T46,Norberto,Student,self,ok
+OBS_26-0971,T57,Norberto,Student,high,True,Patrice d80 | Patrice d80 | Patrice d80,d80,T56,Patrice,Student,self,ok
+OBS_26-0971,T58,Patrice,Student,low,False,Norberto d82,d82,T57,Norberto,Student,other,ok
+OBS_26-0971,T60,Norberto,Student,medium,True,Patrice d85,d85,T59,Patrice,Student,self,ok
+OBS_26-0971,T63,Patrice,Student,medium,True,Norberto d93 | Norberto d97 | Norberto d97 | Norberto d97 | Norberto d97 | Norberto d93; Norberto d97,d93,T62,Norberto,Student,self,ok
+OBS_26-0971,T65,Patrice,Student,medium,True,Norberto d108 | Norberto d110,d108,T62,Norberto,Student,self,ok
+OBS_26-0971,T68,Patrice,Student,medium,True,Norberto d84 | Norberto d84,d84,T57,Norberto,Student,other,ok
+OBS_26-0971,T69,Norberto,Student,low,False,Patrice d120; Patrice d121,d120,T68,Patrice,Student,other,ok
+OBS_26-0971,T70,Patrice,Student,low,False,Norberto d122,d122,T69,Norberto,Student,other,ok
+OBS_26-0971,T74,Patrice,Student,low,False,Norberto d135,d135,T73,Norberto,Student,self,ok
+OBS_26-0971,T75,Patrice,Student,low,False,Norberto d144,d144,T73,Norberto,Student,self,ok
+OBS_26-0971,T76,Patrice,Student,low,False,Norberto d151,d151,T73,Norberto,Student,self,ok
+OBS_26-0983,T3,Patrice,Student,low,False,Norberto a13; a14,a13,T2,Norberto,Student,self,ok
+OBS_26-0983,T6,Norberto,Student,high,True,Patrice b4; b6; b9 | Patrice b4; b6; b9,b4,T5,Patrice,Student,self,ok
+OBS_26-0983,T8,Patrice,Student,low,False,Norberto c43,c43,T7,Norberto,Student,self,ok
+OBS_26-0983,T9,Patrice,Student,medium,True,Norberto c45; c47 | Norberto c45; c47 | Norberto c45; c47 | Norberto c45; c47,c45,T7,Norberto,Student,self,ok
+OBS_26-0983,T10,Norberto,Student,high,True,Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57 | Patrice c55; c57,c55,T9,Patrice,Student,other,ok
+OBS_26-0983,T11,Patrice,Student,medium,True,Norberto c63 | Norberto c63 | Norberto c63 | Norberto c63 | Norberto c63 | Norberto c63,c63,T10,Norberto,Student,other,ok
+OBS_26-0983,T13,Norberto,Student,low,False,Patrice c76,c76,T11,Patrice,Student,other,ok
+OBS_26-0983,T15,Patrice,Student,low,False,Norberto c89,c89,T14,Norberto,Student,self,ok
+OBS_26-0983,T16,Patrice,Student,high,True,Norberto c89; c94 | Norberto c89; c94 | Norberto c89; c94 | Norberto c89; c94 | Norberto c89; c94 | Norberto c89; c94,c89,T14,Norberto,Student,self,ok
+OBS_26-0983,T19,Patrice,Student,low,False,Norberto c104,c104,T18,Norberto,Student,self,ok
+OBS_26-0983,T20,Norberto,Student,medium,True,Patrice c107 | Patrice c107; c109 | Patrice c107; c109 | Patrice c107; c109 | Patrice c107; c109,c107,T16,Patrice,Student,other,ok
+OBS_26-0983,T25,Patrice,Student,medium,True,Norberto c141,c141,T24,Norberto,Student,self,ok
+OBS_26-0983,T32,Patrice,Student,medium,True,Norberto d5,d5,T31,Norberto,Student,self,ok
+OBS_26-0983,T38,Patrice,Student,medium,True,Norberto d48,d48,T37,Norberto,Student,self,ok
+OBS_26-0983,T46,Patrice,Student,medium,True,Norberto d73 | Norberto d73,d73,T45,Norberto,Student,self,ok
+OBS_26-0983,T48,Patrice,Student,low,False,Norberto d80 | Norberto d80,d80,T47,Norberto,Student,self,ok
+OBS_26-0983,T52,Patrice,Student,low,False,Norberto e28,e28,T51,Norberto,Student,self,ok
+OBS_26-0983,T54,Patrice,Student,medium,True,Norberto e33,e33,T53,Norberto,Student,self,ok
+OBS_26-0983,T57,Norberto,Student,low,False,Patrice e40,e40,T56,Patrice,Student,self,ok
+OBS_26-0983,T59,Norberto,Student,medium,True,Patrice e48; e50 | Patrice e48; e50 | Patrice e53,e48,T58,Patrice,Student,self,ok
+OBS_26-0983,T61,Patrice,Student,medium,True,Norberto e60 | Norberto e60 | Norberto e60; e63 | Norberto e60; e63 | Norberto e60; e63 | Norberto e60; e63,e60,T60,Norberto,Student,self,ok
+OBS_26-0983,T64,Patrice,Student,low,False,Norberto e98 | Norberto e98,e98,T63,Norberto,Student,self,ok
+OBS_26-0983,T66,Patrice,Student,medium,True,Norberto e109,e109,T65,Norberto,Student,other,ok
+OBS_26-0999,T12,Gerald,Student,high,True,William a24; William a31,a24,T8,William,Student,self,ok
+OBS_26-0999,T12,Gerald,Student,high,True,William a24; William a31,a31,T11,William,Student,self,ok
+OBS_26-0999,T23,Gerald,Student,medium,True,William b18,b18,T21,William,Student,self,ok
+OBS_26-0999,T24,William,Student,low,False,Gerald b21,b21,T23,Gerald,Student,other,ok
+OBS_26-0999,T25,Gerald,Student,low,False,William b23,b23,T21,William,Student,self,ok
+OBS_26-0999,T29,Gerald,Student,low,False,William b27,b27,T28,William,Student,self,ok
+OBS_26-0999,T30,Gerald,Student,low,False,William b29,b29,T28,William,Student,self,ok
+OBS_26-0999,T32,William,Student,low,False,Gerald b34,b34,T26,Gerald,Student,self,ok
+OBS_26-0999,T35,Gerald,Student,high,True,William b39 | William b39 | William b39,b39,T34,William,Student,self,ok
+OBS_26-0999,T48,William,Student,low,False,Gerald c8,c8,T47,Gerald,Student,self,ok
+OBS_26-0999,T52,William,Student,low,False,Gerald c15,c15,T47,Gerald,Student,self,ok
+OBS_26-0999,T59,Gerald,Student,low,False,William c45 | William c45 | William c45,c45,T58,William,Student,self,ok
+OBS_26-0999,T70,William,Student,medium,True,Gerald d9,d9,T69,Gerald,Student,self,ok
+OBS_26-0999,T71,Gerald,Student,medium,True,William d10,d10,T70,William,Student,other,ok
+OBS_26-0999,T77,William,Student,medium,True,Gerald d18 | Gerald d18 | Gerald d18 | Gerald d18,d18,T75,Gerald,Student,self,ok
+OBS_26-0999,T84,William,Student,low,False,Gerald d40 | Gerald d40 | Gerald d40; Gerald d35,d40,T82,Gerald,Student,self,ok
+OBS_26-0999,T86,William,Student,medium,True,Gerald d32 | Gerald d32,d32,T82,Gerald,Student,self,ok
+OBS_26-0999,T152,William,Student,medium,True,Gerald d151,d151,T150,Gerald,Student,self,ok
+OBS_26-0999,T154,William,Student,low,False,Gerald d151 | Gerald d155,d151,T150,Gerald,Student,self,ok
+OBS_26-0999,T154,William,Student,low,False,Gerald d151 | Gerald d155,d155,T153,Gerald,Student,self,source_after_response
+OBS_26-0999,T157,William,Student,medium,True,Gerald d158 | Gerald d158,d158,T153,Gerald,Student,self,ok
+OBS_26-0999,T162,William,Student,low,False,Gerald d172 | Gerald d172,d172,T161,Gerald,Student,self,ok
+OBS_26-0999,T163,William,Student,high,True,Gerald d176 | Gerald d176 | Gerald d176 | Gerald d176,d176,T161,Gerald,Student,self,ok
+OBS_26-0999,T165,Gerald,Student,low,False,William d183 | William d183 | William d183,d183,T163,William,Student,other,ok
+OBS_26-0999,T169,Gerald,Student,medium,True,William d193 | William d193 | William d193 | William d193 | William d193; William d183,d193,T168,William,Student,self,ok
+OBS_26-0999,T169,Gerald,Student,medium,True,William d193 | William d193 | William d193 | William d193 | William d193; William d183,d183,T163,William,Student,other,ok
+OBS_26-0999,T170,William,Student,medium,True,Gerald d198 | Gerald d198,d198,T169,Gerald,Student,other,ok
+OBS_26-0999,T171,Gerald,Student,low,False,William d199,d199,T170,William,Student,other,ok
+OBS_26-0999,T174,William,Student,medium,True,Gerald d206,d206,T173,Gerald,Student,self,ok
+OBS_26-0999,T177,Gerald,Student,low,False,William d210,d210,T175,William,Student,self,ok
+OBS_26-0999,T182,William,Student,medium,True,Gerald d218,d218,T181,Gerald,Student,self,ok
+OBS_26-0999,T184,Gerald,Student,low,False,William d223,d223,T183,William,Student,self,ok
+OBS_26-1000,T4,Adam,Student,low,False,Isaias a4,a4,T3,Isaias,Student,self,ok
+OBS_26-1000,T6,Adam,Student,medium,True,Isaias a6,a6,T5,Isaias,Student,self,ok
+OBS_26-1000,T8,Adam,Student,low,False,Isaias a9,a9,T7,Isaias,Student,self,ok
+OBS_26-1000,T9,Isaias,Student,low,False,Adam a10,a10,T8,Adam,Student,other,ok
+OBS_26-1000,T10,Adam,Student,low,False,Isaias a11,a11,T9,Isaias,Student,other,ok
+OBS_26-1000,T12,Adam,Student,medium,True,Isaias a13,a13,T11,Isaias,Student,self,ok
+OBS_26-1000,T13,Isaias,Student,low,False,Adam a14,a14,T12,Adam,Student,other,ok
+OBS_26-1000,T22,Isaias,Student,high,True,Adam a23,a23,T21,Adam,Student,self,ok
+OBS_26-1000,T65,Adam,Student,medium,True,Isaias b61; Isaias b63 | Isaias b61; Isaias b63 | Isaias b61; Isaias b63 | Isaias b61; Isaias b63 | Isaias b61; Isaias b63 | Isaias b61; Isaias b63,b61,T64,Isaias,Student,self,ok
+OBS_26-1000,T150,Adam,Student,medium,True,Isaias d60 | Isaias d60 | Isaias d60,d60,T148,Isaias,Student,self,ok
+OBS_26-1000,T151,Isaias,Student,low,False,Adam d64,d64,T150,Adam,Student,other,ok
+OBS_26-1045,T2,Isaias,Student,high,True,Tangela a12,a12,T1,Tangela,Student,self,ok
+OBS_26-1045,T3,Isaias,Student,medium,True,Tangela a12,a12,T1,Tangela,Student,self,ok
+OBS_26-1045,T16,Tangela,Student,low,False,Isaias c47,c47,T15,Isaias,Student,other,ok
+OBS_26-1045,T19,Tangela,Student,medium,True,Isaias c68,c68,T18,Isaias,Student,other,ok
+OBS_26-1045,T20,Isaias,Student,low,False,Tangela c69,c69,T19,Tangela,Student,other,ok
+OBS_26-1107,T4,Norberto,Student,low,False,Patrice b9,b9,T3,Patrice,Student,self,ok
+OBS_26-1107,T6,Norberto,Student,low,False,Patrice b13,b13,T5,Patrice,Student,self,ok
+OBS_26-1107,T7,Norberto,Student,medium,True,Patrice b13,b13,T5,Patrice,Student,self,ok
+OBS_26-1107,T9,Norberto,Student,medium,True,Patrice b17,b17,T8,Patrice,Student,self,ok
+OBS_26-1107,T11,Norberto,Student,medium,True,Patrice b21,b21,T10,Patrice,Student,self,ok
+OBS_26-1107,T12,Norberto,Student,medium,True,Patrice b24,b24,T10,Patrice,Student,self,ok
+OBS_26-1107,T13,Norberto,Student,low,False,Patrice b26,b26,T10,Patrice,Student,self,ok
+OBS_26-1107,T15,Norberto,Student,medium,True,Patrice b21 | Patrice b21 | Patrice b21,b21,T10,Patrice,Student,self,ok
+OBS_26-1107,T17,Norberto,Student,medium,True,Patrice b37,b37,T16,Patrice,Student,self,ok
+OBS_26-1107,T18,Norberto,Student,low,False,Patrice b39,b39,T16,Patrice,Student,self,ok
+OBS_26-1107,T19,Norberto,Student,low,False,Patrice b45,b45,T14,Patrice,Student,self,ok
+OBS_26-1107,T20,Norberto,Student,low,False,Patrice b45,b45,T14,Patrice,Student,self,ok
+OBS_26-1107,T21,Norberto,Student,medium,True,Patrice b43,b43,T14,Patrice,Student,self,ok
+OBS_26-1107,T24,Norberto,Student,low,False,Patrice c9; Patrice c10,c9,T23,Patrice,Student,self,ok
+OBS_26-1107,T29,Patrice,Student,medium,True,Norberto e2; Norberto e4 | Norberto e2; Norberto e4 | Norberto e2; Norberto e4 | Norberto e2; Norberto e4 | Norberto e2; Norberto e4,e2,T28,Norberto,Student,self,ok
+OBS_26-1107,T32,Norberto,Student,low,False,Patrice e21,e21,T31,Patrice,Student,self,ok
+OBS_26-1107,T33,Norberto,Student,medium,True,Patrice e19; Patrice e21 | Patrice e19; Patrice e21,e19,T31,Patrice,Student,self,ok
+OBS_26-1107,T37,Patrice,Student,medium,True,Hortensia f4,f4,T35,Hortensia,Student,self,ok
+OBS_26-1107,T38,Hortensia,Student,medium,True,Patrice f7,f7,T37,Patrice,Student,other,ok
+OBS_26-1107,T39,Patrice,Student,low,False,Hortensia f8,f8,T38,Hortensia,Student,other,ok
+OBS_26-1107,T42,Hortensia,Student,low,False,Patrice f18; Patrice f20,f18,T40,Patrice,Student,self,ok
+OBS_26-1107,T42,Hortensia,Student,low,False,Patrice f18; Patrice f20,f20,T41,Patrice,Student,self,ok
+OBS_26-1107,T46,Gregorio,Student,medium,True,Patrice g15; Patrice g16 | Patrice g15; Patrice g16,g15,T45,Patrice,Student,self,ok
+OBS_26-1120,T2,Adam,Student,medium,True,William a5; a6 | William a5; a6 | William a5; a6 | William a5; a6,a5,T1,William,Student,self,ok
+OBS_26-1120,T30,William,Student,low,False,Adam b50 | Adam b50,b50,T26,Adam,Student,self,ok
+OBS_26-1131,T13,Adam,Student,low,False,William a95,a95,T12,William,Student,self,ok
+OBS_26-1131,T16,William,Student,medium,True,Adam a110,a110,T15,Adam,Student,self,ok
+OBS_26-1131,T21,Adam,Student,low,False,William a231 | William a233,a231,T20,William,Student,self,ok
+OBS_26-1131,T26,William,Student,medium,True,Adam a259; Adam a261 | Adam a259; Adam a261,a259,T24,Adam,Student,self,ok
+OBS_26-1131,T28,Adam,Student,medium,True,William a290; William a291 | William a293,a290,T27,William,Student,self,ok
+OBS_26-1131,T31,Adam,Student,low,False,William b47; William b48,b47,T30,William,Student,self,ok
+OBS_26-1131,T33,Adam,Student,low,False,William b58,b58,T32,William,Student,self,ok
+OBS_26-1143,T18,Norberto,Student,low,False,Miguel a21,a21,T13,Miguel,Student,self,ok
+OBS_26-1143,T28,Norberto,Student,medium,True,Miguel a33,a33,T27,Miguel,Student,self,ok
+OBS_26-1143,T29,Miguel,Student,high,True,Norberto a34 | Norberto a34 | Norberto a34 | Norberto a34 | Norberto a34,a34,T28,Norberto,Student,other,ok
+OBS_26-1143,T31,Norberto,Student,medium,True,Miguel a37,a37,T29,Miguel,Student,other,ok
+OBS_26-1143,T63,Miguel,Student,low,False,Norberto a98,a98,T62,Norberto,Student,self,ok
+OBS_26-1143,T64,Miguel,Student,medium,True,Norberto a98,a98,T62,Norberto,Student,self,ok
+OBS_26-1143,T65,Miguel,Student,medium,True,Norberto a101 | Norberto a101,a101,T62,Norberto,Student,self,ok
+OBS_26-1143,T66,Miguel,Student,low,False,Norberto a104,a104,T62,Norberto,Student,self,ok
+OBS_26-1143,T69,Miguel,Student,low,False,Norberto a109,a109,T62,Norberto,Student,self,ok
+OBS_26-1143,T75,Miguel,Student,low,False,Norberto b5,b5,T74,Norberto,Student,self,ok
+OBS_26-1143,T97,Miguel,Student,medium,True,Norberto a98,a98,T62,Norberto,Student,self,ok
+OBS_25-0209,T7,Eddy,Student,medium,True,Gregorio a29 | Gregorio a29 | Gregorio a29,a29,,Gregorio,Student,,source_row_without_turn
+OBS_25-0342,T48,Kelsey,Student,medium,True,Miguel a81 | Miguel a81 | Miguel a81 | Miguel a81,a81,,Kelsey,Student,,source_is_responder
+OBS_26-0423,T48,Allison,Student,low,False,Miguel (idea not recorded in a transcript row),,,,,,no_row_id
+OBS_26-0437,T35,Eddy,Student,high,True,Gregorio f10 | Gregorio f10 | Gregorio f10 | Gregorio f10 | Gregorio f10 | Gregorio f10; Gregorio f8,f10,,Gregorio,Student,,source_row_without_turn
+OBS_26-0437,T35,Eddy,Student,high,True,Gregorio f10 | Gregorio f10 | Gregorio f10 | Gregorio f10 | Gregorio f10 | Gregorio f10; Gregorio f8,f8,,Gregorio,Student,,source_row_without_turn
+OBS_26-0600,T15,Gregorio,Student,low,False,Miguel e12 | Miguel e12; Miguel e14,e14,,Miguel,Student,,source_row_without_turn
+OBS_26-0716,T43,Carrie,Student,medium,True,William h56 | William h56,h56,,William,Student,,source_row_without_turn
+OBS_26-0745,T18,Kelsey,Student,medium,True,Miguel d26; Miguel d28 | Miguel d26; Miguel d28,d26,,Miguel,Student,,source_row_without_turn
+OBS_26-0745,T18,Kelsey,Student,medium,True,Miguel d26; Miguel d28 | Miguel d26; Miguel d28,d28,,Miguel,Student,,source_row_without_turn
+OBS_26-0745,T19,Kelsey,Student,low,False,Miguel d31 | Miguel d31 | Miguel d31 | Miguel d31 | Miguel d31,d31,,Miguel,Student,,source_row_without_turn
+OBS_26-0983,T65,Norberto,Student,high,True,Other e104; e106 | Other e104; e106 | Other e104; e106,e104,,Other,Unnamed student,,source_row_without_turn
+OBS_26-0983,T65,Norberto,Student,high,True,Other e104; e106 | Other e104; e106 | Other e104; e106,e106,,Other,Unnamed student,,source_row_without_turn
+OBS_26-1045,T15,Isaias,Student,medium,True,Tangela c41 | Tangela c41 | Tangela c41 | Tangela c41,c41,,Tangela,Student,,source_row_without_turn
+OBS_26-1045,T18,Isaias,Student,medium,True,Tangela c60 | Tangela c60 | Tangela c60,c60,,Tangela,Student,,source_row_without_turn
+OBS_26-1131,T7,William,Student,low,False,Adam a64,a64,,Adam,Student,,source_row_without_turn

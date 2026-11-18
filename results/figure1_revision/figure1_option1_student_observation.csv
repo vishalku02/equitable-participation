@@ -1,0 +1,41 @@
+observation_id,classroom,student,partner_names,n_self_turns,n_developed_responses_received,developed_responses_per_idea,n_developed_responses_to_self_turns,developed_responses_to_self_per_idea,n_student_turns
+OBS_26-0944,Ms. Cooper,Adam,Doris,12,8,0.6666666666666666,4,0.3333333333333333,91
+OBS_26-1000,Ms. Cooper,Adam,Isaias,10,1,0.1,1,0.1,137
+OBS_26-1120,Ms. Cooper,Adam,William,14,0,0.0,0,0.0,47
+OBS_26-1131,Ms. Cooper,Adam,William,7,2,0.2857142857142857,2,0.2857142857142857,12
+OBS_26-0437,Ms. Gallagher,Gregorio,Eddy,9,4,0.4444444444444444,3,0.3333333333333333,17
+OBS_26-0498,Ms. Gallagher,Gregorio,Miguel,16,7,0.4375,3,0.1875,58
+OBS_26-0501,Ms. Gallagher,Gregorio,Miguel,5,0,0.0,0,0.0,47
+OBS_26-0515,Ms. Gallagher,Gregorio,Miguel,10,3,0.3,2,0.2,40
+OBS_26-0572,Ms. Gallagher,Gregorio,Miguel,10,4,0.4,2,0.2,117
+OBS_26-0600,Ms. Gallagher,Gregorio,Miguel,10,1,0.1,1,0.1,13
+OBS_26-0905,Ms. Gallagher,Gregorio,"Milagros, Norberto, Patrice",12,0,0.0,0,0.0,29
+OBS_26-0423,Ms. Gallagher,Miguel,Allison,5,1,0.2,1,0.2,54
+OBS_26-0467,Ms. Gallagher,Miguel,Allison,33,6,0.18181818181818182,5,0.15151515151515152,116
+OBS_26-0803,Ms. Gallagher,Miguel,Eddy,13,4,0.3076923076923077,3,0.23076923076923078,24
+OBS_26-0498,Ms. Gallagher,Miguel,Gregorio,21,4,0.19047619047619047,2,0.09523809523809523,79
+OBS_26-0501,Ms. Gallagher,Miguel,Gregorio,15,3,0.2,3,0.2,54
+OBS_26-0515,Ms. Gallagher,Miguel,Gregorio,9,1,0.1111111111111111,0,0.0,41
+OBS_26-0572,Ms. Gallagher,Miguel,Gregorio,18,5,0.2777777777777778,4,0.2222222222222222,135
+OBS_26-0600,Ms. Gallagher,Miguel,Gregorio,15,0,0.0,0,0.0,17
+OBS_25-0342,Ms. Gallagher,Miguel,Kelsey,11,9,0.8181818181818182,7,0.6363636363636364,47
+OBS_26-0745,Ms. Gallagher,Miguel,Kelsey,10,3,0.3,0,0.0,20
+OBS_25-0259,Ms. Gallagher,Miguel,Milagros,12,1,0.08333333333333333,0,0.0,86
+OBS_26-1143,Ms. Gallagher,Miguel,Norberto,13,2,0.15384615384615385,1,0.07692307692307693,75
+OBS_26-0905,Ms. Gallagher,Milagros,"Gregorio, Norberto, Patrice",14,2,0.14285714285714285,2,0.14285714285714285,95
+OBS_25-0259,Ms. Gallagher,Milagros,Miguel,12,0,0.0,0,0.0,116
+OBS_26-0898,Ms. Gallagher,Milagros,Patrice,7,6,0.8571428571428571,4,0.5714285714285714,59
+OBS_26-1107,Ms. Gallagher,Norberto,"Gregorio, Hortensia, Patrice",6,1,0.16666666666666666,1,0.16666666666666666,22
+OBS_26-1143,Ms. Gallagher,Norberto,Miguel,5,4,0.8,3,0.6,23
+OBS_26-0971,Ms. Gallagher,Norberto,Patrice,15,5,0.3333333333333333,4,0.26666666666666666,42
+OBS_26-0983,Ms. Gallagher,Norberto,Patrice,29,10,0.3448275862068966,8,0.27586206896551724,36
+OBS_26-1107,Ms. Gallagher,Patrice,"Gregorio, Hortensia, Norberto",17,10,0.5882352941176471,9,0.5294117647058824,20
+OBS_26-0905,Ms. Gallagher,Patrice,"Gregorio, Milagros, Norberto",16,4,0.25,4,0.25,60
+OBS_26-0898,Ms. Gallagher,Patrice,Milagros,15,11,0.7333333333333333,10,0.6666666666666666,54
+OBS_26-0971,Ms. Gallagher,Patrice,Norberto,6,2,0.3333333333333333,2,0.3333333333333333,40
+OBS_26-0983,Ms. Gallagher,Patrice,Norberto,13,4,0.3076923076923077,2,0.15384615384615385,30
+OBS_26-1120,Ms. Cooper,William,Adam,17,1,0.058823529411764705,1,0.058823529411764705,60
+OBS_26-1131,Ms. Cooper,William,Adam,17,1,0.058823529411764705,1,0.058823529411764705,20
+OBS_26-0716,Ms. Cooper,William,Carrie,13,7,0.5384615384615384,3,0.23076923076923078,28
+OBS_26-0736,Ms. Cooper,William,Clifton,14,0,0.0,0,0.0,74
+OBS_26-0999,Ms. Cooper,William,Gerald,17,5,0.29411764705882354,4,0.23529411764705882,109

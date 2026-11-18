@@ -1,0 +1,7 @@
+metric,min_self_turns,students,records,mean_within_student_sd,sd_of_student_means,ratio,range_of_student_ranges
+developed_responses_per_idea,5,7,40,0.266,0.096,2.78,0.44-0.86
+developed_responses_per_idea,10,5,27,0.245,0.108,2.27,0.44-0.82
+developed_responses_to_self_per_idea,5,7,40,0.18,0.102,1.77,0.24-0.64
+developed_responses_to_self_per_idea,10,5,27,0.159,0.117,1.36,0.20-0.64
+proportion_ideas_with_uptake,5,7,40,0.155,0.073,2.14,0.14-0.64
+proportion_ideas_with_uptake,10,5,27,0.149,0.088,1.69,0.20-0.64

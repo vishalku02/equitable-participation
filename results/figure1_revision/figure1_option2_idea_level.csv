@@ -1,0 +1,715 @@
+observation_id,classroom,student,source_turn_id,source_row_ids,n_developed_responses_received,responding_peers,received_developed_uptake
+OBS_25-0209,Ms. Gallagher,Gregorio,T1,a11 a13,1,Eddy,1
+OBS_25-0209,Ms. Gallagher,Gregorio,T4,a17,0,,0
+OBS_25-0209,Ms. Gallagher,Eddy,T6,a26 a27 a28,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T1,a2 a4 a5,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T6,a9 a10 a11 a12 a14,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T10,a17 a19 a21 a26,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T17,b1,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T19,b3 b4 b5 b6 b8 b9,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T20,b7,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T33,c16,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T35,c21,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T39,c28 c30,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T41,c34,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T42,c35,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T43,c37,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T44,c38,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T71,c80 c82,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T73,c89,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T76,c95,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T83,c104,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T85,c114,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T87,c118,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T91,c131,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T92,c134,0,,0
+OBS_25-0259,Ms. Gallagher,Milagros,T93,c136 c138,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T94,c139 c141,0,,0
+OBS_25-0259,Ms. Gallagher,Miguel,T148,c208,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T1,a3 a4 a5 a6 a7 a8 a9 a10 a11 a12,0,,0
+OBS_25-0342,Ms. Gallagher,Miguel,T4,a16,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T5,a17,0,,0
+OBS_25-0342,Ms. Gallagher,Miguel,T11,a24,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Kelsey,T14,a31 a32 a33,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T16,a35 a37,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T19,a39 a40 a41,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T21,a43,0,,0
+OBS_25-0342,Ms. Gallagher,Miguel,T28,a50,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Miguel,T39,a68 a71,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Miguel,T43,a73 a74 a75,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Miguel,T51,a88,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Miguel,T53,a90,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Miguel,T56,a93,1,Kelsey,1
+OBS_25-0342,Ms. Gallagher,Kelsey,T66,b3,1,Miguel,1
+OBS_25-0342,Ms. Gallagher,Kelsey,T74,c6 c7 c8 c9 c10,0,,0
+OBS_25-0342,Ms. Gallagher,Miguel,T84,c28,0,,0
+OBS_25-0342,Ms. Gallagher,Miguel,T85,c31,0,,0
+OBS_25-0342,Ms. Gallagher,Miguel,T86,c34,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T88,c38,0,,0
+OBS_25-0342,Ms. Gallagher,Kelsey,T90,c41 c43 c44,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T1,a2,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T14,a18,2,"Miguel, Other",1
+OBS_26-0423,Ms. Gallagher,Miguel,T17,a21 a22 a24,1,Other,1
+OBS_26-0423,Ms. Gallagher,Allison,T24,b5 b6 b7 b8 b9,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T26,b16,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T28,b22,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T30,b25 b26,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T33,b29,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T37,b37 b38 b39 b40 b42 b43,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T42,b51 b52 b53,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T55,b97,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T56,b100 b101,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T67,c10 c11 c13 c16 c18,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T68,c24 c25 c27,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T69,c29,0,,0
+OBS_26-0423,Ms. Gallagher,Miguel,T73,c39 c41 c43 c45 c47 c49 c50 c52 c53,0,,0
+OBS_26-0423,Ms. Gallagher,Miguel,T81,c73 c75 c77 c79,0,,0
+OBS_26-0423,Ms. Gallagher,Miguel,T85,c87 c89 c90,0,,0
+OBS_26-0423,Ms. Gallagher,Miguel,T91,c107 c108,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T94,c113,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T97,c118 c119 c121,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T99,c125,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T103,c133 c136,0,,0
+OBS_26-0423,Ms. Gallagher,Allison,T104,c139,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T1,a4 a5 a6 a8 a9 a10 a11,0,,0
+OBS_26-0437,Ms. Gallagher,Gregorio,T2,a13 a14 a15 a17,1,Eddy,1
+OBS_26-0437,Ms. Gallagher,Gregorio,T4,a20,1,Eddy,1
+OBS_26-0437,Ms. Gallagher,Gregorio,T7,a25,1,Eddy,1
+OBS_26-0437,Ms. Gallagher,Gregorio,T9,a27,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T10,b2 b4 b6 b8,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T12,b11,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T13,b16 b17 b23 b25 b26,0,,0
+OBS_26-0437,Ms. Gallagher,Gregorio,T15,c13,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T16,c15 c16 c18,1,Gregorio,1
+OBS_26-0437,Ms. Gallagher,Gregorio,T18,c20 c21,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T19,c22 c24 c25 c26 c27 c29,0,,0
+OBS_26-0437,Ms. Gallagher,Gregorio,T22,c31 c32 c33,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T24,c53 c56,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T25,c63,1,Gregorio,1
+OBS_26-0437,Ms. Gallagher,Gregorio,T27,c74 c76,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T28,c80,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T29,c87 c89,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T30,c92,0,,0
+OBS_26-0437,Ms. Gallagher,Gregorio,T31,c93,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T32,d2,0,,0
+OBS_26-0437,Ms. Gallagher,Eddy,T33,e2,1,Gregorio,1
+OBS_26-0467,Ms. Gallagher,Allison,T4,a6 a7 a8 a9,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T5,a10 a11,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T7,a13,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T9,a16 a18,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T12,a20 a21 a22,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T16,b7 b9 b12,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T20,b14 b15,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T32,c16,1,Allison,1
+OBS_26-0467,Ms. Gallagher,Miguel,T34,c18 c19 c20 c21,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T37,c24,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T38,c27 c28 c29 c30,2,Miguel,1
+OBS_26-0467,Ms. Gallagher,Allison,T40,c32,1,Miguel,1
+OBS_26-0467,Ms. Gallagher,Allison,T47,c42 c44 c45,1,Miguel,1
+OBS_26-0467,Ms. Gallagher,Allison,T52,c52 c53,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T55,c59,1,Allison,1
+OBS_26-0467,Ms. Gallagher,Miguel,T60,c65,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T65,c73 c74,1,Allison,1
+OBS_26-0467,Ms. Gallagher,Allison,T68,c77 c78 c79,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T78,c93 c94,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T79,c95,1,Miguel,1
+OBS_26-0467,Ms. Gallagher,Allison,T81,c97,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T84,c100 c101 c102 c103,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T86,c105 c106 c108 c109,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T91,c116,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T93,c121,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T96,c126,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T97,c128,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T98,c130,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T99,c133,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T102,c140 c153 c156,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T104,c145 c146,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T106,c150,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T112,c163 c164 c165 c166,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T113,c167 c168,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T117,c172,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T118,c173 c174 c175 c176,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T120,c180,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T126,c191,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T128,c193 c194,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T131,c197,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T133,c199,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T135,c201 c202 c203,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T150,c241,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T153,c249 c251 c252,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T155,c254 c255 c256 c257 c259 c262 c263 c264 c265 c266 c267 c268 c269 c270 c271 c273 c274 c275 c276 c277 c278 c279,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T159,c282 c283,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T160,c284 c285 c286 c287 c288 c289 c290 c291 c292,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T162,c298 c299,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T163,c303 c308,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T164,c304,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T167,c323 c325,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T171,c330,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T186,c354 c355 c356,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T188,c358 c362 c364,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T189,c359,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T191,c370 c372,0,,0
+OBS_26-0467,Ms. Gallagher,Allison,T192,c371,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T193,c374,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T195,c379,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T196,c382,0,,0
+OBS_26-0467,Ms. Gallagher,Miguel,T213,c411 c413 c417,2,Allison,1
+OBS_26-0498,Ms. Gallagher,Gregorio,T2,a4 a6,2,Miguel,1
+OBS_26-0498,Ms. Gallagher,Gregorio,T5,a8 a9 a12 a15 a17 a18,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T20,a29,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T38,b2 b3 b4,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T39,b5 b6,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T40,b8,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T41,b9 b10,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T43,b14,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T44,b16,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T45,b18 b19,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T48,b26 b29,1,Miguel,1
+OBS_26-0498,Ms. Gallagher,Miguel,T58,b40 b41 b42 b43 b45 b47,2,Gregorio,1
+OBS_26-0498,Ms. Gallagher,Gregorio,T69,b58 b60 b61,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T70,b59,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T71,b63 b64 b66,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T72,b65,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T73,b69,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T74,b70 b73 b75,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T77,b79,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T78,b81 b84 b86 b87 b89,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T79,b82 b83 b85 b88,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T82,b94 b95,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T85,b103,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T86,b105 b106,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T88,b116,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T89,b118,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T90,b120,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T91,b124 b127,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T97,b137,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T130,d2 d3,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T131,d4,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T132,d11 d13 d16,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T135,d19,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T137,d22,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T138,d25,0,,0
+OBS_26-0498,Ms. Gallagher,Gregorio,T141,d31 d32 d34,0,,0
+OBS_26-0498,Ms. Gallagher,Miguel,T145,d40,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T10,b2,0,,0
+OBS_26-0501,Ms. Gallagher,Gregorio,T17,c1,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T18,c2 c3 c4,1,Gregorio,1
+OBS_26-0501,Ms. Gallagher,Gregorio,T20,c9,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T23,d6 d8 d9,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T28,e4 e6 e8 e9 e10 e11,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T39,e23 e29 e31 e32,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T45,e34,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T50,e48,0,,0
+OBS_26-0501,Ms. Gallagher,Gregorio,T51,e49,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T54,e60,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T63,e77 e78 e79 e80 e81,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T65,e83 e84,0,,0
+OBS_26-0501,Ms. Gallagher,Gregorio,T67,e86,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T69,e88,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T73,e93 e94,0,,0
+OBS_26-0501,Ms. Gallagher,Gregorio,T75,e96 e97,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T78,e100,1,Gregorio,1
+OBS_26-0501,Ms. Gallagher,Miguel,T88,e114,0,,0
+OBS_26-0501,Ms. Gallagher,Miguel,T93,f8 f9,1,Gregorio,1
+OBS_26-0515,Ms. Gallagher,Gregorio,T2,a6 a9,1,Miguel,1
+OBS_26-0515,Ms. Gallagher,Miguel,T8,a14 a15,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T21,a45 a46,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T29,a62 a63,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T36,a71 a73 a75,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T40,a77 a78 a82,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T50,b12 b13 b16,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T53,b20 b21 b22 b23 b25 b27 b29,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T54,b31,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T55,b34 b35 b37 b39 b40 b42 b43,1,Miguel,1
+OBS_26-0515,Ms. Gallagher,Miguel,T56,b45,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T64,b66,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T66,c2,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T67,c3,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T68,c5 c6 c8,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T70,c11 c12 c13 c18,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T71,c14 c15 c17,0,,0
+OBS_26-0515,Ms. Gallagher,Gregorio,T72,c21,0,,0
+OBS_26-0515,Ms. Gallagher,Miguel,T73,c23,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T15,b23 b25,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T17,b27 b28 b29 b30 b32,1,Gregorio,1
+OBS_26-0572,Ms. Gallagher,Miguel,T19,b36,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T20,b38,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T22,b41 b44,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T23,b47,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T24,b49 b52 b54,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T33,b69 b70 b71,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T34,b73 b74 b76,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T120,b232 b233 b236 b238,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T125,c4,1,Gregorio,1
+OBS_26-0572,Ms. Gallagher,Miguel,T130,c10,1,Gregorio,1
+OBS_26-0572,Ms. Gallagher,Miguel,T135,c22,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T139,c28 c29 c32,1,Gregorio,1
+OBS_26-0572,Ms. Gallagher,Gregorio,T146,c47,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T173,d30,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T174,d31,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T189,d69 d70,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T204,d94 d95,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T214,e17 e19,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T217,e25,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T219,e28,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T220,e29,0,,0
+OBS_26-0572,Ms. Gallagher,Miguel,T221,e32,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T223,e36,1,Miguel,1
+OBS_26-0572,Ms. Gallagher,Gregorio,T226,e41,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T227,e43,0,,0
+OBS_26-0572,Ms. Gallagher,Gregorio,T248,f13 f14 f16 f20,1,Miguel,1
+OBS_26-0600,Ms. Gallagher,Miguel,T1,a3 a5 a7,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T2,a10 a12 a14,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T3,b5 b13,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T4,b6 b8 b10,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T5,c7,1,Miguel,1
+OBS_26-0600,Ms. Gallagher,Gregorio,T7,c11,1,Miguel,1
+OBS_26-0600,Ms. Gallagher,Miguel,T9,d2 d4,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T10,d8 d10 d11 d12 d13,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T11,e2 e3,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T12,e4,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T14,e10 e12,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T16,e21 e23 e26,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T18,f4 f6,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T19,f13,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T20,f15 f17 f19 f20 f21,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T21,f29 f31,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T22,f34,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T23,f35,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T24,f41 f42 f43 f45,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T25,f53 f55,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T26,f62 f64 f65 f67,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T27,f70 f72 f74 f77 f79 f83,0,,0
+OBS_26-0600,Ms. Gallagher,Gregorio,T28,f105,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T29,g6,0,,0
+OBS_26-0600,Ms. Gallagher,Miguel,T30,g13 g14,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T1,a2,0,,0
+OBS_26-0674,Ms. Cooper,Tangela,T4,a5 a6 a7,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T13,b11 b15 b17,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T18,b18 b20 b22 b23 b24 b26 b28 b29 b30,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T23,b31,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T24,b32 b34 b36 b37,0,,0
+OBS_26-0674,Ms. Cooper,Tangela,T30,b41 b42 b43 b44,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T58,b80,0,,0
+OBS_26-0674,Ms. Cooper,Tangela,T74,b98,0,,0
+OBS_26-0674,Ms. Cooper,Delores,T75,b99 b100 b101 b102,0,,0
+OBS_26-0716,Ms. Cooper,William,T1,a2 a3 a4,1,Carrie,1
+OBS_26-0716,Ms. Cooper,Carrie,T4,a7 a8,0,,0
+OBS_26-0716,Ms. Cooper,William,T5,b2,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T6,b3,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T8,c2,1,William,1
+OBS_26-0716,Ms. Cooper,Carrie,T11,d2 d3,1,William,1
+OBS_26-0716,Ms. Cooper,Carrie,T15,d8,0,,0
+OBS_26-0716,Ms. Cooper,William,T17,e2,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T18,e3,1,William,1
+OBS_26-0716,Ms. Cooper,Carrie,T21,e7 e8,1,William,1
+OBS_26-0716,Ms. Cooper,Carrie,T23,e12 e13,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T25,f5 f6 f7 f9,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T26,f13 f15 f18 f19,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T27,f23 f24 f27 f29 f31 f33 f39,2,William,1
+OBS_26-0716,Ms. Cooper,William,T29,f28 f30,0,,0
+OBS_26-0716,Ms. Cooper,William,T31,f34 f37,0,,0
+OBS_26-0716,Ms. Cooper,William,T32,f41,1,Carrie,1
+OBS_26-0716,Ms. Cooper,William,T34,f48,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T35,f50 f51,1,William,1
+OBS_26-0716,Ms. Cooper,William,T38,g2,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T39,g3,0,,0
+OBS_26-0716,Ms. Cooper,William,T40,h44,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T41,h51 h53,0,,0
+OBS_26-0716,Ms. Cooper,William,T48,h76,0,,0
+OBS_26-0716,Ms. Cooper,William,T49,h91,0,,0
+OBS_26-0716,Ms. Cooper,Carrie,T50,h93,0,,0
+OBS_26-0716,Ms. Cooper,William,T51,h100 h101,0,,0
+OBS_26-0716,Ms. Cooper,William,T52,h103,1,Carrie,1
+OBS_26-0736,Ms. Cooper,Clifton,T1,a7 a9,1,William,1
+OBS_26-0736,Ms. Cooper,William,T6,b7 b8,0,,0
+OBS_26-0736,Ms. Cooper,Clifton,T7,b9 b11,1,William,1
+OBS_26-0736,Ms. Cooper,William,T13,c10 c13,0,,0
+OBS_26-0736,Ms. Cooper,Clifton,T15,c15,0,,0
+OBS_26-0736,Ms. Cooper,William,T16,d3 d5,0,,0
+OBS_26-0736,Ms. Cooper,Clifton,T18,d14,0,,0
+OBS_26-0736,Ms. Cooper,William,T28,e23 e25,0,,0
+OBS_26-0736,Ms. Cooper,William,T29,e28,0,,0
+OBS_26-0736,Ms. Cooper,William,T30,e32,0,,0
+OBS_26-0736,Ms. Cooper,William,T31,e40,0,,0
+OBS_26-0736,Ms. Cooper,William,T35,e51 e52,0,,0
+OBS_26-0736,Ms. Cooper,William,T36,e57 e58,0,,0
+OBS_26-0736,Ms. Cooper,Clifton,T39,e63,0,,0
+OBS_26-0736,Ms. Cooper,William,T45,e77 e81,0,,0
+OBS_26-0736,Ms. Cooper,Clifton,T53,e88,1,William,1
+OBS_26-0736,Ms. Cooper,Clifton,T58,e97,0,,0
+OBS_26-0736,Ms. Cooper,William,T67,e126 e127 e128,0,,0
+OBS_26-0736,Ms. Cooper,William,T76,e141 e142,0,,0
+OBS_26-0736,Ms. Cooper,William,T80,e148,0,,0
+OBS_26-0736,Ms. Cooper,William,T82,e150 e151 e152 e153 e154,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T1,a3 a6 a7 a8,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T2,a4 a14,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T3,a10 a12 a15 a16 a18 a20,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T4,a17,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T6,b1 b4 b7 b9 b11,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T7,b3 b5 b6 b8 b10 b12 b14 b16,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T9,c4 c8 c9 c11,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T10,c5 c6 c7,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T15,c31 c33 c34,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T16,c35 c36 c37,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T17,d25,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T20,d73 d74 d75 d76 d79 d80 d81 d82 d85,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T21,d87 d88,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T22,d89 d90 d91 d92 d93 d94 d95,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T23,d115 d117 d121 d122,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T24,d118 d119 d120,0,,0
+OBS_26-0745,Ms. Gallagher,Miguel,T26,d126 d127 d128 d129 d131 d132 d133,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T28,e2 e4 e5 e6 e8 e10 e11 e12 e13 e21 e27,2,Miguel,1
+OBS_26-0745,Ms. Gallagher,Miguel,T32,e18 e19 e20,0,,0
+OBS_26-0745,Ms. Gallagher,Kelsey,T34,e56 e57 e59 e61,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T1,a2,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T3,a5 a7,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T4,a6,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T6,a9,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T7,a11 a13,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T8,a15,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T10,a21,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T11,a23 a25 a27 a28,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T12,a32,1,Miguel,1
+OBS_26-0803,Ms. Gallagher,Eddy,T14,a53,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T15,a57,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T17,b5,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T19,b7,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T20,b10 b11,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T22,b15,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T23,b16,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T25,b20,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T26,b21 b23 b25 b27 b28 b29,2,Eddy,1
+OBS_26-0803,Ms. Gallagher,Miguel,T32,b54 b56 b58,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T33,b62,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T34,b64,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T35,b67,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T36,b68,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T37,b70 b71,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T39,b77,0,,0
+OBS_26-0803,Ms. Gallagher,Eddy,T40,b78,0,,0
+OBS_26-0803,Ms. Gallagher,Miguel,T42,c4 c5 c6 c8 c10 c12 c13,1,Eddy,1
+OBS_26-0803,Ms. Gallagher,Miguel,T44,c16 c19 c21,0,,0
+OBS_26-0898,Ms. Gallagher,Milagros,T8,a10 a11 a12 a13 a14 a15 a16 a17,1,Patrice,1
+OBS_26-0898,Ms. Gallagher,Patrice,T12,a23 a24 a25 a26 a27,0,,0
+OBS_26-0898,Ms. Gallagher,Milagros,T21,b3 b7 b8,1,Patrice,1
+OBS_26-0898,Ms. Gallagher,Milagros,T29,b17 b18 b19,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T32,b23 b24 b25,0,,0
+OBS_26-0898,Ms. Gallagher,Milagros,T33,b26 b27,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T34,b28 b29,2,Milagros,1
+OBS_26-0898,Ms. Gallagher,Patrice,T43,b44 b46,1,Milagros,1
+OBS_26-0898,Ms. Gallagher,Patrice,T46,b48 b50 b52,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T47,b53,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T51,b57 b58 b59 b60 b61 b62 b63 b64 b65,1,Milagros,1
+OBS_26-0898,Ms. Gallagher,Milagros,T57,b71,1,Patrice,1
+OBS_26-0898,Ms. Gallagher,Patrice,T61,b76 b81 b82,0,,0
+OBS_26-0898,Ms. Gallagher,Milagros,T67,b88 b89,1,Patrice,1
+OBS_26-0898,Ms. Gallagher,Milagros,T72,b99 b100,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T73,b101 b103 b104,3,Milagros,1
+OBS_26-0898,Ms. Gallagher,Patrice,T76,b106,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T77,b108,0,,0
+OBS_26-0898,Ms. Gallagher,Patrice,T81,b113,1,Milagros,1
+OBS_26-0898,Ms. Gallagher,Patrice,T86,b119 b121 b122 b123 b124,1,Milagros,1
+OBS_26-0898,Ms. Gallagher,Patrice,T92,b133 b134 b136,1,Milagros,1
+OBS_26-0898,Ms. Gallagher,Patrice,T108,b151,1,Milagros,1
+OBS_26-0905,Ms. Gallagher,Gregorio,T1,a2 a4,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T4,a8,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T11,a19,0,,0
+OBS_26-0905,Ms. Gallagher,Norberto,T19,a27,1,Milagros,1
+OBS_26-0905,Ms. Gallagher,Gregorio,T35,a46,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T45,a57 a58,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T49,a62,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T51,a64 a65,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T54,a68,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T58,a72,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T63,a79,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T68,a84 a85,0,,0
+OBS_26-0905,Ms. Gallagher,Norberto,T69,a86,1,Milagros,1
+OBS_26-0905,Ms. Gallagher,Gregorio,T77,a97,0,,0
+OBS_26-0905,Ms. Gallagher,Gregorio,T82,a103,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T97,b11,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T110,b37 b39 b40 b41 b42 b43 b44 b45,1,Milagros,1
+OBS_26-0905,Ms. Gallagher,Patrice,T115,b49 b51,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T118,b53,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T122,b65,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T123,b66,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T124,b69,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T127,b73,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T128,b76,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T129,b77,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T131,b80 b84,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T132,b81 b83,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T133,b82,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T146,c16 c17,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T153,c26 c27 c28,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T155,c31 c32,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T157,c34 c35,1,Patrice,1
+OBS_26-0905,Ms. Gallagher,Patrice,T167,c47,1,Milagros,1
+OBS_26-0905,Ms. Gallagher,Milagros,T180,c62 c63 c64 c65 c66 c68,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T182,c69 c70 c71 c72 c73 c74 c77 c78,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T186,c80 c81 c82 c83 c84,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T192,c92 c93 c94,1,Patrice,1
+OBS_26-0905,Ms. Gallagher,Milagros,T201,c106 c108 c109,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T203,c110 c111 c112 c113,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T207,c119 c120 c121,0,,0
+OBS_26-0905,Ms. Gallagher,Milagros,T209,c123,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T211,c129,0,,0
+OBS_26-0905,Ms. Gallagher,Patrice,T212,c131 c133 c135 c137,1,Milagros,1
+OBS_26-0905,Ms. Gallagher,Patrice,T215,c146,1,Milagros,1
+OBS_26-0944,Ms. Cooper,Doris,T6,a10,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T7,a11,1,Doris,1
+OBS_26-0944,Ms. Cooper,Adam,T10,a14,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T12,a16,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T20,a24 a25 a26,1,Adam,1
+OBS_26-0944,Ms. Cooper,Adam,T23,b2 b3 b4 b5,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T27,b9 b10,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T28,b11,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T34,b17 b18,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T36,b20 b21 b22,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T37,b23 b24,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T42,b30 b31,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T45,b34 b35,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T49,b40 b41 b42,0,,0
+OBS_26-0944,Ms. Cooper,Doris,T50,b43,1,Adam,1
+OBS_26-0944,Ms. Cooper,Adam,T53,b47,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T105,b102,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T107,b107 b109 b110,1,Doris,1
+OBS_26-0944,Ms. Cooper,Doris,T116,c4 c6,0,,0
+OBS_26-0944,Ms. Cooper,Adam,T138,c34,1,Doris,1
+OBS_26-0944,Ms. Cooper,Adam,T140,c37 c40 c41 c42 c43,1,Doris,1
+OBS_26-0944,Ms. Cooper,Doris,T150,c59,0,,0
+OBS_26-0971,Ms. Gallagher,Patrice,T1,a2 a5,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T3,a4 a6,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T8,a11 a14 a17,0,,0
+OBS_26-0971,Ms. Gallagher,Patrice,T20,b7,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T23,b10 b12 b13 b14 b15 b16 b17 b18 b19,2,Patrice,1
+OBS_26-0971,Ms. Gallagher,Norberto,T28,c4 c5 c7 c9 c11,0,,0
+OBS_26-0971,Ms. Gallagher,Patrice,T29,c13 c14,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T31,d3,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T36,d10 d12 d13,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T39,d15 d16 d17,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T46,d43 d44 d45 d47 d48,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T48,d49 d50 d51 d52,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T49,d56,0,,0
+OBS_26-0971,Ms. Gallagher,Patrice,T51,d60,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T55,d75 d76 d77 d78 d79,0,,0
+OBS_26-0971,Ms. Gallagher,Patrice,T56,d80,1,Norberto,1
+OBS_26-0971,Ms. Gallagher,Patrice,T59,d85 d88,1,Norberto,1
+OBS_26-0971,Ms. Gallagher,Norberto,T62,d89 d90 d91 d92 d93 d97 d101 d107 d108 d110 d111 d113 d114 d115,2,Patrice,1
+OBS_26-0971,Ms. Gallagher,Norberto,T73,d129 d131 d132 d134 d135 d137 d138 d139 d140 d141 d142 d143 d144 d146 d147 d148 d149 d150 d151 d153,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T79,d162 d163 d164 d167,0,,0
+OBS_26-0971,Ms. Gallagher,Norberto,T81,d170 d171 d172,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T1,a5 a6,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T2,a7 a10 a12 a13 a14,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T4,a17 a18 a19 a20 a21 a22 a23,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T5,b4 b6 b9,1,Norberto,1
+OBS_26-0983,Ms. Gallagher,Norberto,T7,c37 c38 c39 c40 c41 c42 c43 c45 c46 c47,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T12,c69 c70 c72,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T14,c89 c91 c92 c93 c94,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T17,c98,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T18,c102 c104,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T21,c115,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T22,c116 c117 c119,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T23,c124 c126 c128 c129 c131 c132,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T24,c139 c141 c142 c143 c144,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T26,c146 c147 c148 c149 c150 c151 c152 c153 c155 c156 c157 c158 c159 c163 c165 c166 c167 c170,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T27,c172,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T28,c180,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T29,c190,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T30,c197 c198 c199 c200 c202 c203 c204 c205 c207 c208 c209 c211 c212 c214 c215 c216,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T31,d5 d7 d8 d10 d12,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T33,d25,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T34,d28 d30,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T35,d33,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T36,d37 d40 d41 d42 d43 d45,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T37,d44 d48,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Patrice,T39,d53,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T40,d54 d55,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T41,d57,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T42,d58,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T43,d60,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T44,d65 d67 d68 d69,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T45,d70 d72 d73,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T47,d79 d80,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T49,d88,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T50,e2,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T51,e25 e28,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T53,e33,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T55,e38,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T56,e40,0,,0
+OBS_26-0983,Ms. Gallagher,Patrice,T58,e47 e48 e50 e53 e56 e57,1,Norberto,1
+OBS_26-0983,Ms. Gallagher,Norberto,T60,e55 e58 e60 e63,1,Patrice,1
+OBS_26-0983,Ms. Gallagher,Norberto,T62,e90,0,,0
+OBS_26-0983,Ms. Gallagher,Norberto,T63,e98,0,,0
+OBS_26-0999,Ms. Cooper,William,T1,a2,0,,0
+OBS_26-0999,Ms. Cooper,William,T6,a16,0,,0
+OBS_26-0999,Ms. Cooper,Gerald,T7,a18 a20 a22,0,,0
+OBS_26-0999,Ms. Cooper,William,T8,a19 a21 a24,1,Gerald,1
+OBS_26-0999,Ms. Cooper,William,T9,a27,0,,0
+OBS_26-0999,Ms. Cooper,William,T11,a31,1,Gerald,1
+OBS_26-0999,Ms. Cooper,William,T15,b4 b6 b7 b8 b10 b13,0,,0
+OBS_26-0999,Ms. Cooper,Gerald,T19,b12 b14 b16,0,,0
+OBS_26-0999,Ms. Cooper,William,T21,b17 b18 b20 b23,1,Gerald,1
+OBS_26-0999,Ms. Cooper,Gerald,T26,b25 b32 b34 b36,0,,0
+OBS_26-0999,Ms. Cooper,William,T28,b27 b29 b31,0,,0
+OBS_26-0999,Ms. Cooper,William,T34,b38 b39,1,Gerald,1
+OBS_26-0999,Ms. Cooper,William,T42,b54 b56,0,,0
+OBS_26-0999,Ms. Cooper,Gerald,T43,b55 b57,0,,0
+OBS_26-0999,Ms. Cooper,Gerald,T47,c5 c6 c8 c10 c12 c15,0,,0
+OBS_26-0999,Ms. Cooper,William,T51,c18 c19 c21 c23 c24,0,,0
+OBS_26-0999,Ms. Cooper,William,T53,c29 c31,0,,0
+OBS_26-0999,Ms. Cooper,William,T58,c44 c45 c52 c53 c54 c55,0,,0
+OBS_26-0999,Ms. Cooper,William,T64,d2 d3,0,,0
+OBS_26-0999,Ms. Cooper,Gerald,T69,d9,1,William,1
+OBS_26-0999,Ms. Cooper,Gerald,T75,d16 d18,1,William,1
+OBS_26-0999,Ms. Cooper,Gerald,T82,d32 d35 d37 d38 d40,1,William,1
+OBS_26-0999,Ms. Cooper,Gerald,T150,d146 d150 d151,1,William,1
+OBS_26-0999,Ms. Cooper,Gerald,T153,d153 d155 d157 d158,1,William,1
+OBS_26-0999,Ms. Cooper,Gerald,T161,d171 d172 d174 d176,1,William,1
+OBS_26-0999,Ms. Cooper,William,T168,d193,1,Gerald,1
+OBS_26-0999,Ms. Cooper,Gerald,T173,d204 d205 d206,1,William,1
+OBS_26-0999,Ms. Cooper,William,T175,d208 d210 d212,0,,0
+OBS_26-0999,Ms. Cooper,Gerald,T181,d218 d220 d221 d222,1,William,1
+OBS_26-0999,Ms. Cooper,William,T183,d223 d224,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T3,a4,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T5,a6,1,Adam,1
+OBS_26-1000,Ms. Cooper,Isaias,T7,a8 a9,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T11,a13,1,Adam,1
+OBS_26-1000,Ms. Cooper,Isaias,T18,a20,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T21,a23,1,Isaias,1
+OBS_26-1000,Ms. Cooper,Adam,T45,b13,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T58,b36 b37,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T59,b40,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T60,b43 b44,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T61,b47 b49 b51 b53 b55,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T62,b48 b50,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T64,b61 b63,1,Adam,1
+OBS_26-1000,Ms. Cooper,Adam,T70,c7 c8 c9,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T73,c12,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T90,c32,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T92,c34,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T97,c40 c44 c45,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T101,c49,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T105,c56 c57 c58,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T107,c63,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T108,c69,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T110,c73 c74 c76 c77 c78,0,,0
+OBS_26-1000,Ms. Cooper,Isaias,T148,d56 d57 d58 d59 d60,1,Adam,1
+OBS_26-1000,Ms. Cooper,Adam,T186,d116,0,,0
+OBS_26-1000,Ms. Cooper,Adam,T257,d221 d223 d225 d229 d230 d232 d238,0,,0
+OBS_26-1045,Ms. Cooper,Tangela,T1,a12,2,Isaias,1
+OBS_26-1045,Ms. Cooper,Isaias,T4,a19 a20,0,,0
+OBS_26-1045,Ms. Cooper,Tangela,T5,a22,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T6,a25 a26 a28 a29,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T7,b14 b16,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T8,b17 b18 b19 b20,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T9,b22 b23 b25 b27,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T10,b34,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T11,b36,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T12,b39 b40 b41 b43,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T13,b47 b48 b50,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T14,b77,0,,0
+OBS_26-1045,Ms. Cooper,Isaias,T17,c56 c57,0,,0
+OBS_26-1107,Ms. Gallagher,Norberto,T1,a5 a6 a7 a9 a10 a11,0,,0
+OBS_26-1107,Ms. Gallagher,Norberto,T2,a13 a14 a15,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T3,b8 b9,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T5,b13,1,Norberto,1
+OBS_26-1107,Ms. Gallagher,Patrice,T8,b17,1,Norberto,1
+OBS_26-1107,Ms. Gallagher,Patrice,T10,b21 b22 b24 b26,3,Norberto,1
+OBS_26-1107,Ms. Gallagher,Patrice,T14,b29 b30 b31 b43 b44 b45,1,Norberto,1
+OBS_26-1107,Ms. Gallagher,Patrice,T16,b37 b39,1,Norberto,1
+OBS_26-1107,Ms. Gallagher,Patrice,T22,b51,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T23,c8 c9 c10,0,,0
+OBS_26-1107,Ms. Gallagher,Norberto,T25,c12 c13 c14 c15 c16 c17 c18 c20,0,,0
+OBS_26-1107,Ms. Gallagher,Norberto,T26,d4 d5,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T27,d6 d7 d8,0,,0
+OBS_26-1107,Ms. Gallagher,Norberto,T28,e2 e3 e4,1,Patrice,1
+OBS_26-1107,Ms. Gallagher,Norberto,T30,e12 e15 e16 e17,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T31,e19 e20 e21,1,Norberto,1
+OBS_26-1107,Ms. Gallagher,Patrice,T34,e25,0,,0
+OBS_26-1107,Ms. Gallagher,Hortensia,T35,f4,1,Patrice,1
+OBS_26-1107,Ms. Gallagher,Patrice,T36,f5 f6,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T40,f18,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T41,f20,0,,0
+OBS_26-1107,Ms. Gallagher,Hortensia,T43,f22 f24,0,,0
+OBS_26-1107,Ms. Gallagher,Gregorio,T44,g11 g12 g13,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T45,g15 g16,1,Gregorio,1
+OBS_26-1107,Ms. Gallagher,Patrice,T47,g24,0,,0
+OBS_26-1107,Ms. Gallagher,Patrice,T48,g27,0,,0
+OBS_26-1120,Ms. Cooper,William,T1,a5 a6 a7,1,Adam,1
+OBS_26-1120,Ms. Cooper,William,T3,a12 a13,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T12,b13,0,,0
+OBS_26-1120,Ms. Cooper,William,T13,b14,0,,0
+OBS_26-1120,Ms. Cooper,William,T14,b16 b17,0,,0
+OBS_26-1120,Ms. Cooper,William,T15,b19,0,,0
+OBS_26-1120,Ms. Cooper,William,T16,b20,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T17,b21,0,,0
+OBS_26-1120,Ms. Cooper,William,T19,b24,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T20,b27 b28,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T21,b30 b32 b33 b35,0,,0
+OBS_26-1120,Ms. Cooper,William,T22,b31 b34 b36 b38 b39,0,,0
+OBS_26-1120,Ms. Cooper,William,T23,b40 b41 b43 b44,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T24,b42 b46,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T25,b48,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T26,b50,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T28,b54 b55,0,,0
+OBS_26-1120,Ms. Cooper,William,T32,b65 b66 b68 b70,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T33,b74 b75 b77,0,,0
+OBS_26-1120,Ms. Cooper,William,T38,b85 b87 b88,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T52,b110 b119,0,,0
+OBS_26-1120,Ms. Cooper,William,T53,b112 b113 b114 b115,0,,0
+OBS_26-1120,Ms. Cooper,William,T56,b121 b123 b124,0,,0
+OBS_26-1120,Ms. Cooper,William,T58,b126,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T59,b128,0,,0
+OBS_26-1120,Ms. Cooper,William,T60,b129,0,,0
+OBS_26-1120,Ms. Cooper,William,T61,b130,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T62,b131,0,,0
+OBS_26-1120,Ms. Cooper,William,T63,b132,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T64,b135,0,,0
+OBS_26-1120,Ms. Cooper,Adam,T74,b151 b153,0,,0
+OBS_26-1124,Ms. Gallagher,Miguel,T1,a2,0,,0
+OBS_26-1124,Ms. Gallagher,Miguel,T3,a4 a5 a6 a7 a8 a9,0,,0
+OBS_26-1124,Ms. Gallagher,Miguel,T31,d4 d8 d9 d11,0,,0
+OBS_26-1124,Ms. Gallagher,Norberto,T32,d6,0,,0
+OBS_26-1131,Ms. Cooper,William,T1,a29,0,,0
+OBS_26-1131,Ms. Cooper,William,T2,a41 a43 a44,0,,0
+OBS_26-1131,Ms. Cooper,William,T3,a48,0,,0
+OBS_26-1131,Ms. Cooper,Adam,T4,a49 a50 a52 a53 a54 a55,0,,0
+OBS_26-1131,Ms. Cooper,Adam,T5,a58,0,,0
+OBS_26-1131,Ms. Cooper,William,T6,a62 a63,0,,0
+OBS_26-1131,Ms. Cooper,William,T8,a74 a75 a77 a78 a80,0,,0
+OBS_26-1131,Ms. Cooper,William,T9,a84,0,,0
+OBS_26-1131,Ms. Cooper,William,T10,a89 a90,0,,0
+OBS_26-1131,Ms. Cooper,William,T11,a93,0,,0
+OBS_26-1131,Ms. Cooper,William,T12,a95,0,,0
+OBS_26-1131,Ms. Cooper,William,T14,a98 a99,0,,0
+OBS_26-1131,Ms. Cooper,Adam,T15,a105 a106 a107 a108 a110 a116 a118 a119 a120,1,William,1
+OBS_26-1131,Ms. Cooper,Adam,T17,a123,0,,0
+OBS_26-1131,Ms. Cooper,William,T18,a124 a125 a127,0,,0
+OBS_26-1131,Ms. Cooper,William,T20,a231 a233 a235,0,,0
+OBS_26-1131,Ms. Cooper,Adam,T22,a245,0,,0
+OBS_26-1131,Ms. Cooper,William,T23,a249 a250,0,,0
+OBS_26-1131,Ms. Cooper,Adam,T24,a257 a259 a261,1,William,1
+OBS_26-1131,Ms. Cooper,William,T25,a265 a266,0,,0
+OBS_26-1131,Ms. Cooper,William,T27,a290 a291 a293 a296,1,Adam,1
+OBS_26-1131,Ms. Cooper,Adam,T29,b33 b36 b38,0,,0
+OBS_26-1131,Ms. Cooper,William,T30,b46 b47 b48,0,,0
+OBS_26-1131,Ms. Cooper,William,T32,b58,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T13,a15 a19 a21,0,,0
+OBS_26-1143,Ms. Gallagher,Norberto,T20,a25,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T21,a26,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T22,a27,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T24,a29,0,,0
+OBS_26-1143,Ms. Gallagher,Norberto,T26,a31 a32,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T27,a33,1,Norberto,1
+OBS_26-1143,Ms. Gallagher,Miguel,T30,a40,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T46,a61 a63 a64 a65 a66 a67,0,,0
+OBS_26-1143,Ms. Gallagher,Norberto,T62,a98 a101 a104 a109,3,Miguel,1
+OBS_26-1143,Ms. Gallagher,Miguel,T71,b2,0,,0
+OBS_26-1143,Ms. Gallagher,Norberto,T72,b3,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T73,b4,0,,0
+OBS_26-1143,Ms. Gallagher,Norberto,T74,b5,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T84,c17 c18,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T87,c21,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T94,c31,0,,0
+OBS_26-1143,Ms. Gallagher,Miguel,T96,c33 c34,0,,0
